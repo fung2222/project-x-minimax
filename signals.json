@@ -253,7 +253,7 @@
         "RSI 40 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.645863",
+      "timestamp": "2026-07-05T10:45:21.407694",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -311,7 +311,7 @@
         "RSI 55 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.646868",
+      "timestamp": "2026-07-05T10:45:21.408752",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
@@ -369,7 +369,7 @@
         "RSI 50 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.647874",
+      "timestamp": "2026-07-05T10:45:21.409744",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
@@ -427,7 +427,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.647874",
+      "timestamp": "2026-07-05T10:45:21.410702",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
@@ -485,7 +485,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.648853",
+      "timestamp": "2026-07-05T10:45:21.411748",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -543,7 +543,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.649863",
+      "timestamp": "2026-07-05T10:45:21.413752",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（62位分析師）",
@@ -601,7 +601,7 @@
         "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.649863",
+      "timestamp": "2026-07-05T10:45:21.414733",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -659,7 +659,7 @@
         "RSI 45 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.650853",
+      "timestamp": "2026-07-05T10:45:21.415811",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（37位分析師）",
@@ -704,7 +704,7 @@
     "partial_rate_pct": 0.0,
     "miss_rate_pct": 0.0
   },
-  "last_updated": "2026-07-05T10:16:01.678917",
+  "last_updated": "2026-07-05T10:45:21.418760",
   "vix_regime": "正常市場",
   "vix_value": 16.15
 }
