@@ -13,10 +13,11 @@
   "positions": [],
 
   "watchlist": {
-    "primary": ["NVDA", "AMD", "MSFT", "GOOGL", "META", "AMZN"],
-    "secondary": ["PLTR", "ARM"],
+    "primary": ["NVDA", "TSLA", "RKLB"],
+    "secondary": ["AMD", "MSFT", "GOOGL", "META", "PLTR", "ARM"],
     "index": ["SPY", "QQQ", "VIX"],
-    "currency_ticker": "HKDUSD"
+    "currency_ticker": "HKDUSD",
+    "strategy": "AI + 太空 + 馬斯克生態，專注 3 隻核心股"
   },
 
   "rules": {
