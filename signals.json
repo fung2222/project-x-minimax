@@ -253,7 +253,7 @@
         "RSI 40 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.407694",
+      "timestamp": "2026-07-05T11:05:54.849764",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -288,6 +288,122 @@
       "date": "2026-07-05"
     },
     {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 393.45,
+      "change_pct": -7.49,
+      "rsi": 48.1,
+      "macd": 7.9524,
+      "macd_histogram": 32.1962,
+      "macd_bullish": true,
+      "vol_ratio": 1.49,
+      "ma50": 400.33,
+      "atr": 19.05,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 48 中性"
+      ],
+      "signal_reasons": [
+        "RSI 48 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T11:05:54.850792",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（41位分析師）",
+      "num_analysts": 41,
+      "target_mean": 423.4,
+      "target_high": 600.0,
+      "target_low": 125.0,
+      "upside_pct": 7.6,
+      "earnings_date": "2026-07-22",
+      "earnings_days": 17,
+      "pe_ratio": 357.7,
+      "forward_pe": 154.5,
+      "profit_margin_pct": 3.9,
+      "revenue_growth_pct": 15.8,
+      "earnings_growth_pct": 8.3,
+      "industry": "Auto Manufacturers",
+      "sector": "Consumer Cyclical",
+      "analyst_news": [
+        {
+          "title": "Cathie Wood buys $38.1 million of tumbling megacap stock",
+          "date": "07/05"
+        },
+        {
+          "title": "Rivian Just Raised Its 2026 Outlook While Tesla Stock Stumbled. Is the Electric Vehicle Underdog Fin",
+          "date": "07/04"
+        },
+        {
+          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 100.46,
+      "change_pct": 0.39,
+      "rsi": 40.8,
+      "macd": -1.893,
+      "macd_histogram": 10.8739,
+      "macd_bullish": true,
+      "vol_ratio": 0.74,
+      "ma50": 103.06,
+      "atr": 9.36,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 41 中性"
+      ],
+      "signal_reasons": [
+        "RSI 41 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T11:05:54.851773",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（15位分析師）",
+      "num_analysts": 15,
+      "target_mean": 114.10333,
+      "target_high": 150.0,
+      "target_low": 76.0,
+      "upside_pct": 13.6,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": -14070.0,
+      "profit_margin_pct": -26.9,
+      "revenue_growth_pct": 63.5,
+      "earnings_growth_pct": null,
+      "industry": "Aerospace & Defense",
+      "sector": "Industrials",
+      "analyst_news": [
+        {
+          "title": "Why Rocket Lab Stock Skyrocketed Last Week",
+          "date": "07/04"
+        },
+        {
+          "title": "Here's Why The Latest Rocket Lab Acquisition Could Shake Up The Entire Space Economy",
+          "date": "07/04"
+        },
+        {
+          "title": "Is Rocket Lab (RKLB) is One of the Best NASDAQ Stocks to Invest In For Long Term?",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
       "ticker": "AMD",
       "name": "Adv. Micro Devices",
       "signal": "HOLD",
@@ -311,7 +427,7 @@
         "RSI 55 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.408752",
+      "timestamp": "2026-07-05T11:05:54.853250",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
@@ -369,7 +485,7 @@
         "RSI 50 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.409744",
+      "timestamp": "2026-07-05T11:05:54.854299",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
@@ -427,7 +543,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.410702",
+      "timestamp": "2026-07-05T11:05:54.855375",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
@@ -485,7 +601,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.411748",
+      "timestamp": "2026-07-05T11:05:54.855375",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -520,64 +636,6 @@
       "date": "2026-07-05"
     },
     {
-      "ticker": "AMZN",
-      "name": "Amazon",
-      "signal": "HOLD",
-      "action": "觀望",
-      "confidence": 55,
-      "price": 242.67,
-      "change_pct": 0.4,
-      "rsi": 50.9,
-      "macd": -3.6454,
-      "macd_histogram": 6.6755,
-      "macd_bullish": true,
-      "vol_ratio": 0.76,
-      "ma50": 240.71,
-      "atr": 8.77,
-      "regime": "NORMAL",
-      "above_ma50": true,
-      "reasons": [
-        "RSI 51 中性"
-      ],
-      "signal_reasons": [
-        "RSI 51 中性"
-      ],
-      "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.413752",
-      "analyst_consensus": "強烈買入",
-      "analyst_emoji": "🟢",
-      "analyst_rating_str": "🟢 強烈買入（62位分析師）",
-      "num_analysts": 62,
-      "target_mean": 312.90628,
-      "target_high": 370.0,
-      "target_low": 207.0,
-      "upside_pct": 28.9,
-      "earnings_date": null,
-      "earnings_days": null,
-      "pe_ratio": 31.6,
-      "forward_pe": 24.5,
-      "profit_margin_pct": 12.2,
-      "revenue_growth_pct": 16.6,
-      "earnings_growth_pct": 74.8,
-      "industry": "Internet Retail",
-      "sector": "Consumer Cyclical",
-      "analyst_news": [
-        {
-          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
-          "date": "07/04"
-        },
-        {
-          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
-          "date": "07/04"
-        },
-        {
-          "title": "Sprouts Farmers Market (SFM) Takes Over A Never Opened Amazon Fresh Store",
-          "date": "07/04"
-        }
-      ],
-      "date": "2026-07-05"
-    },
-    {
       "ticker": "PLTR",
       "name": "Palantir",
       "signal": "HOLD",
@@ -601,7 +659,7 @@
         "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.414733",
+      "timestamp": "2026-07-05T11:05:54.856396",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -659,7 +717,7 @@
         "RSI 45 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:45:21.415811",
+      "timestamp": "2026-07-05T11:05:54.857396",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（37位分析師）",
@@ -704,7 +762,7 @@
     "partial_rate_pct": 0.0,
     "miss_rate_pct": 0.0
   },
-  "last_updated": "2026-07-05T10:45:21.418760",
+  "last_updated": "2026-07-05T11:05:54.859395",
   "vix_regime": "正常市場",
   "vix_value": 16.15
 }
