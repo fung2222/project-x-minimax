@@ -34,7 +34,81 @@
         "date": "07/05"
       }
     ],
-    "timestamp": "2026-07-05T10:45:19.575683"
+    "timestamp": "2026-07-05T11:05:52.726699"
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "analyst_consensus": "買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "buy",
+    "num_analysts": 41,
+    "analyst_rating_str": "🟢 買入（41位分析師）",
+    "current_price": 393.45,
+    "target_mean": 423.4,
+    "target_high": 600.0,
+    "target_low": 125.0,
+    "upside_pct": 7.6,
+    "earnings_date": "2026-07-22",
+    "earnings_days": 17,
+    "pe_ratio": 357.7,
+    "forward_pe": 154.5,
+    "profit_margin_pct": 3.9,
+    "revenue_growth_pct": 15.8,
+    "earnings_growth_pct": 8.3,
+    "industry": "Auto Manufacturers",
+    "sector": "Consumer Cyclical",
+    "news": [
+      {
+        "title": "Cathie Wood buys $38.1 million of tumbling megacap stock",
+        "date": "07/05"
+      },
+      {
+        "title": "Rivian Just Raised Its 2026 Outlook While Tesla Stock Stumbled. Is the Electric Vehicle Underdog Fin",
+        "date": "07/04"
+      },
+      {
+        "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T11:05:52.992125"
+  },
+  "RKLB": {
+    "symbol": "RKLB",
+    "analyst_consensus": "買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "buy",
+    "num_analysts": 15,
+    "analyst_rating_str": "🟢 買入（15位分析師）",
+    "current_price": 100.46,
+    "target_mean": 114.10333,
+    "target_high": 150.0,
+    "target_low": 76.0,
+    "upside_pct": 13.6,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": null,
+    "forward_pe": -14070.0,
+    "profit_margin_pct": -26.9,
+    "revenue_growth_pct": 63.5,
+    "earnings_growth_pct": null,
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "news": [
+      {
+        "title": "Why Rocket Lab Stock Skyrocketed Last Week",
+        "date": "07/04"
+      },
+      {
+        "title": "Here's Why The Latest Rocket Lab Acquisition Could Shake Up The Entire Space Economy",
+        "date": "07/04"
+      },
+      {
+        "title": "Is Rocket Lab (RKLB) is One of the Best NASDAQ Stocks to Invest In For Long Term?",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T11:05:53.221330"
   },
   "AMD": {
     "symbol": "AMD",
@@ -71,7 +145,7 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-05T10:45:19.822747"
+    "timestamp": "2026-07-05T11:05:53.531330"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -108,7 +182,7 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-05T10:45:20.090772"
+    "timestamp": "2026-07-05T11:05:53.806887"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -145,7 +219,7 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-05T10:45:20.323367"
+    "timestamp": "2026-07-05T11:05:54.094725"
   },
   "META": {
     "symbol": "META",
@@ -182,44 +256,7 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-05T10:45:20.564740"
-  },
-  "AMZN": {
-    "symbol": "AMZN",
-    "analyst_consensus": "強烈買入",
-    "analyst_emoji": "🟢",
-    "recommendation_key": "strong_buy",
-    "num_analysts": 62,
-    "analyst_rating_str": "🟢 強烈買入（62位分析師）",
-    "current_price": 242.67,
-    "target_mean": 312.90628,
-    "target_high": 370.0,
-    "target_low": 207.0,
-    "upside_pct": 28.9,
-    "earnings_date": null,
-    "earnings_days": null,
-    "pe_ratio": 31.6,
-    "forward_pe": 24.5,
-    "profit_margin_pct": 12.2,
-    "revenue_growth_pct": 16.6,
-    "earnings_growth_pct": 74.8,
-    "industry": "Internet Retail",
-    "sector": "Consumer Cyclical",
-    "news": [
-      {
-        "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
-        "date": "07/04"
-      },
-      {
-        "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
-        "date": "07/04"
-      },
-      {
-        "title": "Sprouts Farmers Market (SFM) Takes Over A Never Opened Amazon Fresh Store",
-        "date": "07/04"
-      }
-    ],
-    "timestamp": "2026-07-05T10:45:20.798513"
+    "timestamp": "2026-07-05T11:05:54.339983"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -256,7 +293,7 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-05T10:45:21.136751"
+    "timestamp": "2026-07-05T11:05:54.566436"
   },
   "ARM": {
     "symbol": "ARM",
@@ -293,6 +330,6 @@
         "date": "07/02"
       }
     ],
-    "timestamp": "2026-07-05T10:45:21.405745"
+    "timestamp": "2026-07-05T11:05:54.848777"
   }
 }
