@@ -1,0 +1,710 @@
+{
+  "version": "1.0",
+  "description": "Project X — 每日分析信號同預測記錄",
+  "signals": [
+    {
+      "ticker": "NVDA",
+      "signal": "BUY",
+      "action": "可考慮買入",
+      "confidence": 75,
+      "price": 138.0,
+      "change_pct": 1.2,
+      "rsi": 38,
+      "regime": "NORMAL",
+      "reasons": [
+        "信心度 75% ≥ 門檻 70%",
+        "RSI 38 偏低，超賣區域"
+      ],
+      "date": "2025-07-04",
+      "timestamp": "2025-07-04T21:00:00",
+      "macd_bullish": true,
+      "vol_ratio": 1.0,
+      "signal_reasons": [
+        "信心度 75% ≥ 門檻 70%",
+        "RSI 38 偏低，超賣區域"
+      ],
+      "is_owned": false
+    },
+    {
+      "ticker": "AMD",
+      "signal": "BUY",
+      "action": "可考慮買入",
+      "confidence": 72,
+      "price": 127.0,
+      "change_pct": 0.8,
+      "rsi": 42,
+      "regime": "NORMAL",
+      "reasons": [
+        "信心度 72% ≥ 門檻 70%",
+        "RSI 42 偏低"
+      ],
+      "date": "2025-07-04",
+      "timestamp": "2025-07-04T21:00:00",
+      "macd_bullish": true,
+      "vol_ratio": 1.0,
+      "signal_reasons": [
+        "信心度 72% ≥ 門檻 70%",
+        "RSI 42 偏低"
+      ],
+      "is_owned": false
+    },
+    {
+      "ticker": "META",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 515.0,
+      "change_pct": -0.3,
+      "rsi": 48,
+      "regime": "NORMAL",
+      "reasons": [
+        "RSI 48 中性"
+      ],
+      "date": "2025-07-04",
+      "timestamp": "2025-07-04T21:00:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [
+        "RSI 48 中性"
+      ],
+      "is_owned": false
+    },
+    {
+      "ticker": "NVDA",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 140.0,
+      "change_pct": -0.85,
+      "rsi": 45,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "AMD",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 130.0,
+      "change_pct": -0.61,
+      "rsi": 47,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "MSFT",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 410.0,
+      "change_pct": 0.37,
+      "rsi": 52,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "GOOGL",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 185.0,
+      "change_pct": -1.23,
+      "rsi": 44,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "META",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 520.0,
+      "change_pct": 0.62,
+      "rsi": 53,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "AMZN",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 190.0,
+      "change_pct": 0.48,
+      "rsi": 52,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "PLTR",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 120.0,
+      "change_pct": -3.31,
+      "rsi": 34,
+      "regime": "NORMAL",
+      "reasons": [
+        "PLTR RSI 34 超賣區域"
+      ],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [
+        "PLTR RSI 34 超賣區域"
+      ],
+      "is_owned": false
+    },
+    {
+      "ticker": "ARM",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 140.0,
+      "change_pct": 1.3,
+      "rsi": 56,
+      "regime": "NORMAL",
+      "reasons": [],
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:10:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 50,
+      "price": 194.83,
+      "change_pct": -1.39,
+      "rsi": 40.4,
+      "ma50": 204.01,
+      "atr": 6.34,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "date": "2025-07-05",
+      "timestamp": "2025-07-05T02:20:00",
+      "macd_bullish": false,
+      "vol_ratio": 1.0,
+      "signal_reasons": [],
+      "is_owned": false
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 194.83,
+      "change_pct": -1.39,
+      "rsi": 40.4,
+      "macd": 4.9676,
+      "macd_histogram": 14.9171,
+      "macd_bullish": true,
+      "vol_ratio": 0.9,
+      "ma50": 204.01,
+      "atr": 6.34,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 40 中性"
+      ],
+      "signal_reasons": [
+        "RSI 40 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.645863",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+      "num_analysts": 58,
+      "target_mean": 301.6207,
+      "target_high": 500.0,
+      "target_low": 180.0,
+      "upside_pct": 54.8,
+      "earnings_date": "2026-08-26",
+      "earnings_days": 52,
+      "pe_ratio": 29.8,
+      "forward_pe": 15.3,
+      "profit_margin_pct": 63.0,
+      "revenue_growth_pct": 85.2,
+      "earnings_growth_pct": 214.5,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "Nvidia Stock Is Now Cheaper Than Coca-Cola. Here's the Math.",
+          "date": "07/05"
+        },
+        {
+          "title": "MercadoLibre Stock Has Been Left For Dead. Here's Why Investors Should Consider Buying More.",
+          "date": "07/05"
+        },
+        {
+          "title": "The Dow Is Up 8% So Far This Year -- Its Best 6 Months Since 2021. Should You Buy This DJIA ETF?",
+          "date": "07/05"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Adv. Micro Devices",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 517.82,
+      "change_pct": -4.26,
+      "rsi": 54.6,
+      "macd": 14.1449,
+      "macd_histogram": 32.4714,
+      "macd_bullish": true,
+      "vol_ratio": 0.88,
+      "ma50": 518.06,
+      "atr": 36.96,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 55 中性"
+      ],
+      "signal_reasons": [
+        "RSI 55 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.646868",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（48位分析師）",
+      "num_analysts": 48,
+      "target_mean": 508.3125,
+      "target_high": 700.0,
+      "target_low": 320.0,
+      "upside_pct": -1.8,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 172.6,
+      "forward_pe": 39.3,
+      "profit_margin_pct": 13.4,
+      "revenue_growth_pct": 37.8,
+      "earnings_growth_pct": 91.2,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "Why July Could Be a Big Month for AMD Stock Investors",
+          "date": "07/04"
+        },
+        {
+          "title": "AMD Beats NVDA in 1H26 Returns. Here’s What's Next for 2H26.",
+          "date": "07/04"
+        },
+        {
+          "title": "Jim Cramer on Dell: “I Missed One of the Greatest Stories Ever Told”",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 390.49,
+      "change_pct": 1.62,
+      "rsi": 50.1,
+      "macd": -10.0892,
+      "macd_histogram": 32.106,
+      "macd_bullish": true,
+      "vol_ratio": 0.86,
+      "ma50": 388.88,
+      "atr": 13.17,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 50 中性"
+      ],
+      "signal_reasons": [
+        "RSI 50 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.647874",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（55位分析師）",
+      "num_analysts": 55,
+      "target_mean": 561.1149,
+      "target_high": 870.0,
+      "target_low": 400.0,
+      "upside_pct": 43.7,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 23.3,
+      "forward_pe": 20.2,
+      "profit_margin_pct": 39.3,
+      "revenue_growth_pct": 18.3,
+      "earnings_growth_pct": 23.4,
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.",
+          "date": "07/04"
+        },
+        {
+          "title": "Nvidia (NVDA) Backs Verkada And Brings In A Microsoft Veteran To Lead Sales",
+          "date": "07/04"
+        },
+        {
+          "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 359.91,
+      "change_pct": -0.36,
+      "rsi": 51.3,
+      "macd": -4.4381,
+      "macd_histogram": -2.8526,
+      "macd_bullish": false,
+      "vol_ratio": 0.68,
+      "ma50": 358.53,
+      "atr": 12.26,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 51 中性"
+      ],
+      "signal_reasons": [
+        "RSI 51 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.647874",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（53位分析師）",
+      "num_analysts": 53,
+      "target_mean": 432.28735,
+      "target_high": 515.0,
+      "target_low": 340.0,
+      "upside_pct": 20.1,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 27.5,
+      "forward_pe": 24.7,
+      "profit_margin_pct": 37.9,
+      "revenue_growth_pct": 21.8,
+      "earnings_growth_pct": 82.0,
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "analyst_news": [
+        {
+          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+          "date": "07/04"
+        },
+        {
+          "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons ",
+          "date": "07/04"
+        },
+        {
+          "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 582.9,
+      "change_pct": -4.9,
+      "rsi": 53.5,
+      "macd": -7.4527,
+      "macd_histogram": 38.5604,
+      "macd_bullish": true,
+      "vol_ratio": 1.1,
+      "ma50": 578.69,
+      "atr": 23.08,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.648853",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+      "num_analysts": 58,
+      "target_mean": 828.16864,
+      "target_high": 1015.0,
+      "target_low": 664.46,
+      "upside_pct": 42.1,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 21.2,
+      "forward_pe": 15.8,
+      "profit_margin_pct": 32.8,
+      "revenue_growth_pct": 33.1,
+      "earnings_growth_pct": 62.4,
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "analyst_news": [
+        {
+          "title": "Meta’s next AI bet has one major catch for investors",
+          "date": "07/04"
+        },
+        {
+          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+          "date": "07/04"
+        },
+        {
+          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 242.67,
+      "change_pct": 0.4,
+      "rsi": 50.9,
+      "macd": -3.6454,
+      "macd_histogram": 6.6755,
+      "macd_bullish": true,
+      "vol_ratio": 0.76,
+      "ma50": 240.71,
+      "atr": 8.77,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 51 中性"
+      ],
+      "signal_reasons": [
+        "RSI 51 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.649863",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（62位分析師）",
+      "num_analysts": 62,
+      "target_mean": 312.90628,
+      "target_high": 370.0,
+      "target_low": 207.0,
+      "upside_pct": 28.9,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 31.6,
+      "forward_pe": 24.5,
+      "profit_margin_pct": 12.2,
+      "revenue_growth_pct": 16.6,
+      "earnings_growth_pct": 74.8,
+      "industry": "Internet Retail",
+      "sector": "Consumer Cyclical",
+      "analyst_news": [
+        {
+          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+          "date": "07/04"
+        },
+        {
+          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+          "date": "07/04"
+        },
+        {
+          "title": "Sprouts Farmers Market (SFM) Takes Over A Never Opened Amazon Fresh Store",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 129.3,
+      "change_pct": 2.84,
+      "rsi": 48.5,
+      "macd": -6.8634,
+      "macd_histogram": 9.7081,
+      "macd_bullish": true,
+      "vol_ratio": 1.39,
+      "ma50": 126.74,
+      "atr": 6.59,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 48 中性"
+      ],
+      "signal_reasons": [
+        "RSI 48 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.649863",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（27位分析師）",
+      "num_analysts": 27,
+      "target_mean": 183.12444,
+      "target_high": 255.0,
+      "target_low": 70.0,
+      "upside_pct": 41.6,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 145.3,
+      "forward_pe": 61.7,
+      "profit_margin_pct": 43.7,
+      "revenue_growth_pct": 84.7,
+      "earnings_growth_pct": 325.0,
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear for Their IP: 'Somet",
+          "date": "07/04"
+        },
+        {
+          "title": "Anthony Scaramucci Warns Wealth Inequality Could End With 'Pitchforks,' Urges Rich to 'Spread the We",
+          "date": "07/04"
+        },
+        {
+          "title": "America’s 250th Birthday Bash and Severe Weather Spark Travel Chaos",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-05"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 315.28,
+      "change_pct": -6.58,
+      "rsi": 45.4,
+      "macd": 39.3791,
+      "macd_histogram": 72.8706,
+      "macd_bullish": true,
+      "vol_ratio": 0.67,
+      "ma50": 365.87,
+      "atr": 37.06,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 45 中性"
+      ],
+      "signal_reasons": [
+        "RSI 45 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-05T10:16:01.650853",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（37位分析師）",
+      "num_analysts": 37,
+      "target_mean": 297.02756,
+      "target_high": 500.0,
+      "target_low": 125.0,
+      "upside_pct": -5.8,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 370.9,
+      "forward_pe": 102.3,
+      "profit_margin_pct": 18.4,
+      "revenue_growth_pct": 20.1,
+      "earnings_growth_pct": 47.9,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "date": "07/04"
+        },
+        {
+          "title": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
+          "date": "07/03"
+        },
+        {
+          "title": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
+          "date": "07/02"
+        }
+      ],
+      "date": "2026-07-05"
+    }
+  ],
+  "performance": {
+    "total_signals": 2,
+    "hits": 2,
+    "partials": 0,
+    "misses": 0,
+    "neutrals": 0,
+    "hit_rate_pct": 100.0,
+    "partial_rate_pct": 0.0,
+    "miss_rate_pct": 0.0
+  },
+  "last_updated": "2026-07-05T10:16:01.678917",
+  "vix_regime": "正常市場",
+  "vix_value": 16.15
+}
