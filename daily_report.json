@@ -1,6 +1,6 @@
 {
   "date": "2026-07-05",
-  "timestamp": "2026-07-05T10:16:01.692495",
+  "timestamp": "2026-07-05T10:45:21.426825",
   "source": "Yahoo Finance (yfinance)",
   "market": {
     "vix": 16.15,
@@ -29,7 +29,7 @@
       "max_positions": 3,
       "min_confidence": 0.7
     },
-    "timestamp": "2026-07-05T10:15:55.628236"
+    "timestamp": "2026-07-05T10:45:15.818252"
   },
   "signals": [
     {
@@ -56,7 +56,7 @@
         "RSI 40 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.645863",
+      "timestamp": "2026-07-05T10:45:21.407694",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -114,7 +114,7 @@
         "RSI 55 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.646868",
+      "timestamp": "2026-07-05T10:45:21.408752",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
@@ -172,7 +172,7 @@
         "RSI 50 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.647874",
+      "timestamp": "2026-07-05T10:45:21.409744",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
@@ -230,7 +230,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.647874",
+      "timestamp": "2026-07-05T10:45:21.410702",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
@@ -288,7 +288,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.648853",
+      "timestamp": "2026-07-05T10:45:21.411748",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -346,7 +346,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.649863",
+      "timestamp": "2026-07-05T10:45:21.413752",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（62位分析師）",
@@ -404,7 +404,7 @@
         "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.649863",
+      "timestamp": "2026-07-05T10:45:21.414733",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -462,7 +462,7 @@
         "RSI 45 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T10:16:01.650853",
+      "timestamp": "2026-07-05T10:45:21.415811",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（37位分析師）",
@@ -512,7 +512,7 @@
       "market_cap": 4718977351680,
       "pe_ratio": 29.83614,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:55.949629"
+      "timestamp": "2026-07-05T10:45:16.081771"
     },
     "AMD": {
       "symbol": "AMD",
@@ -528,7 +528,7 @@
       "market_cap": 844357632000,
       "pe_ratio": 172.60667,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:56.210745"
+      "timestamp": "2026-07-05T10:45:16.324437"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -544,7 +544,7 @@
       "market_cap": 2900729528320,
       "pe_ratio": 23.257294,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:56.474279"
+      "timestamp": "2026-07-05T10:45:16.588523"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -560,7 +560,7 @@
       "market_cap": 4391827931136,
       "pe_ratio": 27.474045,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:56.798363"
+      "timestamp": "2026-07-05T10:45:16.834597"
     },
     "META": {
       "symbol": "META",
@@ -576,7 +576,7 @@
       "market_cap": 1479647035392,
       "pe_ratio": 21.18866,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:57.103435"
+      "timestamp": "2026-07-05T10:45:17.089495"
     },
     "AMZN": {
       "symbol": "AMZN",
@@ -592,7 +592,7 @@
       "market_cap": 2610427854848,
       "pe_ratio": 31.638851,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:57.370090"
+      "timestamp": "2026-07-05T10:45:17.331757"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -608,7 +608,7 @@
       "market_cap": 309972434944,
       "pe_ratio": 145.2809,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:57.615764"
+      "timestamp": "2026-07-05T10:45:17.580425"
     },
     "ARM": {
       "symbol": "ARM",
@@ -624,7 +624,7 @@
       "market_cap": 336743890944,
       "pe_ratio": 370.91763,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:57.880353"
+      "timestamp": "2026-07-05T10:45:17.829808"
     },
     "SPY": {
       "symbol": "SPY",
@@ -640,7 +640,7 @@
       "market_cap": null,
       "pe_ratio": 26.673899,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:58.219660"
+      "timestamp": "2026-07-05T10:45:18.115032"
     },
     "QQQ": {
       "symbol": "QQQ",
@@ -656,7 +656,7 @@
       "market_cap": null,
       "pe_ratio": 32.71787,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:58.510939"
+      "timestamp": "2026-07-05T10:45:18.382925"
     },
     "^VIX": {
       "symbol": "^VIX",
@@ -672,7 +672,7 @@
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-07-05T10:15:58.667920"
+      "timestamp": "2026-07-05T10:45:18.535119"
     }
   },
   "profiles": {
@@ -711,7 +711,7 @@
           "date": "07/05"
         }
       ],
-      "timestamp": "2026-07-05T10:15:59.728035"
+      "timestamp": "2026-07-05T10:45:19.575683"
     },
     "AMD": {
       "symbol": "AMD",
@@ -748,7 +748,7 @@
           "date": "07/04"
         }
       ],
-      "timestamp": "2026-07-05T10:16:00.053934"
+      "timestamp": "2026-07-05T10:45:19.822747"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -785,7 +785,7 @@
           "date": "07/04"
         }
       ],
-      "timestamp": "2026-07-05T10:16:00.294330"
+      "timestamp": "2026-07-05T10:45:20.090772"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -822,7 +822,7 @@
           "date": "07/04"
         }
       ],
-      "timestamp": "2026-07-05T10:16:00.573798"
+      "timestamp": "2026-07-05T10:45:20.323367"
     },
     "META": {
       "symbol": "META",
@@ -859,7 +859,7 @@
           "date": "07/04"
         }
       ],
-      "timestamp": "2026-07-05T10:16:00.877970"
+      "timestamp": "2026-07-05T10:45:20.564740"
     },
     "AMZN": {
       "symbol": "AMZN",
@@ -896,7 +896,7 @@
           "date": "07/04"
         }
       ],
-      "timestamp": "2026-07-05T10:16:01.125638"
+      "timestamp": "2026-07-05T10:45:20.798513"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -933,7 +933,7 @@
           "date": "07/04"
         }
       ],
-      "timestamp": "2026-07-05T10:16:01.370947"
+      "timestamp": "2026-07-05T10:45:21.136751"
     },
     "ARM": {
       "symbol": "ARM",
@@ -970,7 +970,7 @@
           "date": "07/02"
         }
       ],
-      "timestamp": "2026-07-05T10:16:01.644862"
+      "timestamp": "2026-07-05T10:45:21.405745"
     }
   },
   "summary": {
@@ -980,5 +980,5 @@
     "sell_signals": 0
   },
   "top_picks": [],
-  "quotes_ts": "2026-07-05T10:16:01.692495"
+  "quotes_ts": "2026-07-05T10:45:21.426825"
 }
