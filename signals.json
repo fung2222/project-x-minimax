@@ -253,7 +253,7 @@
         "RSI 40 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.849764",
+      "timestamp": "2026-07-05T22:41:25.315522",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -273,15 +273,18 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Nvidia Stock Is Now Cheaper Than Coca-Cola. Here's the Math.",
+          "title": "🤖 英偉達 AI／晶片板塊動態",
+          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
           "date": "07/05"
         },
         {
-          "title": "MercadoLibre Stock Has Been Left For Dead. Here's Why Investors Should Consider Buying More.",
+          "title": "📈 英偉達相關新聞利好",
+          "title_en": "Here's Why Intel Stock Soared Last Month",
           "date": "07/05"
         },
         {
-          "title": "The Dow Is Up 8% So Far This Year -- Its Best 6 Months Since 2021. Should You Buy This DJIA ETF?",
+          "title": "📊 英偉達 相關市場新聞",
+          "title_en": "Where Will Intel Stock Be in 5 Years?",
           "date": "07/05"
         }
       ],
@@ -311,7 +314,7 @@
         "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.850792",
+      "timestamp": "2026-07-05T22:41:25.315522",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（41位分析師）",
@@ -331,16 +334,19 @@
       "sector": "Consumer Cyclical",
       "analyst_news": [
         {
-          "title": "Cathie Wood buys $38.1 million of tumbling megacap stock",
+          "title": "🤖 特斯拉 AI／晶片板塊動態",
+          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
           "date": "07/05"
         },
         {
-          "title": "Rivian Just Raised Its 2026 Outlook While Tesla Stock Stumbled. Is the Electric Vehicle Underdog Fin",
-          "date": "07/04"
+          "title": "🚗 特斯拉 馬斯克／電車動態",
+          "title_en": "Tesla's $1.4 trillion valuation rests on what happens next in one city",
+          "date": "07/05"
         },
         {
-          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
-          "date": "07/04"
+          "title": "📈 特斯拉相關新聞利好",
+          "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
+          "date": "07/05"
         }
       ],
       "date": "2026-07-05"
@@ -369,7 +375,7 @@
         "RSI 41 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.851773",
+      "timestamp": "2026-07-05T22:41:25.315522",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（15位分析師）",
@@ -389,16 +395,19 @@
       "sector": "Industrials",
       "analyst_news": [
         {
-          "title": "Why Rocket Lab Stock Skyrocketed Last Week",
-          "date": "07/04"
+          "title": "🚀 Rocket Lab 太空業務／發射進展",
+          "title_en": "Rocket Lab (RKLB) Sets New Benchmark With VICTUS HAZE Launch For U.S. Space Forc",
+          "date": "07/05"
         },
         {
-          "title": "Here's Why The Latest Rocket Lab Acquisition Could Shake Up The Entire Space Economy",
-          "date": "07/04"
+          "title": "🚀 Rocket Lab 太空業務／發射進展",
+          "title_en": "Why AST SpaceMobile Stock Skyrocketed This Week",
+          "date": "07/05"
         },
         {
-          "title": "Is Rocket Lab (RKLB) is One of the Best NASDAQ Stocks to Invest In For Long Term?",
-          "date": "07/04"
+          "title": "🤖 Rocket Lab AI／晶片板塊動態",
+          "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
+          "date": "07/05"
         }
       ],
       "date": "2026-07-05"
@@ -427,7 +436,7 @@
         "RSI 55 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.853250",
+      "timestamp": "2026-07-05T22:41:25.316522",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
@@ -447,16 +456,19 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Why July Could Be a Big Month for AMD Stock Investors",
-          "date": "07/04"
+          "title": "🤖 AMD超微 AI／晶片板塊動態",
+          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+          "date": "07/05"
         },
         {
-          "title": "AMD Beats NVDA in 1H26 Returns. Here’s What's Next for 2H26.",
-          "date": "07/04"
+          "title": "🤖 AMD超微 AI／晶片板塊動態",
+          "title_en": "How Advanced Micro Devices, Inc.’s (AMD) Server CPU Demand Is Broadening Its AI ",
+          "date": "07/05"
         },
         {
-          "title": "Jim Cramer on Dell: “I Missed One of the Greatest Stories Ever Told”",
-          "date": "07/04"
+          "title": "📈 AMD超微相關新聞利好",
+          "title_en": "Is AMD Stock a Buy Before July 22?",
+          "date": "07/05"
         }
       ],
       "date": "2026-07-05"
@@ -485,7 +497,7 @@
         "RSI 50 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.854299",
+      "timestamp": "2026-07-05T22:41:25.316522",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
@@ -505,16 +517,19 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.",
-          "date": "07/04"
+          "title": "🤖 微軟 AI／晶片板塊動態",
+          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+          "date": "07/05"
         },
         {
-          "title": "Nvidia (NVDA) Backs Verkada And Brings In A Microsoft Veteran To Lead Sales",
-          "date": "07/04"
+          "title": "📈 微軟相關新聞利好",
+          "title_en": "3 No-Brainer Stocks to Buy in July and Hold Forever",
+          "date": "07/05"
         },
         {
-          "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
-          "date": "07/04"
+          "title": "📈 微軟相關新聞利好",
+          "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
+          "date": "07/05"
         }
       ],
       "date": "2026-07-05"
@@ -543,7 +558,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.855375",
+      "timestamp": "2026-07-05T22:41:25.316522",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
@@ -563,16 +578,19 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
-          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
-          "date": "07/04"
+          "title": "🤖 谷歌 AI／晶片板塊動態",
+          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+          "date": "07/05"
         },
         {
-          "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons ",
-          "date": "07/04"
+          "title": "📈 谷歌相關新聞利好",
+          "title_en": "This Is the One AI Stock I Can’t Stop Buying",
+          "date": "07/05"
         },
         {
-          "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
-          "date": "07/04"
+          "title": "📊 谷歌 相關市場新聞",
+          "title_en": "Wall Street Is Buzzing About Alphabet Joining the Dow. Income Investors Should B",
+          "date": "07/05"
         }
       ],
       "date": "2026-07-05"
@@ -601,7 +619,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.855375",
+      "timestamp": "2026-07-05T22:41:25.316522",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -621,16 +639,19 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
-          "title": "Meta’s next AI bet has one major catch for investors",
-          "date": "07/04"
+          "title": "🤖 Meta AI／晶片板塊動態",
+          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+          "date": "07/05"
         },
         {
-          "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
-          "date": "07/04"
+          "title": "📈 Meta相關新聞利好",
+          "title_en": "1 Thing That Could Send Meta Platforms Stock Soaring in 2026",
+          "date": "07/05"
         },
         {
-          "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
-          "date": "07/04"
+          "title": "📊 Meta 相關市場新聞",
+          "title_en": "Why CoreWeave Stock Plummeted This Week",
+          "date": "07/05"
         }
       ],
       "date": "2026-07-05"
@@ -659,7 +680,7 @@
         "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.856396",
+      "timestamp": "2026-07-05T22:41:25.316522",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -679,15 +700,18 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear for Their IP: 'Somet",
-          "date": "07/04"
+          "title": "🤖 Palantir AI／晶片板塊動態",
+          "title_en": "How Palantir Technologies Inc. (PLTR) Is Expanding AI Deployment Channels Across",
+          "date": "07/05"
         },
         {
-          "title": "Anthony Scaramucci Warns Wealth Inequality Could End With 'Pitchforks,' Urges Rich to 'Spread the We",
-          "date": "07/04"
+          "title": "🤖 Palantir AI／晶片板塊動態",
+          "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
+          "date": "07/05"
         },
         {
-          "title": "America’s 250th Birthday Bash and Severe Weather Spark Travel Chaos",
+          "title": "🤖 Palantir AI／晶片板塊動態",
+          "title_en": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear ",
           "date": "07/04"
         }
       ],
@@ -717,7 +741,7 @@
         "RSI 45 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T11:05:54.857396",
+      "timestamp": "2026-07-05T22:41:25.316522",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（37位分析師）",
@@ -737,15 +761,18 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
           "date": "07/04"
         },
         {
-          "title": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
+          "title": "🤖 ARM AI／晶片板塊動態",
+          "title_en": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
           "date": "07/03"
         },
         {
-          "title": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
+          "title": "🤖 ARM AI／晶片板塊動態",
+          "title_en": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
           "date": "07/02"
         }
       ],
@@ -762,7 +789,7 @@
     "partial_rate_pct": 0.0,
     "miss_rate_pct": 0.0
   },
-  "last_updated": "2026-07-05T11:05:54.859395",
+  "last_updated": "2026-07-05T22:41:25.317521",
   "vix_regime": "正常市場",
   "vix_value": 16.15
 }
