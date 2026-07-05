@@ -238,6 +238,7 @@ footer span{color:var(--gold)}
   <!-- TABS -->
   <div class="nav-tabs">
     <button class="nav-tab active" onclick="showTab('signals')">🎯 每日信號</button>
+    <button class="nav-tab" onclick="showTab('profile')">📋 基本面</button>
     <button class="nav-tab" onclick="showTab('portfolio')">💼 持倉</button>
     <button class="nav-tab" onclick="showTab('analysis')">📊 分析摘要</button>
     <button class="nav-tab" onclick="showTab('hitrate')">🎯 命中率</button>
@@ -257,7 +258,20 @@ footer span{color:var(--gold)}
     </div>
   </div>
 
-  <!-- TAB 2: PORTFOLIO -->
+  <!-- TAB 2: PROFILE (基本面) -->
+  <div class="tab-content" id="tab-profile">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><span class="icon">📋</span> 基本面分析</div>
+        <div style="font-size:11px;color:var(--muted)">分析師評級 · 目標價 · 業績日期</div>
+      </div>
+      <div class="card-body">
+        <div id="profiles-container"><div style="color:var(--muted);padding:20px;text-align:center">載入中...</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 3: PORTFOLIO -->
   <div class="tab-content" id="tab-portfolio">
     <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:16px">
       <div class="card">
@@ -450,8 +464,9 @@ function loadAll(){
   Promise.all([
     fetch('signals.json?t='+Date.now()).then(r=>r.json()).catch(()=>({signals:[],performance:{}})),
     fetch('portfolio.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
-    fetch('daily_report.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))
-  ]).then(([sig,pfl,report])=>{
+    fetch('daily_report.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
+    fetch('profiles.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))
+  ]).then(([sig,pfl,report,profiles])=>{
     updateKpis(sig,pfl);
     updateVix(sig);
     updateSignals(sig);
@@ -459,7 +474,8 @@ function loadAll(){
     updateHistory(sig);
     updatePhases(pfl);
     updatePortfolio(pfl);
-    if(report&&report.market)updateAnalysis(report);
+    updateProfiles(profiles);
+    if(report&&report.market)updateAnalysis(report, profiles);
   });
 }
 
@@ -550,12 +566,23 @@ function updateSignals(sig){
     const vol=s.vol_ratio||1;
     const volIcon=vol>=1.2?'▲':vol<0.7?'▼':'▬';
     const volColor=vol>=1.2?'var(--green)':vol<0.7?'var(--red)':'var(--muted)';
+    // Analyst badge
+    const analystIcon=s.analyst_emoji||'';
+    const analystText=s.analyst_consensus||'';
     // Owned indicator
     const owned=s.is_owned?'<span style="background:var(--gold);color:var(--navy);padding:1px 6px;border-radius:4px;font-size:9px;font-weight:700;margin-left:4px">持倉</span>':'';
+    // Earnings badge
+    const earnDays=s.earnings_days;
+    let earnBadge='';
+    if(earnDays!==null&&earnDays!==undefined){
+      if(earnDays<=7&&earnDays>=0)earnBadge='<span style="background:rgba(231,76,60,0.15);color:var(--red);padding:1px 6px;border-radius:4px;font-size:9px;font-weight:700;margin-left:4px">業績'+earnDays+'天</span>';
+      else if(earnDays<=30)earnBadge='<span style="background:rgba(243,156,18,0.15);color:var(--amber);padding:1px 6px;border-radius:4px;font-size:9px;font-weight:700;margin-left:4px">業績'+earnDays+'天</span>';
+    }
     html+='<div class="signal-item">';
     html+='<div class="signal-ticker">'+esc(s.ticker)+'</div>';
     html+='<div class="signal-info">';
-    html+='<div class="signal-name">'+esc(s.action||s.signal)+owned+'</div>';
+    html+='<div class="signal-name">'+esc(s.action||s.signal)+owned+earnBadge+'</div>';
+    html+='<div style="font-size:10px;color:var(--muted);margin-bottom:3px">'+analystIcon+' '+esc(analystText)+'</div>';
     html+='<div class="signal-reason">'+(s.signal_reasons&&s.signal_reasons.length?s.signal_reasons.slice(0,2).join(' · '):'—')+'</div>';
     html+='<div style="display:flex;gap:8px;margin-top:4px;font-size:10px;color:var(--muted)">';
     html+='<span>RSI:'+(s.rsi||'?')+'</span>';
@@ -649,6 +676,62 @@ function updateHistory(sig){
   tbody.innerHTML=html||'<tr><td colspan="7" style="text-align:center;padding:20px;color:var(--muted)">暫無記錄</td></tr>';
 }
 
+function updateProfiles(prof){
+  const container=document.getElementById('profiles-container');
+  const tickers=Object.keys(prof).sort();
+  if(tickers.length===0){
+    container.innerHTML='<div style="text-align:center;padding:30px;color:var(--muted)"><div style="font-size:32px;margin-bottom:10px">📊</div><div>暫無基本面數據</div><div style="font-size:11px;margin-top:6px">每日 22:00 HKT 自動更新</div></div>';
+    return;
+  }
+  let html='<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px">';
+  tickers.forEach(ticker=>{
+    const p=prof[ticker];
+    if(!p||p.error)return;
+    // Earnings countdown badge
+    let earnBadge='';
+    if(p.earnings_days!==null&&p.earnings_days!==undefined){
+      const days=p.earnings_days;
+      if(days<=7&&days>=0)earnBadge='<span style="background:rgba(231,76,60,0.15);color:var(--red);padding:2px 8px;border-radius:6px;font-size:10px;font-weight:700;margin-left:6px">業績'+days+'天</span>';
+      else if(days<=30)earnBadge='<span style="background:rgba(243,156,18,0.15);color:var(--amber);padding:2px 8px;border-radius:6px;font-size:10px;font-weight:700;margin-left:6px">業績'+days+'天</span>';
+      else earnBadge='<span style="background:rgba(39,174,96,0.1);color:var(--green);padding:2px 8px;border-radius:6px;font-size:10px;margin-left:6px">業績'+days+'天</span>';
+    }
+    // Analyst badge color
+    const rec=p.recommendation_key||'';
+    const recColor=rec.includes('buy')?'var(--green)':rec.includes('sell')?'var(--red)':rec.includes('hold')?'var(--amber)':'var(--muted)';
+    // Target upside
+    let targetHtml='';
+    if(p.upside_pct!==null&&p.upside_pct!==undefined){
+      const up=p.upside_pct;
+      targetHtml='<div style="font-size:12px;margin-top:4px">目標價 <span style="font-weight:700">$'+esc(p.target_mean?.toFixed(1)||'')+'</span> · 潛在升幅 <span style="font-weight:700;color:'+(up>0?'var(--green)':'var(--red)')+'">'+(up>0?'+':'')+up+'%</span></div>';
+    }
+    // News
+    let newsHtml='';
+    const news=(p.news||[]).slice(0,2);
+    if(news.length>0){
+      newsHtml='<div style="margin-top:8px;border-top:1px solid var(--border);padding-top:8px">';
+      news.forEach(n=>newsHtml+='<div style="font-size:11px;color:var(--muted);margin-bottom:4px;line-height:1.4"><span style="color:var(--text)">•</span> '+esc(n.title||'').substring(0,80)+'</div>');
+      newsHtml+='</div>';
+    }
+    html+='<div style="background:var(--card2);border:1px solid var(--border);border-radius:10px;padding:14px">';
+    html+='<div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">';
+    html+='<div style="font-size:15px;font-weight:700">'+esc(ticker)+'</div>';
+    html+=earnBadge;
+    html+='</div>';
+    html+='<div style="font-size:12px;color:'+recColor+';font-weight:700;margin-bottom:4px">'+esc(p.analyst_consensus||'')+'（'+esc(String(p.num_analysts||0))+'位分析師）</div>';
+    html+=targetHtml;
+    if(p.current_price){
+      html+='<div style="font-size:11px;color:var(--muted);margin-top:4px">現價 $'+esc(p.current_price?.toFixed(2)||'')+'</div>';
+    }
+    if(p.industry){
+      html+='<div style="font-size:10px;color:var(--muted);margin-top:4px">'+esc(p.industry||'')+'</div>';
+    }
+    html+=newsHtml;
+    html+='</div>';
+  });
+  html+='</div>';
+  container.innerHTML=html;
+}
+
 function updatePortfolio(pfl){
   const acc=pfl.account||{};
   const rules=pfl.rules||{};
@@ -713,15 +796,16 @@ function updatePhases(pfl){
   container.innerHTML=html||'<div style="color:var(--muted);padding:20px;text-align:center">載入中...</div>';
 }
 
-function updateAnalysis(report){
+function updateAnalysis(report, profiles){
   const el=document.getElementById('analysis-content');
   if(!report||!report.market){
-    el.innerHTML='<div style="text-align:center;padding:40px;color:var(--muted)"><div style="font-size:40px;margin-bottom:12px">📡</div><div>每日分析報告自動生成</div><div style="font-size:11px;margin-top:8px">開市報告：21:00 HKT · 收市報告：04:00 HKT</div></div>';
+    el.innerHTML='<div style="text-align:center;padding:40px;color:var(--muted)"><div style="font-size:40px;margin-bottom:12px">📡</div><div>每日分析報告自動生成</div><div style="font-size:11px;margin-top:8px">開市報告：22:00 HKT</div></div>';
     return;
   }
   const m=report.market;
   const gr=report.guardrail||{};
   const pks=report.top_picks||[];
+  const profMap=profiles||report.profiles||{};
   let html='<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px">';
   html+='<div style="background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:14px">';
   html+='<div style="font-size:11px;color:var(--muted);margin-bottom:6px">市場狀態</div>';
@@ -738,17 +822,33 @@ function updateAnalysis(report){
   if(pks.length>0){
     html+='<div style="margin-bottom:12px"><div style="font-size:13px;font-weight:700;color:var(--gold);margin-bottom:8px">🎯 今日 TOP 揀選</div>';
     pks.forEach(p=>{
+      const prof=profMap[p.ticker]||{};
       const macdBull=p.macd_bullish;
       const macdIcon=macdBull?'↗':'↘';
       const macdColor=macdBull?'var(--green)':'var(--red)';
       const vol=p.vol_ratio||1;
       const volIcon=vol>=1.2?'▲':vol<0.7?'▼':'▬';
       const volColor=vol>=1.2?'var(--green)':vol<0.7?'var(--red)':'var(--muted)';
+      // Analyst + upside
+      const analystIcon=prof.analyst_emoji||'';
+      const analystText=prof.analyst_consensus||'';
+      const upside=p.upside_pct||prof.upside_pct;
+      // Earnings
+      let earnHtml='';
+      const ed=prof.earnings_days||p.earnings_days;
+      if(ed!==null&&ed!==undefined){
+        if(ed<=7&&ed>=0)earnHtml='<span style="background:rgba(231,76,60,0.15);color:var(--red);padding:1px 6px;border-radius:4px;font-size:9px;font-weight:700;margin-left:4px">業績'+ed+'天</span>';
+        else if(ed<=30)earnHtml='<span style="background:rgba(243,156,18,0.15);color:var(--amber);padding:1px 6px;border-radius:4px;font-size:9px;font-weight:700;margin-left:4px">業績'+ed+'天</span>';
+      }
       html+='<div class="signal-item" style="margin-bottom:6px">';
       html+='<div class="signal-ticker">'+esc(p.ticker)+'</div>';
       html+='<div class="signal-info">';
-      html+='<div class="signal-name">'+esc(p.action)+'</div>';
+      html+='<div class="signal-name">'+esc(p.action)+earnHtml+'</div>';
+      html+='<div style="font-size:10px;color:var(--muted);margin-bottom:3px">'+analystIcon+' '+esc(analystText)+'</div>';
       html+='<div class="signal-reason">'+(p.signal_reasons&&p.signal_reasons[0]||p.reasons&&p.reasons[0]||'')+'</div>';
+      if(upside!==null&&upside!==undefined){
+        html+='<div style="font-size:10px;margin-top:3px">目標價 $'+(prof.target_mean||p.target_mean||'').toFixed(1)+' · 潛在 <span style="font-weight:700;color:'+(upside>0?'var(--green)':'var(--red)')+'">'+(upside>0?'+':'')+upside+'%</span></div>';
+      }
       html+='<div style="display:flex;gap:8px;margin-top:4px;font-size:10px">';
       html+='<span>RSI:'+(p.rsi||'?')+'</span>';
       html+='<span style="color:'+macdColor+'">MACD:'+macdIcon+'</span>';
