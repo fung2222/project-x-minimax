@@ -1,0 +1,298 @@
+{
+  "NVDA": {
+    "symbol": "NVDA",
+    "analyst_consensus": "強烈買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "strong_buy",
+    "num_analysts": 58,
+    "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+    "current_price": 194.83,
+    "target_mean": 301.6207,
+    "target_high": 500.0,
+    "target_low": 180.0,
+    "upside_pct": 54.8,
+    "earnings_date": "2026-08-26",
+    "earnings_days": 52,
+    "pe_ratio": 29.8,
+    "forward_pe": 15.3,
+    "profit_margin_pct": 63.0,
+    "revenue_growth_pct": 85.2,
+    "earnings_growth_pct": 214.5,
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "news": [
+      {
+        "title": "Nvidia Stock Is Now Cheaper Than Coca-Cola. Here's the Math.",
+        "date": "07/05"
+      },
+      {
+        "title": "MercadoLibre Stock Has Been Left For Dead. Here's Why Investors Should Consider Buying More.",
+        "date": "07/05"
+      },
+      {
+        "title": "The Dow Is Up 8% So Far This Year -- Its Best 6 Months Since 2021. Should You Buy This DJIA ETF?",
+        "date": "07/05"
+      }
+    ],
+    "timestamp": "2026-07-05T10:15:59.728035"
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "analyst_consensus": "強烈買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "strong_buy",
+    "num_analysts": 48,
+    "analyst_rating_str": "🟢 強烈買入（48位分析師）",
+    "current_price": 517.82,
+    "target_mean": 508.3125,
+    "target_high": 700.0,
+    "target_low": 320.0,
+    "upside_pct": -1.8,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 172.6,
+    "forward_pe": 39.3,
+    "profit_margin_pct": 13.4,
+    "revenue_growth_pct": 37.8,
+    "earnings_growth_pct": 91.2,
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "news": [
+      {
+        "title": "Why July Could Be a Big Month for AMD Stock Investors",
+        "date": "07/04"
+      },
+      {
+        "title": "AMD Beats NVDA in 1H26 Returns. Here’s What's Next for 2H26.",
+        "date": "07/04"
+      },
+      {
+        "title": "Jim Cramer on Dell: “I Missed One of the Greatest Stories Ever Told”",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:00.053934"
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "analyst_consensus": "強烈買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "strong_buy",
+    "num_analysts": 55,
+    "analyst_rating_str": "🟢 強烈買入（55位分析師）",
+    "current_price": 390.49,
+    "target_mean": 561.1149,
+    "target_high": 870.0,
+    "target_low": 400.0,
+    "upside_pct": 43.7,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 23.3,
+    "forward_pe": 20.2,
+    "profit_margin_pct": 39.3,
+    "revenue_growth_pct": 18.3,
+    "earnings_growth_pct": 23.4,
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "news": [
+      {
+        "title": "ChatGPT-Maker OpenAI Is Headed for a $1 Trillion IPO. The Biggest Winner Could Be Microsoft Stock.",
+        "date": "07/04"
+      },
+      {
+        "title": "Nvidia (NVDA) Backs Verkada And Brings In A Microsoft Veteran To Lead Sales",
+        "date": "07/04"
+      },
+      {
+        "title": "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:00.294330"
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "analyst_consensus": "強烈買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "strong_buy",
+    "num_analysts": 53,
+    "analyst_rating_str": "🟢 強烈買入（53位分析師）",
+    "current_price": 359.91,
+    "target_mean": 432.28735,
+    "target_high": 515.0,
+    "target_low": 340.0,
+    "upside_pct": 20.1,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 27.5,
+    "forward_pe": 24.7,
+    "profit_margin_pct": 37.9,
+    "revenue_growth_pct": 21.8,
+    "earnings_growth_pct": 82.0,
+    "industry": "Internet Content & Information",
+    "sector": "Communication Services",
+    "news": [
+      {
+        "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+        "date": "07/04"
+      },
+      {
+        "title": "Warren Buffett's Berkshire Hathaway Owns $41 Billion of Alphabet Stock: Here Are 3 Possible Reasons ",
+        "date": "07/04"
+      },
+      {
+        "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:00.573798"
+  },
+  "META": {
+    "symbol": "META",
+    "analyst_consensus": "強烈買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "strong_buy",
+    "num_analysts": 58,
+    "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+    "current_price": 582.9,
+    "target_mean": 828.16864,
+    "target_high": 1015.0,
+    "target_low": 664.46,
+    "upside_pct": 42.1,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 21.2,
+    "forward_pe": 15.8,
+    "profit_margin_pct": 32.8,
+    "revenue_growth_pct": 33.1,
+    "earnings_growth_pct": 62.4,
+    "industry": "Internet Content & Information",
+    "sector": "Communication Services",
+    "news": [
+      {
+        "title": "Meta’s next AI bet has one major catch for investors",
+        "date": "07/04"
+      },
+      {
+        "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+        "date": "07/04"
+      },
+      {
+        "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:00.877970"
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "analyst_consensus": "強烈買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "strong_buy",
+    "num_analysts": 62,
+    "analyst_rating_str": "🟢 強烈買入（62位分析師）",
+    "current_price": 242.67,
+    "target_mean": 312.90628,
+    "target_high": 370.0,
+    "target_low": 207.0,
+    "upside_pct": 28.9,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 31.6,
+    "forward_pe": 24.5,
+    "profit_margin_pct": 12.2,
+    "revenue_growth_pct": 16.6,
+    "earnings_growth_pct": 74.8,
+    "industry": "Internet Retail",
+    "sector": "Consumer Cyclical",
+    "news": [
+      {
+        "title": "Bill Ackman reveals why he still likes Alphabet, Amazon, and Meta stocks",
+        "date": "07/04"
+      },
+      {
+        "title": "Bill Ackman Drives a Tesla: Here's Why He Won't Buy the Stock",
+        "date": "07/04"
+      },
+      {
+        "title": "Sprouts Farmers Market (SFM) Takes Over A Never Opened Amazon Fresh Store",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:01.125638"
+  },
+  "PLTR": {
+    "symbol": "PLTR",
+    "analyst_consensus": "買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "buy",
+    "num_analysts": 27,
+    "analyst_rating_str": "🟢 買入（27位分析師）",
+    "current_price": 129.3,
+    "target_mean": 183.12444,
+    "target_high": 255.0,
+    "target_low": 70.0,
+    "upside_pct": 41.6,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 145.3,
+    "forward_pe": 61.7,
+    "profit_margin_pct": 43.7,
+    "revenue_growth_pct": 84.7,
+    "earnings_growth_pct": 325.0,
+    "industry": "Software - Infrastructure",
+    "sector": "Technology",
+    "news": [
+      {
+        "title": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear for Their IP: 'Somet",
+        "date": "07/04"
+      },
+      {
+        "title": "Anthony Scaramucci Warns Wealth Inequality Could End With 'Pitchforks,' Urges Rich to 'Spread the We",
+        "date": "07/04"
+      },
+      {
+        "title": "America’s 250th Birthday Bash and Severe Weather Spark Travel Chaos",
+        "date": "07/04"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:01.370947"
+  },
+  "ARM": {
+    "symbol": "ARM",
+    "analyst_consensus": "買入",
+    "analyst_emoji": "🟢",
+    "recommendation_key": "buy",
+    "num_analysts": 37,
+    "analyst_rating_str": "🟢 買入（37位分析師）",
+    "current_price": 315.28,
+    "target_mean": 297.02756,
+    "target_high": 500.0,
+    "target_low": 125.0,
+    "upside_pct": -5.8,
+    "earnings_date": null,
+    "earnings_days": null,
+    "pe_ratio": 370.9,
+    "forward_pe": 102.3,
+    "profit_margin_pct": 18.4,
+    "revenue_growth_pct": 20.1,
+    "earnings_growth_pct": 47.9,
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "news": [
+      {
+        "title": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+        "date": "07/04"
+      },
+      {
+        "title": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
+        "date": "07/03"
+      },
+      {
+        "title": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
+        "date": "07/02"
+      }
+    ],
+    "timestamp": "2026-07-05T10:16:01.644862"
+  }
+}
