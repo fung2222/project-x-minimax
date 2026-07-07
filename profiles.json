@@ -32,12 +32,12 @@
         "date": "07/06"
       },
       {
-        "title": "📈 英偉達相關新聞利好",
-        "title_en": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set Yo",
+        "title": "🤖 英偉達 AI／晶片板塊動態",
+        "title_en": "After Cerebras Listing, Intel-Backed AI Chip Firm Syntiant Files For IPO",
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T12:28:29.122541"
+    "timestamp": "2026-07-07T12:45:32.375411"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -77,7 +77,7 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T12:28:29.394503"
+    "timestamp": "2026-07-07T12:45:32.630824"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -117,7 +117,7 @@
         "date": "07/06"
       }
     ],
-    "timestamp": "2026-07-07T12:28:29.645015"
+    "timestamp": "2026-07-07T12:45:32.907002"
   },
   "AMD": {
     "symbol": "AMD",
@@ -147,17 +147,17 @@
         "date": "07/06"
       },
       {
-        "title": "📊 AMD超微 相關市場新聞",
-        "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
-        "date": "07/06"
+        "title": "🤖 AMD超微 AI／晶片板塊動態",
+        "title_en": "After Cerebras Listing, Intel-Backed AI Chip Firm Syntiant Files For IPO",
+        "date": "07/07"
       },
       {
         "title": "📊 AMD超微 相關市場新聞",
-        "title_en": "Update: US Equity Indexes Advance as Communication Services, Technology Top Sect",
+        "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
         "date": "07/06"
       }
     ],
-    "timestamp": "2026-07-07T12:28:29.904604"
+    "timestamp": "2026-07-07T12:45:33.272118"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -187,17 +187,17 @@
         "date": "07/06"
       },
       {
-        "title": "📊 微軟 相關市場新聞",
-        "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+        "title": "🤖 微軟 AI／晶片板塊動態",
+        "title_en": "AI-Native Startups Hire Fewer Junior Workers and More Senior Talent, Harvard Stu",
         "date": "07/07"
       },
       {
-        "title": "🤖 微軟 AI／晶片板塊動態",
-        "title_en": "Anthropic’s A$22 Billion Australian AI Cloud Tender Might Change The Case For In",
-        "date": "07/06"
+        "title": "📊 微軟 相關市場新聞",
+        "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T12:28:30.139052"
+    "timestamp": "2026-07-07T12:45:33.543658"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -237,7 +237,7 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T12:28:30.370600"
+    "timestamp": "2026-07-07T12:45:33.776524"
   },
   "META": {
     "symbol": "META",
@@ -277,7 +277,7 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T12:28:30.608269"
+    "timestamp": "2026-07-07T12:45:34.045655"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -317,7 +317,7 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T12:28:30.860200"
+    "timestamp": "2026-07-07T12:45:34.280108"
   },
   "ARM": {
     "symbol": "ARM",
@@ -357,6 +357,6 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-07T12:28:31.090592"
+    "timestamp": "2026-07-07T12:45:34.548678"
   }
 }
