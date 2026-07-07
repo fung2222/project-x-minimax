@@ -11,8 +11,10 @@
     "started": "2026-07-07",
     "cash_usd": 445.45,
     "cash_hkd": 3474.51,
-    "equity_usd": 641,
-    "total_invested_usd": 195.55
+    "equity_usd": 641.0,
+    "total_invested_usd": 195.55,
+    "total_pnl_usd": 0.0,
+    "total_pnl_pct": 0.0
   },
   "positions": [
     {
@@ -23,31 +25,25 @@
       "current_price": 195.55,
       "cost_usd": 195.55,
       "value_usd": 195.55,
-      "pnl_usd": 0,
-      "pnl_pct": 0,
-      "analyst_consensus": "強烈買入"
+      "pnl_usd": 0.0,
+      "pnl_pct": 0.0,
+      "analyst_consensus": "強烈買入",
+      "last_updated": "2026-07-07T13:08:59.066460"
     }
   ],
   "trade_log": [
     {
       "id": "T001",
       "date": "2026-07-07",
-      "timestamp": "2026-07-07T12:45:21.050603",
+      "timestamp": "2026-07-07T13:00:00",
       "ticker": "NVDA",
       "action": "BUY",
       "shares": 1,
       "entry_price": 195.55,
       "cost_usd": 195.55,
       "cost_hkd": 1525.29,
-      "reason": "PHASE 3 啟動 — 首筆模擬交易 (NVDA 分析師強烈買入 58 位，潛在升幅 +54.8%)",
-      "rsi_at_entry": 40.9,
-      "macd_at_entry": true,
-      "vol_ratio_at_entry": 0.7,
-      "analyst_consensus": "強烈買入",
-      "confidence": 60,
+      "reason": "PHASE 3 啟動 — 首筆模擬交易",
       "status": "open",
-      "exit_price": null,
-      "exit_date": null,
       "pnl_usd": null,
       "pnl_pct": null
     }
@@ -141,5 +137,6 @@
         "goal": "用HKD 5,000真實交易，嚴格執行止損止盈"
       }
     ]
-  }
+  },
+  "last_tracker_update": "2026-07-07T13:08:59.066460"
 }
