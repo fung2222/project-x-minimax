@@ -6,15 +6,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 195.55,
+    "current_price": 192.85,
     "target_mean": 301.6207,
     "target_high": 500.0,
     "target_low": 180.0,
-    "upside_pct": 54.2,
+    "upside_pct": 56.4,
     "earnings_date": "2026-08-26",
     "earnings_days": 50,
-    "pe_ratio": 29.9,
-    "forward_pe": 15.3,
+    "pe_ratio": 29.5,
+    "forward_pe": 15.1,
     "profit_margin_pct": 63.0,
     "revenue_growth_pct": 85.2,
     "earnings_growth_pct": 214.5,
@@ -22,8 +22,8 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Why this AI chip startup could rival Nvidia",
-        "title_en": "Why this AI chip startup could rival Nvidia",
+        "title": "Tech stocks live: Chip stocks sell off, SpaceX joins Nasdaq-100",
+        "title_en": "Tech stocks live: Chip stocks sell off, SpaceX joins Nasdaq-100",
         "desc_zh": "英偉達 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
@@ -31,17 +31,17 @@
         "date": "07/06"
       },
       {
-        "title": "Nvidia denies report its next-generation AI server faces delays, says roadmap is intact",
-        "title_en": "Nvidia denies report its next-generation AI server faces delays, says roadmap is intact",
-        "desc_zh": "英偉達 AI／晶片板塊",
+        "title": "NVDY Investors Chose Monthly Income Over 854% Returns; Here’s What That Trade Cost Them",
+        "title_en": "NVDY Investors Chose Monthly Income Over 854% Returns; Here’s What That Trade Cost Them",
+        "desc_zh": "英偉達 市場動態",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "07/06"
+        "date": "07/07"
       },
       {
-        "title": "Meet the Dividend King Stock That's Up 20% in 2026. Here's Why It Can Continue Outperforming the S&P 500 and Nasdaq-100 ",
-        "title_en": "Meet the Dividend King Stock That's Up 20% in 2026. Here's Why It Can Continue Outperforming the S&P 500 and Nasdaq-100 ",
+        "title": "3 AI Stocks That Could Outperform the S&P 500 for Years to Come",
+        "title_en": "3 AI Stocks That Could Outperform the S&P 500 for Years to Come",
         "desc_zh": "英偉達 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
@@ -49,7 +49,7 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:07.208855"
+    "timestamp": "2026-07-07T23:04:47.433580"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -58,21 +58,30 @@
     "recommendation_key": "buy",
     "num_analysts": 41,
     "analyst_rating_str": "🟢 買入（41位分析師）",
-    "current_price": 419.77,
+    "current_price": 408.87,
     "target_mean": 423.4,
     "target_high": 600.0,
     "target_low": 125.0,
-    "upside_pct": 0.9,
+    "upside_pct": 3.6,
     "earnings_date": "2026-07-22",
     "earnings_days": 15,
-    "pe_ratio": 381.6,
-    "forward_pe": 164.8,
+    "pe_ratio": 375.1,
+    "forward_pe": 160.5,
     "profit_margin_pct": 3.9,
     "revenue_growth_pct": 15.8,
     "earnings_growth_pct": 8.3,
     "industry": "Auto Manufacturers",
     "sector": "Consumer Cyclical",
     "news": [
+      {
+        "title": "SpaceX to join the Nasdaq 100: How Wall Street feels about the Elon Musk story",
+        "title_en": "SpaceX to join the Nasdaq 100: How Wall Street feels about the Elon Musk story",
+        "desc_zh": "特斯拉 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "07/07"
+      },
       {
         "title": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
         "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
@@ -83,25 +92,16 @@
         "date": "07/05"
       },
       {
-        "title": "Tesla (TSLA) Launches Miami Robotaxi Service, Is The Upside Already Priced In?",
-        "title_en": "Tesla (TSLA) Launches Miami Robotaxi Service, Is The Upside Already Priced In?",
-        "desc_zh": "特斯拉 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "07/07"
-      },
-      {
-        "title": "Tesla's Robotaxi Just Launched in Miami -- Its First City Outside Texas and California. Can It Rescue the Stock?",
-        "title_en": "Tesla's Robotaxi Just Launched in Miami -- Its First City Outside Texas and California. Can It Rescue the Stock?",
-        "desc_zh": "特斯拉 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
+        "title": "Forget EVs — Tesla’s Biggest Growth Engine Is Hiding in Plain Sight",
+        "title_en": "Forget EVs — Tesla’s Biggest Growth Engine Is Hiding in Plain Sight",
+        "desc_zh": "特斯拉 業績／財務相關",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:07.441255"
+    "timestamp": "2026-07-07T23:04:47.672702"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -110,15 +110,15 @@
     "recommendation_key": "buy",
     "num_analysts": 15,
     "analyst_rating_str": "🟢 買入（15位分析師）",
-    "current_price": 93.09,
+    "current_price": 84.045,
     "target_mean": 114.10333,
     "target_high": 150.0,
     "target_low": 76.0,
-    "upside_pct": 22.6,
+    "upside_pct": 35.8,
     "earnings_date": null,
     "earnings_days": null,
     "pe_ratio": null,
-    "forward_pe": -4654.5,
+    "forward_pe": -4202.2,
     "profit_margin_pct": -26.9,
     "revenue_growth_pct": 63.5,
     "earnings_growth_pct": null,
@@ -126,34 +126,34 @@
     "sector": "Industrials",
     "news": [
       {
-        "title": "RKLB Stock Slips Overnight: CEO Peter Beck Eyes Trimming Stake By $465M After Iridium Deal",
-        "title_en": "RKLB Stock Slips Overnight: CEO Peter Beck Eyes Trimming Stake By $465M After Iridium Deal",
+        "title": "ULTY Distributes Real Cash From Real Sales, But Expect Volatile Paychecks",
+        "title_en": "ULTY Distributes Real Cash From Real Sales, But Expect Volatile Paychecks",
+        "desc_zh": "Rocket Lab AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "07/07"
+      },
+      {
+        "title": "Hexcel vs. Rocket Lab USA: Which Aerospace Stock Is a Better Buy in 2026?",
+        "title_en": "Hexcel vs. Rocket Lab USA: Which Aerospace Stock Is a Better Buy in 2026?",
+        "desc_zh": "Rocket Lab 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 2,
+        "date": "07/07"
+      },
+      {
+        "title": "Iridium Communications (IRDM) Could Be 39% Overvalued On Rocket Lab Deal Terms",
+        "title_en": "Iridium Communications (IRDM) Could Be 39% Overvalued On Rocket Lab Deal Terms",
         "desc_zh": "Rocket Lab 太空業務",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
         "date": "07/07"
-      },
-      {
-        "title": "Prediction: Buying This Space Economy Stock Could Help Set You Up for Life",
-        "title_en": "Prediction: Buying This Space Economy Stock Could Help Set You Up for Life",
-        "desc_zh": "Rocket Lab 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "07/07"
-      },
-      {
-        "title": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Makes This Boast (Live Coverage)",
-        "title_en": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Makes This Boast (Live Coverage)",
-        "desc_zh": "Rocket Lab AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "07/06"
       }
     ],
-    "timestamp": "2026-07-07T15:54:07.702812"
+    "timestamp": "2026-07-07T23:04:47.894964"
   },
   "AMD": {
     "symbol": "AMD",
@@ -162,15 +162,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 48,
     "analyst_rating_str": "🟢 強烈買入（48位分析師）",
-    "current_price": 552.05,
+    "current_price": 507.445,
     "target_mean": 508.3125,
     "target_high": 700.0,
     "target_low": 320.0,
-    "upside_pct": -7.9,
+    "upside_pct": 0.2,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 184.0,
-    "forward_pe": 41.8,
+    "pe_ratio": 170.3,
+    "forward_pe": 38.4,
     "profit_margin_pct": 13.4,
     "revenue_growth_pct": 37.8,
     "earnings_growth_pct": 91.2,
@@ -187,25 +187,25 @@
         "date": "07/06"
       },
       {
-        "title": "AMD Is 11% Away From Joining the $1 Trillion Club. Could It Get There This Year?",
-        "title_en": "AMD Is 11% Away From Joining the $1 Trillion Club. Could It Get There This Year?",
-        "desc_zh": "AMD超微 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
+        "title": "Micron, Chip Stocks Fall Despite Samsung Profit Surge",
+        "title_en": "Micron, Chip Stocks Fall Despite Samsung Profit Surge",
+        "desc_zh": "AMD超微 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 2,
         "date": "07/07"
       },
       {
-        "title": "Here’s Why EyePoint, Inc. (EYPT) Is Among the Best Get Rich Quick Stocks",
-        "title_en": "Here’s Why EyePoint, Inc. (EYPT) Is Among the Best Get Rich Quick Stocks",
-        "desc_zh": "AMD超微 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
+        "title": "Intel and Applied Materials Dive 10%, AMD Craters 8% as Samsung Earnings Trigger Chip Selloff",
+        "title_en": "Intel and Applied Materials Dive 10%, AMD Craters 8% as Samsung Earnings Trigger Chip Selloff",
+        "desc_zh": "AMD超微 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:07.940858"
+    "timestamp": "2026-07-07T23:04:48.186195"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -214,15 +214,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 55,
     "analyst_rating_str": "🟢 強烈買入（55位分析師）",
-    "current_price": 386.74,
+    "current_price": 393.02,
     "target_mean": 561.1149,
     "target_high": 870.0,
     "target_low": 400.0,
-    "upside_pct": 45.1,
+    "upside_pct": 42.8,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 23.0,
-    "forward_pe": 20.0,
+    "pe_ratio": 23.4,
+    "forward_pe": 20.3,
     "profit_margin_pct": 39.3,
     "revenue_growth_pct": 18.3,
     "earnings_growth_pct": 23.4,
@@ -230,34 +230,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Why Microsoft cut 3,200 Xbox jobs",
-        "title_en": "Why Microsoft cut 3,200 Xbox jobs",
+        "title": "Microsoft's Xbox cuts 3,200 jobs, says 'we lost 64 cents for every dollar we invested'",
+        "title_en": "Microsoft's Xbox cuts 3,200 jobs, says 'we lost 64 cents for every dollar we invested'",
         "desc_zh": "微軟 相關負面消息",
         "sentiment": "利淡",
         "sentiment_emoji": "🔴",
-        "sentiment_score": -2,
+        "sentiment_score": -1,
         "date": "07/06"
       },
       {
-        "title": "NVIDIA (NVDA) Names New Field Operations Chief As AI Growth Narrative Points To Higher Fair Value",
-        "title_en": "NVIDIA (NVDA) Names New Field Operations Chief As AI Growth Narrative Points To Higher Fair Value",
+        "title": "DeepSeek Wants to Bypass US Sanctions With a Custom Chip. Why Nvidia Stock Is Sliding.",
+        "title_en": "DeepSeek Wants to Bypass US Sanctions With a Custom Chip. Why Nvidia Stock Is Sliding.",
+        "desc_zh": "微軟 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
+        "date": "07/07"
+      },
+      {
+        "title": "Intel's $500 Billion Question: Where Are Foundry Proof Points?",
+        "title_en": "Intel's $500 Billion Question: Where Are Foundry Proof Points?",
         "desc_zh": "微軟 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
         "date": "07/07"
-      },
-      {
-        "title": "MSFT Stock Climbs Overnight: Microsoft Swings Axe On Over 3,000 Xbox Jobs As Game Pass Reportedly Falls Well Short Of In",
-        "title_en": "MSFT Stock Climbs Overnight: Microsoft Swings Axe On Over 3,000 Xbox Jobs As Game Pass Reportedly Falls Well Short Of In",
-        "desc_zh": "微軟 市場動態",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:08.163974"
+    "timestamp": "2026-07-07T23:04:48.601406"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -266,15 +266,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 53,
     "analyst_rating_str": "🟢 強烈買入（53位分析師）",
-    "current_price": 366.46,
+    "current_price": 367.65,
     "target_mean": 432.28735,
     "target_high": 515.0,
     "target_low": 340.0,
-    "upside_pct": 18.0,
+    "upside_pct": 17.6,
     "earnings_date": null,
     "earnings_days": null,
     "pe_ratio": 28.0,
-    "forward_pe": 25.2,
+    "forward_pe": 25.3,
     "profit_margin_pct": 37.9,
     "revenue_growth_pct": 21.8,
     "earnings_growth_pct": 82.0,
@@ -282,34 +282,34 @@
     "sector": "Communication Services",
     "news": [
       {
-        "title": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
-        "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
+        "title": "Who will be the AI trade's real winners: The makers vs. the takers?",
+        "title_en": "Who will be the AI trade's real winners: The makers vs. the takers?",
         "desc_zh": "谷歌 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 3,
-        "date": "07/05"
+        "date": "07/07"
       },
       {
-        "title": "Software's strongest pocket is back near records: Chart of the Day",
-        "title_en": "Software's strongest pocket is back near records: Chart of the Day",
-        "desc_zh": "谷歌 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 3,
-        "date": "07/06"
-      },
-      {
-        "title": "SpaceX Is in the Nasdaq-100, Now Brace for Volatility",
-        "title_en": "SpaceX Is in the Nasdaq-100, Now Brace for Volatility",
+        "title": "3 AI Stocks That Could Outperform the S&P 500 for Years to Come",
+        "title_en": "3 AI Stocks That Could Outperform the S&P 500 for Years to Come",
         "desc_zh": "谷歌 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
         "date": "07/07"
+      },
+      {
+        "title": "British billionaire backs plans for European fusion giant",
+        "title_en": "British billionaire backs plans for European fusion giant",
+        "desc_zh": "谷歌 AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:11.519331"
+    "timestamp": "2026-07-07T23:04:48.857690"
   },
   "META": {
     "symbol": "META",
@@ -318,21 +318,30 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 600.29,
+    "current_price": 605.02,
     "target_mean": 828.16864,
     "target_high": 1015.0,
     "target_low": 664.46,
-    "upside_pct": 38.0,
+    "upside_pct": 36.9,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 21.8,
-    "forward_pe": 16.3,
+    "pe_ratio": 22.0,
+    "forward_pe": 16.4,
     "profit_margin_pct": 32.8,
     "revenue_growth_pct": 33.1,
     "earnings_growth_pct": 62.4,
     "industry": "Internet Content & Information",
     "sector": "Communication Services",
     "news": [
+      {
+        "title": "Who will be the AI trade's real winners: The makers vs. the takers?",
+        "title_en": "Who will be the AI trade's real winners: The makers vs. the takers?",
+        "desc_zh": "Meta 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 3,
+        "date": "07/07"
+      },
       {
         "title": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
         "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI optimism",
@@ -343,17 +352,8 @@
         "date": "07/05"
       },
       {
-        "title": "Micron stock has now plunged to a surprising level",
-        "title_en": "Micron stock has now plunged to a surprising level",
-        "desc_zh": "Meta 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -1,
-        "date": "07/06"
-      },
-      {
-        "title": "SpaceX Is in the Nasdaq-100, Now Brace for Volatility",
-        "title_en": "SpaceX Is in the Nasdaq-100, Now Brace for Volatility",
+        "title": "SpaceX Joins the Nasdaq-100. What the Fast-Track Addition Means for the Stock.",
+        "title_en": "SpaceX Joins the Nasdaq-100. What the Fast-Track Addition Means for the Stock.",
         "desc_zh": "Meta 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
@@ -361,7 +361,7 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:11.745651"
+    "timestamp": "2026-07-07T23:04:49.250529"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -370,15 +370,15 @@
     "recommendation_key": "buy",
     "num_analysts": 27,
     "analyst_rating_str": "🟢 買入（27位分析師）",
-    "current_price": 132.54,
+    "current_price": 134.8792,
     "target_mean": 183.12444,
     "target_high": 255.0,
     "target_low": 70.0,
-    "upside_pct": 38.2,
+    "upside_pct": 35.8,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 148.9,
-    "forward_pe": 63.3,
+    "pe_ratio": 151.5,
+    "forward_pe": 64.4,
     "profit_margin_pct": 43.7,
     "revenue_growth_pct": 84.7,
     "earnings_growth_pct": 325.0,
@@ -386,34 +386,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Better Defense Stock to Own in 2026: PLTR vs. LMT",
-        "title_en": "Better Defense Stock to Own in 2026: PLTR vs. LMT",
-        "desc_zh": "Palantir 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -1,
-        "date": "07/07"
-      },
-      {
-        "title": "Prediction: 3 Unstoppable Stocks That Will Join the $1 Trillion Club by 2030 (Hint: Not Palantir)",
-        "title_en": "Prediction: 3 Unstoppable Stocks That Will Join the $1 Trillion Club by 2030 (Hint: Not Palantir)",
-        "desc_zh": "Palantir 市場動態",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "07/07"
-      },
-      {
-        "title": "Palantir’s AI valuation problem may finally be easing",
-        "title_en": "Palantir’s AI valuation problem may finally be easing",
+        "title": "Palantir (PLTR) Partners with Nvidia For Secure AI Offerings",
+        "title_en": "Palantir (PLTR) Partners with Nvidia For Secure AI Offerings",
         "desc_zh": "Palantir 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
-        "sentiment_score": 2,
+        "sentiment_score": 1,
+        "date": "07/07"
+      },
+      {
+        "title": "Palantir Signs a Deal With Mexico’s Top Insurer to Boost Commercial Business. Will It Boost the Stock?",
+        "title_en": "Palantir Signs a Deal With Mexico’s Top Insurer to Boost Commercial Business. Will It Boost the Stock?",
+        "desc_zh": "Palantir 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "07/07"
+      },
+      {
+        "title": "Here's What Wall Street Must See Before Palantir Stock Can Rally Again",
+        "title_en": "Here's What Wall Street Must See Before Palantir Stock Can Rally Again",
+        "desc_zh": "Palantir 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-07T15:54:12.034504"
+    "timestamp": "2026-07-07T23:04:49.557515"
   },
   "ARM": {
     "symbol": "ARM",
@@ -422,15 +422,15 @@
     "recommendation_key": "buy",
     "num_analysts": 37,
     "analyst_rating_str": "🟢 買入（37位分析師）",
-    "current_price": 322.24,
+    "current_price": 299.485,
     "target_mean": 297.02756,
     "target_high": 500.0,
     "target_low": 125.0,
-    "upside_pct": -7.8,
+    "upside_pct": -0.8,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 379.1,
-    "forward_pe": 104.6,
+    "pe_ratio": 356.5,
+    "forward_pe": 97.2,
     "profit_margin_pct": 18.4,
     "revenue_growth_pct": 20.1,
     "earnings_growth_pct": 47.9,
@@ -465,6 +465,6 @@
         "date": "07/04"
       }
     ],
-    "timestamp": "2026-07-07T15:54:12.339763"
+    "timestamp": "2026-07-07T23:04:49.827683"
   }
 }
