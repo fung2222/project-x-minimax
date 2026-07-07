@@ -6,14 +6,14 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 194.83,
+    "current_price": 195.55,
     "target_mean": 301.6207,
     "target_high": 500.0,
     "target_low": 180.0,
-    "upside_pct": 54.8,
+    "upside_pct": 54.2,
     "earnings_date": "2026-08-26",
-    "earnings_days": 52,
-    "pe_ratio": 29.8,
+    "earnings_days": 50,
+    "pe_ratio": 29.9,
     "forward_pe": 15.3,
     "profit_margin_pct": 63.0,
     "revenue_growth_pct": 85.2,
@@ -23,21 +23,21 @@
     "news": [
       {
         "title": "🤖 英偉達 AI／晶片板塊動態",
-        "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-        "date": "07/05"
+        "title_en": "Why this AI chip startup could rival Nvidia",
+        "date": "07/06"
+      },
+      {
+        "title": "🤖 英偉達 AI／晶片板塊動態",
+        "title_en": "Nvidia denies report its next-generation AI server faces delays, says roadmap is",
+        "date": "07/06"
       },
       {
         "title": "📈 英偉達相關新聞利好",
-        "title_en": "Here's Why Intel Stock Soared Last Month",
-        "date": "07/05"
-      },
-      {
-        "title": "📊 英偉達 相關市場新聞",
-        "title_en": "Where Will Intel Stock Be in 5 Years?",
-        "date": "07/05"
+        "title_en": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set Yo",
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-05T22:41:23.374073"
+    "timestamp": "2026-07-07T12:28:29.122541"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -46,15 +46,15 @@
     "recommendation_key": "buy",
     "num_analysts": 41,
     "analyst_rating_str": "🟢 買入（41位分析師）",
-    "current_price": 393.45,
+    "current_price": 419.77,
     "target_mean": 423.4,
     "target_high": 600.0,
     "target_low": 125.0,
-    "upside_pct": 7.6,
+    "upside_pct": 0.9,
     "earnings_date": "2026-07-22",
-    "earnings_days": 17,
-    "pe_ratio": 357.7,
-    "forward_pe": 154.5,
+    "earnings_days": 15,
+    "pe_ratio": 381.6,
+    "forward_pe": 164.8,
     "profit_margin_pct": 3.9,
     "revenue_growth_pct": 15.8,
     "earnings_growth_pct": 8.3,
@@ -62,22 +62,22 @@
     "sector": "Consumer Cyclical",
     "news": [
       {
-        "title": "🤖 特斯拉 AI／晶片板塊動態",
-        "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+        "title": "📈 特斯拉相關新聞利好",
+        "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
         "date": "07/05"
       },
       {
-        "title": "🚗 特斯拉 馬斯克／電車動態",
-        "title_en": "Tesla's $1.4 trillion valuation rests on what happens next in one city",
-        "date": "07/05"
+        "title": "🤖 特斯拉 AI／晶片板塊動態",
+        "title_en": "Waymo outages disrupt traffic in this major city yet again",
+        "date": "07/07"
       },
       {
         "title": "📈 特斯拉相關新聞利好",
-        "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
-        "date": "07/05"
+        "title_en": "TSLA Stock Cools Overnight After Miami Robotaxi Rally — But Morgan Stanley Sees ",
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-05T22:41:23.591268"
+    "timestamp": "2026-07-07T12:28:29.394503"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -86,15 +86,15 @@
     "recommendation_key": "buy",
     "num_analysts": 15,
     "analyst_rating_str": "🟢 買入（15位分析師）",
-    "current_price": 100.46,
+    "current_price": 93.09,
     "target_mean": 114.10333,
     "target_high": 150.0,
     "target_low": 76.0,
-    "upside_pct": 13.6,
+    "upside_pct": 22.6,
     "earnings_date": null,
     "earnings_days": null,
     "pe_ratio": null,
-    "forward_pe": -14070.0,
+    "forward_pe": -4654.5,
     "profit_margin_pct": -26.9,
     "revenue_growth_pct": 63.5,
     "earnings_growth_pct": null,
@@ -102,22 +102,22 @@
     "sector": "Industrials",
     "news": [
       {
-        "title": "🚀 Rocket Lab 太空業務／發射進展",
-        "title_en": "Rocket Lab (RKLB) Sets New Benchmark With VICTUS HAZE Launch For U.S. Space Forc",
-        "date": "07/05"
-      },
-      {
-        "title": "🚀 Rocket Lab 太空業務／發射進展",
-        "title_en": "Why AST SpaceMobile Stock Skyrocketed This Week",
-        "date": "07/05"
+        "title": "📈 Rocket Lab相關新聞利好",
+        "title_en": "Prediction: Buying This Space Economy Stock Could Help Set You Up for Life",
+        "date": "07/07"
       },
       {
         "title": "🤖 Rocket Lab AI／晶片板塊動態",
-        "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
-        "date": "07/05"
+        "title_en": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Ma",
+        "date": "07/06"
+      },
+      {
+        "title": "📉 Rocket Lab相關新聞承壓",
+        "title_en": "Rocket Lab Falls 7%, AST SpaceMobile Drops 5%, Intuitive Machines and SpaceX Sli",
+        "date": "07/06"
       }
     ],
-    "timestamp": "2026-07-05T22:41:23.823026"
+    "timestamp": "2026-07-07T12:28:29.645015"
   },
   "AMD": {
     "symbol": "AMD",
@@ -126,15 +126,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 48,
     "analyst_rating_str": "🟢 強烈買入（48位分析師）",
-    "current_price": 517.82,
+    "current_price": 552.05,
     "target_mean": 508.3125,
     "target_high": 700.0,
     "target_low": 320.0,
-    "upside_pct": -1.8,
+    "upside_pct": -7.9,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 172.6,
-    "forward_pe": 39.3,
+    "pe_ratio": 184.0,
+    "forward_pe": 41.8,
     "profit_margin_pct": 13.4,
     "revenue_growth_pct": 37.8,
     "earnings_growth_pct": 91.2,
@@ -143,21 +143,21 @@
     "news": [
       {
         "title": "🤖 AMD超微 AI／晶片板塊動態",
-        "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-        "date": "07/05"
+        "title_en": "Tech stocks on track for record annual inflows as investors pile into the AI tra",
+        "date": "07/06"
       },
       {
-        "title": "🤖 AMD超微 AI／晶片板塊動態",
-        "title_en": "How Advanced Micro Devices, Inc.’s (AMD) Server CPU Demand Is Broadening Its AI ",
-        "date": "07/05"
+        "title": "📊 AMD超微 相關市場新聞",
+        "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
+        "date": "07/06"
       },
       {
-        "title": "📈 AMD超微相關新聞利好",
-        "title_en": "Is AMD Stock a Buy Before July 22?",
-        "date": "07/05"
+        "title": "📊 AMD超微 相關市場新聞",
+        "title_en": "Update: US Equity Indexes Advance as Communication Services, Technology Top Sect",
+        "date": "07/06"
       }
     ],
-    "timestamp": "2026-07-05T22:41:24.046547"
+    "timestamp": "2026-07-07T12:28:29.904604"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -166,15 +166,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 55,
     "analyst_rating_str": "🟢 強烈買入（55位分析師）",
-    "current_price": 390.49,
+    "current_price": 386.74,
     "target_mean": 561.1149,
     "target_high": 870.0,
     "target_low": 400.0,
-    "upside_pct": 43.7,
+    "upside_pct": 45.1,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 23.3,
-    "forward_pe": 20.2,
+    "pe_ratio": 23.0,
+    "forward_pe": 20.0,
     "profit_margin_pct": 39.3,
     "revenue_growth_pct": 18.3,
     "earnings_growth_pct": 23.4,
@@ -182,22 +182,22 @@
     "sector": "Technology",
     "news": [
       {
+        "title": "📊 微軟 相關市場新聞",
+        "title_en": "Why Microsoft cut 3,200 Xbox jobs",
+        "date": "07/06"
+      },
+      {
+        "title": "📊 微軟 相關市場新聞",
+        "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+        "date": "07/07"
+      },
+      {
         "title": "🤖 微軟 AI／晶片板塊動態",
-        "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-        "date": "07/05"
-      },
-      {
-        "title": "📈 微軟相關新聞利好",
-        "title_en": "3 No-Brainer Stocks to Buy in July and Hold Forever",
-        "date": "07/05"
-      },
-      {
-        "title": "📈 微軟相關新聞利好",
-        "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
-        "date": "07/05"
+        "title_en": "Anthropic’s A$22 Billion Australian AI Cloud Tender Might Change The Case For In",
+        "date": "07/06"
       }
     ],
-    "timestamp": "2026-07-05T22:41:24.275702"
+    "timestamp": "2026-07-07T12:28:30.139052"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -206,15 +206,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 53,
     "analyst_rating_str": "🟢 強烈買入（53位分析師）",
-    "current_price": 359.91,
+    "current_price": 366.46,
     "target_mean": 432.28735,
     "target_high": 515.0,
     "target_low": 340.0,
-    "upside_pct": 20.1,
+    "upside_pct": 18.0,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 27.5,
-    "forward_pe": 24.7,
+    "pe_ratio": 28.0,
+    "forward_pe": 25.2,
     "profit_margin_pct": 37.9,
     "revenue_growth_pct": 21.8,
     "earnings_growth_pct": 82.0,
@@ -222,22 +222,22 @@
     "sector": "Communication Services",
     "news": [
       {
-        "title": "🤖 谷歌 AI／晶片板塊動態",
-        "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-        "date": "07/05"
-      },
-      {
         "title": "📈 谷歌相關新聞利好",
-        "title_en": "This Is the One AI Stock I Can’t Stop Buying",
+        "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
         "date": "07/05"
       },
       {
         "title": "📊 谷歌 相關市場新聞",
-        "title_en": "Wall Street Is Buzzing About Alphabet Joining the Dow. Income Investors Should B",
-        "date": "07/05"
+        "title_en": "Software's strongest pocket is back near records: Chart of the Day",
+        "date": "07/06"
+      },
+      {
+        "title": "🤖 谷歌 AI／晶片板塊動態",
+        "title_en": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share",
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-05T22:41:24.509530"
+    "timestamp": "2026-07-07T12:28:30.370600"
   },
   "META": {
     "symbol": "META",
@@ -246,15 +246,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 582.9,
+    "current_price": 600.29,
     "target_mean": 828.16864,
     "target_high": 1015.0,
     "target_low": 664.46,
-    "upside_pct": 42.1,
+    "upside_pct": 38.0,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 21.2,
-    "forward_pe": 15.8,
+    "pe_ratio": 21.8,
+    "forward_pe": 16.3,
     "profit_margin_pct": 32.8,
     "revenue_growth_pct": 33.1,
     "earnings_growth_pct": 62.4,
@@ -262,22 +262,22 @@
     "sector": "Communication Services",
     "news": [
       {
-        "title": "🤖 Meta AI／晶片板塊動態",
-        "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-        "date": "07/05"
-      },
-      {
         "title": "📈 Meta相關新聞利好",
-        "title_en": "1 Thing That Could Send Meta Platforms Stock Soaring in 2026",
+        "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
         "date": "07/05"
       },
       {
         "title": "📊 Meta 相關市場新聞",
-        "title_en": "Why CoreWeave Stock Plummeted This Week",
-        "date": "07/05"
+        "title_en": "Micron stock has now plunged to a surprising level",
+        "date": "07/06"
+      },
+      {
+        "title": "📊 Meta 相關市場新聞",
+        "title_en": "Meta says US states are seeking $1.4 trillion in penalties in August youth safet",
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-05T22:41:24.738922"
+    "timestamp": "2026-07-07T12:28:30.608269"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -286,15 +286,15 @@
     "recommendation_key": "buy",
     "num_analysts": 27,
     "analyst_rating_str": "🟢 買入（27位分析師）",
-    "current_price": 129.3,
+    "current_price": 132.54,
     "target_mean": 183.12444,
     "target_high": 255.0,
     "target_low": 70.0,
-    "upside_pct": 41.6,
+    "upside_pct": 38.2,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 145.3,
-    "forward_pe": 61.7,
+    "pe_ratio": 148.9,
+    "forward_pe": 63.3,
     "profit_margin_pct": 43.7,
     "revenue_growth_pct": 84.7,
     "earnings_growth_pct": 325.0,
@@ -302,22 +302,22 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "🤖 Palantir AI／晶片板塊動態",
-        "title_en": "How Palantir Technologies Inc. (PLTR) Is Expanding AI Deployment Channels Across",
-        "date": "07/05"
+        "title": "📊 Palantir 相關市場新聞",
+        "title_en": "Prediction: 3 Unstoppable Stocks That Will Join the $1 Trillion Club by 2030 (Hi",
+        "date": "07/07"
       },
       {
         "title": "🤖 Palantir AI／晶片板塊動態",
-        "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
-        "date": "07/05"
+        "title_en": "Palantir’s AI valuation problem may finally be easing",
+        "date": "07/07"
       },
       {
         "title": "🤖 Palantir AI／晶片板塊動態",
-        "title_en": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear ",
-        "date": "07/04"
+        "title_en": "Nvidia and Palantir Are Bringing Sovereign AI to the U.S. Government. Here's How",
+        "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-05T22:41:25.081158"
+    "timestamp": "2026-07-07T12:28:30.860200"
   },
   "ARM": {
     "symbol": "ARM",
@@ -326,15 +326,15 @@
     "recommendation_key": "buy",
     "num_analysts": 37,
     "analyst_rating_str": "🟢 買入（37位分析師）",
-    "current_price": 315.28,
+    "current_price": 322.24,
     "target_mean": 297.02756,
     "target_high": 500.0,
     "target_low": 125.0,
-    "upside_pct": -5.8,
+    "upside_pct": -7.8,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 370.9,
-    "forward_pe": 102.3,
+    "pe_ratio": 379.1,
+    "forward_pe": 104.6,
     "profit_margin_pct": 18.4,
     "revenue_growth_pct": 20.1,
     "earnings_growth_pct": 47.9,
@@ -343,20 +343,20 @@
     "news": [
       {
         "title": "📈 ARM相關新聞利好",
+        "title_en": "AMD Feels Goldman’s Love, and the Stock Jumps",
+        "date": "07/06"
+      },
+      {
+        "title": "📈 ARM相關新聞利好",
+        "title_en": "UBS Remains Bullish on Arm Holdings (ARM) – Here’s Why",
+        "date": "07/06"
+      },
+      {
+        "title": "📈 ARM相關新聞利好",
         "title_en": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
         "date": "07/04"
-      },
-      {
-        "title": "🤖 ARM AI／晶片板塊動態",
-        "title_en": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
-        "date": "07/03"
-      },
-      {
-        "title": "🤖 ARM AI／晶片板塊動態",
-        "title_en": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
-        "date": "07/02"
       }
     ],
-    "timestamp": "2026-07-05T22:41:25.315522"
+    "timestamp": "2026-07-07T12:28:31.090592"
   }
 }
