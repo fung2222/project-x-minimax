@@ -25,8 +25,8 @@
       "signal_reasons": [
         "RSI 41 中性"
       ],
-      "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.090592",
+      "is_owned": true,
+      "timestamp": "2026-07-07T12:45:34.548678",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -56,8 +56,8 @@
           "date": "07/06"
         },
         {
-          "title": "📈 英偉達相關新聞利好",
-          "title_en": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set Yo",
+          "title": "🤖 英偉達 AI／晶片板塊動態",
+          "title_en": "After Cerebras Listing, Intel-Backed AI Chip Firm Syntiant Files For IPO",
           "date": "07/07"
         }
       ],
@@ -87,7 +87,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.090592",
+      "timestamp": "2026-07-07T12:45:34.548678",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（41位分析師）",
@@ -148,7 +148,7 @@
         "RSI 44 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.091591",
+      "timestamp": "2026-07-07T12:45:34.549678",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（15位分析師）",
@@ -209,7 +209,7 @@
         "RSI 56 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.091591",
+      "timestamp": "2026-07-07T12:45:34.549678",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
@@ -234,13 +234,13 @@
           "date": "07/06"
         },
         {
-          "title": "📊 AMD超微 相關市場新聞",
-          "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
-          "date": "07/06"
+          "title": "🤖 AMD超微 AI／晶片板塊動態",
+          "title_en": "After Cerebras Listing, Intel-Backed AI Chip Firm Syntiant Files For IPO",
+          "date": "07/07"
         },
         {
           "title": "📊 AMD超微 相關市場新聞",
-          "title_en": "Update: US Equity Indexes Advance as Communication Services, Technology Top Sect",
+          "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
           "date": "07/06"
         }
       ],
@@ -270,7 +270,7 @@
         "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.091591",
+      "timestamp": "2026-07-07T12:45:34.549678",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
@@ -295,14 +295,14 @@
           "date": "07/06"
         },
         {
-          "title": "📊 微軟 相關市場新聞",
-          "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+          "title": "🤖 微軟 AI／晶片板塊動態",
+          "title_en": "AI-Native Startups Hire Fewer Junior Workers and More Senior Talent, Harvard Stu",
           "date": "07/07"
         },
         {
-          "title": "🤖 微軟 AI／晶片板塊動態",
-          "title_en": "Anthropic’s A$22 Billion Australian AI Cloud Tender Might Change The Case For In",
-          "date": "07/06"
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+          "date": "07/07"
         }
       ],
       "date": "2026-07-07"
@@ -331,7 +331,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.091591",
+      "timestamp": "2026-07-07T12:45:34.549678",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
@@ -392,7 +392,7 @@
         "RSI 57 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.091591",
+      "timestamp": "2026-07-07T12:45:34.549678",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -453,7 +453,7 @@
         "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.092591",
+      "timestamp": "2026-07-07T12:45:34.549678",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -521,7 +521,7 @@
         "⚠️ 價格低於 MA50"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-07T12:28:31.092591",
+      "timestamp": "2026-07-07T12:45:34.550677",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（37位分析師）",
@@ -569,7 +569,7 @@
     "partial_rate_pct": 0,
     "note": "從 2026-07-07 開始實時收集，所有舊測試數據已清除"
   },
-  "last_updated": "2026-07-07T12:35:32",
+  "last_updated": "2026-07-07T12:45:34.550677",
   "vix_regime": "正常市場",
   "vix_value": 15.57
 }
