@@ -1,19 +1,19 @@
 {
-  "date": "2026-07-05",
-  "timestamp": "2026-07-05T22:41:25.319559",
+  "date": "2026-07-07",
+  "timestamp": "2026-07-07T12:28:31.103577",
   "source": "Yahoo Finance (yfinance)",
   "market": {
-    "vix": 16.15,
+    "vix": 15.57,
     "regime": "正常市場",
     "regime_emoji": "🟢",
-    "spy_price": 744.78,
-    "spy_change": -0.13,
-    "qqq_price": 712.6,
-    "qqq_change": -1.73
+    "spy_price": 751.28,
+    "spy_change": 0.87,
+    "qqq_price": 722.82,
+    "qqq_change": 1.43
   },
   "guardrail": {
     "regime": "NORMAL",
-    "vix_value": 16.15,
+    "vix_value": 15.57,
     "emoji": "🟢",
     "title": "正常市場",
     "color": "#27AE60",
@@ -29,7 +29,7 @@
       "max_positions": 3,
       "min_confidence": 0.7
     },
-    "timestamp": "2026-07-05T22:41:19.450121"
+    "timestamp": "2026-07-07T12:28:22.993643"
   },
   "signals": [
     {
@@ -38,25 +38,25 @@
       "signal": "HOLD",
       "action": "中性偏低，觀望",
       "confidence": 60,
-      "price": 194.83,
-      "change_pct": -1.39,
-      "rsi": 40.4,
-      "macd": 4.9676,
-      "macd_histogram": 14.9171,
+      "price": 195.55,
+      "change_pct": 0.37,
+      "rsi": 40.9,
+      "macd": 3.3868,
+      "macd_histogram": 8.7265,
       "macd_bullish": true,
-      "vol_ratio": 0.9,
-      "ma50": 204.01,
+      "vol_ratio": 0.72,
+      "ma50": 202.18,
       "atr": 6.34,
       "regime": "NORMAL",
       "above_ma50": false,
       "reasons": [
-        "RSI 40 中性"
+        "RSI 41 中性"
       ],
       "signal_reasons": [
-        "RSI 40 中性"
+        "RSI 41 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.315522",
+      "timestamp": "2026-07-07T12:28:31.090592",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -64,10 +64,10 @@
       "target_mean": 301.6207,
       "target_high": 500.0,
       "target_low": 180.0,
-      "upside_pct": 54.8,
+      "upside_pct": 54.2,
       "earnings_date": "2026-08-26",
-      "earnings_days": 52,
-      "pe_ratio": 29.8,
+      "earnings_days": 50,
+      "pe_ratio": 29.9,
       "forward_pe": 15.3,
       "profit_margin_pct": 63.0,
       "revenue_growth_pct": 85.2,
@@ -77,21 +77,21 @@
       "analyst_news": [
         {
           "title": "🤖 英偉達 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
+          "title_en": "Why this AI chip startup could rival Nvidia",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 英偉達 AI／晶片板塊動態",
+          "title_en": "Nvidia denies report its next-generation AI server faces delays, says roadmap is",
+          "date": "07/06"
         },
         {
           "title": "📈 英偉達相關新聞利好",
-          "title_en": "Here's Why Intel Stock Soared Last Month",
-          "date": "07/05"
-        },
-        {
-          "title": "📊 英偉達 相關市場新聞",
-          "title_en": "Where Will Intel Stock Be in 5 Years?",
-          "date": "07/05"
+          "title_en": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set Yo",
+          "date": "07/07"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "TSLA",
@@ -99,25 +99,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 393.45,
-      "change_pct": -7.49,
-      "rsi": 48.1,
-      "macd": 7.9524,
-      "macd_histogram": 32.1962,
-      "macd_bullish": true,
-      "vol_ratio": 1.49,
-      "ma50": 400.33,
-      "atr": 19.05,
+      "price": 419.77,
+      "change_pct": 6.69,
+      "rsi": 54.0,
+      "macd": -15.9198,
+      "macd_histogram": -6.4753,
+      "macd_bullish": false,
+      "vol_ratio": 1.1,
+      "ma50": 399.66,
+      "atr": 19.73,
       "regime": "NORMAL",
-      "above_ma50": false,
+      "above_ma50": true,
       "reasons": [
-        "RSI 48 中性"
+        "RSI 54 中性"
       ],
       "signal_reasons": [
-        "RSI 48 中性"
+        "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.315522",
+      "timestamp": "2026-07-07T12:28:31.090592",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（41位分析師）",
@@ -125,11 +125,11 @@
       "target_mean": 423.4,
       "target_high": 600.0,
       "target_low": 125.0,
-      "upside_pct": 7.6,
+      "upside_pct": 0.9,
       "earnings_date": "2026-07-22",
-      "earnings_days": 17,
-      "pe_ratio": 357.7,
-      "forward_pe": 154.5,
+      "earnings_days": 15,
+      "pe_ratio": 381.6,
+      "forward_pe": 164.8,
       "profit_margin_pct": 3.9,
       "revenue_growth_pct": 15.8,
       "earnings_growth_pct": 8.3,
@@ -137,22 +137,22 @@
       "sector": "Consumer Cyclical",
       "analyst_news": [
         {
-          "title": "🤖 特斯拉 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+          "title": "📈 特斯拉相關新聞利好",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
           "date": "07/05"
         },
         {
-          "title": "🚗 特斯拉 馬斯克／電車動態",
-          "title_en": "Tesla's $1.4 trillion valuation rests on what happens next in one city",
-          "date": "07/05"
+          "title": "🤖 特斯拉 AI／晶片板塊動態",
+          "title_en": "Waymo outages disrupt traffic in this major city yet again",
+          "date": "07/07"
         },
         {
           "title": "📈 特斯拉相關新聞利好",
-          "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
-          "date": "07/05"
+          "title_en": "TSLA Stock Cools Overnight After Miami Robotaxi Rally — But Morgan Stanley Sees ",
+          "date": "07/07"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "RKLB",
@@ -160,25 +160,25 @@
       "signal": "HOLD",
       "action": "中性偏低，觀望",
       "confidence": 60,
-      "price": 100.46,
-      "change_pct": 0.39,
-      "rsi": 40.8,
-      "macd": -1.893,
-      "macd_histogram": 10.8739,
+      "price": 93.09,
+      "change_pct": -7.34,
+      "rsi": 43.6,
+      "macd": 4.5916,
+      "macd_histogram": 16.4369,
       "macd_bullish": true,
-      "vol_ratio": 0.74,
-      "ma50": 103.06,
-      "atr": 9.36,
+      "vol_ratio": 0.67,
+      "ma50": 100.66,
+      "atr": 8.72,
       "regime": "NORMAL",
       "above_ma50": false,
       "reasons": [
-        "RSI 41 中性"
+        "RSI 44 中性"
       ],
       "signal_reasons": [
-        "RSI 41 中性"
+        "RSI 44 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.315522",
+      "timestamp": "2026-07-07T12:28:31.091591",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（15位分析師）",
@@ -186,11 +186,11 @@
       "target_mean": 114.10333,
       "target_high": 150.0,
       "target_low": 76.0,
-      "upside_pct": 13.6,
+      "upside_pct": 22.6,
       "earnings_date": null,
       "earnings_days": null,
       "pe_ratio": null,
-      "forward_pe": -14070.0,
+      "forward_pe": -4654.5,
       "profit_margin_pct": -26.9,
       "revenue_growth_pct": 63.5,
       "earnings_growth_pct": null,
@@ -198,22 +198,22 @@
       "sector": "Industrials",
       "analyst_news": [
         {
-          "title": "🚀 Rocket Lab 太空業務／發射進展",
-          "title_en": "Rocket Lab (RKLB) Sets New Benchmark With VICTUS HAZE Launch For U.S. Space Forc",
-          "date": "07/05"
-        },
-        {
-          "title": "🚀 Rocket Lab 太空業務／發射進展",
-          "title_en": "Why AST SpaceMobile Stock Skyrocketed This Week",
-          "date": "07/05"
+          "title": "📈 Rocket Lab相關新聞利好",
+          "title_en": "Prediction: Buying This Space Economy Stock Could Help Set You Up for Life",
+          "date": "07/07"
         },
         {
           "title": "🤖 Rocket Lab AI／晶片板塊動態",
-          "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
-          "date": "07/05"
+          "title_en": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Ma",
+          "date": "07/06"
+        },
+        {
+          "title": "📉 Rocket Lab相關新聞承壓",
+          "title_en": "Rocket Lab Falls 7%, AST SpaceMobile Drops 5%, Intuitive Machines and SpaceX Sli",
+          "date": "07/06"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "AMD",
@@ -221,25 +221,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 517.82,
-      "change_pct": -4.26,
-      "rsi": 54.6,
-      "macd": 14.1449,
-      "macd_histogram": 32.4714,
-      "macd_bullish": true,
-      "vol_ratio": 0.88,
-      "ma50": 518.06,
-      "atr": 36.96,
+      "price": 552.05,
+      "change_pct": 6.61,
+      "rsi": 56.1,
+      "macd": -18.5832,
+      "macd_histogram": -45.267,
+      "macd_bullish": false,
+      "vol_ratio": 0.97,
+      "ma50": 521.01,
+      "atr": 38.49,
       "regime": "NORMAL",
-      "above_ma50": false,
+      "above_ma50": true,
       "reasons": [
-        "RSI 55 中性"
+        "RSI 56 中性"
       ],
       "signal_reasons": [
-        "RSI 55 中性"
+        "RSI 56 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.316522",
+      "timestamp": "2026-07-07T12:28:31.091591",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
@@ -247,11 +247,11 @@
       "target_mean": 508.3125,
       "target_high": 700.0,
       "target_low": 320.0,
-      "upside_pct": -1.8,
+      "upside_pct": -7.9,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 172.6,
-      "forward_pe": 39.3,
+      "pe_ratio": 184.0,
+      "forward_pe": 41.8,
       "profit_margin_pct": 13.4,
       "revenue_growth_pct": 37.8,
       "earnings_growth_pct": 91.2,
@@ -260,21 +260,21 @@
       "analyst_news": [
         {
           "title": "🤖 AMD超微 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
+          "title_en": "Tech stocks on track for record annual inflows as investors pile into the AI tra",
+          "date": "07/06"
         },
         {
-          "title": "🤖 AMD超微 AI／晶片板塊動態",
-          "title_en": "How Advanced Micro Devices, Inc.’s (AMD) Server CPU Demand Is Broadening Its AI ",
-          "date": "07/05"
+          "title": "📊 AMD超微 相關市場新聞",
+          "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
+          "date": "07/06"
         },
         {
-          "title": "📈 AMD超微相關新聞利好",
-          "title_en": "Is AMD Stock a Buy Before July 22?",
-          "date": "07/05"
+          "title": "📊 AMD超微 相關市場新聞",
+          "title_en": "Update: US Equity Indexes Advance as Communication Services, Technology Top Sect",
+          "date": "07/06"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "MSFT",
@@ -282,25 +282,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 390.49,
-      "change_pct": 1.62,
-      "rsi": 50.1,
-      "macd": -10.0892,
-      "macd_histogram": 32.106,
+      "price": 386.74,
+      "change_pct": -0.96,
+      "rsi": 48.3,
+      "macd": -5.9517,
+      "macd_histogram": 19.2849,
       "macd_bullish": true,
-      "vol_ratio": 0.86,
-      "ma50": 388.88,
-      "atr": 13.17,
+      "vol_ratio": 0.68,
+      "ma50": 383.22,
+      "atr": 13.15,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 50 中性"
+        "RSI 48 中性"
       ],
       "signal_reasons": [
-        "RSI 50 中性"
+        "RSI 48 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.316522",
+      "timestamp": "2026-07-07T12:28:31.091591",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
@@ -308,11 +308,11 @@
       "target_mean": 561.1149,
       "target_high": 870.0,
       "target_low": 400.0,
-      "upside_pct": 43.7,
+      "upside_pct": 45.1,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 23.3,
-      "forward_pe": 20.2,
+      "pe_ratio": 23.0,
+      "forward_pe": 20.0,
       "profit_margin_pct": 39.3,
       "revenue_growth_pct": 18.3,
       "earnings_growth_pct": 23.4,
@@ -320,22 +320,22 @@
       "sector": "Technology",
       "analyst_news": [
         {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Why Microsoft cut 3,200 Xbox jobs",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+          "date": "07/07"
+        },
+        {
           "title": "🤖 微軟 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
-        },
-        {
-          "title": "📈 微軟相關新聞利好",
-          "title_en": "3 No-Brainer Stocks to Buy in July and Hold Forever",
-          "date": "07/05"
-        },
-        {
-          "title": "📈 微軟相關新聞利好",
-          "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
-          "date": "07/05"
+          "title_en": "Anthropic’s A$22 Billion Australian AI Cloud Tender Might Change The Case For In",
+          "date": "07/06"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "GOOGL",
@@ -343,25 +343,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 359.91,
-      "change_pct": -0.36,
-      "rsi": 51.3,
-      "macd": -4.4381,
-      "macd_histogram": -2.8526,
+      "price": 366.46,
+      "change_pct": 1.82,
+      "rsi": 53.8,
+      "macd": -9.2412,
+      "macd_histogram": -2.9704,
       "macd_bullish": false,
-      "vol_ratio": 0.68,
-      "ma50": 358.53,
-      "atr": 12.26,
+      "vol_ratio": 0.71,
+      "ma50": 357.72,
+      "atr": 12.18,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 51 中性"
+        "RSI 54 中性"
       ],
       "signal_reasons": [
-        "RSI 51 中性"
+        "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.316522",
+      "timestamp": "2026-07-07T12:28:31.091591",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
@@ -369,11 +369,11 @@
       "target_mean": 432.28735,
       "target_high": 515.0,
       "target_low": 340.0,
-      "upside_pct": 20.1,
+      "upside_pct": 18.0,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 27.5,
-      "forward_pe": 24.7,
+      "pe_ratio": 28.0,
+      "forward_pe": 25.2,
       "profit_margin_pct": 37.9,
       "revenue_growth_pct": 21.8,
       "earnings_growth_pct": 82.0,
@@ -381,22 +381,22 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
-          "title": "🤖 谷歌 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
-        },
-        {
           "title": "📈 谷歌相關新聞利好",
-          "title_en": "This Is the One AI Stock I Can’t Stop Buying",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
           "date": "07/05"
         },
         {
           "title": "📊 谷歌 相關市場新聞",
-          "title_en": "Wall Street Is Buzzing About Alphabet Joining the Dow. Income Investors Should B",
-          "date": "07/05"
+          "title_en": "Software's strongest pocket is back near records: Chart of the Day",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 谷歌 AI／晶片板塊動態",
+          "title_en": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share",
+          "date": "07/07"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "META",
@@ -404,25 +404,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 582.9,
-      "change_pct": -4.9,
-      "rsi": 53.5,
-      "macd": -7.4527,
-      "macd_histogram": 38.5604,
-      "macd_bullish": true,
-      "vol_ratio": 1.1,
-      "ma50": 578.69,
-      "atr": 23.08,
+      "price": 600.29,
+      "change_pct": 2.98,
+      "rsi": 57.4,
+      "macd": -22.424,
+      "macd_histogram": -11.1163,
+      "macd_bullish": false,
+      "vol_ratio": 0.93,
+      "ma50": 574.26,
+      "atr": 23.56,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 54 中性"
+        "RSI 57 中性"
       ],
       "signal_reasons": [
-        "RSI 54 中性"
+        "RSI 57 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.316522",
+      "timestamp": "2026-07-07T12:28:31.091591",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -430,11 +430,11 @@
       "target_mean": 828.16864,
       "target_high": 1015.0,
       "target_low": 664.46,
-      "upside_pct": 42.1,
+      "upside_pct": 38.0,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 21.2,
-      "forward_pe": 15.8,
+      "pe_ratio": 21.8,
+      "forward_pe": 16.3,
       "profit_margin_pct": 32.8,
       "revenue_growth_pct": 33.1,
       "earnings_growth_pct": 62.4,
@@ -442,22 +442,22 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
-          "title": "🤖 Meta AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
-        },
-        {
           "title": "📈 Meta相關新聞利好",
-          "title_en": "1 Thing That Could Send Meta Platforms Stock Soaring in 2026",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
           "date": "07/05"
         },
         {
           "title": "📊 Meta 相關市場新聞",
-          "title_en": "Why CoreWeave Stock Plummeted This Week",
-          "date": "07/05"
+          "title_en": "Micron stock has now plunged to a surprising level",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 Meta 相關市場新聞",
+          "title_en": "Meta says US states are seeking $1.4 trillion in penalties in August youth safet",
+          "date": "07/07"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "PLTR",
@@ -465,25 +465,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 129.3,
-      "change_pct": 2.84,
-      "rsi": 48.5,
-      "macd": -6.8634,
-      "macd_histogram": 9.7081,
+      "price": 132.54,
+      "change_pct": 2.51,
+      "rsi": 53.8,
+      "macd": -8.7431,
+      "macd_histogram": 2.0779,
       "macd_bullish": true,
-      "vol_ratio": 1.39,
-      "ma50": 126.74,
-      "atr": 6.59,
+      "vol_ratio": 0.85,
+      "ma50": 124.99,
+      "atr": 6.8,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 48 中性"
+        "RSI 54 中性"
       ],
       "signal_reasons": [
-        "RSI 48 中性"
+        "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.316522",
+      "timestamp": "2026-07-07T12:28:31.092591",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -491,11 +491,11 @@
       "target_mean": 183.12444,
       "target_high": 255.0,
       "target_low": 70.0,
-      "upside_pct": 41.6,
+      "upside_pct": 38.2,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 145.3,
-      "forward_pe": 61.7,
+      "pe_ratio": 148.9,
+      "forward_pe": 63.3,
       "profit_margin_pct": 43.7,
       "revenue_growth_pct": 84.7,
       "earnings_growth_pct": 325.0,
@@ -503,48 +503,55 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "🤖 Palantir AI／晶片板塊動態",
-          "title_en": "How Palantir Technologies Inc. (PLTR) Is Expanding AI Deployment Channels Across",
-          "date": "07/05"
+          "title": "📊 Palantir 相關市場新聞",
+          "title_en": "Prediction: 3 Unstoppable Stocks That Will Join the $1 Trillion Club by 2030 (Hi",
+          "date": "07/07"
         },
         {
           "title": "🤖 Palantir AI／晶片板塊動態",
-          "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
-          "date": "07/05"
+          "title_en": "Palantir’s AI valuation problem may finally be easing",
+          "date": "07/07"
         },
         {
           "title": "🤖 Palantir AI／晶片板塊動態",
-          "title_en": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear ",
-          "date": "07/04"
+          "title_en": "Nvidia and Palantir Are Bringing Sovereign AI to the U.S. Government. Here's How",
+          "date": "07/07"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     },
     {
       "ticker": "ARM",
       "name": "Arm Holdings",
       "signal": "HOLD",
-      "action": "觀望",
-      "confidence": 55,
-      "price": 315.28,
-      "change_pct": -6.58,
-      "rsi": 45.4,
-      "macd": 39.3791,
-      "macd_histogram": 72.8706,
+      "action": "信心度不足，觀望",
+      "confidence": 61.1,
+      "price": 322.24,
+      "change_pct": 2.21,
+      "rsi": 38.9,
+      "macd": 25.2375,
+      "macd_histogram": 10.7705,
       "macd_bullish": true,
-      "vol_ratio": 0.67,
-      "ma50": 365.87,
-      "atr": 37.06,
+      "vol_ratio": 0.49,
+      "ma50": 360.91,
+      "atr": 35.58,
       "regime": "NORMAL",
       "above_ma50": false,
       "reasons": [
-        "RSI 45 中性"
+        "RSI 39 偏低",
+        "MACD 看漲確認",
+        "⚠️ 成交量不足",
+        "⚠️ 價格低於 MA50",
+        "信心度 61% < 門檻 70%"
       ],
       "signal_reasons": [
-        "RSI 45 中性"
+        "RSI 39 偏低",
+        "MACD 看漲確認",
+        "⚠️ 成交量不足",
+        "⚠️ 價格低於 MA50"
       ],
       "is_owned": false,
-      "timestamp": "2026-07-05T22:41:25.316522",
+      "timestamp": "2026-07-07T12:28:31.092591",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（37位分析師）",
@@ -552,11 +559,11 @@
       "target_mean": 297.02756,
       "target_high": 500.0,
       "target_low": 125.0,
-      "upside_pct": -5.8,
+      "upside_pct": -7.8,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 370.9,
-      "forward_pe": 102.3,
+      "pe_ratio": 379.1,
+      "forward_pe": 104.6,
       "profit_margin_pct": 18.4,
       "revenue_growth_pct": 20.1,
       "earnings_growth_pct": 47.9,
@@ -565,215 +572,215 @@
       "analyst_news": [
         {
           "title": "📈 ARM相關新聞利好",
+          "title_en": "AMD Feels Goldman’s Love, and the Stock Jumps",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "UBS Remains Bullish on Arm Holdings (ARM) – Here’s Why",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 ARM相關新聞利好",
           "title_en": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
           "date": "07/04"
-        },
-        {
-          "title": "🤖 ARM AI／晶片板塊動態",
-          "title_en": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
-          "date": "07/03"
-        },
-        {
-          "title": "🤖 ARM AI／晶片板塊動態",
-          "title_en": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
-          "date": "07/02"
         }
       ],
-      "date": "2026-07-05"
+      "date": "2026-07-07"
     }
   ],
   "all_quotes": {
     "NVDA": {
       "symbol": "NVDA",
-      "price": 194.83,
-      "change": -2.75,
-      "change_pct": -1.39,
-      "high": 200.06,
-      "low": 192.35,
-      "open": 197.14,
-      "prev_close": 197.58,
-      "volume": 142068700,
+      "price": 195.55,
+      "change": 0.72,
+      "change_pct": 0.37,
+      "high": 197.55,
+      "low": 193.99,
+      "open": 194.42,
+      "prev_close": 194.83,
+      "volume": 108655800,
       "name": "NVIDIA Corporation",
-      "market_cap": 4718977351680,
-      "pe_ratio": 29.83614,
+      "market_cap": 4736416743424,
+      "pe_ratio": 29.946402,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:19.715472"
+      "timestamp": "2026-07-07T12:28:23.249218"
     },
     "TSLA": {
       "symbol": "TSLA",
-      "price": 393.45,
-      "change": -31.85,
-      "change_pct": -7.49,
-      "high": 432.35,
-      "low": 389.3,
-      "open": 428.01,
-      "prev_close": 425.3,
-      "volume": 73717700,
+      "price": 419.77,
+      "change": 26.32,
+      "change_pct": 6.69,
+      "high": 420.0,
+      "low": 390.5,
+      "open": 397.5,
+      "prev_close": 393.45,
+      "volume": 54520500,
       "name": "Tesla, Inc.",
-      "market_cap": 1477689606144,
-      "pe_ratio": 357.68182,
+      "market_cap": 1576540176384,
+      "pe_ratio": 381.60907,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:19.953494"
+      "timestamp": "2026-07-07T12:28:23.624110"
     },
     "RKLB": {
       "symbol": "RKLB",
-      "price": 100.46,
-      "change": 0.39,
-      "change_pct": 0.39,
-      "high": 106.99,
-      "low": 97.91,
-      "open": 100.99,
-      "prev_close": 100.07,
-      "volume": 22180300,
+      "price": 93.09,
+      "change": -7.37,
+      "change_pct": -7.34,
+      "high": 102.1,
+      "low": 92.3,
+      "open": 100.43,
+      "prev_close": 100.46,
+      "volume": 20265000,
       "name": "Rocket Lab Corporation",
-      "market_cap": 62769291264,
+      "market_cap": 58164375552,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:20.185891"
+      "timestamp": "2026-07-07T12:28:24.147578"
     },
     "AMD": {
       "symbol": "AMD",
-      "price": 517.82,
-      "change": -23.06,
-      "change_pct": -4.26,
-      "high": 547.65,
-      "low": 506.0,
-      "open": 538.16,
-      "prev_close": 540.88,
-      "volume": 28142500,
+      "price": 552.05,
+      "change": 34.23,
+      "change_pct": 6.61,
+      "high": 572.5,
+      "low": 527.0,
+      "open": 535.35,
+      "prev_close": 517.82,
+      "volume": 30573000,
       "name": "Advanced Micro Devices, Inc.",
-      "market_cap": 844357632000,
-      "pe_ratio": 172.60667,
+      "market_cap": 900173004800,
+      "pe_ratio": 184.01666,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:20.431090"
+      "timestamp": "2026-07-07T12:28:24.665371"
     },
     "MSFT": {
       "symbol": "MSFT",
-      "price": 390.49,
-      "change": 6.21,
-      "change_pct": 1.62,
-      "high": 392.2,
-      "low": 383.7,
-      "open": 384.48,
-      "prev_close": 384.28,
-      "volume": 42128900,
+      "price": 386.74,
+      "change": -3.75,
+      "change_pct": -0.96,
+      "high": 389.15,
+      "low": 381.22,
+      "open": 387.04,
+      "prev_close": 390.49,
+      "volume": 34137500,
       "name": "Microsoft Corporation",
-      "market_cap": 2900729528320,
-      "pe_ratio": 23.257294,
+      "market_cap": 2872872796160,
+      "pe_ratio": 23.033947,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:20.700365"
+      "timestamp": "2026-07-07T12:28:25.072760"
     },
     "GOOGL": {
       "symbol": "GOOGL",
-      "price": 359.91,
-      "change": -1.3,
-      "change_pct": -0.36,
-      "high": 364.21,
-      "low": 353.42,
-      "open": 359.48,
-      "prev_close": 361.21,
-      "volume": 25974800,
+      "price": 366.46,
+      "change": 6.55,
+      "change_pct": 1.82,
+      "high": 367.93,
+      "low": 357.38,
+      "open": 361.55,
+      "prev_close": 359.91,
+      "volume": 26632000,
       "name": "Alphabet Inc.",
-      "market_cap": 4391827931136,
-      "pe_ratio": 27.474045,
+      "market_cap": 4471754588160,
+      "pe_ratio": 27.974045,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:20.930794"
+      "timestamp": "2026-07-07T12:28:25.408468"
     },
     "META": {
       "symbol": "META",
-      "price": 582.9,
-      "change": -30.01,
-      "change_pct": -4.9,
-      "high": 610.0,
-      "low": 580.42,
-      "open": 607.9,
-      "prev_close": 612.91,
-      "volume": 21705900,
+      "price": 600.29,
+      "change": 17.39,
+      "change_pct": 2.98,
+      "high": 603.58,
+      "low": 581.76,
+      "open": 594.84,
+      "prev_close": 582.9,
+      "volume": 17631600,
       "name": "Meta Platforms, Inc.",
-      "market_cap": 1479647035392,
-      "pe_ratio": 21.18866,
+      "market_cap": 1523790118912,
+      "pe_ratio": 21.820791,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:21.194925"
+      "timestamp": "2026-07-07T12:28:25.776015"
     },
     "PLTR": {
       "symbol": "PLTR",
-      "price": 129.3,
-      "change": 3.57,
-      "change_pct": 2.84,
-      "high": 132.88,
-      "low": 127.95,
-      "open": 128.99,
-      "prev_close": 125.73,
-      "volume": 60641000,
+      "price": 132.54,
+      "change": 3.24,
+      "change_pct": 2.51,
+      "high": 134.07,
+      "low": 126.64,
+      "open": 127.24,
+      "prev_close": 129.3,
+      "volume": 37248100,
       "name": "Palantir Technologies Inc.",
-      "market_cap": 309972434944,
-      "pe_ratio": 145.2809,
+      "market_cap": 317739728896,
+      "pe_ratio": 148.92134,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:21.479976"
+      "timestamp": "2026-07-07T12:28:26.308674"
     },
     "ARM": {
       "symbol": "ARM",
-      "price": 315.28,
-      "change": -22.19,
-      "change_pct": -6.58,
-      "high": 358.49,
-      "low": 309.74,
-      "open": 337.24,
-      "prev_close": 337.47,
-      "volume": 7553900,
+      "price": 322.24,
+      "change": 6.96,
+      "change_pct": 2.21,
+      "high": 338.24,
+      "low": 321.5,
+      "open": 324.27,
+      "prev_close": 315.28,
+      "volume": 5276900,
       "name": "Arm Holdings plc",
-      "market_cap": 336743890944,
-      "pe_ratio": 370.91763,
+      "market_cap": 344177704960,
+      "pe_ratio": 379.10587,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:21.725088"
+      "timestamp": "2026-07-07T12:28:26.672836"
     },
     "SPY": {
       "symbol": "SPY",
-      "price": 744.78,
-      "change": -0.98,
-      "change_pct": -0.13,
-      "high": 751.31,
-      "low": 740.03,
-      "open": 747.4,
-      "prev_close": 745.76,
-      "volume": 57447800,
+      "price": 751.28,
+      "change": 6.5,
+      "change_pct": 0.87,
+      "high": 752.41,
+      "low": 747.41,
+      "open": 748.74,
+      "prev_close": 744.78,
+      "volume": 50601000,
       "name": "State Street SPDR S&P 500 ETF T",
       "market_cap": null,
-      "pe_ratio": 26.673899,
+      "pe_ratio": 26.906693,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:21.975510"
+      "timestamp": "2026-07-07T12:28:27.238985"
     },
     "QQQ": {
       "symbol": "QQQ",
-      "price": 712.6,
-      "change": -12.57,
-      "change_pct": -1.73,
-      "high": 730.83,
-      "low": 707.56,
-      "open": 725.58,
-      "prev_close": 725.17,
-      "volume": 50959800,
+      "price": 722.82,
+      "change": 10.22,
+      "change_pct": 1.43,
+      "high": 726.08,
+      "low": 718.45,
+      "open": 719.93,
+      "prev_close": 712.6,
+      "volume": 29988100,
       "name": "Invesco QQQ Trust, Series 1",
       "market_cap": null,
-      "pe_ratio": 32.71787,
+      "pe_ratio": 33.187107,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:22.241984"
+      "timestamp": "2026-07-07T12:28:27.486674"
     },
     "^VIX": {
       "symbol": "^VIX",
-      "price": 16.15,
-      "change": -0.44,
-      "change_pct": -2.65,
-      "high": 17.21,
-      "low": 15.79,
-      "open": 17.05,
-      "prev_close": 16.59,
+      "price": 15.57,
+      "change": -0.58,
+      "change_pct": -3.59,
+      "high": 0.0,
+      "low": 0.0,
+      "open": 0.0,
+      "prev_close": 16.15,
       "volume": 0,
       "name": "CBOE Volatility Index",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-07-05T22:41:22.374589"
+      "timestamp": "2026-07-07T12:28:27.610737"
     }
   },
   "profiles": {
@@ -784,14 +791,14 @@
       "recommendation_key": "strong_buy",
       "num_analysts": 58,
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-      "current_price": 194.83,
+      "current_price": 195.55,
       "target_mean": 301.6207,
       "target_high": 500.0,
       "target_low": 180.0,
-      "upside_pct": 54.8,
+      "upside_pct": 54.2,
       "earnings_date": "2026-08-26",
-      "earnings_days": 52,
-      "pe_ratio": 29.8,
+      "earnings_days": 50,
+      "pe_ratio": 29.9,
       "forward_pe": 15.3,
       "profit_margin_pct": 63.0,
       "revenue_growth_pct": 85.2,
@@ -801,21 +808,21 @@
       "news": [
         {
           "title": "🤖 英偉達 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
+          "title_en": "Why this AI chip startup could rival Nvidia",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 英偉達 AI／晶片板塊動態",
+          "title_en": "Nvidia denies report its next-generation AI server faces delays, says roadmap is",
+          "date": "07/06"
         },
         {
           "title": "📈 英偉達相關新聞利好",
-          "title_en": "Here's Why Intel Stock Soared Last Month",
-          "date": "07/05"
-        },
-        {
-          "title": "📊 英偉達 相關市場新聞",
-          "title_en": "Where Will Intel Stock Be in 5 Years?",
-          "date": "07/05"
+          "title_en": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set Yo",
+          "date": "07/07"
         }
       ],
-      "timestamp": "2026-07-05T22:41:23.374073"
+      "timestamp": "2026-07-07T12:28:29.122541"
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -824,15 +831,15 @@
       "recommendation_key": "buy",
       "num_analysts": 41,
       "analyst_rating_str": "🟢 買入（41位分析師）",
-      "current_price": 393.45,
+      "current_price": 419.77,
       "target_mean": 423.4,
       "target_high": 600.0,
       "target_low": 125.0,
-      "upside_pct": 7.6,
+      "upside_pct": 0.9,
       "earnings_date": "2026-07-22",
-      "earnings_days": 17,
-      "pe_ratio": 357.7,
-      "forward_pe": 154.5,
+      "earnings_days": 15,
+      "pe_ratio": 381.6,
+      "forward_pe": 164.8,
       "profit_margin_pct": 3.9,
       "revenue_growth_pct": 15.8,
       "earnings_growth_pct": 8.3,
@@ -840,22 +847,22 @@
       "sector": "Consumer Cyclical",
       "news": [
         {
-          "title": "🤖 特斯拉 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
+          "title": "📈 特斯拉相關新聞利好",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
           "date": "07/05"
         },
         {
-          "title": "🚗 特斯拉 馬斯克／電車動態",
-          "title_en": "Tesla's $1.4 trillion valuation rests on what happens next in one city",
-          "date": "07/05"
+          "title": "🤖 特斯拉 AI／晶片板塊動態",
+          "title_en": "Waymo outages disrupt traffic in this major city yet again",
+          "date": "07/07"
         },
         {
           "title": "📈 特斯拉相關新聞利好",
-          "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
-          "date": "07/05"
+          "title_en": "TSLA Stock Cools Overnight After Miami Robotaxi Rally — But Morgan Stanley Sees ",
+          "date": "07/07"
         }
       ],
-      "timestamp": "2026-07-05T22:41:23.591268"
+      "timestamp": "2026-07-07T12:28:29.394503"
     },
     "RKLB": {
       "symbol": "RKLB",
@@ -864,15 +871,15 @@
       "recommendation_key": "buy",
       "num_analysts": 15,
       "analyst_rating_str": "🟢 買入（15位分析師）",
-      "current_price": 100.46,
+      "current_price": 93.09,
       "target_mean": 114.10333,
       "target_high": 150.0,
       "target_low": 76.0,
-      "upside_pct": 13.6,
+      "upside_pct": 22.6,
       "earnings_date": null,
       "earnings_days": null,
       "pe_ratio": null,
-      "forward_pe": -14070.0,
+      "forward_pe": -4654.5,
       "profit_margin_pct": -26.9,
       "revenue_growth_pct": 63.5,
       "earnings_growth_pct": null,
@@ -880,22 +887,22 @@
       "sector": "Industrials",
       "news": [
         {
-          "title": "🚀 Rocket Lab 太空業務／發射進展",
-          "title_en": "Rocket Lab (RKLB) Sets New Benchmark With VICTUS HAZE Launch For U.S. Space Forc",
-          "date": "07/05"
-        },
-        {
-          "title": "🚀 Rocket Lab 太空業務／發射進展",
-          "title_en": "Why AST SpaceMobile Stock Skyrocketed This Week",
-          "date": "07/05"
+          "title": "📈 Rocket Lab相關新聞利好",
+          "title_en": "Prediction: Buying This Space Economy Stock Could Help Set You Up for Life",
+          "date": "07/07"
         },
         {
           "title": "🤖 Rocket Lab AI／晶片板塊動態",
-          "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
-          "date": "07/05"
+          "title_en": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Ma",
+          "date": "07/06"
+        },
+        {
+          "title": "📉 Rocket Lab相關新聞承壓",
+          "title_en": "Rocket Lab Falls 7%, AST SpaceMobile Drops 5%, Intuitive Machines and SpaceX Sli",
+          "date": "07/06"
         }
       ],
-      "timestamp": "2026-07-05T22:41:23.823026"
+      "timestamp": "2026-07-07T12:28:29.645015"
     },
     "AMD": {
       "symbol": "AMD",
@@ -904,15 +911,15 @@
       "recommendation_key": "strong_buy",
       "num_analysts": 48,
       "analyst_rating_str": "🟢 強烈買入（48位分析師）",
-      "current_price": 517.82,
+      "current_price": 552.05,
       "target_mean": 508.3125,
       "target_high": 700.0,
       "target_low": 320.0,
-      "upside_pct": -1.8,
+      "upside_pct": -7.9,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 172.6,
-      "forward_pe": 39.3,
+      "pe_ratio": 184.0,
+      "forward_pe": 41.8,
       "profit_margin_pct": 13.4,
       "revenue_growth_pct": 37.8,
       "earnings_growth_pct": 91.2,
@@ -921,21 +928,21 @@
       "news": [
         {
           "title": "🤖 AMD超微 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
+          "title_en": "Tech stocks on track for record annual inflows as investors pile into the AI tra",
+          "date": "07/06"
         },
         {
-          "title": "🤖 AMD超微 AI／晶片板塊動態",
-          "title_en": "How Advanced Micro Devices, Inc.’s (AMD) Server CPU Demand Is Broadening Its AI ",
-          "date": "07/05"
+          "title": "📊 AMD超微 相關市場新聞",
+          "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
+          "date": "07/06"
         },
         {
-          "title": "📈 AMD超微相關新聞利好",
-          "title_en": "Is AMD Stock a Buy Before July 22?",
-          "date": "07/05"
+          "title": "📊 AMD超微 相關市場新聞",
+          "title_en": "Update: US Equity Indexes Advance as Communication Services, Technology Top Sect",
+          "date": "07/06"
         }
       ],
-      "timestamp": "2026-07-05T22:41:24.046547"
+      "timestamp": "2026-07-07T12:28:29.904604"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -944,15 +951,15 @@
       "recommendation_key": "strong_buy",
       "num_analysts": 55,
       "analyst_rating_str": "🟢 強烈買入（55位分析師）",
-      "current_price": 390.49,
+      "current_price": 386.74,
       "target_mean": 561.1149,
       "target_high": 870.0,
       "target_low": 400.0,
-      "upside_pct": 43.7,
+      "upside_pct": 45.1,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 23.3,
-      "forward_pe": 20.2,
+      "pe_ratio": 23.0,
+      "forward_pe": 20.0,
       "profit_margin_pct": 39.3,
       "revenue_growth_pct": 18.3,
       "earnings_growth_pct": 23.4,
@@ -960,22 +967,22 @@
       "sector": "Technology",
       "news": [
         {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Why Microsoft cut 3,200 Xbox jobs",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+          "date": "07/07"
+        },
+        {
           "title": "🤖 微軟 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
-        },
-        {
-          "title": "📈 微軟相關新聞利好",
-          "title_en": "3 No-Brainer Stocks to Buy in July and Hold Forever",
-          "date": "07/05"
-        },
-        {
-          "title": "📈 微軟相關新聞利好",
-          "title_en": "Down 35%, Is MercadoLibre Stock a Better Buy than SpaceX and the \"Magnificent Se",
-          "date": "07/05"
+          "title_en": "Anthropic’s A$22 Billion Australian AI Cloud Tender Might Change The Case For In",
+          "date": "07/06"
         }
       ],
-      "timestamp": "2026-07-05T22:41:24.275702"
+      "timestamp": "2026-07-07T12:28:30.139052"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -984,15 +991,15 @@
       "recommendation_key": "strong_buy",
       "num_analysts": 53,
       "analyst_rating_str": "🟢 強烈買入（53位分析師）",
-      "current_price": 359.91,
+      "current_price": 366.46,
       "target_mean": 432.28735,
       "target_high": 515.0,
       "target_low": 340.0,
-      "upside_pct": 20.1,
+      "upside_pct": 18.0,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 27.5,
-      "forward_pe": 24.7,
+      "pe_ratio": 28.0,
+      "forward_pe": 25.2,
       "profit_margin_pct": 37.9,
       "revenue_growth_pct": 21.8,
       "earnings_growth_pct": 82.0,
@@ -1000,22 +1007,22 @@
       "sector": "Communication Services",
       "news": [
         {
-          "title": "🤖 谷歌 AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
-        },
-        {
           "title": "📈 谷歌相關新聞利好",
-          "title_en": "This Is the One AI Stock I Can’t Stop Buying",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
           "date": "07/05"
         },
         {
           "title": "📊 谷歌 相關市場新聞",
-          "title_en": "Wall Street Is Buzzing About Alphabet Joining the Dow. Income Investors Should B",
-          "date": "07/05"
+          "title_en": "Software's strongest pocket is back near records: Chart of the Day",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 谷歌 AI／晶片板塊動態",
+          "title_en": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share",
+          "date": "07/07"
         }
       ],
-      "timestamp": "2026-07-05T22:41:24.509530"
+      "timestamp": "2026-07-07T12:28:30.370600"
     },
     "META": {
       "symbol": "META",
@@ -1024,15 +1031,15 @@
       "recommendation_key": "strong_buy",
       "num_analysts": 58,
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-      "current_price": 582.9,
+      "current_price": 600.29,
       "target_mean": 828.16864,
       "target_high": 1015.0,
       "target_low": 664.46,
-      "upside_pct": 42.1,
+      "upside_pct": 38.0,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 21.2,
-      "forward_pe": 15.8,
+      "pe_ratio": 21.8,
+      "forward_pe": 16.3,
       "profit_margin_pct": 32.8,
       "revenue_growth_pct": 33.1,
       "earnings_growth_pct": 62.4,
@@ -1040,22 +1047,22 @@
       "sector": "Communication Services",
       "news": [
         {
-          "title": "🤖 Meta AI／晶片板塊動態",
-          "title_en": "AI bubble fears, the endless K-shaped economy, and insane hyperscaler capex spen",
-          "date": "07/05"
-        },
-        {
           "title": "📈 Meta相關新聞利好",
-          "title_en": "1 Thing That Could Send Meta Platforms Stock Soaring in 2026",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
           "date": "07/05"
         },
         {
           "title": "📊 Meta 相關市場新聞",
-          "title_en": "Why CoreWeave Stock Plummeted This Week",
-          "date": "07/05"
+          "title_en": "Micron stock has now plunged to a surprising level",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 Meta 相關市場新聞",
+          "title_en": "Meta says US states are seeking $1.4 trillion in penalties in August youth safet",
+          "date": "07/07"
         }
       ],
-      "timestamp": "2026-07-05T22:41:24.738922"
+      "timestamp": "2026-07-07T12:28:30.608269"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -1064,15 +1071,15 @@
       "recommendation_key": "buy",
       "num_analysts": 27,
       "analyst_rating_str": "🟢 買入（27位分析師）",
-      "current_price": 129.3,
+      "current_price": 132.54,
       "target_mean": 183.12444,
       "target_high": 255.0,
       "target_low": 70.0,
-      "upside_pct": 41.6,
+      "upside_pct": 38.2,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 145.3,
-      "forward_pe": 61.7,
+      "pe_ratio": 148.9,
+      "forward_pe": 63.3,
       "profit_margin_pct": 43.7,
       "revenue_growth_pct": 84.7,
       "earnings_growth_pct": 325.0,
@@ -1080,22 +1087,22 @@
       "sector": "Technology",
       "news": [
         {
-          "title": "🤖 Palantir AI／晶片板塊動態",
-          "title_en": "How Palantir Technologies Inc. (PLTR) Is Expanding AI Deployment Channels Across",
-          "date": "07/05"
+          "title": "📊 Palantir 相關市場新聞",
+          "title_en": "Prediction: 3 Unstoppable Stocks That Will Join the $1 Trillion Club by 2030 (Hi",
+          "date": "07/07"
         },
         {
           "title": "🤖 Palantir AI／晶片板塊動態",
-          "title_en": "Axon and Rocket Lab rallied while chip stocks sank",
-          "date": "07/05"
+          "title_en": "Palantir’s AI valuation problem may finally be easing",
+          "date": "07/07"
         },
         {
           "title": "🤖 Palantir AI／晶片板塊動態",
-          "title_en": "Palantir CEO Alex Karp Says AI Labs Are Chasing 'Tokens' While Enterprises Fear ",
-          "date": "07/04"
+          "title_en": "Nvidia and Palantir Are Bringing Sovereign AI to the U.S. Government. Here's How",
+          "date": "07/07"
         }
       ],
-      "timestamp": "2026-07-05T22:41:25.081158"
+      "timestamp": "2026-07-07T12:28:30.860200"
     },
     "ARM": {
       "symbol": "ARM",
@@ -1104,15 +1111,15 @@
       "recommendation_key": "buy",
       "num_analysts": 37,
       "analyst_rating_str": "🟢 買入（37位分析師）",
-      "current_price": 315.28,
+      "current_price": 322.24,
       "target_mean": 297.02756,
       "target_high": 500.0,
       "target_low": 125.0,
-      "upside_pct": -5.8,
+      "upside_pct": -7.8,
       "earnings_date": null,
       "earnings_days": null,
-      "pe_ratio": 370.9,
-      "forward_pe": 102.3,
+      "pe_ratio": 379.1,
+      "forward_pe": 104.6,
       "profit_margin_pct": 18.4,
       "revenue_growth_pct": 20.1,
       "earnings_growth_pct": 47.9,
@@ -1121,21 +1128,21 @@
       "news": [
         {
           "title": "📈 ARM相關新聞利好",
+          "title_en": "AMD Feels Goldman’s Love, and the Stock Jumps",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "UBS Remains Bullish on Arm Holdings (ARM) – Here’s Why",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 ARM相關新聞利好",
           "title_en": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
           "date": "07/04"
-        },
-        {
-          "title": "🤖 ARM AI／晶片板塊動態",
-          "title_en": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
-          "date": "07/03"
-        },
-        {
-          "title": "🤖 ARM AI／晶片板塊動態",
-          "title_en": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
-          "date": "07/02"
         }
       ],
-      "timestamp": "2026-07-05T22:41:25.315522"
+      "timestamp": "2026-07-07T12:28:31.090592"
     }
   },
   "summary": {
@@ -1145,5 +1152,5 @@
     "sell_signals": 0
   },
   "top_picks": [],
-  "quotes_ts": "2026-07-05T22:41:25.319559"
+  "quotes_ts": "2026-07-07T12:28:31.103577"
 }
