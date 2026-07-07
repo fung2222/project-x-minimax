@@ -4,73 +4,6 @@
   "signals": [
     {
       "ticker": "NVDA",
-      "signal": "BUY",
-      "action": "可考慮買入",
-      "confidence": 75,
-      "price": 138.0,
-      "change_pct": 1.2,
-      "rsi": 38,
-      "regime": "NORMAL",
-      "reasons": [
-        "信心度 75% ≥ 門檻 70%",
-        "RSI 38 偏低，超賣區域"
-      ],
-      "date": "2025-07-04",
-      "timestamp": "2025-07-04T21:00:00",
-      "macd_bullish": true,
-      "vol_ratio": 1.0,
-      "signal_reasons": [
-        "信心度 75% ≥ 門檻 70%",
-        "RSI 38 偏低，超賣區域"
-      ],
-      "is_owned": false
-    },
-    {
-      "ticker": "AMD",
-      "signal": "BUY",
-      "action": "可考慮買入",
-      "confidence": 72,
-      "price": 127.0,
-      "change_pct": 0.8,
-      "rsi": 42,
-      "regime": "NORMAL",
-      "reasons": [
-        "信心度 72% ≥ 門檻 70%",
-        "RSI 42 偏低"
-      ],
-      "date": "2025-07-04",
-      "timestamp": "2025-07-04T21:00:00",
-      "macd_bullish": true,
-      "vol_ratio": 1.0,
-      "signal_reasons": [
-        "信心度 72% ≥ 門檻 70%",
-        "RSI 42 偏低"
-      ],
-      "is_owned": false
-    },
-    {
-      "ticker": "META",
-      "signal": "HOLD",
-      "action": "觀望",
-      "confidence": 55,
-      "price": 515.0,
-      "change_pct": -0.3,
-      "rsi": 48,
-      "regime": "NORMAL",
-      "reasons": [
-        "RSI 48 中性"
-      ],
-      "date": "2025-07-04",
-      "timestamp": "2025-07-04T21:00:00",
-      "macd_bullish": false,
-      "vol_ratio": 1.0,
-      "signal_reasons": [
-        "RSI 48 中性"
-      ],
-      "is_owned": false
-    },
-    {
-      "ticker": "NVDA",
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 50,
@@ -777,19 +710,1119 @@
         }
       ],
       "date": "2026-07-05"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 196.23,
+      "change_pct": 0.72,
+      "rsi": 41.6,
+      "macd": 2.8114,
+      "macd_histogram": 8.1336,
+      "macd_bullish": true,
+      "vol_ratio": 0.11,
+      "ma50": 202.22,
+      "atr": 6.28,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 42 中性"
+      ],
+      "signal_reasons": [
+        "RSI 42 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.718206",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+      "num_analysts": 58,
+      "target_mean": 301.6207,
+      "target_high": 500.0,
+      "target_low": 180.0,
+      "upside_pct": 53.7,
+      "earnings_date": "2026-08-26",
+      "earnings_days": 51,
+      "pe_ratio": 30.1,
+      "forward_pe": 15.4,
+      "profit_margin_pct": 63.0,
+      "revenue_growth_pct": 85.2,
+      "earnings_growth_pct": 214.5,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📈 英偉達相關新聞利好",
+          "title_en": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "date": "07/06"
+        },
+        {
+          "title": "📉 英偉達相關新聞承壓",
+          "title_en": "Artificial Intelligence (AI) Stocks Are Selling Off, But Taiwan Semiconductor Is",
+          "date": "07/06"
+        },
+        {
+          "title": "🚀 英偉達 太空業務／發射進展",
+          "title_en": "SpaceX Joins the Nasdaq-100 on July 7. Here Is What This Means for QQQ and QQQM ",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 401.85,
+      "change_pct": 2.13,
+      "rsi": 48.5,
+      "macd": -0.7525,
+      "macd_histogram": 9.1547,
+      "macd_bullish": true,
+      "vol_ratio": 0.17,
+      "ma50": 398.71,
+      "atr": 18.52,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 48 中性"
+      ],
+      "signal_reasons": [
+        "RSI 48 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.718206",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（41位分析師）",
+      "num_analysts": 41,
+      "target_mean": 423.4,
+      "target_high": 600.0,
+      "target_low": 125.0,
+      "upside_pct": 5.4,
+      "earnings_date": "2026-07-22",
+      "earnings_days": 16,
+      "pe_ratio": 365.3,
+      "forward_pe": 157.8,
+      "profit_margin_pct": 3.9,
+      "revenue_growth_pct": 15.8,
+      "earnings_growth_pct": 8.3,
+      "industry": "Auto Manufacturers",
+      "sector": "Consumer Cyclical",
+      "analyst_news": [
+        {
+          "title": "📈 特斯拉相關新聞利好",
+          "title_en": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "date": "07/06"
+        },
+        {
+          "title": "🚗 特斯拉 馬斯克／電車動態",
+          "title_en": "Tesla Robotaxi Expands To Miami As Slow Rollout Continues. Stock Ticks Up.",
+          "date": "07/06"
+        },
+        {
+          "title": "🚀 特斯拉 太空業務／發射進展",
+          "title_en": "Tesla Launches Robo Taxi In Miami. What It Means for the Stock.",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 98.95,
+      "change_pct": -1.5,
+      "rsi": 47.4,
+      "macd": -0.3669,
+      "macd_histogram": 11.3272,
+      "macd_bullish": true,
+      "vol_ratio": 0.13,
+      "ma50": 100.97,
+      "atr": 8.47,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 47 中性"
+      ],
+      "signal_reasons": [
+        "RSI 47 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.719205",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（15位分析師）",
+      "num_analysts": 15,
+      "target_mean": 114.10333,
+      "target_high": 150.0,
+      "target_low": 76.0,
+      "upside_pct": 15.3,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": -13855.7,
+      "profit_margin_pct": -26.9,
+      "revenue_growth_pct": 63.5,
+      "earnings_growth_pct": null,
+      "industry": "Aerospace & Defense",
+      "sector": "Industrials",
+      "analyst_news": [
+        {
+          "title": "🚀 Rocket Lab 太空業務／發射進展",
+          "title_en": "The Investors Scrambling to Keep SpaceX - and Elon Musk - Out of Their Portfolio",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 Rocket Lab AI／晶片板塊動態",
+          "title_en": "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: META, MU",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 Rocket Lab相關新聞利好",
+          "title_en": "Could Buying Rocket Lab Stock Today Set You Up for Life?",
+          "date": "07/05"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Adv. Micro Devices",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 561.1,
+      "change_pct": 8.36,
+      "rsi": 57.3,
+      "macd": -26.2409,
+      "macd_histogram": -53.1583,
+      "macd_bullish": false,
+      "vol_ratio": 0.22,
+      "ma50": 521.49,
+      "atr": 37.77,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 57 中性"
+      ],
+      "signal_reasons": [
+        "RSI 57 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.719205",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（48位分析師）",
+      "num_analysts": 48,
+      "target_mean": 508.3125,
+      "target_high": 700.0,
+      "target_low": 320.0,
+      "upside_pct": -9.4,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 187.0,
+      "forward_pe": 42.6,
+      "profit_margin_pct": 13.4,
+      "revenue_growth_pct": 37.8,
+      "earnings_growth_pct": 91.2,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "🤖 AMD超微 AI／晶片板塊動態",
+          "title_en": "Nvidia’s Bargain Price Already Reflects Lost Market Share, Says Goldman",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 AMD超微相關新聞利好",
+          "title_en": "Update: US Equity Futures Rise Pre-Bell as Chip Stocks Rally, OPEC+ Plans Furthe",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 AMD超微相關新聞利好",
+          "title_en": "How Nvidia Became The Black Sheep Of The Chip Stock Rally",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 384.56,
+      "change_pct": -1.52,
+      "rsi": 47.5,
+      "macd": -4.1071,
+      "macd_histogram": 21.1857,
+      "macd_bullish": true,
+      "vol_ratio": 0.1,
+      "ma50": 383.1,
+      "atr": 13.15,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 48 中性"
+      ],
+      "signal_reasons": [
+        "RSI 48 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.719205",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（55位分析師）",
+      "num_analysts": 55,
+      "target_mean": 561.1149,
+      "target_high": 870.0,
+      "target_low": 400.0,
+      "upside_pct": 45.9,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 22.9,
+      "forward_pe": 19.9,
+      "profit_margin_pct": 39.3,
+      "revenue_growth_pct": 18.3,
+      "earnings_growth_pct": 23.4,
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📈 微軟相關新聞利好",
+          "title_en": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 微軟 AI／晶片板塊動態",
+          "title_en": "Microsoft joins AI-driven tech layoff wave with 4,800 job cuts",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Stock Market Today: Dow Eases, Nasdaq Rises; Memory Names Micron, Sandisk Bounce",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 357.6,
+      "change_pct": -0.64,
+      "rsi": 48.8,
+      "macd": -1.7442,
+      "macd_histogram": 4.7552,
+      "macd_bullish": true,
+      "vol_ratio": 0.09,
+      "ma50": 357.25,
+      "atr": 11.88,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 49 中性"
+      ],
+      "signal_reasons": [
+        "RSI 49 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.719205",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（53位分析師）",
+      "num_analysts": 53,
+      "target_mean": 432.28735,
+      "target_high": 515.0,
+      "target_low": 340.0,
+      "upside_pct": 20.9,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 27.3,
+      "forward_pe": 24.6,
+      "profit_margin_pct": 37.9,
+      "revenue_growth_pct": 21.8,
+      "earnings_growth_pct": 82.0,
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "analyst_news": [
+        {
+          "title": "📈 谷歌相關新聞利好",
+          "title_en": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "date": "07/06"
+        },
+        {
+          "title": "📉 谷歌相關新聞承壓",
+          "title_en": "Artificial Intelligence (AI) Stocks Are Selling Off, But Taiwan Semiconductor Is",
+          "date": "07/06"
+        },
+        {
+          "title": "🚗 谷歌 馬斯克／電車動態",
+          "title_en": "Tesla Robotaxi Expands To Miami As Slow Rollout Continues. Stock Ticks Up.",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 582.25,
+      "change_pct": -0.11,
+      "rsi": 53.7,
+      "macd": -7.1594,
+      "macd_histogram": 4.6139,
+      "macd_bullish": true,
+      "vol_ratio": 0.16,
+      "ma50": 573.32,
+      "atr": 23.14,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.719205",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+      "num_analysts": 58,
+      "target_mean": 828.16864,
+      "target_high": 1015.0,
+      "target_low": 664.46,
+      "upside_pct": 42.3,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 21.2,
+      "forward_pe": 15.8,
+      "profit_margin_pct": 32.8,
+      "revenue_growth_pct": 33.1,
+      "earnings_growth_pct": 62.4,
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "analyst_news": [
+        {
+          "title": "📈 Meta相關新聞利好",
+          "title_en": "Ranking the Best \"Magnificent Seven\" Stocks to Buy Right Now",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 Meta AI／晶片板塊動態",
+          "title_en": "Microsoft joins AI-driven tech layoff wave with 4,800 job cuts",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 Meta AI／晶片板塊動態",
+          "title_en": "AI investors may pivot to hyperscalers from chipmakers, Morgan Stanley says",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 131.42,
+      "change_pct": 1.64,
+      "rsi": 52.9,
+      "macd": -7.7943,
+      "macd_histogram": 3.0556,
+      "macd_bullish": true,
+      "vol_ratio": 0.18,
+      "ma50": 124.93,
+      "atr": 6.71,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 53 中性"
+      ],
+      "signal_reasons": [
+        "RSI 53 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.720206",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（27位分析師）",
+      "num_analysts": 27,
+      "target_mean": 183.12444,
+      "target_high": 255.0,
+      "target_low": 70.0,
+      "upside_pct": 39.3,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 147.7,
+      "forward_pe": 62.8,
+      "profit_margin_pct": 43.7,
+      "revenue_growth_pct": 84.7,
+      "earnings_growth_pct": 325.0,
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📊 Palantir 相關市場新聞",
+          "title_en": "Trump vs. Pelosi: Who Made More Money in the Stock Market Last Year?",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 Palantir 相關市場新聞",
+          "title_en": "Palantir (PLTR) Faces Fresh UK Pressure Over NHS Contract Continuity",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 Palantir相關新聞利好",
+          "title_en": "President Trump Sells Palantir Stock and Buys an AI Stock Up 2,100% Since 2023",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 332.37,
+      "change_pct": 5.42,
+      "rsi": 41.1,
+      "macd": 16.6659,
+      "macd_histogram": 1.9374,
+      "macd_bullish": true,
+      "vol_ratio": 0.1,
+      "ma50": 361.44,
+      "atr": 35.58,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 41 中性"
+      ],
+      "signal_reasons": [
+        "RSI 41 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-06T22:00:27.720206",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（37位分析師）",
+      "num_analysts": 37,
+      "target_mean": 297.02756,
+      "target_high": 500.0,
+      "target_low": 125.0,
+      "upside_pct": -10.6,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 390.8,
+      "forward_pe": 107.8,
+      "profit_margin_pct": 18.4,
+      "revenue_growth_pct": 20.1,
+      "earnings_growth_pct": 47.9,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "date": "07/04"
+        },
+        {
+          "title": "🤖 ARM AI／晶片板塊動態",
+          "title_en": "Arm Holdings' Robust Licensing Business Drives AI-Fueled Growth",
+          "date": "07/03"
+        }
+      ],
+      "date": "2026-07-06"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 195.55,
+      "change_pct": 0.37,
+      "rsi": 40.9,
+      "macd": 3.3868,
+      "macd_histogram": 8.7265,
+      "macd_bullish": true,
+      "vol_ratio": 0.72,
+      "ma50": 202.18,
+      "atr": 6.34,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 41 中性"
+      ],
+      "signal_reasons": [
+        "RSI 41 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.090592",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+      "num_analysts": 58,
+      "target_mean": 301.6207,
+      "target_high": 500.0,
+      "target_low": 180.0,
+      "upside_pct": 54.2,
+      "earnings_date": "2026-08-26",
+      "earnings_days": 50,
+      "pe_ratio": 29.9,
+      "forward_pe": 15.3,
+      "profit_margin_pct": 63.0,
+      "revenue_growth_pct": 85.2,
+      "earnings_growth_pct": 214.5,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "🤖 英偉達 AI／晶片板塊動態",
+          "title_en": "Why this AI chip startup could rival Nvidia",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 英偉達 AI／晶片板塊動態",
+          "title_en": "Nvidia denies report its next-generation AI server faces delays, says roadmap is",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 英偉達相關新聞利好",
+          "title_en": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set Yo",
+          "date": "07/07"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 419.77,
+      "change_pct": 6.69,
+      "rsi": 54.0,
+      "macd": -15.9198,
+      "macd_histogram": -6.4753,
+      "macd_bullish": false,
+      "vol_ratio": 1.1,
+      "ma50": 399.66,
+      "atr": 19.73,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.090592",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（41位分析師）",
+      "num_analysts": 41,
+      "target_mean": 423.4,
+      "target_high": 600.0,
+      "target_low": 125.0,
+      "upside_pct": 0.9,
+      "earnings_date": "2026-07-22",
+      "earnings_days": 15,
+      "pe_ratio": 381.6,
+      "forward_pe": 164.8,
+      "profit_margin_pct": 3.9,
+      "revenue_growth_pct": 15.8,
+      "earnings_growth_pct": 8.3,
+      "industry": "Auto Manufacturers",
+      "sector": "Consumer Cyclical",
+      "analyst_news": [
+        {
+          "title": "📈 特斯拉相關新聞利好",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
+          "date": "07/05"
+        },
+        {
+          "title": "🤖 特斯拉 AI／晶片板塊動態",
+          "title_en": "Waymo outages disrupt traffic in this major city yet again",
+          "date": "07/07"
+        },
+        {
+          "title": "📈 特斯拉相關新聞利好",
+          "title_en": "TSLA Stock Cools Overnight After Miami Robotaxi Rally — But Morgan Stanley Sees ",
+          "date": "07/07"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 93.09,
+      "change_pct": -7.34,
+      "rsi": 43.6,
+      "macd": 4.5916,
+      "macd_histogram": 16.4369,
+      "macd_bullish": true,
+      "vol_ratio": 0.67,
+      "ma50": 100.66,
+      "atr": 8.72,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 44 中性"
+      ],
+      "signal_reasons": [
+        "RSI 44 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.091591",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（15位分析師）",
+      "num_analysts": 15,
+      "target_mean": 114.10333,
+      "target_high": 150.0,
+      "target_low": 76.0,
+      "upside_pct": 22.6,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": -4654.5,
+      "profit_margin_pct": -26.9,
+      "revenue_growth_pct": 63.5,
+      "earnings_growth_pct": null,
+      "industry": "Aerospace & Defense",
+      "sector": "Industrials",
+      "analyst_news": [
+        {
+          "title": "📈 Rocket Lab相關新聞利好",
+          "title_en": "Prediction: Buying This Space Economy Stock Could Help Set You Up for Life",
+          "date": "07/07"
+        },
+        {
+          "title": "🤖 Rocket Lab AI／晶片板塊動態",
+          "title_en": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Ma",
+          "date": "07/06"
+        },
+        {
+          "title": "📉 Rocket Lab相關新聞承壓",
+          "title_en": "Rocket Lab Falls 7%, AST SpaceMobile Drops 5%, Intuitive Machines and SpaceX Sli",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Adv. Micro Devices",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 552.05,
+      "change_pct": 6.61,
+      "rsi": 56.1,
+      "macd": -18.5832,
+      "macd_histogram": -45.267,
+      "macd_bullish": false,
+      "vol_ratio": 0.97,
+      "ma50": 521.01,
+      "atr": 38.49,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 56 中性"
+      ],
+      "signal_reasons": [
+        "RSI 56 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.091591",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（48位分析師）",
+      "num_analysts": 48,
+      "target_mean": 508.3125,
+      "target_high": 700.0,
+      "target_low": 320.0,
+      "upside_pct": -7.9,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 184.0,
+      "forward_pe": 41.8,
+      "profit_margin_pct": 13.4,
+      "revenue_growth_pct": 37.8,
+      "earnings_growth_pct": 91.2,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "🤖 AMD超微 AI／晶片板塊動態",
+          "title_en": "Tech stocks on track for record annual inflows as investors pile into the AI tra",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 AMD超微 相關市場新聞",
+          "title_en": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 AMD超微 相關市場新聞",
+          "title_en": "Update: US Equity Indexes Advance as Communication Services, Technology Top Sect",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 386.74,
+      "change_pct": -0.96,
+      "rsi": 48.3,
+      "macd": -5.9517,
+      "macd_histogram": 19.2849,
+      "macd_bullish": true,
+      "vol_ratio": 0.68,
+      "ma50": 383.22,
+      "atr": 13.15,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 48 中性"
+      ],
+      "signal_reasons": [
+        "RSI 48 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.091591",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（55位分析師）",
+      "num_analysts": 55,
+      "target_mean": 561.1149,
+      "target_high": 870.0,
+      "target_low": 400.0,
+      "upside_pct": 45.1,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 23.0,
+      "forward_pe": 20.0,
+      "profit_margin_pct": 39.3,
+      "revenue_growth_pct": 18.3,
+      "earnings_growth_pct": 23.4,
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Why Microsoft cut 3,200 Xbox jobs",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 微軟 相關市場新聞",
+          "title_en": "Microsoft Cuts 4,800 Jobs as Xbox Loses 3,200 Roles in Reset",
+          "date": "07/07"
+        },
+        {
+          "title": "🤖 微軟 AI／晶片板塊動態",
+          "title_en": "Anthropic’s A$22 Billion Australian AI Cloud Tender Might Change The Case For In",
+          "date": "07/06"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 366.46,
+      "change_pct": 1.82,
+      "rsi": 53.8,
+      "macd": -9.2412,
+      "macd_histogram": -2.9704,
+      "macd_bullish": false,
+      "vol_ratio": 0.71,
+      "ma50": 357.72,
+      "atr": 12.18,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.091591",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（53位分析師）",
+      "num_analysts": 53,
+      "target_mean": 432.28735,
+      "target_high": 515.0,
+      "target_low": 340.0,
+      "upside_pct": 18.0,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 28.0,
+      "forward_pe": 25.2,
+      "profit_margin_pct": 37.9,
+      "revenue_growth_pct": 21.8,
+      "earnings_growth_pct": 82.0,
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "analyst_news": [
+        {
+          "title": "📈 谷歌相關新聞利好",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
+          "date": "07/05"
+        },
+        {
+          "title": "📊 谷歌 相關市場新聞",
+          "title_en": "Software's strongest pocket is back near records: Chart of the Day",
+          "date": "07/06"
+        },
+        {
+          "title": "🤖 谷歌 AI／晶片板塊動態",
+          "title_en": "AI Giants Are Handing Out Tons of Free Computing Power to Grab Startup Share",
+          "date": "07/07"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 600.29,
+      "change_pct": 2.98,
+      "rsi": 57.4,
+      "macd": -22.424,
+      "macd_histogram": -11.1163,
+      "macd_bullish": false,
+      "vol_ratio": 0.93,
+      "ma50": 574.26,
+      "atr": 23.56,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 57 中性"
+      ],
+      "signal_reasons": [
+        "RSI 57 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.091591",
+      "analyst_consensus": "強烈買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 強烈買入（58位分析師）",
+      "num_analysts": 58,
+      "target_mean": 828.16864,
+      "target_high": 1015.0,
+      "target_low": 664.46,
+      "upside_pct": 38.0,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 21.8,
+      "forward_pe": 16.3,
+      "profit_margin_pct": 32.8,
+      "revenue_growth_pct": 33.1,
+      "earnings_growth_pct": 62.4,
+      "industry": "Internet Content & Information",
+      "sector": "Communication Services",
+      "analyst_news": [
+        {
+          "title": "📈 Meta相關新聞利好",
+          "title_en": "Stock market today: Dow posts record, S&P 500 and Nasdaq rally on revived AI opt",
+          "date": "07/05"
+        },
+        {
+          "title": "📊 Meta 相關市場新聞",
+          "title_en": "Micron stock has now plunged to a surprising level",
+          "date": "07/06"
+        },
+        {
+          "title": "📊 Meta 相關市場新聞",
+          "title_en": "Meta says US states are seeking $1.4 trillion in penalties in August youth safet",
+          "date": "07/07"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 132.54,
+      "change_pct": 2.51,
+      "rsi": 53.8,
+      "macd": -8.7431,
+      "macd_histogram": 2.0779,
+      "macd_bullish": true,
+      "vol_ratio": 0.85,
+      "ma50": 124.99,
+      "atr": 6.8,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.092591",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（27位分析師）",
+      "num_analysts": 27,
+      "target_mean": 183.12444,
+      "target_high": 255.0,
+      "target_low": 70.0,
+      "upside_pct": 38.2,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 148.9,
+      "forward_pe": 63.3,
+      "profit_margin_pct": 43.7,
+      "revenue_growth_pct": 84.7,
+      "earnings_growth_pct": 325.0,
+      "industry": "Software - Infrastructure",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📊 Palantir 相關市場新聞",
+          "title_en": "Prediction: 3 Unstoppable Stocks That Will Join the $1 Trillion Club by 2030 (Hi",
+          "date": "07/07"
+        },
+        {
+          "title": "🤖 Palantir AI／晶片板塊動態",
+          "title_en": "Palantir’s AI valuation problem may finally be easing",
+          "date": "07/07"
+        },
+        {
+          "title": "🤖 Palantir AI／晶片板塊動態",
+          "title_en": "Nvidia and Palantir Are Bringing Sovereign AI to the U.S. Government. Here's How",
+          "date": "07/07"
+        }
+      ],
+      "date": "2026-07-07"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "signal": "HOLD",
+      "action": "信心度不足，觀望",
+      "confidence": 61.1,
+      "price": 322.24,
+      "change_pct": 2.21,
+      "rsi": 38.9,
+      "macd": 25.2375,
+      "macd_histogram": 10.7705,
+      "macd_bullish": true,
+      "vol_ratio": 0.49,
+      "ma50": 360.91,
+      "atr": 35.58,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 39 偏低",
+        "MACD 看漲確認",
+        "⚠️ 成交量不足",
+        "⚠️ 價格低於 MA50",
+        "信心度 61% < 門檻 70%"
+      ],
+      "signal_reasons": [
+        "RSI 39 偏低",
+        "MACD 看漲確認",
+        "⚠️ 成交量不足",
+        "⚠️ 價格低於 MA50"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-07-07T12:28:31.092591",
+      "analyst_consensus": "買入",
+      "analyst_emoji": "🟢",
+      "analyst_rating_str": "🟢 買入（37位分析師）",
+      "num_analysts": 37,
+      "target_mean": 297.02756,
+      "target_high": 500.0,
+      "target_low": 125.0,
+      "upside_pct": -7.8,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": 379.1,
+      "forward_pe": 104.6,
+      "profit_margin_pct": 18.4,
+      "revenue_growth_pct": 20.1,
+      "earnings_growth_pct": 47.9,
+      "industry": "Semiconductors",
+      "sector": "Technology",
+      "analyst_news": [
+        {
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "AMD Feels Goldman’s Love, and the Stock Jumps",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "UBS Remains Bullish on Arm Holdings (ARM) – Here’s Why",
+          "date": "07/06"
+        },
+        {
+          "title": "📈 ARM相關新聞利好",
+          "title_en": "Why Arm Is a Strong Buy Despite the 35% Pullback From Peak Levels",
+          "date": "07/04"
+        }
+      ],
+      "date": "2026-07-07"
     }
   ],
   "performance": {
-    "total_signals": 2,
-    "hits": 2,
+    "total_signals": 0,
+    "hits": 0,
     "partials": 0,
     "misses": 0,
     "neutrals": 0,
-    "hit_rate_pct": 100.0,
-    "partial_rate_pct": 0.0,
-    "miss_rate_pct": 0.0
+    "hit_rate_pct": 0,
+    "partial_rate_pct": 0,
+    "note": "從今日開始實時收集，舊測試數據已清除"
   },
-  "last_updated": "2026-07-05T22:41:25.317521",
+  "last_updated": "2026-07-07T12:28:31.098523",
   "vix_regime": "正常市場",
-  "vix_value": 16.15
+  "vix_value": 15.57
 }
