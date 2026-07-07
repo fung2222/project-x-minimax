@@ -567,7 +567,7 @@
     "neutrals": 0,
     "hit_rate_pct": 0,
     "partial_rate_pct": 0,
-    "note": "從 2026-07-07 開始實時收集，所有舊測試數據已清除"
+    "note": "從 2026-07-07 開始實時收集"
   },
   "last_updated": "2026-07-07T12:45:34.550677",
   "vix_regime": "正常市場",
