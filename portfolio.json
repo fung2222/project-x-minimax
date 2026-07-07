@@ -1,41 +1,94 @@
 {
-  "version": "1.1",
+  "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-07-05",
-
+  "updated": "2026-07-07",
   "account": {
     "capital_hkd": 5000,
     "capital_usd_approx": 641,
-    "mode": "observer",
-    "description": "觀察者模式 — 積累數據，尚未入市"
+    "mode": "paper",
+    "description": "模擬交易模式 — 用虛擬資金練習，真實零風險",
+    "phase": "PHASE_3_SIMULATED_ENTRY",
+    "started": "2026-07-07",
+    "cash_usd": 445.45,
+    "cash_hkd": 3474.51,
+    "equity_usd": 641,
+    "total_invested_usd": 195.55
   },
-
-  "positions": [],
-
+  "positions": [
+    {
+      "ticker": "NVDA",
+      "shares": 1,
+      "entry_price": 195.55,
+      "entry_date": "2026-07-07",
+      "current_price": 195.55,
+      "cost_usd": 195.55,
+      "value_usd": 195.55,
+      "pnl_usd": 0,
+      "pnl_pct": 0,
+      "analyst_consensus": "強烈買入"
+    }
+  ],
+  "trade_log": [
+    {
+      "id": "T001",
+      "date": "2026-07-07",
+      "timestamp": "2026-07-07T12:45:21.050603",
+      "ticker": "NVDA",
+      "action": "BUY",
+      "shares": 1,
+      "entry_price": 195.55,
+      "cost_usd": 195.55,
+      "cost_hkd": 1525.29,
+      "reason": "PHASE 3 啟動 — 首筆模擬交易 (NVDA 分析師強烈買入 58 位，潛在升幅 +54.8%)",
+      "rsi_at_entry": 40.9,
+      "macd_at_entry": true,
+      "vol_ratio_at_entry": 0.7,
+      "analyst_consensus": "強烈買入",
+      "confidence": 60,
+      "status": "open",
+      "exit_price": null,
+      "exit_date": null,
+      "pnl_usd": null,
+      "pnl_pct": null
+    }
+  ],
   "watchlist": {
-    "primary": ["NVDA", "TSLA", "RKLB"],
-    "secondary": ["AMD", "MSFT", "GOOGL", "META", "PLTR", "ARM"],
-    "index": ["SPY", "QQQ", "VIX"],
+    "primary": [
+      "NVDA",
+      "TSLA",
+      "RKLB"
+    ],
+    "secondary": [
+      "AMD",
+      "MSFT",
+      "GOOGL",
+      "META",
+      "PLTR",
+      "ARM"
+    ],
+    "index": [
+      "SPY",
+      "QQQ",
+      "VIX"
+    ],
     "currency_ticker": "HKDUSD",
     "strategy": "AI + 太空 + 馬斯克生態，專注 3 隻核心股"
   },
-
   "rules": {
     "max_positions": 3,
-    "max_position_pct": 0.30,
-    "min_cash_pct": 0.20,
-    "min_confidence": 0.70,
+    "max_position_pct": 0.3,
+    "min_cash_pct": 0.2,
+    "min_confidence": 0.7,
     "stop_loss_type": "ATR",
     "stop_loss_atr_mult": 2.0,
-    "take_profit_pct": 0.10,
+    "take_profit_pct": 0.1,
     "max_trades_per_day": 2,
     "position_sizing": "fixed_fractional"
   },
-
   "vix_guardrails": {
     "NORMAL": {
       "max_positions": 3,
-      "min_confidence": 0.70,
+      "min_confidence": 0.7,
       "description": "VIX < 20 — 正常操作，風險敞口全開"
     },
     "CAUTION": {
@@ -49,20 +102,17 @@
       "description": "VIX > 30 — 防禦模式，極少操作，現金為王"
     }
   },
-
   "hit_rate_rules": {
     "target_hit": "第2日收盤 > 進場價 +2%",
     "partial": "第2日走勢正確方向但未達目標",
     "miss": "第2日走勢相反方向",
     "neutral": "走勢喺 ±2% 內（不計入統計）"
   },
-
   "broker": {
     "name": "富途牛牛",
     "platform": "Futu",
     "note": "入市後，系統提供操作建議，你在富途牛牛執行真實買賣"
   },
-
   "phases": {
     "current": "PHASE_1_OBSERVER",
     "phases": [
