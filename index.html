@@ -745,6 +745,7 @@ function updateProfiles(prof){
 }
 
 function updatePortfolio(pfl){
+  try {
   const acc=pfl.account||{};
   const rules=pfl.rules||{};
   const guardrails=pfl.vix_guardrails||{};
@@ -760,21 +761,33 @@ function updatePortfolio(pfl){
     '<div><div style="font-size:11px;color:var(--muted)">交易模式</div><div style="font-size:14px;font-weight:700;color:'+modeColor+';margin-top:2px">'+modeLabel+'</div></div>',
     '<div><div style="font-size:11px;color:var(--muted)">可用資金</div><div style="font-size:14px;font-weight:700;margin-top:2px">HKD '+esc((acc.capital_hkd||0).toLocaleString())+'</div></div>',
     '<div><div style="font-size:11px;color:var(--muted)">最高持倉</div><div style="font-size:14px;font-weight:700;margin-top:2px">'+esc(rules.max_positions||3)+' 隻</div></div>',
-    '<div><div style="font-size:11px;color:var(--muted)">最低信心</div><div style="font-size:14px;font-weight:700;margin-top:2px">'+esc(rules.min_confidence||70)+'%</div></div>',
+    '<div><div style="font-size:11px;color:var(--muted)">最低信心</div><div style="font-size:14px;font-weight:700;margin-top:2px">'+esc((rules.min_confidence||0.7)*100)+'%</div></div>',
   ].join('')+'</div>'+
   '<div style="margin-top:12px;padding-top:12px;border-top:1px solid var(--border)">'+
-  '<div style="font-size:11px;color:var(--muted)">券商</div>'+
-  '<div style="font-size:13px;margin-top:2px">'+esc(acc.broker?.name||'—')+' · '+esc(acc.broker?.platform||'')+'</div>'+
-  '<div style="font-size:11px;color:var(--muted);margin-top:4px">'+esc(acc.description||'')+'</div></div>';
+  '<div style="font-size:11px;color:var(--muted)">描述</div>'+
+  '<div style="font-size:13px;margin-top:2px">'+esc(acc.description||'模擬交易模式 — 用虛擬資金練習，真實零風險')+'</div>'+
+  '<div style="font-size:11px;color:var(--muted);margin-top:4px">現金: USD '+esc((acc.cash_usd||0).toFixed(2))+'</div></div>';
 
-  // Phase card
-  const isCurrent=currentPhase.id===(pfl.phases&&pfl.phases.current);
+  // Phase card - 顯示當前階段 + 持倉概況
   document.getElementById('pf-phase').innerHTML=
     '<div style="background:rgba(201,168,76,0.12);border:1px solid var(--gold);border-radius:8px;padding:14px;margin-bottom:12px">'+
-    '<div style="font-size:12px;color:var(--gold);font-weight:700">👉 '+esc(currentPhase.name||'—')+'</div>'+
-    '<div style="font-size:11px;color:var(--muted);margin-top:4px">'+esc(currentPhase.duration||'')+'</div>'+
-    '<div style="font-size:12px;margin-top:6px">'+esc(currentPhase.goal||'')+'</div></div>'+
-    '<div style="font-size:11px;color:var(--muted)">'+esc(currentPhase.id||'')+'</div>';
+    '<div style="font-size:12px;color:var(--gold);font-weight:700">👉 模擬交易模式 (PHASE 3)</div>'+
+    '<div style="font-size:11px;color:var(--muted);margin-top:4px">用虛擬資金練習，零風險累積信心</div>'+
+    '</div>'+
+    '<div style="background:var(--card2);border:1px solid var(--border);border-radius:8px;padding:12px">'+
+    '<div style="font-size:11px;color:var(--muted);margin-bottom:6px">當前持倉</div>'+
+    ((pfl.positions||[]).map(pos => {
+      const pnl = pos.pnl_pct || 0;
+      const pnlSign = pnl >= 0 ? '+' : '';
+      const pnlColor = pnl >= 0 ? 'var(--green)' : 'var(--red)';
+      return '<div style="padding:8px 0;border-bottom:1px solid var(--border)">'+
+        '<div style="display:flex;justify-content:space-between"><span style="font-weight:700">'+esc(pos.ticker)+'</span>'+
+        '<span style="color:'+pnlColor+';font-weight:700">'+pnlSign+pnl.toFixed(2)+'%</span></div>'+
+        '<div style="font-size:11px;color:var(--muted);margin-top:2px">x'+esc(pos.shares)+' @ $'+esc((pos.current_price||0).toFixed(2))+
+        ' (入場 $'+esc((pos.entry_price||0).toFixed(2))+')</div>'+
+        '</div>';
+    }).join('') || '<div style="color:var(--muted);padding:12px;text-align:center">無持倉</div>') +
+    '</div>';
 
   // Watchlist
   const primary=watchlist.primary||[];
@@ -785,6 +798,12 @@ function updatePortfolio(pfl){
   wlHtml+='</div>';
   document.getElementById('pf-watchlist').innerHTML=wlHtml+
     '<div style="margin-top:8px;font-size:11px;color:var(--muted)">主要觀察: '+primary.length+' 隻 · 次要: '+secondary.length+' 隻</div>';
+  } catch(e) {
+    console.error('updatePortfolio error:', e);
+    document.getElementById('pf-account').innerHTML = '<div style="color:var(--red);padding:20px;text-align:center">⚠️ 載入錯誤: '+esc(String(e).substring(0,80))+'</div>';
+    document.getElementById('pf-phase').innerHTML = '<div style="color:var(--red);padding:20px;text-align:center">⚠️ 載入錯誤</div>';
+    document.getElementById('pf-watchlist').innerHTML = '<div style="color:var(--red);padding:20px;text-align:center">⚠️ 載入錯誤</div>';
+  }
 }
 
 function updatePhases(pfl){
