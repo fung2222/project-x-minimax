@@ -6,11 +6,11 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 201.94,
+    "current_price": 201.68,
     "target_mean": 301.6207,
     "target_high": 500.0,
     "target_low": 180.0,
-    "upside_pct": 49.4,
+    "upside_pct": 49.6,
     "earnings_date": "2026-08-26",
     "earnings_days": 48,
     "pe_ratio": 30.9,
@@ -49,7 +49,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:07.499310"
+    "timestamp": "2026-07-09T22:01:01.660171"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -58,21 +58,30 @@
     "recommendation_key": "buy",
     "num_analysts": 41,
     "analyst_rating_str": "🟢 買入（41位分析師）",
-    "current_price": 394.4902,
+    "current_price": 395.675,
     "target_mean": 424.00977,
     "target_high": 600.0,
     "target_low": 125.0,
-    "upside_pct": 7.5,
+    "upside_pct": 7.2,
     "earnings_date": "2026-07-22",
     "earnings_days": 13,
-    "pe_ratio": 358.7,
-    "forward_pe": 154.1,
+    "pe_ratio": 359.7,
+    "forward_pe": 154.5,
     "profit_margin_pct": 3.9,
     "revenue_growth_pct": 15.8,
     "earnings_growth_pct": 8.3,
     "industry": "Auto Manufacturers",
     "sector": "Consumer Cyclical",
     "news": [
+      {
+        "title": "Tractor Supply downgrade, Five Below upgraded: Wall Street's top analyst calls",
+        "title_en": "Tractor Supply downgrade, Five Below upgraded: Wall Street's top analyst calls",
+        "desc_zh": "特斯拉 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
+        "date": "07/09"
+      },
       {
         "title": "Why Tesla's \"Immense\" Opportunity In AI Will Disappoint Investors … For Now",
         "title_en": "Why Tesla's \"Immense\" Opportunity In AI Will Disappoint Investors … For Now",
@@ -90,18 +99,9 @@
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
         "date": "07/09"
-      },
-      {
-        "title": "Don’t Buy Tesla Stock, Analyst Says, Despite ‘Immense’ Potential",
-        "title_en": "Don’t Buy Tesla Stock, Analyst Says, Despite ‘Immense’ Potential",
-        "desc_zh": "特斯拉 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:07.912581"
+    "timestamp": "2026-07-09T22:01:01.948868"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -110,15 +110,15 @@
     "recommendation_key": "buy",
     "num_analysts": 14,
     "analyst_rating_str": "🟢 買入（14位分析師）",
-    "current_price": 84.055,
+    "current_price": 84.21,
     "target_mean": 116.5,
     "target_high": 150.0,
     "target_low": 76.0,
-    "upside_pct": 38.6,
+    "upside_pct": 38.3,
     "earnings_date": null,
     "earnings_days": null,
     "pe_ratio": null,
-    "forward_pe": 2521.9,
+    "forward_pe": 2526.6,
     "profit_margin_pct": -26.9,
     "revenue_growth_pct": 63.5,
     "earnings_growth_pct": null,
@@ -153,7 +153,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:08.402993"
+    "timestamp": "2026-07-09T22:01:02.852155"
   },
   "AMD": {
     "symbol": "AMD",
@@ -162,15 +162,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 48,
     "analyst_rating_str": "🟢 強烈買入（48位分析師）",
-    "current_price": 555.9799,
+    "current_price": 556.56,
     "target_mean": 512.2708,
     "target_high": 700.0,
     "target_low": 320.0,
-    "upside_pct": -7.9,
+    "upside_pct": -8.0,
     "earnings_date": "2026-08-04",
     "earnings_days": 26,
-    "pe_ratio": 185.3,
-    "forward_pe": 42.1,
+    "pe_ratio": 185.5,
+    "forward_pe": 42.2,
     "profit_margin_pct": 13.4,
     "revenue_growth_pct": 37.8,
     "earnings_growth_pct": 91.2,
@@ -205,7 +205,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:09.226942"
+    "timestamp": "2026-07-09T22:01:04.727846"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -214,15 +214,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 55,
     "analyst_rating_str": "🟢 強烈買入（55位分析師）",
-    "current_price": 377.85,
+    "current_price": 378.5,
     "target_mean": 559.9331,
     "target_high": 870.0,
     "target_low": 400.0,
-    "upside_pct": 48.2,
+    "upside_pct": 47.9,
     "earnings_date": "2026-07-29",
     "earnings_days": 20,
     "pe_ratio": 22.5,
-    "forward_pe": 19.5,
+    "forward_pe": 19.6,
     "profit_margin_pct": 39.3,
     "revenue_growth_pct": 18.3,
     "earnings_growth_pct": 23.4,
@@ -257,7 +257,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:10.552892"
+    "timestamp": "2026-07-09T22:01:06.094853"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -266,11 +266,11 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 53,
     "analyst_rating_str": "🟢 強烈買入（53位分析師）",
-    "current_price": 357.0,
+    "current_price": 357.181,
     "target_mean": 432.28735,
     "target_high": 515.0,
     "target_low": 340.0,
-    "upside_pct": 21.1,
+    "upside_pct": 21.0,
     "earnings_date": "2026-07-22",
     "earnings_days": 13,
     "pe_ratio": 27.3,
@@ -309,7 +309,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:11.401985"
+    "timestamp": "2026-07-09T22:01:07.017494"
   },
   "META": {
     "symbol": "META",
@@ -318,15 +318,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 589.8409,
+    "current_price": 592.93,
     "target_mean": 828.16864,
     "target_high": 1015.0,
     "target_low": 664.46,
-    "upside_pct": 40.4,
+    "upside_pct": 39.7,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 21.4,
-    "forward_pe": 16.0,
+    "pe_ratio": 21.6,
+    "forward_pe": 16.1,
     "profit_margin_pct": 32.8,
     "revenue_growth_pct": 33.1,
     "earnings_growth_pct": 62.4,
@@ -361,7 +361,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:12.333157"
+    "timestamp": "2026-07-09T22:01:07.941170"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -370,15 +370,15 @@
     "recommendation_key": "buy",
     "num_analysts": 27,
     "analyst_rating_str": "🟢 買入（27位分析師）",
-    "current_price": 127.43,
+    "current_price": 128.285,
     "target_mean": 183.12444,
     "target_high": 255.0,
     "target_low": 70.0,
-    "upside_pct": 43.7,
+    "upside_pct": 42.7,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 143.2,
-    "forward_pe": 60.8,
+    "pe_ratio": 144.1,
+    "forward_pe": 61.2,
     "profit_margin_pct": 43.7,
     "revenue_growth_pct": 84.7,
     "earnings_growth_pct": 325.0,
@@ -413,7 +413,7 @@
         "date": "07/09"
       }
     ],
-    "timestamp": "2026-07-09T21:57:15.157724"
+    "timestamp": "2026-07-09T22:01:09.706161"
   },
   "ARM": {
     "symbol": "ARM",
@@ -422,15 +422,15 @@
     "recommendation_key": "buy",
     "num_analysts": 37,
     "analyst_rating_str": "🟢 買入（37位分析師）",
-    "current_price": 332.62,
+    "current_price": 331.745,
     "target_mean": 298.83838,
     "target_high": 500.0,
     "target_low": 125.0,
-    "upside_pct": -10.2,
+    "upside_pct": -9.9,
     "earnings_date": "2026-07-29",
     "earnings_days": 20,
-    "pe_ratio": 396.1,
-    "forward_pe": 108.0,
+    "pe_ratio": 394.9,
+    "forward_pe": 107.7,
     "profit_margin_pct": 18.4,
     "revenue_growth_pct": 20.1,
     "earnings_growth_pct": 47.9,
@@ -465,6 +465,6 @@
         "date": "07/07"
       }
     ],
-    "timestamp": "2026-07-09T21:57:16.757934"
+    "timestamp": "2026-07-09T22:01:10.992218"
   }
 }
