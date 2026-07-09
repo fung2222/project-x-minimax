@@ -460,12 +460,25 @@ function parseMd(t){
 }
 
 // ── LOAD ALL DATA ──
+const CACHE_BUSTER = Math.floor(Date.now() / 60000);  // 1 minute cache window
 function loadAll(){
   Promise.all([
-    fetch('signals.json?t='+Date.now()).then(r=>r.json()).catch(()=>({signals:[],performance:{}})),
-    fetch('portfolio.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
-    fetch('daily_report.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
-    fetch('profiles.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))
+    fetch('signals.json?v='+CACHE_BUSTER).then(r=>{
+      if(!r.ok) throw new Error('signals.json ' + r.status);
+      return r.json();
+    }).catch(()=>({signals:[],performance:{}})),
+    fetch('portfolio.json?v='+CACHE_BUSTER).then(r=>{
+      if(!r.ok) throw new Error('portfolio.json ' + r.status);
+      return r.json();
+    }).catch(()=>({})),
+    fetch('daily_report.json?v='+CACHE_BUSTER).then(r=>{
+      if(!r.ok) throw new Error('daily_report.json ' + r.status);
+      return r.json();
+    }).catch(()=>({})),
+    fetch('profiles.json?v='+CACHE_BUSTER).then(r=>{
+      if(!r.ok) throw new Error('profiles.json ' + r.status);
+      return r.json();
+    }).catch(()=>({}))
   ]).then(([sig,pfl,report,profiles])=>{
     updateKpis(sig,pfl);
     updateVix(sig);
@@ -872,8 +885,14 @@ function updateAnalysis(report, profiles){
 // ── INDEX QUOTES ──
 function loadQuotes(){
   Promise.all([
-    fetch('daily_report.json?t='+Date.now()).then(r=>r.json()).catch(()=>({})),
-    fetch('signals.json?t='+Date.now()).then(r=>r.json()).catch(()=>({}))
+    fetch('daily_report.json?v='+CACHE_BUSTER).then(r=>{
+      if(!r.ok) throw new Error('daily_report.json ' + r.status);
+      return r.json();
+    }).catch(()=>({})),
+    fetch('signals.json?v='+CACHE_BUSTER).then(r=>{
+      if(!r.ok) throw new Error('signals.json ' + r.status);
+      return r.json();
+    }).catch(()=>({signals:[],performance:{}}))
   ]).then(([data,sig])=>{
     if(!data||!data.all_quotes)return;
     const q=data.all_quotes;
