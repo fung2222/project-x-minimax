@@ -416,7 +416,7 @@ footer span{color:var(--gold)}
 
 <script>
 // ── UTILS ──
-function esc(s){if(!s)return'';return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function esc(s){if(s===null||s===undefined)return '';return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
 function pctColor(v){return v>0?'var(--green)':v<0?'var(--red)':'var(--muted)'}
 function pctStr(v){return(v>=0?'+':'')+v.toFixed(2)+'%'}
 
