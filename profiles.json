@@ -22,34 +22,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
-        "title_en": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
-        "desc_zh": "英偉達 市場動態",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/13"
-      },
-      {
-        "title": "Can New iPhone Duo Power Apple's Stock Higher?",
-        "title_en": "Can New iPhone Duo Power Apple's Stock Higher?",
+        "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+        "title_en": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
         "desc_zh": "英偉達 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
-        "sentiment_score": 3,
+        "sentiment_score": 2,
         "date": "09/13"
       },
       {
-        "title": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
-        "title_en": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
-        "desc_zh": "英偉達 AI／晶片板塊",
+        "title": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+        "title_en": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+        "desc_zh": "英偉達 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/13"
+      },
+      {
+        "title": "Retiring in 2027? 3 Essential Financial Moves to Make",
+        "title_en": "Retiring in 2027? 3 Essential Financial Moves to Make",
+        "desc_zh": "英偉達 市場動態",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
         "date": "09/13"
       }
     ],
-    "timestamp": "2026-09-13T14:52:22.349444"
+    "timestamp": "2026-09-13T15:45:18.782929"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -74,17 +74,17 @@
     "sector": "Consumer Cyclical",
     "news": [
       {
-        "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
-        "title_en": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+        "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+        "title_en": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
         "desc_zh": "特斯拉 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
+        "sentiment_score": 2,
         "date": "09/13"
       },
       {
-        "title": "Musk attacks Britain over ‘stifling’ driverless car rules",
-        "title_en": "Musk attacks Britain over ‘stifling’ driverless car rules",
+        "title": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+        "title_en": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
         "desc_zh": "特斯拉 相關負面消息",
         "sentiment": "利淡",
         "sentiment_emoji": "🔴",
@@ -92,8 +92,8 @@
         "date": "09/13"
       },
       {
-        "title": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
-        "title_en": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
+        "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+        "title_en": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
         "desc_zh": "特斯拉 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
@@ -101,7 +101,7 @@
         "date": "09/13"
       }
     ],
-    "timestamp": "2026-09-13T14:52:22.731942"
+    "timestamp": "2026-09-13T15:45:19.139947"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -153,7 +153,7 @@
         "date": "09/11"
       }
     ],
-    "timestamp": "2026-09-13T14:52:23.131059"
+    "timestamp": "2026-09-13T15:45:19.513279"
   },
   "AMD": {
     "symbol": "AMD",
@@ -205,7 +205,7 @@
         "date": "09/12"
       }
     ],
-    "timestamp": "2026-09-13T14:52:23.522391"
+    "timestamp": "2026-09-13T15:45:19.883069"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -257,7 +257,7 @@
         "date": "09/13"
       }
     ],
-    "timestamp": "2026-09-13T14:52:23.896682"
+    "timestamp": "2026-09-13T15:45:20.260680"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -309,7 +309,7 @@
         "date": "09/13"
       }
     ],
-    "timestamp": "2026-09-13T14:52:24.270845"
+    "timestamp": "2026-09-13T15:45:20.691746"
   },
   "META": {
     "symbol": "META",
@@ -334,6 +334,15 @@
     "sector": "Communication Services",
     "news": [
       {
+        "title": "Jim Cramer says big tech stock could double in 3–5 years",
+        "title_en": "Jim Cramer says big tech stock could double in 3–5 years",
+        "desc_zh": "Meta 市場動態",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/13"
+      },
+      {
         "title": "Apple wants AI to listen all day without creeping people out",
         "title_en": "Apple wants AI to listen all day without creeping people out",
         "desc_zh": "Meta AI／晶片板塊",
@@ -350,18 +359,9 @@
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
         "date": "09/12"
-      },
-      {
-        "title": "Agentic commerce: Is Payments the winner this time?",
-        "title_en": "Agentic commerce: Is Payments the winner this time?",
-        "desc_zh": "Meta 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/12"
       }
     ],
-    "timestamp": "2026-09-13T14:52:24.710526"
+    "timestamp": "2026-09-13T15:45:21.062969"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -413,7 +413,7 @@
         "date": "09/12"
       }
     ],
-    "timestamp": "2026-09-13T14:52:25.068840"
+    "timestamp": "2026-09-13T15:45:21.461834"
   },
   "ARM": {
     "symbol": "ARM",
@@ -465,6 +465,6 @@
         "date": "09/11"
       }
     ],
-    "timestamp": "2026-09-13T14:52:25.474865"
+    "timestamp": "2026-09-13T15:45:21.842299"
   }
 }

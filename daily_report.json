@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "timestamp": "2026-09-13T14:52:25.512500",
+  "timestamp": "2026-09-13T15:45:25.987761",
   "source": "Yahoo Finance (yfinance)",
   "market": {
     "vix": 15.84,
@@ -29,7 +29,7 @@
       "max_positions": 3,
       "min_confidence": 0.7
     },
-    "timestamp": "2026-09-13T14:52:14.765956"
+    "timestamp": "2026-09-13T15:45:06.295388"
   },
   "signals": [
     {
@@ -56,7 +56,7 @@
         "RSI 53 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475105",
+      "timestamp": "2026-09-13T15:45:25.949559",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -76,27 +76,27 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
-          "title_en": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
-          "desc_zh": "英偉達 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/13"
-        },
-        {
-          "title": "Can New iPhone Duo Power Apple's Stock Higher?",
-          "title_en": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+          "title_en": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
           "desc_zh": "英偉達 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 3,
+          "sentiment_score": 2,
           "date": "09/13"
         },
         {
-          "title": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
-          "title_en": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
-          "desc_zh": "英偉達 AI／晶片板塊",
+          "title": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+          "title_en": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/13"
+        },
+        {
+          "title": "Retiring in 2027? 3 Essential Financial Moves to Make",
+          "title_en": "Retiring in 2027? 3 Essential Financial Moves to Make",
+          "desc_zh": "英偉達 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
@@ -129,7 +129,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475208",
+      "timestamp": "2026-09-13T15:45:25.949661",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（39位分析師）",
@@ -149,17 +149,17 @@
       "sector": "Consumer Cyclical",
       "analyst_news": [
         {
-          "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
-          "title_en": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+          "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+          "title_en": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
           "desc_zh": "特斯拉 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
+          "sentiment_score": 2,
           "date": "09/13"
         },
         {
-          "title": "Musk attacks Britain over ‘stifling’ driverless car rules",
-          "title_en": "Musk attacks Britain over ‘stifling’ driverless car rules",
+          "title": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+          "title_en": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
           "desc_zh": "特斯拉 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
@@ -167,8 +167,8 @@
           "date": "09/13"
         },
         {
-          "title": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
-          "title_en": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
+          "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+          "title_en": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
           "desc_zh": "特斯拉 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
@@ -206,7 +206,7 @@
         "⚠️ 價格低於 MA50"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475332",
+      "timestamp": "2026-09-13T15:45:25.949792",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（19位分析師）",
@@ -279,7 +279,7 @@
         "RSI 63 偏高"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475395",
+      "timestamp": "2026-09-13T15:45:25.949860",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（50位分析師）",
@@ -352,7 +352,7 @@
         "RSI 58 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475453",
+      "timestamp": "2026-09-13T15:45:25.949921",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（52位分析師）",
@@ -425,7 +425,7 @@
         "RSI 44 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475505",
+      "timestamp": "2026-09-13T15:45:25.949994",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（54位分析師）",
@@ -500,7 +500,7 @@
         "MACD 看跌確認"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475562",
+      "timestamp": "2026-09-13T15:45:25.950060",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（57位分析師）",
@@ -520,6 +520,15 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
+          "title": "Jim Cramer says big tech stock could double in 3–5 years",
+          "title_en": "Jim Cramer says big tech stock could double in 3–5 years",
+          "desc_zh": "Meta 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/13"
+        },
+        {
           "title": "Apple wants AI to listen all day without creeping people out",
           "title_en": "Apple wants AI to listen all day without creeping people out",
           "desc_zh": "Meta AI／晶片板塊",
@@ -535,15 +544,6 @@
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
-          "date": "09/12"
-        },
-        {
-          "title": "Agentic commerce: Is Payments the winner this time?",
-          "title_en": "Agentic commerce: Is Payments the winner this time?",
-          "desc_zh": "Meta 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
           "date": "09/12"
         }
       ],
@@ -573,7 +573,7 @@
         "RSI 41 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475612",
+      "timestamp": "2026-09-13T15:45:25.950111",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -646,7 +646,7 @@
         "RSI 61 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T14:52:25.475660",
+      "timestamp": "2026-09-13T15:45:25.950158",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（40位分析師）",
@@ -711,7 +711,7 @@
       "market_cap": 5271048421376,
       "pe_ratio": 27.631645,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:15.285018"
+      "timestamp": "2026-09-13T15:45:06.724805"
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -727,7 +727,7 @@
       "market_cap": 1443322658816,
       "pe_ratio": 332.21817,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:15.744405"
+      "timestamp": "2026-09-13T15:45:07.130716"
     },
     "RKLB": {
       "symbol": "RKLB",
@@ -743,7 +743,7 @@
       "market_cap": 40250925056,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:16.240888"
+      "timestamp": "2026-09-13T15:45:07.517396"
     },
     "AMD": {
       "symbol": "AMD",
@@ -759,7 +759,7 @@
       "market_cap": 842569351168,
       "pe_ratio": 131.66582,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:16.739654"
+      "timestamp": "2026-09-13T15:45:07.943563"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -775,7 +775,7 @@
       "market_cap": 3680323239936,
       "pe_ratio": 27.62709,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:17.238390"
+      "timestamp": "2026-09-13T15:45:08.379705"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -791,7 +791,7 @@
       "market_cap": 4139833098240,
       "pe_ratio": 16.975927,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:17.735629"
+      "timestamp": "2026-09-13T15:45:08.760935"
     },
     "META": {
       "symbol": "META",
@@ -807,7 +807,7 @@
       "market_cap": 1650860490752,
       "pe_ratio": 24.389538,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:18.237324"
+      "timestamp": "2026-09-13T15:45:09.185902"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -823,7 +823,7 @@
       "market_cap": 401863442432,
       "pe_ratio": 142.93163,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:18.953837"
+      "timestamp": "2026-09-13T15:45:09.605111"
     },
     "ARM": {
       "symbol": "ARM",
@@ -839,7 +839,167 @@
       "market_cap": 282795343872,
       "pe_ratio": 270.19388,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:19.464992"
+      "timestamp": "2026-09-13T15:45:10.022962"
+    },
+    "SOUN": {
+      "symbol": "SOUN",
+      "price": 6.26,
+      "change": -0.02,
+      "change_pct": -0.32,
+      "high": 6.41,
+      "low": 6.25,
+      "open": 6.34,
+      "prev_close": 6.28,
+      "volume": 13571800,
+      "name": "SoundHound AI, Inc.",
+      "market_cap": 2780142336,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:10.553760"
+    },
+    "BBAI": {
+      "symbol": "BBAI",
+      "price": 2.87,
+      "change": 0.05,
+      "change_pct": 1.77,
+      "high": 2.92,
+      "low": 2.81,
+      "open": 2.84,
+      "prev_close": 2.82,
+      "volume": 16051800,
+      "name": "BigBear.ai, Inc.",
+      "market_cap": 1376149120,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:11.068534"
+    },
+    "IONQ": {
+      "symbol": "IONQ",
+      "price": 36.75,
+      "change": -0.09,
+      "change_pct": -0.24,
+      "high": 37.94,
+      "low": 36.33,
+      "open": 37.23,
+      "prev_close": 36.84,
+      "volume": 15329000,
+      "name": "IonQ, Inc.",
+      "market_cap": 14888734720,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:11.554109"
+    },
+    "ASTS": {
+      "symbol": "ASTS",
+      "price": 59.86,
+      "change": -0.05,
+      "change_pct": -0.08,
+      "high": 61.34,
+      "low": 59.2,
+      "open": 60.49,
+      "prev_close": 59.91,
+      "volume": 6630000,
+      "name": "AST SpaceMobile, Inc.",
+      "market_cap": 23295565824,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:12.052617"
+    },
+    "LUNR": {
+      "symbol": "LUNR",
+      "price": 14.35,
+      "change": -0.27,
+      "change_pct": -1.85,
+      "high": 14.94,
+      "low": 14.27,
+      "open": 14.6,
+      "prev_close": 14.62,
+      "volume": 5506500,
+      "name": "Intuitive Machines, Inc.",
+      "market_cap": 2302490624,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:12.608293"
+    },
+    "SOFI": {
+      "symbol": "SOFI",
+      "price": 17.32,
+      "change": 0.11,
+      "change_pct": 0.64,
+      "high": 17.5,
+      "low": 17.12,
+      "open": 17.32,
+      "prev_close": 17.21,
+      "volume": 24422500,
+      "name": "SoFi Technologies, Inc.",
+      "market_cap": 22369996800,
+      "pe_ratio": 35.34694,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:13.113718"
+    },
+    "HOOD": {
+      "symbol": "HOOD",
+      "price": 112.57,
+      "change": -0.76,
+      "change_pct": -0.67,
+      "high": 116.4,
+      "low": 111.02,
+      "open": 113.35,
+      "prev_close": 113.33,
+      "volume": 19655300,
+      "name": "Robinhood Markets, Inc.",
+      "market_cap": 101209694208,
+      "pe_ratio": 49.809734,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:13.573191"
+    },
+    "RIVN": {
+      "symbol": "RIVN",
+      "price": 16.03,
+      "change": -0.02,
+      "change_pct": -0.12,
+      "high": 16.81,
+      "low": 16.01,
+      "open": 16.25,
+      "prev_close": 16.05,
+      "volume": 18975700,
+      "name": "Rivian Automotive, Inc.",
+      "market_cap": 23209205760,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:14.152097"
+    },
+    "JOBY": {
+      "symbol": "JOBY",
+      "price": 6.39,
+      "change": 0.08,
+      "change_pct": 1.27,
+      "high": 6.47,
+      "low": 6.24,
+      "open": 6.31,
+      "prev_close": 6.31,
+      "volume": 32716800,
+      "name": "Joby Aviation, Inc.",
+      "market_cap": 6350857728,
+      "pe_ratio": null,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:14.664499"
+    },
+    "SMCI": {
+      "symbol": "SMCI",
+      "price": 40.1,
+      "change": 2.72,
+      "change_pct": 7.28,
+      "high": 40.45,
+      "low": 37.56,
+      "open": 37.76,
+      "prev_close": 37.38,
+      "volume": 46402900,
+      "name": "Super Micro Computer, Inc.",
+      "market_cap": 26344310784,
+      "pe_ratio": 12.300613,
+      "source": "yfinance",
+      "timestamp": "2026-09-13T15:45:15.181491"
     },
     "SPY": {
       "symbol": "SPY",
@@ -855,7 +1015,7 @@
       "market_cap": null,
       "pe_ratio": 24.69397,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:20.093247"
+      "timestamp": "2026-09-13T15:45:15.652715"
     },
     "QQQ": {
       "symbol": "QQQ",
@@ -871,7 +1031,7 @@
       "market_cap": null,
       "pe_ratio": 29.137512,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:20.622116"
+      "timestamp": "2026-09-13T15:45:16.066702"
     },
     "^VIX": {
       "symbol": "^VIX",
@@ -887,7 +1047,7 @@
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-13T14:52:20.907407"
+      "timestamp": "2026-09-13T15:45:16.353088"
     }
   },
   "profiles": {
@@ -914,34 +1074,34 @@
       "sector": "Technology",
       "news": [
         {
-          "title": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
-          "title_en": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
-          "desc_zh": "英偉達 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/13"
-        },
-        {
-          "title": "Can New iPhone Duo Power Apple's Stock Higher?",
-          "title_en": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+          "title_en": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
           "desc_zh": "英偉達 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 3,
+          "sentiment_score": 2,
           "date": "09/13"
         },
         {
-          "title": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
-          "title_en": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
-          "desc_zh": "英偉達 AI／晶片板塊",
+          "title": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+          "title_en": "Berkshire Hathaway Has Nearly 14% of Its $359 Billion Portfolio Invested in This Winning Stock That's Doubled in 5 Years",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/13"
+        },
+        {
+          "title": "Retiring in 2027? 3 Essential Financial Moves to Make",
+          "title_en": "Retiring in 2027? 3 Essential Financial Moves to Make",
+          "desc_zh": "英偉達 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T14:52:22.349444"
+      "timestamp": "2026-09-13T15:45:18.782929"
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -966,17 +1126,17 @@
       "sector": "Consumer Cyclical",
       "news": [
         {
-          "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
-          "title_en": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+          "title": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
+          "title_en": "Rivian vs. Lucid: This Stock Is Clearly the Better Buy",
           "desc_zh": "特斯拉 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
+          "sentiment_score": 2,
           "date": "09/13"
         },
         {
-          "title": "Musk attacks Britain over ‘stifling’ driverless car rules",
-          "title_en": "Musk attacks Britain over ‘stifling’ driverless car rules",
+          "title": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+          "title_en": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
           "desc_zh": "特斯拉 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
@@ -984,8 +1144,8 @@
           "date": "09/13"
         },
         {
-          "title": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
-          "title_en": "Tesla Is Reclaiming the U.S. EV Market as Legacy Automakers Retreat",
+          "title": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
+          "title_en": "Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla",
           "desc_zh": "特斯拉 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
@@ -993,7 +1153,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T14:52:22.731942"
+      "timestamp": "2026-09-13T15:45:19.139947"
     },
     "RKLB": {
       "symbol": "RKLB",
@@ -1045,7 +1205,7 @@
           "date": "09/11"
         }
       ],
-      "timestamp": "2026-09-13T14:52:23.131059"
+      "timestamp": "2026-09-13T15:45:19.513279"
     },
     "AMD": {
       "symbol": "AMD",
@@ -1097,7 +1257,7 @@
           "date": "09/12"
         }
       ],
-      "timestamp": "2026-09-13T14:52:23.522391"
+      "timestamp": "2026-09-13T15:45:19.883069"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -1149,7 +1309,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T14:52:23.896682"
+      "timestamp": "2026-09-13T15:45:20.260680"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -1201,7 +1361,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T14:52:24.270845"
+      "timestamp": "2026-09-13T15:45:20.691746"
     },
     "META": {
       "symbol": "META",
@@ -1226,6 +1386,15 @@
       "sector": "Communication Services",
       "news": [
         {
+          "title": "Jim Cramer says big tech stock could double in 3–5 years",
+          "title_en": "Jim Cramer says big tech stock could double in 3–5 years",
+          "desc_zh": "Meta 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/13"
+        },
+        {
           "title": "Apple wants AI to listen all day without creeping people out",
           "title_en": "Apple wants AI to listen all day without creeping people out",
           "desc_zh": "Meta AI／晶片板塊",
@@ -1242,18 +1411,9 @@
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
           "date": "09/12"
-        },
-        {
-          "title": "Agentic commerce: Is Payments the winner this time?",
-          "title_en": "Agentic commerce: Is Payments the winner this time?",
-          "desc_zh": "Meta 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/12"
         }
       ],
-      "timestamp": "2026-09-13T14:52:24.710526"
+      "timestamp": "2026-09-13T15:45:21.062969"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -1305,7 +1465,7 @@
           "date": "09/12"
         }
       ],
-      "timestamp": "2026-09-13T14:52:25.068840"
+      "timestamp": "2026-09-13T15:45:21.461834"
     },
     "ARM": {
       "symbol": "ARM",
@@ -1357,7 +1517,7 @@
           "date": "09/11"
         }
       ],
-      "timestamp": "2026-09-13T14:52:25.474865"
+      "timestamp": "2026-09-13T15:45:21.842299"
     }
   },
   "summary": {
@@ -1396,5 +1556,104 @@
       "earnings_date": null
     }
   ],
-  "quotes_ts": "2026-09-13T14:52:25.512524"
+  "opportunity_picks": [
+    {
+      "ticker": "SOUN",
+      "name": "SoundHound AI",
+      "price": 6.26,
+      "signal": "BUY",
+      "confidence": 95,
+      "change_pct": -0.32,
+      "reasons": [
+        "RSI 18 超賣",
+        "MACD 看漲確認",
+        "⚠️ 價格低於 MA50"
+      ],
+      "upside_pct": 103.1,
+      "rsi": 18.5,
+      "action": "超賣區域，強烈買入信號"
+    },
+    {
+      "ticker": "LUNR",
+      "name": "Intuitive Machines",
+      "price": 14.35,
+      "signal": "BUY",
+      "confidence": 95,
+      "change_pct": -1.85,
+      "reasons": [
+        "RSI 19 超賣",
+        "MACD 看漲確認",
+        "⚠️ 價格低於 MA50"
+      ],
+      "upside_pct": 105.6,
+      "rsi": 18.7,
+      "action": "超賣區域，強烈買入信號"
+    },
+    {
+      "ticker": "JOBY",
+      "name": "Joby Aviation",
+      "price": 6.39,
+      "signal": "BUY",
+      "confidence": 95,
+      "change_pct": 1.27,
+      "reasons": [
+        "RSI 21 超賣",
+        "MACD 看漲確認",
+        "放量確認 (vol×1.3)",
+        "⚠️ 價格低於 MA50"
+      ],
+      "upside_pct": 67.1,
+      "rsi": 20.6,
+      "action": "超賣區域，強烈買入信號"
+    },
+    {
+      "ticker": "IONQ",
+      "name": "IonQ",
+      "price": 36.75,
+      "signal": "BUY",
+      "confidence": 77.5,
+      "change_pct": -0.24,
+      "reasons": [
+        "RSI 30 偏低",
+        "MACD 看漲確認",
+        "⚠️ 價格低於 MA50"
+      ],
+      "upside_pct": 88.4,
+      "rsi": 30.5,
+      "action": "偏低，買入機會"
+    },
+    {
+      "ticker": "BBAI",
+      "name": "BigBear.ai",
+      "price": 2.87,
+      "signal": "BUY",
+      "confidence": 75.7,
+      "change_pct": 1.77,
+      "reasons": [
+        "RSI 32 偏低",
+        "MACD 看漲確認",
+        "⚠️ 價格低於 MA50"
+      ],
+      "upside_pct": 39.4,
+      "rsi": 32.3,
+      "action": "偏低，買入機會"
+    },
+    {
+      "ticker": "ASTS",
+      "name": "AST SpaceMobile",
+      "price": 59.86,
+      "signal": "BUY",
+      "confidence": 70.5,
+      "change_pct": -0.08,
+      "reasons": [
+        "RSI 38 偏低",
+        "MACD 看漲確認",
+        "⚠️ 價格低於 MA50"
+      ],
+      "upside_pct": 33.0,
+      "rsi": 37.5,
+      "action": "偏低，買入機會"
+    }
+  ],
+  "quotes_ts": "2026-09-13T15:45:25.987781"
 }
