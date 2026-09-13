@@ -379,36 +379,44 @@ function showTab(name){
 // ── LOAD DATA ──
 const CACHE_BUSTER = Math.floor(Date.now() / 60000);
 
-function fetchJSON(url, fallback={}){
+function todayHKT(){
+  return new Date().toLocaleDateString('en-CA',{timeZone:'Asia/Hong_Kong'});
+}
+
+function fetchJSON(url, fallback={}, timeoutMs=20000){
   return Promise.race([
     fetch(url+'?v='+CACHE_BUSTER).then(r=>{
       if(!r.ok) throw new Error(r.status);
       return r.json();
     }),
-    new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')), 5000))
+    new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')), timeoutMs))
   ]).catch(()=>fallback);
 }
 
 function loadAll(){
+  // Fast path: daily_report / portfolio / profiles first so today's board does not wait on fat signals.json
   Promise.all([
-    fetchJSON('signals.json', {signals:[],performance:{}}),
-    fetchJSON('portfolio.json', {}),
     fetchJSON('daily_report.json', {}),
+    fetchJSON('portfolio.json', {}),
     fetchJSON('profiles.json', {})
-  ]).then(([sig,pfl,report,profiles])=>{
-    updateKpis(sig, pfl);
-    updateVix(sig, report);
-    updateSignals(sig);
-    updateHitRate(sig);
-    updateHistory(sig);
+  ]).then(([report,pfl,profiles])=>{
+    updateVix({}, report);
+    updateSignals({signals:[]}, report);
     updatePhases(pfl);
     updatePortfolio(pfl);
     updateProfiles(profiles);
     updateAnalysis(report, profiles);
     updateRules(pfl, report);
-    updateKPIs(sig, pfl);
     document.getElementById('update-time').textContent = '更新：' + new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});
-    console.log('Project X v3 loaded');
+    // History / hit-rate may load slower from ~900KB signals.json
+    return fetchJSON('signals.json', {signals:[],performance:{}}, 30000).then(sig=>{
+      updateKpis(sig, pfl);
+      updateHitRate(sig);
+      updateHistory(sig);
+      updateSignals(sig, report);
+      updateKPIs(sig, pfl);
+      console.log('Project X v3 loaded');
+    });
   }).catch(e=>console.error('loadAll:', e));
 }
 
@@ -456,12 +464,26 @@ function updateVix(sig, report){
   }
 }
 
-function updateSignals(sig){
+function updateSignals(sig, report){
   const container = document.getElementById('signals-container');
-  const signals = sig.signals || [];
-  const today = signals.filter(s=>s.date===new Date().toISOString().slice(0,10));
+  const todayStr = todayHKT();
+  const dateEl = document.getElementById('signal-date');
+  if(dateEl) dateEl.textContent = todayStr;
+  let today = [];
+  const reportSigs = (report && Array.isArray(report.signals)) ? report.signals : [];
+  if(reportSigs.length > 0){
+    if(report.date === todayStr){
+      today = reportSigs;
+    } else {
+      today = reportSigs.filter(s=>s.date===todayStr);
+      if(today.length===0 && !report.date) today = reportSigs;
+    }
+  }
   if(today.length === 0){
-    container.innerHTML = '<div class="empty"><div class="icon">📡</div>今日尚未生成信號<br><div style="font-size:11px;margin-top:6px">開市報告將於 21:35 HKT 自動生成</div></div>';
+    today = (sig.signals || []).filter(s=>s.date===todayStr);
+  }
+  if(today.length === 0){
+    container.innerHTML = '<div class="empty"><div class="icon">📡</div>今日尚未生成信號<br><div style="font-size:11px;margin-top:6px">每日報告約 22:00 HKT 自動生成（美股時段）；開市預警約 21:35 HKT</div></div>';
     return;
   }
   let html = '';
@@ -579,11 +601,14 @@ function updatePortfolio(pfl){
     const wl = pfl.watchlist || {};
     const primary = wl.primary || [];
     const secondary = wl.secondary || [];
+    const opportunity = wl.opportunity || [];
     let wlHtml = '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px">';
     primary.forEach(t=>wlHtml += '<span class="badge WATCH">'+esc(t)+'</span>');
     secondary.forEach(t=>wlHtml += '<span class="badge" style="background:#F3E8FF;color:#7E22CE">'+esc(t)+'</span>');
+    opportunity.forEach(t=>wlHtml += '<span class="badge" style="background:#ECFDF5;color:#047857">'+esc(t)+'</span>');
     wlHtml += '</div>';
-    wlHtml += '<div style="font-size:11px;color:var(--muted)">主要觀察: '+primary.length+' 隻 · 次要: '+secondary.length+' 隻</div>';
+    wlHtml += '<div style="font-size:11px;color:var(--muted)">核心: '+primary.length+' · 次要: '+secondary.length+' · 機會掃描: '+opportunity.length+'</div>';
+    if(wl.strategy) wlHtml += '<div style="font-size:11px;color:var(--muted);margin-top:6px">'+esc(wl.strategy)+'</div>';
     document.getElementById('pf-watchlist').innerHTML = wlHtml;
   } catch(e) {
     console.error('updatePortfolio:', e);
@@ -660,24 +685,55 @@ function updateAnalysis(report, profiles){
   }
   const m = report.market;
   const gr = report.guardrail || {};
-  const pks = report.top_picks || [];
+  const todayStr = todayHKT();
+  // Prefer report.signals for summary picks when available
+  let pks = report.top_picks || [];
+  const reportSigs = Array.isArray(report.signals) ? report.signals : [];
+  if(reportSigs.length > 0 && pks.length === 0){
+    pks = reportSigs.filter(s=>s.signal==='BUY').sort((a,b)=>(b.confidence||0)-(a.confidence||0));
+  }
+  const opp = report.opportunity_picks || [];
   let html = '<div class="analysis-grid">'+
     '<div><div class="kpi-label">市場狀態</div><div style="font-size:18px;font-weight:700;margin:6px 0">'+(gr.emoji||'')+' '+esc(gr.title||m.regime||'—')+'</div><div style="font-size:11px;color:var(--muted)">VIX: '+(m.vix||0).toFixed(2)+'</div></div>'+
     '<div><div class="kpi-label">S&P 500</div><div style="font-size:18px;font-weight:700;margin:6px 0">$'+(m.spy_price||0).toFixed(2)+'</div><div style="font-size:11px;color:'+pctColor(m.spy_change||0)+'">'+pctStr(m.spy_change||0)+'</div></div>'+
   '</div>';
+  if(reportSigs.length > 0){
+    const buys = reportSigs.filter(s=>s.signal==='BUY').length;
+    const holds = reportSigs.filter(s=>s.signal==='HOLD').length;
+    const sells = reportSigs.filter(s=>s.signal==='SELL').length;
+    html += '<div style="margin-top:12px;font-size:12px;color:var(--muted)">今日核心信號（'+(report.date||todayStr)+'）：🟢買 '+buys+' · 🟡觀望 '+holds+' · 🔴賣 '+sells+'</div>';
+  }
   if(pks.length > 0){
     html += '<div style="margin-top:14px"><div style="font-size:13px;font-weight:700;margin-bottom:8px">🎯 今日 TOP 揀選</div>';
     pks.forEach(p=>{
       const chg = p.change_pct||0;
-      const cls = p.signal==='BUY'?'BUY':p.signal==='SELL'?'SELL':'HOLD';
+      const cls = (p.signal||'BUY')==='BUY'?'BUY':p.signal==='SELL'?'SELL':'HOLD';
       html += '<div class="signal-row">'+
         '<div class="ticker-badge">'+esc(p.ticker)+'</div>'+
         '<div class="signal-name"><strong>'+esc(p.action||p.signal)+'</strong>'+
-          '<span class="reason">'+(p.signal_reasons&&p.signal_reasons[0]||'')+'</span>'+
+          '<span class="reason">'+(p.signal_reasons&&p.signal_reasons[0]||(p.reasons&&p.reasons[0])||'')+'</span>'+
         '</div>'+
         '<div class="signal-price">$'+(p.price||0).toFixed(2)+'</div>'+
         '<div class="signal-pct '+(chg>=0?'green':'red')+'">'+(chg>=0?'+':'')+chg.toFixed(2)+'%</div>'+
-        '<div><span class="badge '+cls+'">'+esc(p.signal)+'</span></div>'+
+        '<div><span class="badge '+cls+'">'+esc(p.signal||'BUY')+'</span></div>'+
+      '</div>';
+    });
+    html += '</div>';
+  }
+  if(opp.length > 0){
+    html += '<div style="margin-top:14px"><div style="font-size:13px;font-weight:700;margin-bottom:8px">💡 小資金機會掃描</div>';
+    html += '<div style="font-size:11px;color:var(--muted);margin-bottom:8px">非核心持倉 · 僅供機會參考（信心≥70%）</div>';
+    opp.forEach(p=>{
+      const conf = p.confidence||0;
+      const upside = p.upside_pct;
+      html += '<div class="signal-row">'+
+        '<div class="ticker-badge">'+esc(p.ticker)+'</div>'+
+        '<div class="signal-name"><strong>'+esc(p.signal||'BUY')+'</strong>'+
+          '<span class="reason">'+esc((p.reasons&&p.reasons[0])||'')+'</span>'+
+        '</div>'+
+        '<div class="signal-price">$'+(p.price||0).toFixed(2)+'<div style="font-size:11px;color:var(--muted)">信心 '+conf.toFixed(0)+'%</div></div>'+
+        '<div class="signal-pct green">'+(upside!=null?('↑'+Number(upside).toFixed(1)+'%'):'—')+'</div>'+
+        '<div><span class="badge BUY">OPP</span></div>'+
       '</div>';
     });
     html += '</div>';

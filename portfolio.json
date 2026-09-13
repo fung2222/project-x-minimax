@@ -1,13 +1,13 @@
 {
   "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-07-07",
+  "updated": "2026-09-13",
   "account": {
-    "capital_hkd": 5000,
-    "capital_usd_approx": 641,
+    "capital_hkd": 10000,
+    "capital_usd_approx": 1280,
     "mode": "paper",
-    "description": "模擬交易模式 — 用虛擬資金練習，真實零風險",
-    "phase": "PHASE_3_SIMULATED_ENTRY",
+    "description": "準備實盤／資金目標 HKD 10,000（富途 Futu）— 模式仍為 paper，直至確認首筆實盤交易",
+    "phase": "PHASE_4_LIVE_PREP",
     "started": "2026-07-07",
     "cash_usd": 662.63,
     "cash_hkd": 5168.51,
@@ -77,13 +77,25 @@
       "VIX"
     ],
     "currency_ticker": "HKDUSD",
-    "strategy": "AI + 太空 + 馬斯克生態，專注 3 隻核心股"
+    "strategy": "AI + 太空 + 馬斯克生態；核心 3 隻（NVDA/TSLA/RKLB）。opportunity 為小資金機會掃描（非核心持倉），主題 AI／太空／fintech／EV。",
+    "opportunity": [
+      "SOUN",
+      "BBAI",
+      "IONQ",
+      "ASTS",
+      "LUNR",
+      "SOFI",
+      "HOOD",
+      "RIVN",
+      "JOBY",
+      "SMCI"
+    ]
   },
   "rules": {
     "max_positions": 3,
-    "max_position_pct": 0.3,
+    "max_position_pct": 0.25,
     "min_cash_pct": 0.2,
-    "min_confidence": 0.7,
+    "min_confidence": 0.75,
     "stop_loss_type": "ATR",
     "stop_loss_atr_mult": 2.0,
     "take_profit_pct": 0.1,
@@ -119,7 +131,7 @@
     "note": "入市後，系統提供操作建議，你在富途牛牛執行真實買賣"
   },
   "phases": {
-    "current": "PHASE_1_OBSERVER",
+    "current": "PHASE_4_LIVE_PREP",
     "phases": [
       {
         "id": "PHASE_1_OBSERVER",
@@ -143,7 +155,13 @@
         "id": "PHASE_4_LIVE",
         "name": "真實入市期",
         "duration": "持續",
-        "goal": "用HKD 5,000真實交易，嚴格執行止損止盈"
+        "goal": "準備實盤／資金目標 HKD 10,000（富途），嚴格執行止損止盈；確認首筆實盤前維持 paper"
+      },
+      {
+        "id": "PHASE_4_LIVE_PREP",
+        "name": "實盤準備期",
+        "duration": "過渡",
+        "goal": "資金目標 HKD 10,000，收緊倉位規則，機會掃描；paper 直至首筆實盤確認"
       }
     ]
   },

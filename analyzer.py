@@ -25,7 +25,22 @@ STOCK_NAMES = {
     "AMZN": "Amazon",
     "PLTR": "Palantir",
     "ARM":  "Arm Holdings",
+    # Opportunity scan (small capital)
+    "SOUN": "SoundHound AI",
+    "BBAI": "BigBear.ai",
+    "IONQ": "IonQ",
+    "ASTS": "AST SpaceMobile",
+    "LUNR": "Intuitive Machines",
+    "SOFI": "SoFi Technologies",
+    "HOOD": "Robinhood",
+    "RIVN": "Rivian",
+    "JOBY": "Joby Aviation",
+    "SMCI": "Super Micro Computer",
 }
+
+# Max price for 1 share ≈ 25% of ~USD 1280 capital
+OPP_MAX_PRICE = 320.0
+OPP_MIN_CONFIDENCE = 70.0
 
 
 def load_json(path):
@@ -126,6 +141,67 @@ def generate_signal(ticker, quote, tech, gr):
         "is_owned": ticker in owned,
         "timestamp": datetime.datetime.now().isoformat()
     }
+
+
+
+def enrich_signal_with_profile(sig, prof):
+    """合併基本面欄位到信號（缺失資料時安全跳過）"""
+    if not sig or not prof or "error" in prof:
+        return sig
+    for key in (
+        "analyst_consensus", "analyst_emoji", "analyst_rating_str", "num_analysts",
+        "target_mean", "target_high", "target_low", "upside_pct",
+        "earnings_date", "earnings_days", "pe_ratio", "forward_pe",
+        "profit_margin_pct", "revenue_growth_pct", "earnings_growth_pct",
+        "industry", "sector",
+    ):
+        if key in prof:
+            sig[key] = prof.get(key)
+    if "news" in prof:
+        sig["analyst_news"] = prof.get("news", [])
+    return sig
+
+
+def build_opportunity_picks(quotes, tech_batch, profiles, gr):
+    """
+    機會掃描：產生信號但不寫入核心 signals.json / 不觸發自動入倉邏輯。
+    僅將 BUY 且信心≥70、股價適合小資金者寫入 daily_report.opportunity_picks。
+    """
+    picks = []
+    for ticker in getattr(finnhub_api, "WATCH_OPPORTUNITY", []):
+        tech = tech_batch.get(ticker, {})
+        if not tech or "error" in tech:
+            continue
+        quote = quotes.get(ticker, {})
+        try:
+            sig = generate_signal(ticker, quote, tech, gr)
+        except Exception:
+            continue
+        if not sig:
+            continue
+        enrich_signal_with_profile(sig, profiles.get(ticker, {}))
+        price = sig.get("price") or 0
+        conf = sig.get("confidence") or 0
+        if sig.get("signal") != "BUY":
+            continue
+        if conf < OPP_MIN_CONFIDENCE:
+            continue
+        if price <= 0 or price > OPP_MAX_PRICE:
+            continue
+        picks.append({
+            "ticker": ticker,
+            "name": sig.get("name", ticker),
+            "price": price,
+            "signal": sig.get("signal"),
+            "confidence": conf,
+            "change_pct": sig.get("change_pct"),
+            "reasons": sig.get("reasons") or sig.get("signal_reasons") or [],
+            "upside_pct": sig.get("upside_pct"),
+            "rsi": sig.get("rsi"),
+            "action": sig.get("action"),
+        })
+    picks.sort(key=lambda x: x.get("confidence", 0), reverse=True)
+    return picks
 
 
 def get_cached_report(max_age_minutes=30):
@@ -230,9 +306,17 @@ def _analyze_impl():
         vol_icon = "▲" if vol >= 1.2 else "▼" if vol < 0.7 else "▬"
         print(f"  {sig_icon} {ticker:4} | ${sig['price']:7.2f} | RSI:{sig['rsi']:5.1f} | MACD:{macd_icon} | vol:{vol_icon}{vol:.1f} | {sig['confidence']:3.0f}% | {sig['action']}")
 
-    print("\n6️⃣ 保存信號記錄...")
+    print("\n6️⃣ 機會掃描（小資金，不入核心自動邏輯）...")
+    opportunity_picks = build_opportunity_picks(quotes, tech_batch, profiles, gr)
+    for p in opportunity_picks:
+        print(f"  💡 {p['ticker']:4} | ${p['price']:7.2f} | conf:{p['confidence']:3.0f}% | {p.get('action','')}")
+    if not opportunity_picks:
+        print("  （今日無符合條件的機會標的）")
+
+    print("\n7️⃣ 保存信號記錄...")
     sig_data = load_json(SIGNALS_PATH)
     today_str = datetime.date.today().isoformat()
+    # Core only — opportunity tickers stay out of signals.json / hit-rate / auto portfolio
     sig_data["signals"] = [s for s in sig_data["signals"] if s.get("date") != today_str]
     for sig in signals:
         sig["date"] = today_str
@@ -242,9 +326,11 @@ def _analyze_impl():
     sig_data["vix_value"] = round(vix, 2)
     save_json(SIGNALS_PATH, sig_data)
 
-    print("\n7️⃣ 生成每日報告...")
-    profiles_clean = {t: p for t, p in profiles.items() if "error" not in p}
-    report = generate_report(signals, quotes, gr, vix, regime, profiles_clean)
+    print("\n8️⃣ 生成每日報告...")
+    core_tickers = set(finnhub_api.WATCH_PRIMARY + finnhub_api.WATCH_SECONDARY)
+    profiles_clean = {t: p for t, p in profiles.items() if "error" not in p and t in core_tickers}
+    # Keep opportunity profiles available under report but not required for core dashboard profiles.json
+    report = generate_report(signals, quotes, gr, vix, regime, profiles_clean, opportunity_picks=opportunity_picks)
     save_json(REPORT_PATH, report)
     save_json(os.path.join(BASE_DIR, "profiles.json"), profiles_clean)
 
@@ -265,11 +351,12 @@ def _analyze_impl():
     total = perf.get("total_signals", 0)
     if total > 0:
         print(f"\n📊 命中率：{perf.get('hit_rate_pct',0):.0f}%（{total}筆交易）")
+    print(f"\n💡 機會掃描候選：{len(opportunity_picks)} 隻")
     print("\n✅ 分析完成！")
     return report
 
 
-def generate_report(signals, quotes, gr, vix, regime, profiles=None):
+def generate_report(signals, quotes, gr, vix, regime, profiles=None, opportunity_picks=None):
     """生成完整的中文每日報告"""
     buys = [s for s in signals if s["signal"] == "BUY"]
     holds = [s for s in signals if s["signal"] == "HOLD"]
@@ -324,6 +411,7 @@ def generate_report(signals, quotes, gr, vix, regime, profiles=None):
             }
             for s in sorted(buys, key=lambda x: x["confidence"], reverse=True)
         ],
+        "opportunity_picks": opportunity_picks or [],
         "quotes_ts": datetime.datetime.now().isoformat()
     }
     return report

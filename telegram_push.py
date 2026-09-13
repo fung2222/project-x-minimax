@@ -279,6 +279,19 @@ def format_signals_section(report):
                 lines.extend(why_hold or ["  • 市場訊號不夠明確"])
                 if sig_reasons:
                     lines.append(f"  • 觀望原因：{sig_reasons[0]}")
+
+    opp_picks = report.get("opportunity_picks") or []
+    if opp_picks:
+        lines.append("")
+        lines.append("<b>💡 小資金機會掃描</b>")
+        for pick in opp_picks[:3]:
+            t = html_escape(pick.get("ticker", ""))
+            price = pick.get("price", 0) or 0
+            conf = pick.get("confidence", 0) or 0
+            upside = pick.get("upside_pct")
+            up_s = f" · 目標 +{upside:.1f}%" if upside is not None else ""
+            lines.append(f"• <b>{t}</b> @ ${price:.2f}（置信 {conf:.0f}%）{up_s}")
+
     return "\n".join(lines)
 
 

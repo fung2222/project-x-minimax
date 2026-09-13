@@ -12,6 +12,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # 觀察名單（AI + 太空 + 馬斯克生態）
 WATCH_PRIMARY = ["NVDA", "TSLA", "RKLB"]     # 核心3隻
 WATCH_SECONDARY = ["AMD", "MSFT", "GOOGL", "META", "PLTR", "ARM"]  # 擴展觀察
+# 小資金機會掃描（非核心持倉；AI / 太空 / fintech / EV）
+WATCH_OPPORTUNITY = ["SOUN", "BBAI", "IONQ", "ASTS", "LUNR", "SOFI", "HOOD", "RIVN", "JOBY", "SMCI"]
 WATCH_INDEX = ["SPY", "QQQ", "^VIX"]
 
 # Finnhub API 配置
@@ -32,7 +34,7 @@ def load_finnhub_key():
     except Exception:
         pass
     return ""
-ALL_TICKERS = WATCH_PRIMARY + WATCH_SECONDARY + WATCH_INDEX
+ALL_TICKERS = WATCH_PRIMARY + WATCH_SECONDARY + WATCH_OPPORTUNITY + WATCH_INDEX
 
 
 def get_quote(ticker):
@@ -275,10 +277,13 @@ def get_tech_indicators(ticker):
         return {"symbol": ticker, "error": str(e)}
 
 
-def get_full_tech_batch():
-    """一次過計算所有股票的技術指標"""
+def get_full_tech_batch(include_opportunity=True):
+    """一次過計算所有股票的技術指標（可含機會掃描標的）"""
     results = {}
-    for ticker in WATCH_PRIMARY + WATCH_SECONDARY:
+    tickers = WATCH_PRIMARY + WATCH_SECONDARY
+    if include_opportunity:
+        tickers = tickers + WATCH_OPPORTUNITY
+    for ticker in tickers:
         results[ticker] = get_tech_indicators(ticker)
     return results
 
@@ -457,13 +462,19 @@ def get_stock_profile(ticker):
         return {"symbol": ticker, "error": str(e)}
 
 
-def get_all_profiles():
-    """一次過取得所有股票的基本面資料"""
+def get_all_profiles(include_opportunity=True):
+    """一次過取得所有股票的基本面資料（可含機會掃描標的）"""
     result = {}
-    for ticker in WATCH_PRIMARY + WATCH_SECONDARY:
-        p = get_stock_profile(ticker)
-        if p:
-            result[ticker] = p
+    tickers = WATCH_PRIMARY + WATCH_SECONDARY
+    if include_opportunity:
+        tickers = tickers + WATCH_OPPORTUNITY
+    for ticker in tickers:
+        try:
+            p = get_stock_profile(ticker)
+            if p:
+                result[ticker] = p
+        except Exception as e:
+            result[ticker] = {"symbol": ticker, "error": str(e)}
     return result
 
 
