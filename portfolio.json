@@ -9,28 +9,15 @@
     "description": "模擬交易模式 — 用虛擬資金練習，真實零風險",
     "phase": "PHASE_3_SIMULATED_ENTRY",
     "started": "2026-07-07",
-    "cash_usd": 445.45,
-    "cash_hkd": 3474.51,
-    "equity_usd": 647.25,
+    "cash_usd": 662.63,
+    "cash_hkd": 5168.51,
+    "equity_usd": 657.39,
     "total_invested_usd": 195.55,
-    "total_pnl_usd": 6.25,
-    "total_pnl_pct": 0.98
+    "total_pnl_usd": 16.39,
+    "total_pnl_pct": 2.56,
+    "total_fees_usd": 1.09
   },
-  "positions": [
-    {
-      "ticker": "NVDA",
-      "shares": 1,
-      "entry_price": 195.55,
-      "entry_date": "2026-07-07",
-      "current_price": 201.7999,
-      "cost_usd": 195.55,
-      "value_usd": 201.8,
-      "pnl_usd": 6.25,
-      "pnl_pct": 3.2,
-      "analyst_consensus": "強烈買入",
-      "last_updated": "2026-07-09T22:00:39.175577"
-    }
-  ],
+  "positions": [],
   "trade_log": [
     {
       "id": "T001",
@@ -46,6 +33,28 @@
       "status": "open",
       "pnl_usd": null,
       "pnl_pct": null
+    },
+    {
+      "id": "T002",
+      "date": "2026-08-05",
+      "timestamp": "2026-08-05T21:35:13.583655",
+      "ticker": "NVDA",
+      "action": "SELL",
+      "reason": "TAKE_PROFIT",
+      "shares": 1,
+      "entry_price": 195.55,
+      "exit_price": 218.27,
+      "entry_date": "2026-07-07",
+      "exit_date": "2026-08-05",
+      "gross_proceeds_usd": 218.27,
+      "fee_usd": 1.09,
+      "proceeds_usd": 217.18,
+      "proceeds_hkd": 1694.03,
+      "gross_pnl_usd": 22.72,
+      "gross_pnl_pct": 11.62,
+      "net_pnl_usd": 21.63,
+      "net_pnl_pct": 11.06,
+      "status": "closed"
     }
   ],
   "watchlist": {
@@ -138,5 +147,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-07-09T22:00:39.175577"
+  "last_tracker_update": "2026-08-05T21:00:19.106476"
 }
