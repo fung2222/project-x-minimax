@@ -26266,7 +26266,7 @@
         "RSI 53 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475105",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -26286,8 +26286,8 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
-          "title_en": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
+          "title": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
+          "title_en": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
           "desc_zh": "英偉達 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
@@ -26295,17 +26295,17 @@
           "date": "09/13"
         },
         {
-          "title": "Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion ",
-          "title_en": "Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion ",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
+          "title": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "title_en": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
           "date": "09/13"
         },
         {
-          "title": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These",
-          "title_en": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These",
+          "title": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
+          "title_en": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
           "desc_zh": "英偉達 AI／晶片板塊",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
@@ -26339,7 +26339,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475208",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（39位分析師）",
@@ -26416,7 +26416,7 @@
         "⚠️ 價格低於 MA50"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475332",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（19位分析師）",
@@ -26489,7 +26489,7 @@
         "RSI 63 偏高"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475395",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（50位分析師）",
@@ -26562,7 +26562,7 @@
         "RSI 58 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475453",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（52位分析師）",
@@ -26635,7 +26635,7 @@
         "RSI 44 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475505",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（54位分析師）",
@@ -26710,7 +26710,7 @@
         "MACD 看跌確認"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475562",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（57位分析師）",
@@ -26730,6 +26730,15 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
+          "title": "Apple wants AI to listen all day without creeping people out",
+          "title_en": "Apple wants AI to listen all day without creeping people out",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/13"
+        },
+        {
           "title": "Bill Ackman Calls Anthropic Researcher's Exit 'Interesting' Amid Claims of 'Well-Funded PR Operation' Aimed at Democrats",
           "title_en": "Bill Ackman Calls Anthropic Researcher's Exit 'Interesting' Amid Claims of 'Well-Funded PR Operation' Aimed at Democrats",
           "desc_zh": "Meta AI／晶片板塊",
@@ -26745,15 +26754,6 @@
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
           "sentiment_score": 1,
-          "date": "09/12"
-        },
-        {
-          "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "title_en": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "desc_zh": "Meta 業績／財務相關",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
           "date": "09/12"
         }
       ],
@@ -26783,7 +26783,7 @@
         "RSI 41 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475612",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -26856,7 +26856,7 @@
         "RSI 61 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.993810",
+      "timestamp": "2026-09-13T14:52:25.475660",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（40位分析師）",
@@ -26917,7 +26917,7 @@
     "note": "從 2026-07-07 開始實時收集",
     "miss_rate_pct": 24.3
   },
-  "last_updated": "2026-09-13T22:00:26.008811",
+  "last_updated": "2026-09-13T14:52:25.485759",
   "vix_regime": "正常市場",
   "vix_value": 15.84
 }

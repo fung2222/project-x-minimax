@@ -1,6 +1,6 @@
 {
   "date": "2026-09-13",
-  "timestamp": "2026-09-13T22:00:26.045876",
+  "timestamp": "2026-09-13T14:52:25.512500",
   "source": "Yahoo Finance (yfinance)",
   "market": {
     "vix": 15.84,
@@ -29,7 +29,7 @@
       "max_positions": 3,
       "min_confidence": 0.7
     },
-    "timestamp": "2026-09-13T22:00:15.322447"
+    "timestamp": "2026-09-13T14:52:14.765956"
   },
   "signals": [
     {
@@ -56,7 +56,7 @@
         "RSI 53 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475105",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（58位分析師）",
@@ -76,8 +76,8 @@
       "sector": "Technology",
       "analyst_news": [
         {
-          "title": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
-          "title_en": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
+          "title": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
+          "title_en": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
           "desc_zh": "英偉達 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
@@ -85,17 +85,17 @@
           "date": "09/13"
         },
         {
-          "title": "Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion ",
-          "title_en": "Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion ",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
+          "title": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "title_en": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
           "date": "09/13"
         },
         {
-          "title": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These",
-          "title_en": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These",
+          "title": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
+          "title_en": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
           "desc_zh": "英偉達 AI／晶片板塊",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
@@ -129,7 +129,7 @@
         "RSI 51 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475208",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（39位分析師）",
@@ -206,7 +206,7 @@
         "⚠️ 價格低於 MA50"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475332",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（19位分析師）",
@@ -279,7 +279,7 @@
         "RSI 63 偏高"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.991814",
+      "timestamp": "2026-09-13T14:52:25.475395",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（50位分析師）",
@@ -352,7 +352,7 @@
         "RSI 58 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475453",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（52位分析師）",
@@ -425,7 +425,7 @@
         "RSI 44 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475505",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（54位分析師）",
@@ -500,7 +500,7 @@
         "MACD 看跌確認"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475562",
       "analyst_consensus": "強烈買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 強烈買入（57位分析師）",
@@ -520,6 +520,15 @@
       "sector": "Communication Services",
       "analyst_news": [
         {
+          "title": "Apple wants AI to listen all day without creeping people out",
+          "title_en": "Apple wants AI to listen all day without creeping people out",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/13"
+        },
+        {
           "title": "Bill Ackman Calls Anthropic Researcher's Exit 'Interesting' Amid Claims of 'Well-Funded PR Operation' Aimed at Democrats",
           "title_en": "Bill Ackman Calls Anthropic Researcher's Exit 'Interesting' Amid Claims of 'Well-Funded PR Operation' Aimed at Democrats",
           "desc_zh": "Meta AI／晶片板塊",
@@ -535,15 +544,6 @@
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
           "sentiment_score": 1,
-          "date": "09/12"
-        },
-        {
-          "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "title_en": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "desc_zh": "Meta 業績／財務相關",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
           "date": "09/12"
         }
       ],
@@ -573,7 +573,7 @@
         "RSI 41 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.992813",
+      "timestamp": "2026-09-13T14:52:25.475612",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（27位分析師）",
@@ -646,7 +646,7 @@
         "RSI 61 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-13T22:00:25.993810",
+      "timestamp": "2026-09-13T14:52:25.475660",
       "analyst_consensus": "買入",
       "analyst_emoji": "🟢",
       "analyst_rating_str": "🟢 買入（40位分析師）",
@@ -711,7 +711,7 @@
       "market_cap": 5271048421376,
       "pe_ratio": 27.631645,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:15.866833"
+      "timestamp": "2026-09-13T14:52:15.285018"
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -727,7 +727,7 @@
       "market_cap": 1443322658816,
       "pe_ratio": 332.21817,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:16.395397"
+      "timestamp": "2026-09-13T14:52:15.744405"
     },
     "RKLB": {
       "symbol": "RKLB",
@@ -743,7 +743,7 @@
       "market_cap": 40250925056,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:16.918737"
+      "timestamp": "2026-09-13T14:52:16.240888"
     },
     "AMD": {
       "symbol": "AMD",
@@ -759,7 +759,7 @@
       "market_cap": 842569351168,
       "pe_ratio": 131.66582,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:17.465669"
+      "timestamp": "2026-09-13T14:52:16.739654"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -775,7 +775,7 @@
       "market_cap": 3680323239936,
       "pe_ratio": 27.62709,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:18.008349"
+      "timestamp": "2026-09-13T14:52:17.238390"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -791,7 +791,7 @@
       "market_cap": 4139833098240,
       "pe_ratio": 16.975927,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:18.531932"
+      "timestamp": "2026-09-13T14:52:17.735629"
     },
     "META": {
       "symbol": "META",
@@ -807,7 +807,7 @@
       "market_cap": 1650860490752,
       "pe_ratio": 24.389538,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:19.068004"
+      "timestamp": "2026-09-13T14:52:18.237324"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -823,7 +823,7 @@
       "market_cap": 401863442432,
       "pe_ratio": 142.93163,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:19.593376"
+      "timestamp": "2026-09-13T14:52:18.953837"
     },
     "ARM": {
       "symbol": "ARM",
@@ -839,7 +839,7 @@
       "market_cap": 282795343872,
       "pe_ratio": 270.19388,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:20.114518"
+      "timestamp": "2026-09-13T14:52:19.464992"
     },
     "SPY": {
       "symbol": "SPY",
@@ -855,7 +855,7 @@
       "market_cap": null,
       "pe_ratio": 24.69397,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:20.664259"
+      "timestamp": "2026-09-13T14:52:20.093247"
     },
     "QQQ": {
       "symbol": "QQQ",
@@ -871,7 +871,7 @@
       "market_cap": null,
       "pe_ratio": 29.137512,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:21.205586"
+      "timestamp": "2026-09-13T14:52:20.622116"
     },
     "^VIX": {
       "symbol": "^VIX",
@@ -887,7 +887,7 @@
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-13T22:00:21.476720"
+      "timestamp": "2026-09-13T14:52:20.907407"
     }
   },
   "profiles": {
@@ -914,8 +914,8 @@
       "sector": "Technology",
       "news": [
         {
-          "title": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
-          "title_en": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
+          "title": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
+          "title_en": "Skipping Social Security Could Pay Off Big Time in This 1 Scenario",
           "desc_zh": "英偉達 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
@@ -923,17 +923,17 @@
           "date": "09/13"
         },
         {
-          "title": "Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion ",
-          "title_en": "Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion ",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
+          "title": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "title_en": "Can New iPhone Duo Power Apple's Stock Higher?",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
           "date": "09/13"
         },
         {
-          "title": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These",
-          "title_en": "Forget President Donald Trump's $5,000 Dividend Promise. Investors Can Start Earning Passive Income Right Now With These",
+          "title": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
+          "title_en": "NVIDIA’s Older GPUs Still Earn Rent. What That Does and Doesn’t Prove for CoreWeave",
           "desc_zh": "英偉達 AI／晶片板塊",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
@@ -941,7 +941,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T22:00:22.552129"
+      "timestamp": "2026-09-13T14:52:22.349444"
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -993,7 +993,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T22:00:22.974541"
+      "timestamp": "2026-09-13T14:52:22.731942"
     },
     "RKLB": {
       "symbol": "RKLB",
@@ -1045,7 +1045,7 @@
           "date": "09/11"
         }
       ],
-      "timestamp": "2026-09-13T22:00:23.385592"
+      "timestamp": "2026-09-13T14:52:23.131059"
     },
     "AMD": {
       "symbol": "AMD",
@@ -1097,7 +1097,7 @@
           "date": "09/12"
         }
       ],
-      "timestamp": "2026-09-13T22:00:23.796864"
+      "timestamp": "2026-09-13T14:52:23.522391"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -1149,7 +1149,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T22:00:24.273659"
+      "timestamp": "2026-09-13T14:52:23.896682"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -1201,7 +1201,7 @@
           "date": "09/13"
         }
       ],
-      "timestamp": "2026-09-13T22:00:24.687523"
+      "timestamp": "2026-09-13T14:52:24.270845"
     },
     "META": {
       "symbol": "META",
@@ -1226,6 +1226,15 @@
       "sector": "Communication Services",
       "news": [
         {
+          "title": "Apple wants AI to listen all day without creeping people out",
+          "title_en": "Apple wants AI to listen all day without creeping people out",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/13"
+        },
+        {
           "title": "Bill Ackman Calls Anthropic Researcher's Exit 'Interesting' Amid Claims of 'Well-Funded PR Operation' Aimed at Democrats",
           "title_en": "Bill Ackman Calls Anthropic Researcher's Exit 'Interesting' Amid Claims of 'Well-Funded PR Operation' Aimed at Democrats",
           "desc_zh": "Meta AI／晶片板塊",
@@ -1242,18 +1251,9 @@
           "sentiment_emoji": "🟢",
           "sentiment_score": 1,
           "date": "09/12"
-        },
-        {
-          "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "title_en": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call",
-          "desc_zh": "Meta 業績／財務相關",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/12"
         }
       ],
-      "timestamp": "2026-09-13T22:00:25.080930"
+      "timestamp": "2026-09-13T14:52:24.710526"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -1305,7 +1305,7 @@
           "date": "09/12"
         }
       ],
-      "timestamp": "2026-09-13T22:00:25.506587"
+      "timestamp": "2026-09-13T14:52:25.068840"
     },
     "ARM": {
       "symbol": "ARM",
@@ -1357,7 +1357,7 @@
           "date": "09/11"
         }
       ],
-      "timestamp": "2026-09-13T22:00:25.990778"
+      "timestamp": "2026-09-13T14:52:25.474865"
     }
   },
   "summary": {
@@ -1396,5 +1396,5 @@
       "earnings_date": null
     }
   ],
-  "quotes_ts": "2026-09-13T22:00:26.045876"
+  "quotes_ts": "2026-09-13T14:52:25.512524"
 }
