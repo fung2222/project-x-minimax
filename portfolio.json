@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "account": {
     "capital_hkd": 10000,
     "capital_usd_approx": 1280,
@@ -11,26 +11,36 @@
     "started": "2026-07-07",
     "cash_usd": 932.65,
     "cash_hkd": 7274.67,
-    "equity_usd": 1278.0,
+    "equity_usd": 1283.82,
     "total_invested_usd": 345.35,
-    "total_pnl_usd": 16.39,
-    "total_pnl_pct": 2.56,
+    "total_pnl_usd": 5.82,
+    "total_pnl_pct": 1.69,
     "total_fees_usd": 3.09,
     "last_decision": {
-      "date": "2026-09-13",
-      "style": "professional_filter",
+      "date": "2026-09-14",
+      "style": "professional_filter_observation",
       "actions": [
-        "BUY RKLB x3",
-        "BUY SOUN x25"
+        "HOLD RKLB @ 63.14 (stop 57.91 / TP 69.25)",
+        "HOLD SOUN @ 6.47 (stop 5.76 / TP 6.89)",
+        "NO NEW BUYS"
       ],
       "skipped": [
+        "JOBY BUY spray/below-MA50/vol-weak",
+        "LUNR BUY spray/below-MA50/vol-weak",
         "META SELL no inventory",
-        "NVDA/TSLA HOLD",
-        "LUNR/JOBY/IONQ/BBAI/ASTS spray"
+        "NVDA/TSLA HOLD expensive-or-neutral"
       ],
-      "cash_pct": 72.9,
-      "deployed_pct": 27.0
-    }
+      "cash_pct": 72.6,
+      "deployed_pct": 27.4,
+      "notes": [
+        "核心 0 BUY（NVDA/TSLA/RKLB 全 HOLD；META SELL 無庫存）",
+        "已有 2 倉（RKLB+SOUN），第三倉只應給高質量確認位，唔係噴散抄底",
+        "JOBY/LUNR 機械 BUY ~80% 但低於 MA50 + 成交量不足 —— 同昨日子彈同質，避免 spray",
+        "觀察模式：教「點解唔急住買」優先於追超賣克隆",
+        "SPY/QQQ 今日偏弱（-0.7%/-1.3%），現金緩衝繼續保值"
+      ]
+    },
+    "updated": "2026-09-14"
   },
   "positions": [
     {
@@ -39,14 +49,15 @@
       "entry_price": 62.95,
       "entry_date": "2026-09-13",
       "trade_id": "T003",
-      "current_price": 62.95,
+      "current_price": 63.14,
       "cost_usd": 188.85,
-      "value_usd": 188.85,
-      "pnl_usd": 0.0,
-      "pnl_pct": 0.0,
+      "value_usd": 189.42,
+      "pnl_usd": 0.57,
+      "pnl_pct": 0.3,
       "stop_loss_price": 57.91,
       "take_profit_price": 69.25,
-      "thesis": "quality core bounce, not full sleeve"
+      "thesis": "quality core bounce, not full sleeve",
+      "last_updated": "2026-09-14T14:36:02.457778"
     },
     {
       "ticker": "SOUN",
@@ -54,14 +65,15 @@
       "entry_price": 6.26,
       "entry_date": "2026-09-13",
       "trade_id": "T004",
-      "current_price": 6.26,
+      "current_price": 6.47,
       "cost_usd": 156.5,
-      "value_usd": 156.5,
-      "pnl_usd": 0.0,
-      "pnl_pct": 0.0,
+      "value_usd": 161.75,
+      "pnl_usd": 5.25,
+      "pnl_pct": 3.35,
       "stop_loss_price": 5.76,
       "take_profit_price": 6.89,
-      "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray"
+      "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray",
+      "last_updated": "2026-09-14T14:36:02.457778"
     }
   ],
   "trade_log": [
@@ -245,5 +257,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-08-05T21:00:19.106476"
+  "last_tracker_update": "2026-09-14T14:36:02.457778"
 }

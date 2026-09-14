@@ -1,0 +1,438 @@
+{
+  "type": "weekly_report",
+  "week_start": "2026-09-07",
+  "week_end": "2026-09-14",
+  "generated": "2026-09-14T01:40:12.777356",
+  "market": {
+    "vix": 15.84,
+    "regime": "正常市場",
+    "spy_price": 764.29,
+    "qqq_price": 714.88
+  },
+  "week_summary": {
+    "days_analyzed": 7,
+    "buy_signals": 6,
+    "hold_signals": 49,
+    "sell_signals": 8
+  },
+  "performance": {
+    "total_signals": 37,
+    "hits": 16,
+    "misses": 9,
+    "hit_rate_pct": 43.2
+  },
+  "mode": "paper",
+  "signals_by_day": [
+    {
+      "date": "2026-09-07",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "BUY",
+          "confidence": 95
+        },
+        {
+          "ticker": "AMD",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 66.9
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 68.2
+        }
+      ]
+    },
+    {
+      "date": "2026-09-08",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "BUY",
+          "confidence": 87
+        },
+        {
+          "ticker": "AMD",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 95
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 55
+        }
+      ]
+    },
+    {
+      "date": "2026-09-09",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "BUY",
+          "confidence": 82.0
+        },
+        {
+          "ticker": "AMD",
+          "signal": "SELL",
+          "confidence": 66.2
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 63.4
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 95
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 60
+        }
+      ]
+    },
+    {
+      "date": "2026-09-10",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "BUY",
+          "confidence": 72.8
+        },
+        {
+          "ticker": "AMD",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 61.5
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 87.6
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 55
+        }
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "HOLD",
+          "confidence": 68.5
+        },
+        {
+          "ticker": "AMD",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 89.2
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 55
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "BUY",
+          "confidence": 83.8
+        },
+        {
+          "ticker": "AMD",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 87.8
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 55
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "signals": [
+        {
+          "ticker": "NVDA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "TSLA",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "RKLB",
+          "signal": "BUY",
+          "confidence": 83.8
+        },
+        {
+          "ticker": "AMD",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "MSFT",
+          "signal": "HOLD",
+          "confidence": 55
+        },
+        {
+          "ticker": "GOOGL",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "META",
+          "signal": "SELL",
+          "confidence": 87.8
+        },
+        {
+          "ticker": "PLTR",
+          "signal": "HOLD",
+          "confidence": 60
+        },
+        {
+          "ticker": "ARM",
+          "signal": "HOLD",
+          "confidence": 55
+        }
+      ]
+    }
+  ],
+  "portfolio_snapshot": {
+    "equity_usd": 1278.0,
+    "cash_usd": 932.65,
+    "positions": [
+      {
+        "ticker": "RKLB",
+        "shares": 3,
+        "entry": 62.95,
+        "pnl_pct": 0.0
+      },
+      {
+        "ticker": "SOUN",
+        "shares": 25,
+        "entry": 6.26,
+        "pnl_pct": 0.0
+      }
+    ],
+    "week_trades": [
+      {
+        "id": "T003",
+        "date": "2026-09-13",
+        "timestamp": "2026-09-13T15:49:04",
+        "ticker": "RKLB",
+        "action": "BUY",
+        "shares": 3,
+        "entry_price": 62.95,
+        "cost_usd": 188.85,
+        "fee_usd": 1.0,
+        "cost_hkd": 1473.03,
+        "reason": "CORE: RSI超賣+MACD轉強+太空核心持倉；低於MA50故半倉起步，待站回MA50再考慮加倉。分析師潛在上行約74%。",
+        "status": "open",
+        "pnl_usd": null,
+        "pnl_pct": null,
+        "decision_note": "Professional filter 2026-09-13: rejected META(no short), NVDA/TSLA(HOLD/expensive), and spray-buying all opportunity 95% names (LUNR/JOBY/IONQ/BBAI/ASTS) due to below-MA50 + speculative correlation."
+      },
+      {
+        "id": "T004",
+        "date": "2026-09-13",
+        "timestamp": "2026-09-13T15:49:04",
+        "ticker": "SOUN",
+        "action": "BUY",
+        "shares": 25,
+        "entry_price": 6.26,
+        "cost_usd": 156.5,
+        "fee_usd": 1.0,
+        "cost_hkd": 1220.7,
+        "reason": "SATELLITE: AI語音小盤極超賣(RSI~18)+MACD轉強；股價便宜適合細資金。與RKLB主題分散（AI vs 太空）。高波動，嚴格止損。",
+        "status": "open",
+        "pnl_usd": null,
+        "pnl_pct": null,
+        "decision_note": "Professional filter 2026-09-13: rejected META(no short), NVDA/TSLA(HOLD/expensive), and spray-buying all opportunity 95% names (LUNR/JOBY/IONQ/BBAI/ASTS) due to below-MA50 + speculative correlation."
+      }
+    ]
+  },
+  "teaching": [
+    "small-capital 2-3 positions / <=25-30% / cash>=20%",
+    "professional filter over mechanical spray",
+    "staged entry below MA50; satellite sizing",
+    "hit rate ~43% observation phase — risk first",
+    "paper vs Futu live remains user-executed"
+  ]
+}
