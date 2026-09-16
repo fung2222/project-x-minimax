@@ -6,15 +6,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 58,
     "analyst_rating_str": "🟢 強烈買入（58位分析師）",
-    "current_price": 211.84,
+    "current_price": 214.95,
     "target_mean": 328.66034,
     "target_high": 515.0,
     "target_low": 180.0,
-    "upside_pct": 55.1,
+    "upside_pct": 52.9,
     "earnings_date": "2026-11-17",
-    "earnings_days": 63,
-    "pe_ratio": 26.8,
-    "forward_pe": 13.6,
+    "earnings_days": 62,
+    "pe_ratio": 27.2,
+    "forward_pe": 13.8,
     "profit_margin_pct": 63.7,
     "revenue_growth_pct": 105.9,
     "earnings_growth_pct": 127.8,
@@ -22,34 +22,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Tech stocks today: CEOs call for pacing AI, as Nvidia CEO says extinction fears are made up",
-        "title_en": "Tech stocks today: CEOs call for pacing AI, as Nvidia CEO says extinction fears are made up",
-        "desc_zh": "英偉達 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -1,
-        "date": "09/14"
-      },
-      {
-        "title": "Marvell Technology Has Imploded Since June: One Defiant Wall Street Pro Says It’ll Double From Today",
-        "title_en": "Marvell Technology Has Imploded Since June: One Defiant Wall Street Pro Says It’ll Double From Today",
+        "title": "SK Hynix stock jumps as memory maker responds to report of potential deal with Intel",
+        "title_en": "SK Hynix stock jumps as memory maker responds to report of potential deal with Intel",
         "desc_zh": "英偉達 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
-        "date": "09/15"
+        "date": "09/16"
       },
       {
-        "title": "Stock Market Today: Dow Dives As Yields Jump; Nvidia Up But This Biotech Play Flashes Sell Signal (Live Coverage)",
-        "title_en": "Stock Market Today: Dow Dives As Yields Jump; Nvidia Up But This Biotech Play Flashes Sell Signal (Live Coverage)",
-        "desc_zh": "英偉達 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/15"
+        "title": "AI will not wipe out humanity, Nvidia-backed tech CEO declares",
+        "title_en": "AI will not wipe out humanity, Nvidia-backed tech CEO declares",
+        "desc_zh": "英偉達 AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/16"
+      },
+      {
+        "title": "Billionaire Ray Dalio’s Bridgewater’s and Cathie Wood’s ARK Portfolios: 2 Stocks They Both Own",
+        "title_en": "Billionaire Ray Dalio’s Bridgewater’s and Cathie Wood’s ARK Portfolios: 2 Stocks They Both Own",
+        "desc_zh": "英偉達 業績／財務相關",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:00.575861"
+    "timestamp": "2026-09-16T14:37:19.843487"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -58,15 +58,15 @@
     "recommendation_key": "buy",
     "num_analysts": 39,
     "analyst_rating_str": "🟢 買入（39位分析師）",
-    "current_price": 356.665,
+    "current_price": 362.81,
     "target_mean": 390.09283,
     "target_high": 600.0,
     "target_low": 125.0,
-    "upside_pct": 9.4,
+    "upside_pct": 7.5,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 330.2,
-    "forward_pe": 165.2,
+    "pe_ratio": 339.1,
+    "forward_pe": 168.1,
     "profit_margin_pct": 3.7,
     "revenue_growth_pct": 25.5,
     "earnings_growth_pct": -3.0,
@@ -74,34 +74,34 @@
     "sector": "Consumer Cyclical",
     "news": [
       {
-        "title": "Musk hints (again) at possible SpaceX, Tesla merger",
-        "title_en": "Musk hints (again) at possible SpaceX, Tesla merger",
-        "desc_zh": "特斯拉 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/15"
-      },
-      {
-        "title": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-        "title_en": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
+        "title": "Goldman Slashes Tesla’s Q3 Delivery Forecast — Says Weaker Sales Across Largest Markets May Offset Export Strength",
+        "title_en": "Goldman Slashes Tesla’s Q3 Delivery Forecast — Says Weaker Sales Across Largest Markets May Offset Export Strength",
         "desc_zh": "特斯拉 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/15"
+        "date": "09/16"
       },
       {
-        "title": "Anthropic Could Be The 11th Most Valuable Company in the World",
-        "title_en": "Anthropic Could Be The 11th Most Valuable Company in the World",
-        "desc_zh": "特斯拉 市場動態",
+        "title": "Tesla’s Cybercab Is In Trouble",
+        "title_en": "Tesla’s Cybercab Is In Trouble",
+        "desc_zh": "特斯拉 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/16"
+      },
+      {
+        "title": "Will Tesla's Long-Awaited Roadster Debut With a Radical New Design?",
+        "title_en": "Will Tesla's Long-Awaited Roadster Debut With a Radical New Design?",
+        "desc_zh": "特斯拉 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/15"
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:01.222867"
+    "timestamp": "2026-09-16T14:37:20.313924"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -110,15 +110,15 @@
     "recommendation_key": "buy",
     "num_analysts": 19,
     "analyst_rating_str": "🟢 買入（19位分析師）",
-    "current_price": 62.0801,
+    "current_price": 63.475,
     "target_mean": 109.36842,
     "target_high": 150.0,
     "target_low": 64.0,
-    "upside_pct": 76.2,
+    "upside_pct": 72.3,
     "earnings_date": null,
     "earnings_days": null,
     "pe_ratio": null,
-    "forward_pe": 1362.6,
+    "forward_pe": 1393.2,
     "profit_margin_pct": -21.5,
     "revenue_growth_pct": 62.0,
     "earnings_growth_pct": null,
@@ -126,34 +126,34 @@
     "sector": "Industrials",
     "news": [
       {
-        "title": "Rocket Lab Rises 3% on Iridium Deal Optimism; SpaceX and AST SpaceMobile Slip 1%",
-        "title_en": "Rocket Lab Rises 3% on Iridium Deal Optimism; SpaceX and AST SpaceMobile Slip 1%",
+        "title": "Can Rocket Lab's Component Portfolio Support Space Market Growth?",
+        "title_en": "Can Rocket Lab's Component Portfolio Support Space Market Growth?",
         "desc_zh": "Rocket Lab 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
-        "date": "09/15"
+        "date": "09/16"
       },
       {
-        "title": "Advance Auto Parts vs. Rocket Lab: Which Consumer Stock Is a Better Buy in 2026?",
-        "title_en": "Advance Auto Parts vs. Rocket Lab: Which Consumer Stock Is a Better Buy in 2026?",
+        "title": "What Are You Actually Buying In RKLB Stock?",
+        "title_en": "What Are You Actually Buying In RKLB Stock?",
+        "desc_zh": "Rocket Lab 太空業務",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/16"
+      },
+      {
+        "title": "Prediction: Rocket Lab's Revenue Tops $1.5 Billion in 2027 Without Counting Iridium",
+        "title_en": "Prediction: Rocket Lab's Revenue Tops $1.5 Billion in 2027 Without Counting Iridium",
         "desc_zh": "Rocket Lab 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
-        "date": "09/15"
-      },
-      {
-        "title": "Update: US Equity Futures Drop Pre-Bell as 10-Year Treasury Yield Surpasses 5% Ahead of Fed Decision",
-        "title_en": "Update: US Equity Futures Drop Pre-Bell as 10-Year Treasury Yield Surpasses 5% Ahead of Fed Decision",
-        "desc_zh": "Rocket Lab 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -1,
-        "date": "09/15"
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:01.767754"
+    "timestamp": "2026-09-16T14:37:20.763146"
   },
   "AMD": {
     "symbol": "AMD",
@@ -162,15 +162,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 50,
     "analyst_rating_str": "🟢 強烈買入（50位分析師）",
-    "current_price": 504.15,
+    "current_price": 522.17,
     "target_mean": 616.508,
     "target_high": 1250.0,
     "target_low": 365.0,
-    "upside_pct": 22.3,
+    "upside_pct": 18.1,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 129.3,
-    "forward_pe": 32.4,
+    "pe_ratio": 132.9,
+    "forward_pe": 33.5,
     "profit_margin_pct": 15.6,
     "revenue_growth_pct": 50.1,
     "earnings_growth_pct": 159.5,
@@ -178,34 +178,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Marvell Technology Has Imploded Since June: One Defiant Wall Street Pro Says It’ll Double From Today",
-        "title_en": "Marvell Technology Has Imploded Since June: One Defiant Wall Street Pro Says It’ll Double From Today",
+        "title": "SK Hynix stock jumps as memory maker responds to report of potential deal with Intel",
+        "title_en": "SK Hynix stock jumps as memory maker responds to report of potential deal with Intel",
         "desc_zh": "AMD超微 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
-        "date": "09/15"
+        "date": "09/16"
       },
       {
-        "title": "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory – AMD, Intel To Validate New Server Technology",
-        "title_en": "MU Stock Rises After Micron Debuts 512GB DDR5 Server Memory – AMD, Intel To Validate New Server Technology",
-        "desc_zh": "AMD超微 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/15"
+        "title": "ASML Vs. Taiwan Semiconductor Manufacturing: One Is More Misunderstood",
+        "title_en": "ASML Vs. Taiwan Semiconductor Manufacturing: One Is More Misunderstood",
+        "desc_zh": "AMD超微 業績／財務相關",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/16"
       },
       {
-        "title": "AMD's Recent Surge Still Matters: Putting These ETFs in Focus",
-        "title_en": "AMD's Recent Surge Still Matters: Putting These ETFs in Focus",
-        "desc_zh": "AMD超微 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 4,
-        "date": "09/15"
+        "title": "Wall Street Sees 56% Upside in Broadcom After Summer Selloff",
+        "title_en": "Wall Street Sees 56% Upside in Broadcom After Summer Selloff",
+        "desc_zh": "AMD超微 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:02.288863"
+    "timestamp": "2026-09-16T14:37:21.276907"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -214,15 +214,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 52,
     "analyst_rating_str": "🟢 強烈買入（52位分析師）",
-    "current_price": 499.62,
+    "current_price": 492.31,
     "target_mean": 572.91516,
     "target_high": 870.0,
     "target_low": 400.0,
-    "upside_pct": 14.7,
+    "upside_pct": 16.4,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 27.8,
-    "forward_pe": 21.2,
+    "pe_ratio": 27.9,
+    "forward_pe": 20.9,
     "profit_margin_pct": 40.3,
     "revenue_growth_pct": 17.7,
     "earnings_growth_pct": 31.7,
@@ -230,34 +230,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-        "title_en": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-        "desc_zh": "微軟 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/15"
-      },
-      {
-        "title": "Do AI CEOs’ safety warnings mean real regulation is coming?",
-        "title_en": "Do AI CEOs’ safety warnings mean real regulation is coming?",
+        "title": "How worried should software, semiconductor stocks be about AI risks?",
+        "title_en": "How worried should software, semiconductor stocks be about AI risks?",
         "desc_zh": "微軟 相關負面消息",
         "sentiment": "利淡",
         "sentiment_emoji": "🔴",
         "sentiment_score": -1,
-        "date": "09/14"
+        "date": "09/16"
       },
       {
-        "title": "Nvidia’s Anthropic Investment: Securing AI Demand Amid Rising Competition",
-        "title_en": "Nvidia’s Anthropic Investment: Securing AI Demand Amid Rising Competition",
-        "desc_zh": "微軟 AI／晶片板塊",
+        "title": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
+        "title_en": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
+        "desc_zh": "微軟 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/16"
+      },
+      {
+        "title": "Rate Hike Shock: Can the S&P Hold?",
+        "title_en": "Rate Hike Shock: Can the S&P Hold?",
+        "desc_zh": "微軟 市場動態",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/15"
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:02.805571"
+    "timestamp": "2026-09-16T14:37:21.820768"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -266,15 +266,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 54,
     "analyst_rating_str": "🟢 強烈買入（54位分析師）",
-    "current_price": 343.9145,
+    "current_price": 345.415,
     "target_mean": 428.06668,
     "target_high": 515.0,
     "target_low": 340.0,
-    "upside_pct": 24.5,
+    "upside_pct": 23.9,
     "earnings_date": null,
     "earnings_days": null,
     "pe_ratio": 17.3,
-    "forward_pe": 23.1,
+    "forward_pe": 23.3,
     "profit_margin_pct": 54.8,
     "revenue_growth_pct": 24.2,
     "earnings_growth_pct": 294.0,
@@ -282,34 +282,34 @@
     "sector": "Communication Services",
     "news": [
       {
-        "title": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-        "title_en": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-        "desc_zh": "谷歌 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/15"
+        "title": "Google's Gemini 3.8 beats rivals on AI voice and slashes costs",
+        "title_en": "Google's Gemini 3.8 beats rivals on AI voice and slashes costs",
+        "desc_zh": "谷歌 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/16"
       },
       {
-        "title": "Planted Raises $31.8 Million to Accelerate Autonomous Solar Deployment",
-        "title_en": "Planted Raises $31.8 Million to Accelerate Autonomous Solar Deployment",
+        "title": "Nvidia Targets AI’s Power Bottleneck With New Alliance With Google, Emerald AI — Flexible Data Center Could Respond To G",
+        "title_en": "Nvidia Targets AI’s Power Bottleneck With New Alliance With Google, Emerald AI — Flexible Data Center Could Respond To G",
         "desc_zh": "谷歌 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/15"
+        "date": "09/16"
       },
       {
-        "title": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
-        "title_en": "Wall St wobbles as rising oil and Treasury yields stoke investor unease",
-        "desc_zh": "谷歌 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/15"
+        "title": "Google signs biggest carbon removal deal with Terradot in Brazil",
+        "title_en": "Google signs biggest carbon removal deal with Terradot in Brazil",
+        "desc_zh": "谷歌 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:03.346808"
+    "timestamp": "2026-09-16T14:37:22.287972"
   },
   "META": {
     "symbol": "META",
@@ -318,15 +318,15 @@
     "recommendation_key": "strong_buy",
     "num_analysts": 57,
     "analyst_rating_str": "🟢 強烈買入（57位分析師）",
-    "current_price": 663.7,
+    "current_price": 678.86,
     "target_mean": 758.2758,
     "target_high": 1000.0,
     "target_low": 580.0,
-    "upside_pct": 14.2,
+    "upside_pct": 11.7,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 25.0,
-    "forward_pe": 19.0,
+    "pe_ratio": 25.6,
+    "forward_pe": 19.4,
     "profit_margin_pct": 29.8,
     "revenue_growth_pct": 28.0,
     "earnings_growth_pct": -13.4,
@@ -334,8 +334,8 @@
     "sector": "Communication Services",
     "news": [
       {
-        "title": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
-        "title_en": "Wall Street pushes back on Anthropic's warning as AI spending expected to roll on: Chart of the Day",
+        "title": "Meta launches Meta One subscriptions as it seeks to better monetize AI spending",
+        "title_en": "Meta launches Meta One subscriptions as it seeks to better monetize AI spending",
         "desc_zh": "Meta AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
@@ -343,25 +343,25 @@
         "date": "09/15"
       },
       {
-        "title": "Meta stock rises on cost-saving AI chip deployment plans",
-        "title_en": "Meta stock rises on cost-saving AI chip deployment plans",
-        "desc_zh": "Meta 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 2,
-        "date": "09/15"
+        "title": "Zuckerberg Says Labs Don't Need Permission to Slow Down",
+        "title_en": "Zuckerberg Says Labs Don't Need Permission to Slow Down",
+        "desc_zh": "Meta 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -2,
+        "date": "09/16"
       },
       {
-        "title": "Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
-        "title_en": "Can Verizon's 6G Acceleration Initiatives and AI Trials Drive Growth?",
-        "desc_zh": "Meta 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/15"
+        "title": "Why Nvidia Stock Is Rising as Meta’s Zuckerberg Weighs In on AI Safety",
+        "title_en": "Why Nvidia Stock Is Rising as Meta’s Zuckerberg Weighs In on AI Safety",
+        "desc_zh": "Meta 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:03.888567"
+    "timestamp": "2026-09-16T14:37:22.758685"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -370,15 +370,15 @@
     "recommendation_key": "buy",
     "num_analysts": 27,
     "analyst_rating_str": "🟢 買入（27位分析師）",
-    "current_price": 170.69,
+    "current_price": 170.36,
     "target_mean": 196.84074,
     "target_high": 255.0,
     "target_low": 80.0,
-    "upside_pct": 15.3,
+    "upside_pct": 15.5,
     "earnings_date": null,
     "earnings_days": null,
-    "pe_ratio": 144.7,
-    "forward_pe": 73.4,
+    "pe_ratio": 145.6,
+    "forward_pe": 73.3,
     "profit_margin_pct": 49.0,
     "revenue_growth_pct": 92.8,
     "earnings_growth_pct": 215.4,
@@ -386,34 +386,34 @@
     "sector": "Technology",
     "news": [
       {
-        "title": "Palantir's CEO Revealed the Biggest Opportunity in Its Future. And It Has Little to Do with AI Models",
-        "title_en": "Palantir's CEO Revealed the Biggest Opportunity in Its Future. And It Has Little to Do with AI Models",
-        "desc_zh": "Palantir AI／晶片板塊",
+        "title": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
+        "title_en": "Death of software 'greatly overstated' as sector flips the script on chip stocks: Chart of the Day",
+        "desc_zh": "Palantir 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/16"
+      },
+      {
+        "title": "Palantir Remains in the Red in 2026: One Senior Wall Street Analyst Says 50% Gains to Come",
+        "title_en": "Palantir Remains in the Red in 2026: One Senior Wall Street Analyst Says 50% Gains to Come",
+        "desc_zh": "Palantir 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/16"
+      },
+      {
+        "title": "Palantir’s Investment Case is Very Simple Now",
+        "title_en": "Palantir’s Investment Case is Very Simple Now",
+        "desc_zh": "Palantir 業績／財務相關",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/15"
-      },
-      {
-        "title": "2 Popular AI Stocks to Sell Before They Fall 53% and 58%, According to Wall Street Analysts",
-        "title_en": "2 Popular AI Stocks to Sell Before They Fall 53% and 58%, According to Wall Street Analysts",
-        "desc_zh": "Palantir 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -3,
-        "date": "09/15"
-      },
-      {
-        "title": "Oklo Has Massive Potential Due to Artificial Intelligence, but the Stock Is Sinking. Here's What I'd Do",
-        "title_en": "Oklo Has Massive Potential Due to Artificial Intelligence, but the Stock Is Sinking. Here's What I'd Do",
-        "desc_zh": "Palantir 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -2,
-        "date": "09/14"
+        "date": "09/16"
       }
     ],
-    "timestamp": "2026-09-15T14:52:04.441546"
+    "timestamp": "2026-09-16T14:37:23.221472"
   },
   "ARM": {
     "symbol": "ARM",
@@ -422,21 +422,30 @@
     "recommendation_key": "buy",
     "num_analysts": 40,
     "analyst_rating_str": "🟢 買入（40位分析師）",
-    "current_price": 245.82,
+    "current_price": 246.9003,
     "target_mean": 288.705,
     "target_high": 500.0,
     "target_low": 125.0,
-    "upside_pct": 17.4,
+    "upside_pct": 16.9,
     "earnings_date": "2026-11-04",
-    "earnings_days": 50,
-    "pe_ratio": 250.8,
-    "forward_pe": 80.6,
+    "earnings_days": 49,
+    "pe_ratio": 249.4,
+    "forward_pe": 81.0,
     "profit_margin_pct": 20.2,
     "revenue_growth_pct": 22.4,
     "earnings_growth_pct": 108.3,
     "industry": "Semiconductors",
     "sector": "Technology",
     "news": [
+      {
+        "title": "Arm Surges as the AI Selloff Tests Its Royalty Machine",
+        "title_en": "Arm Surges as the AI Selloff Tests Its Royalty Machine",
+        "desc_zh": "ARM AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/15"
+      },
       {
         "title": "Arm Stock Is Down More Than 40%. Here's Why I'm Staying on the Sidelines.",
         "title_en": "Arm Stock Is Down More Than 40%. Here's Why I'm Staying on the Sidelines.",
@@ -454,17 +463,8 @@
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
         "date": "09/15"
-      },
-      {
-        "title": "Netflix Stock Rose 4% While the AI Trade Sold Off on Monday. Its Capital Goes Into Shows, Not Silicon.",
-        "title_en": "Netflix Stock Rose 4% While the AI Trade Sold Off on Monday. Its Capital Goes Into Shows, Not Silicon.",
-        "desc_zh": "ARM 業績／財務相關",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/14"
       }
     ],
-    "timestamp": "2026-09-15T14:52:04.971724"
+    "timestamp": "2026-09-16T14:37:23.752919"
   }
 }
