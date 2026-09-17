@@ -28886,6 +28886,665 @@
         }
       ],
       "date": "2026-09-16"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 219.73,
+      "change_pct": 2.72,
+      "rsi": 43.1,
+      "macd": -1.5119,
+      "macd_histogram": 2.204,
+      "macd_bullish": true,
+      "vol_ratio": 0.23,
+      "ma50": 218.72,
+      "atr": 6.47,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 43 中性"
+      ],
+      "signal_reasons": [
+        "RSI 43 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.731782",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+          "title_en": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        },
+        {
+          "title": "Frontier AI developers must be 'liable for the things their products do': Autodesk CEO",
+          "title_en": "Frontier AI developers must be 'liable for the things their products do': Autodesk CEO",
+          "desc_zh": "英偉達 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/16"
+        },
+        {
+          "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+          "title_en": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+          "desc_zh": "英偉達 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 370.86,
+      "change_pct": 3.57,
+      "rsi": 56.5,
+      "macd": -9.5201,
+      "macd_histogram": -29.2023,
+      "macd_bullish": false,
+      "vol_ratio": 0.37,
+      "ma50": 356.73,
+      "atr": 14.46,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 56 中性"
+      ],
+      "signal_reasons": [
+        "RSI 56 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.731895",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+          "title_en": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+          "desc_zh": "特斯拉 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        },
+        {
+          "title": "Tesla Stock Has a Potential Catalyst Wall Street Can’t Ignore",
+          "title_en": "Tesla Stock Has a Potential Catalyst Wall Street Can’t Ignore",
+          "desc_zh": "特斯拉 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        },
+        {
+          "title": "Update: US Equity Futures Higher Pre-Bell as Traders Assess Fed Interest-Rate Increase",
+          "title_en": "Update: US Equity Futures Higher Pre-Bell as Traders Assess Fed Interest-Rate Increase",
+          "desc_zh": "特斯拉 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 67.3,
+      "change_pct": 5.65,
+      "rsi": 49.4,
+      "macd": -2.3863,
+      "macd_histogram": 13.7871,
+      "macd_bullish": true,
+      "vol_ratio": 0.49,
+      "ma50": 67.15,
+      "atr": 2.98,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 49 中性"
+      ],
+      "signal_reasons": [
+        "RSI 49 中性"
+      ],
+      "is_owned": true,
+      "timestamp": "2026-09-17T14:36:42.731975",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "SpaceX Is Worth $2 Trillion. Why Does Its Stock Swing Like a Small-Cap?",
+          "title_en": "SpaceX Is Worth $2 Trillion. Why Does Its Stock Swing Like a Small-Cap?",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        },
+        {
+          "title": "RKLB Stock Eyes Ending 5-Week Slide: Iridium Deal Clears First FCC Hurdle, VC Backer Hails Solar Breakthrough",
+          "title_en": "RKLB Stock Eyes Ending 5-Week Slide: Iridium Deal Clears First FCC Hurdle, VC Backer Hails Solar Breakthrough",
+          "desc_zh": "Rocket Lab AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        },
+        {
+          "title": "SpaceX Rises 5% as Starship’s First Orbital Attempt Gets Launch Date; Rocket Lab and AST SpaceMobile Hold Steady",
+          "title_en": "SpaceX Rises 5% as Starship’s First Orbital Attempt Gets Launch Date; Rocket Lab and AST SpaceMobile Hold Steady",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/16"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Adv. Micro Devices",
+      "signal": "HOLD",
+      "action": "偏高，觀望",
+      "confidence": 60,
+      "price": 537.65,
+      "change_pct": 4.91,
+      "rsi": 65.8,
+      "macd": -34.9472,
+      "macd_histogram": -14.6185,
+      "macd_bullish": false,
+      "vol_ratio": 0.47,
+      "ma50": 485.83,
+      "atr": 21.17,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 66 偏高"
+      ],
+      "signal_reasons": [
+        "RSI 66 偏高"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.732046",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+          "title_en": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+          "desc_zh": "AMD超微 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        },
+        {
+          "title": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
+          "title_en": "Can MRVL's Data Center Business Sustain Its Growth in 2027?",
+          "desc_zh": "AMD超微 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        },
+        {
+          "title": "Advanced Micro Devices (AMD) Expands ROCm Support To RISC V Datacenter Servers",
+          "title_en": "Advanced Micro Devices (AMD) Expands ROCm Support To RISC V Datacenter Servers",
+          "desc_zh": "AMD超微 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 498.31,
+      "change_pct": 1.63,
+      "rsi": 46.4,
+      "macd": -1.7216,
+      "macd_histogram": -19.325,
+      "macd_bullish": false,
+      "vol_ratio": 0.23,
+      "ma50": 494.86,
+      "atr": 10.25,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 46 中性"
+      ],
+      "signal_reasons": [
+        "RSI 46 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.732113",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
+          "title_en": "10-year Treasury yield eases, oil falls to $100: AlphaCheck",
+          "desc_zh": "微軟 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/17"
+        },
+        {
+          "title": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the  Last 20 Years. History Says Big Tech Rallies Followed",
+          "title_en": "This Goldman Sachs Indicator Hit 0 Only 4 Other Times in the  Last 20 Years. History Says Big Tech Rallies Followed",
+          "desc_zh": "微軟 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/17"
+        },
+        {
+          "title": "MRVL Stock Climbs After AI Optical Capacity Deal, New Microsoft Security Platform Launch",
+          "title_en": "MRVL Stock Climbs After AI Optical Capacity Deal, New Microsoft Security Platform Launch",
+          "desc_zh": "微軟 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 347.83,
+      "change_pct": 1.45,
+      "rsi": 55.5,
+      "macd": -5.8073,
+      "macd_histogram": -2.2065,
+      "macd_bullish": false,
+      "vol_ratio": 0.19,
+      "ma50": 341.62,
+      "atr": 7.93,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 56 中性"
+      ],
+      "signal_reasons": [
+        "RSI 56 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.732177",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+          "title_en": "Lucid stock jumps on 25,000 robotaxi deal with Europe's Bolt",
+          "desc_zh": "谷歌 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/17"
+        },
+        {
+          "title": "Tesla must prove Cybercab is legal to sell, NHTSA says",
+          "title_en": "Tesla must prove Cybercab is legal to sell, NHTSA says",
+          "desc_zh": "谷歌 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/16"
+        },
+        {
+          "title": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+          "title_en": "Looking for a Good Deal on an AI Stock? This Leading Chipmaker Is Cheaper Than Broadcom and AMD.",
+          "desc_zh": "谷歌 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "signal": "SELL",
+      "action": "嚴重超買，止盈",
+      "confidence": 93.8,
+      "price": 673.73,
+      "change_pct": 0.06,
+      "rsi": 86.9,
+      "macd": -32.6999,
+      "macd_histogram": -71.3974,
+      "macd_bullish": false,
+      "vol_ratio": 0.22,
+      "ma50": 600.97,
+      "atr": 20.98,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 87 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 87 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.732308",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "AI is the latest addiction — Does it need to be regulated like cigarettes?",
+          "title_en": "AI is the latest addiction — Does it need to be regulated like cigarettes?",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        },
+        {
+          "title": "Snap launches $2,195 Specs smart glasses",
+          "title_en": "Snap launches $2,195 Specs smart glasses",
+          "desc_zh": "Meta 太空業務",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/16"
+        },
+        {
+          "title": "Snap Advances 4% as Specs Glasses Add Salesforce and NVIDIA Enterprise Tools; Meta Holds Steady",
+          "title_en": "Snap Advances 4% as Specs Glasses Add Salesforce and NVIDIA Enterprise Tools; Meta Holds Steady",
+          "desc_zh": "Meta 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 177.2,
+      "change_pct": 1.64,
+      "rsi": 42.7,
+      "macd": -3.3741,
+      "macd_histogram": -5.9975,
+      "macd_bullish": false,
+      "vol_ratio": 0.25,
+      "ma50": 175.41,
+      "atr": 6.97,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 43 中性"
+      ],
+      "signal_reasons": [
+        "RSI 43 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.732373",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "SRFM Lands First OperatorOS Customer As Palantir-Powered Platform Goes Commercial",
+          "title_en": "SRFM Lands First OperatorOS Customer As Palantir-Powered Platform Goes Commercial",
+          "desc_zh": "Palantir 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        },
+        {
+          "title": "Chipotle Turns to Palantir After a Summer of Outbreaks",
+          "title_en": "Chipotle Turns to Palantir After a Summer of Outbreaks",
+          "desc_zh": "Palantir AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        },
+        {
+          "title": "CMG Stock Ticks Up On AI Food Safety Bet With Palantir: Retail Bullish On ‘Ontological Burritos'",
+          "title_en": "CMG Stock Ticks Up On AI Food Safety Bet With Palantir: Retail Bullish On ‘Ontological Burritos'",
+          "desc_zh": "Palantir AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        }
+      ],
+      "date": "2026-09-17"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 260.66,
+      "change_pct": 6.84,
+      "rsi": 52.2,
+      "macd": -9.8581,
+      "macd_histogram": 11.6816,
+      "macd_bullish": true,
+      "vol_ratio": 0.57,
+      "ma50": 249.14,
+      "atr": 14.76,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 52 中性"
+      ],
+      "signal_reasons": [
+        "RSI 52 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-17T14:36:42.732433",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Arm’s CEO Says Demand Is ‘Off the Charts.’ The Problem Is Nobody Can Build Chips Fast Enough",
+          "title_en": "Arm’s CEO Says Demand Is ‘Off the Charts.’ The Problem Is Nobody Can Build Chips Fast Enough",
+          "desc_zh": "ARM 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/17"
+        },
+        {
+          "title": "ARM Stock Declines 39% in 3 Months: Is This a Buying Opportunity?",
+          "title_en": "ARM Stock Declines 39% in 3 Months: Is This a Buying Opportunity?",
+          "desc_zh": "ARM AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/16"
+        },
+        {
+          "title": "Arm Surges as the AI Selloff Tests Its Royalty Machine",
+          "title_en": "Arm Surges as the AI Selloff Tests Its Royalty Machine",
+          "desc_zh": "ARM AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/15"
+        }
+      ],
+      "date": "2026-09-17"
     }
   ],
   "performance": {
@@ -28899,7 +29558,7 @@
     "note": "從 2026-07-07 開始實時收集",
     "miss_rate_pct": 23.7
   },
-  "last_updated": "2026-09-16T14:37:28.939991",
+  "last_updated": "2026-09-17T14:36:42.743739",
   "vix_regime": "正常市場",
-  "vix_value": 16.87
+  "vix_value": 15.79
 }

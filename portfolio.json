@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "account": {
     "capital_hkd": 10000,
     "capital_usd_approx": 1280,
@@ -11,36 +11,38 @@
     "started": "2026-07-07",
     "cash_usd": 932.65,
     "cash_hkd": 7274.67,
-    "equity_usd": 1271.44,
-    "total_invested_usd": 338.79,
-    "total_pnl_usd": -6.56,
-    "total_pnl_pct": -1.9,
+    "equity_usd": 1285.3,
+    "total_invested_usd": 345.35,
+    "total_pnl_usd": 7.3,
+    "total_pnl_pct": 2.11,
     "total_fees_usd": 3.09,
     "last_decision": {
-      "date": "2026-09-16",
+      "date": "2026-09-17",
       "style": "professional_filter_observation",
       "actions": [
-        "HOLD RKLB @ 63.43 (stop 57.91 / TP 69.25)",
-        "HOLD SOUN @ 5.94 (stop 5.76 / TP 6.89)",
+        "HOLD RKLB @ 67.3 (stop 57.91 / TP 69.25; near TP ~2.9% below)",
+        "HOLD SOUN @ 6.03 (stop 5.76 / TP 6.89; no add near stop)",
         "NO NEW BUYS"
       ],
       "skipped": [
-        "JOBY BUY spray/below-MA50/vol-weak (87%)",
-        "LUNR BUY spray/below-MA50/vol-weak (79.8%)",
+        "JOBY BUY spray/below-MA50/vol-weak (77.4%)",
+        "BBAI BUY spray/below-MA50/vol-weak + conf<75% (74%)",
+        "LUNR not in today's opportunity BUY list (still skip spray theme)",
         "META SELL no inventory",
-        "NVDA/TSLA HOLD expensive-or-neutral (conf <75%)"
+        "NVDA/TSLA/AMD HOLD expensive-or-neutral (conf <75%)"
       ],
-      "cash_pct": 73.4,
-      "deployed_pct": 26.6,
+      "cash_pct": 72.6,
+      "deployed_pct": 27.4,
       "notes": [
-        "核心 0 BUY（全部 HOLD 或 META SELL 無庫存）；無 ≥75% 確認買訊",
+        "核心 0 BUY（8 HOLD + META SELL 無庫存）；無 ≥75% 確認買訊",
         "已有 2 倉（RKLB+SOUN），第三倉只應給高質量確認位，唔係噴散抄底",
-        "JOBY/LUNR 機械 BUY ~80–87% 但低於 MA50 + 成交量不足 —— 連續多日同質 spray，跳過",
-        "SOUN 距止損約 3%（5.94 vs SL 5.76），仍未收市穿位；唔加倉攤平",
-        "SPY +0.20% / QQQ +0.63% 溫和反彈；現金緩衝 ~73.4% 繼續保值"
+        "JOBY/BBAI 機械 BUY ~74–77% 但低於 MA50 + 成交量不足 —— 同質 spray，跳過（LUNR 今日未入機會 BUY）",
+        "RKLB @ 67.3 距 TP 69.25 約 2.9%，未收市穿透 → HOLD 近 TP，唔追高加倉",
+        "SOUN @ 6.03 距止損約 4.5%（vs SL 5.76），仍未收市穿位；唔加倉攤平",
+        "SPY +1.02% / QQQ +1.65% 強反彈；現金緩衝 ~72.6% 繼續保值"
       ]
     },
-    "updated": "2026-09-16"
+    "updated": "2026-09-17"
   },
   "positions": [
     {
@@ -49,15 +51,15 @@
       "entry_price": 62.95,
       "entry_date": "2026-09-13",
       "trade_id": "T003",
-      "current_price": 63.43,
+      "current_price": 67.3,
       "cost_usd": 188.85,
-      "value_usd": 190.29,
-      "pnl_usd": 1.44,
-      "pnl_pct": 0.76,
+      "value_usd": 201.9,
+      "pnl_usd": 13.05,
+      "pnl_pct": 6.91,
       "stop_loss_price": 57.91,
       "take_profit_price": 69.25,
       "thesis": "quality core bounce, not full sleeve",
-      "last_updated": "2026-09-16T14:38:15.182680"
+      "last_updated": "2026-09-17T14:38:27.011306"
     },
     {
       "ticker": "SOUN",
@@ -65,15 +67,15 @@
       "entry_price": 6.26,
       "entry_date": "2026-09-13",
       "trade_id": "T004",
-      "current_price": 5.94,
+      "current_price": 6.03,
       "cost_usd": 156.5,
-      "value_usd": 148.5,
-      "pnl_usd": -8.0,
-      "pnl_pct": -5.11,
+      "value_usd": 150.75,
+      "pnl_usd": -5.75,
+      "pnl_pct": -3.67,
       "stop_loss_price": 5.76,
       "take_profit_price": 6.89,
       "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray",
-      "last_updated": "2026-09-16T14:38:15.182680"
+      "last_updated": "2026-09-17T14:38:27.011306"
     }
   ],
   "trade_log": [
@@ -257,5 +259,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-09-16T14:38:15.182680"
+  "last_tracker_update": "2026-09-17T14:38:27.011306"
 }
