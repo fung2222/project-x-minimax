@@ -1,19 +1,19 @@
 {
-  "date": "2026-09-17",
-  "timestamp": "2026-09-17T14:38:27.011306",
+  "date": "2026-09-18",
+  "timestamp": "2026-09-18T14:30:58.974366",
   "mode": "OBSERVATION",
   "market": {
-    "vix": 15.79,
+    "vix": 15.45,
     "regime": "正常市場",
     "regime_emoji": "🟢",
-    "spy_price": 761.76,
-    "spy_change": 1.02,
-    "qqq_price": 716.33,
-    "qqq_change": 1.65
+    "spy_price": 759.47,
+    "spy_change": -0.41,
+    "qqq_price": 716.85,
+    "qqq_change": -0.01
   },
   "guardrail": {
     "regime": "NORMAL",
-    "vix_value": 15.79,
+    "vix_value": 15.45,
     "max_positions": 3,
     "min_confidence": 0.7
   },
@@ -21,167 +21,159 @@
     "core": [
       {
         "ticker": "NVDA",
-        "price": 219.73,
-        "signal": "HOLD",
-        "confidence": 60,
-        "rsi": 43.1,
-        "macd_bullish": true,
-        "above_ma50": true,
-        "reasons": [
-          "RSI 43 中性"
-        ],
-        "action": "中性偏低，觀望",
-        "change_pct": 2.72
-      },
-      {
-        "ticker": "TSLA",
-        "price": 370.86,
+        "price": 219.74,
         "signal": "HOLD",
         "confidence": 55,
-        "rsi": 56.5,
+        "rsi": 52.6,
         "macd_bullish": false,
         "above_ma50": true,
         "reasons": [
-          "RSI 56 中性"
+          "RSI 53 中性"
         ],
         "action": "觀望",
-        "change_pct": 3.57
+        "change_pct": 0.18
+      },
+      {
+        "ticker": "TSLA",
+        "price": 364.7,
+        "signal": "HOLD",
+        "confidence": 55,
+        "rsi": 57.0,
+        "macd_bullish": false,
+        "above_ma50": true,
+        "reasons": [
+          "RSI 57 中性"
+        ],
+        "action": "觀望",
+        "change_pct": -0.41
       },
       {
         "ticker": "RKLB",
-        "price": 67.3,
+        "price": 64.17,
         "signal": "HOLD",
         "confidence": 55,
         "rsi": 49.4,
         "macd_bullish": true,
-        "above_ma50": true,
+        "above_ma50": false,
         "reasons": [
           "RSI 49 中性"
         ],
         "action": "觀望",
-        "change_pct": 5.65
+        "change_pct": -5.38
       }
     ],
     "secondary": [
       {
         "ticker": "AMD",
-        "price": 537.65,
-        "signal": "HOLD",
-        "confidence": 60,
-        "rsi": 65.8,
+        "price": 547.6,
+        "signal": "SELL",
+        "confidence": 68.4,
+        "rsi": 71.4,
         "macd_bullish": false,
         "above_ma50": true,
         "reasons": [
-          "RSI 66 偏高"
+          "RSI 71 超買",
+          "MACD 看跌確認"
         ],
-        "action": "偏高，觀望",
-        "change_pct": 4.91
+        "action": "超買，考慮止盈",
+        "change_pct": 0.46
       },
       {
         "ticker": "MSFT",
-        "price": 498.31,
+        "price": 492.58,
         "signal": "HOLD",
-        "confidence": 55,
-        "rsi": 46.4,
+        "confidence": 43.6,
+        "rsi": 38.4,
         "macd_bullish": false,
-        "above_ma50": true,
+        "above_ma50": false,
         "reasons": [
-          "RSI 46 中性"
+          "RSI 38 偏低",
+          "⚠️ MACD 尚在看跌",
+          "⚠️ 成交量不足",
+          "⚠️ 價格低於 MA50",
+          "信心度 44% < 門檻 70%"
         ],
-        "action": "觀望",
-        "change_pct": 1.63
+        "action": "信心度不足，觀望",
+        "change_pct": -1.04
       },
       {
         "ticker": "GOOGL",
-        "price": 347.83,
+        "price": 351.04,
         "signal": "HOLD",
         "confidence": 55,
-        "rsi": 55.5,
+        "rsi": 53.6,
         "macd_bullish": false,
         "above_ma50": true,
         "reasons": [
-          "RSI 56 中性"
+          "RSI 54 中性"
         ],
         "action": "觀望",
-        "change_pct": 1.45
+        "change_pct": 1.07
       },
       {
         "ticker": "META",
-        "price": 673.73,
+        "price": 673.78,
         "signal": "SELL",
-        "confidence": 93.8,
-        "rsi": 86.9,
+        "confidence": 84.2,
+        "rsi": 82.1,
         "macd_bullish": false,
         "above_ma50": true,
         "reasons": [
-          "RSI 87 嚴重超買",
+          "RSI 82 嚴重超買",
           "MACD 看跌確認"
         ],
         "action": "嚴重超買，止盈",
-        "change_pct": 0.06
+        "change_pct": -1.25
       },
       {
         "ticker": "PLTR",
-        "price": 177.2,
+        "price": 173.94,
         "signal": "HOLD",
-        "confidence": 60,
-        "rsi": 42.7,
+        "confidence": 42.1,
+        "rsi": 39.9,
         "macd_bullish": false,
-        "above_ma50": true,
+        "above_ma50": false,
         "reasons": [
-          "RSI 43 中性"
+          "RSI 40 偏低",
+          "⚠️ MACD 尚在看跌",
+          "⚠️ 成交量不足",
+          "⚠️ 價格低於 MA50",
+          "信心度 42% < 門檻 70%"
         ],
-        "action": "中性偏低，觀望",
-        "change_pct": 1.64
+        "action": "信心度不足，觀望",
+        "change_pct": -1.31
       },
       {
         "ticker": "ARM",
-        "price": 260.66,
+        "price": 266.8,
         "signal": "HOLD",
-        "confidence": 55,
-        "rsi": 52.2,
-        "macd_bullish": true,
+        "confidence": 60,
+        "rsi": 62.2,
+        "macd_bullish": false,
         "above_ma50": true,
         "reasons": [
-          "RSI 52 中性"
+          "RSI 62 偏高"
         ],
-        "action": "觀望",
-        "change_pct": 6.84
+        "action": "偏高，觀望",
+        "change_pct": 0.72
       }
     ],
     "opportunity": [
       {
         "ticker": "JOBY",
         "name": "Joby Aviation",
-        "price": 6.23,
+        "price": 6.06,
         "signal": "BUY",
-        "confidence": 77.4,
-        "change_pct": 2.47,
+        "confidence": 79.4,
+        "change_pct": -2.1,
         "reasons": [
-          "RSI 26 超賣",
+          "RSI 25 超賣",
           "MACD 看漲確認",
           "⚠️ 成交量不足",
           "⚠️ 價格低於 MA50"
         ],
-        "upside_pct": null,
-        "rsi": 26.3,
-        "action": "超賣區域，強烈買入信號"
-      },
-      {
-        "ticker": "BBAI",
-        "name": "BigBear.ai",
-        "price": 2.8,
-        "signal": "BUY",
-        "confidence": 74.0,
-        "change_pct": 2.73,
-        "reasons": [
-          "RSI 28 超賣",
-          "MACD 看漲確認",
-          "⚠️ 成交量不足",
-          "⚠️ 價格低於 MA50"
-        ],
-        "upside_pct": null,
-        "rsi": 28.0,
+        "upside_pct": 76.2,
+        "rsi": 25.3,
         "action": "超賣區域，強烈買入信號"
       }
     ]
@@ -192,9 +184,9 @@
         "ticker": "RKLB",
         "shares": 3,
         "entry": 62.95,
-        "price": 67.3,
-        "pnl_usd": 13.05,
-        "pnl_pct": 6.91,
+        "price": 64.17,
+        "pnl_usd": 3.66,
+        "pnl_pct": 1.94,
         "sl": 57.91,
         "tp": 69.25
       },
@@ -202,43 +194,43 @@
         "ticker": "SOUN",
         "shares": 25,
         "entry": 6.26,
-        "price": 6.03,
-        "pnl_usd": -5.75,
-        "pnl_pct": -3.67,
+        "price": 5.86,
+        "pnl_usd": -10.0,
+        "pnl_pct": -6.39,
         "sl": 5.76,
         "tp": 6.89
       }
     ],
     "cash_usd": 932.65,
-    "equity_usd": 1285.3,
-    "cash_pct": 72.6,
-    "deployed_pct": 27.4
+    "equity_usd": 1271.66,
+    "cash_pct": 73.3,
+    "deployed_pct": 26.7
   },
   "actions": [
-    "HOLD RKLB @ 67.3 (stop 57.91 / TP 69.25; near TP ~2.9% below)",
-    "HOLD SOUN @ 6.03 (stop 5.76 / TP 6.89; no add near stop)",
+    "HOLD RKLB @ 64.17 (stop 57.91 / TP 69.25; gap-down from ~67.8, distSL 9.8%)",
+    "HOLD SOUN @ 5.86 (stop 5.76 / TP 6.89; distSL ~1.7%; no add near stop)",
     "NO NEW BUYS"
   ],
   "skipped": [
-    "JOBY BUY spray/below-MA50/vol-weak (77.4%)",
-    "BBAI BUY spray/below-MA50/vol-weak + conf<75% (74%)",
+    "JOBY BUY spray/below-MA50/vol-weak (79.4%)",
+    "BBAI not in today's opportunity BUY list (still skip spray theme)",
     "LUNR not in today's opportunity BUY list (still skip spray theme)",
-    "META SELL no inventory",
-    "NVDA/TSLA/AMD HOLD expensive-or-neutral (conf <75%)"
+    "META/AMD SELL no inventory (overbought take-profit signals)",
+    "NVDA/TSLA/MSFT/GOOGL/PLTR/ARM HOLD (conf <75% or neutral)"
   ],
   "notes": [
-    "核心 0 BUY（8 HOLD + META SELL 無庫存）；無 ≥75% 確認買訊",
+    "核心 0 BUY（7 HOLD + AMD/META SELL 無庫存）；無 ≥75% 確認買訊",
     "已有 2 倉（RKLB+SOUN），第三倉只應給高質量確認位，唔係噴散抄底",
-    "JOBY/BBAI 機械 BUY ~74–77% 但低於 MA50 + 成交量不足 —— 同質 spray，跳過（LUNR 今日未入機會 BUY）",
-    "RKLB @ 67.3 距 TP 69.25 約 2.9%，未收市穿透 → HOLD 近 TP，唔追高加倉",
-    "SOUN @ 6.03 距止損約 4.5%（vs SL 5.76），仍未收市穿位；唔加倉攤平",
-    "SPY +1.02% / QQQ +1.65% 強反彈；現金緩衝 ~72.6% 繼續保值"
+    "JOBY 機械 BUY 79.4% 但低於 MA50 + 成交量不足 —— spray，跳過（BBAI/LUNR 今日未入機會 BUY）",
+    "開市缺口向下：RKLB 由昨收 ~67.82 回落至 64.17（約 −5.4%），仍遠高於 SL 57.91、未穿 TP → HOLD，唔追反彈加倉",
+    "SOUN @ 5.86 距止損僅約 1.7%（vs SL 5.76），仍未收市穿位；觀察模式唔加倉攤平",
+    "SPY -0.41% / QQQ -0.01% 偏弱整理；現金緩衝 ~73.3% 繼續保值"
   ],
-  "teaching": "接近止盈同接近止損一樣要講紀律：RKLB 已站近 TP 69.25（約距 2.9%）但未收市穿透，唔好因為盤中強勢就提前「心理止盈」或反手加倉追高；小倉等收市確認穿 TP 先考慮紙上止盈，同時指數強（QQQ +1.65%）唔等於可以噴散抄底低於 MA50、成交量弱嘅機會掃描單。",
+  "teaching": "開市缺口下殺最易誘發「攤平衝動」：SOUN 由昨收 6.00 落到 5.86，距止損 5.76 只剩約 1.7%，正確做法係預設好紙上止損、唔加倉攤平；同時 RKLB 缺口回吐後唔好當「平價回補」去加倉——缺口＋近止損位係紀律考題，唔係抄底訊號。",
   "scenarios": {
-    "base": "VIX~15.8 正常、SPY/QQQ 明顯反彈；RKLB 守住 MA50 上方靠近 TP、SOUN 仍低於進場但離 SL 約 4.5%，組合繼續 HOLD＋高現金，唔開第三倉。",
-    "optimistic": "若動能延續，RKLB 收市站穩／穿過 69.25 可考慮紙上止盈或僅加半倉確認；SOUN 反彈離遠 SL 再觀望；JOBY/BBAI 要放量站回 MA50 先列入候選。",
-    "pessimistic": "若科技股回吐，SOUN 收市跌穿 5.76 紙上止損、RKLB 回測進場／57.91；唔加倉攤平、保住 ≥20% 現金，進入更高現金防守。"
+    "base": "VIX~15.45 正常、SPY/QQQ 輕微回吐；RKLB 守住進場上方（64.17 vs 62.95）但離 TP 約 7.9%、SOUN 貼近 SL（距約 1.7%），組合繼續 HOLD＋高現金，唔開第三倉、唔攤平 SOUN。",
+    "optimistic": "若午後／翌日反彈，SOUN 先拉開離 SL（例如站回 6.0+）再觀望；RKLB 收復缺口方向 67+ 先談接近 TP；JOBY 要放量站回 MA50 先列入候選，唔係單憑 RSI 超賣。",
+    "pessimistic": "若弱勢延續，SOUN 收市跌穿 5.76 → 紙上止損離場、唔加倉；RKLB 再測進場／57.91；保住 ≥20% 現金，暫停噴散機會單，進入更高現金防守。"
   },
   "invalidation": [
     "RKLB 收市跌穿止損 57.91 → paper 止損離場",
@@ -246,6 +238,14 @@
     "RKLB 收市明顯穿過 TP 69.25 → 考慮紙上止盈（非整段情緒賣）",
     "VIX > 30 進入防禦：暫停新開倉",
     "連續多日核心全無 ≥75% 確認買訊 → 維持觀察唔追噴散單"
+  ],
+  "why_not_buy_now": [
+    "核心 0 BUY（7 HOLD + AMD/META SELL 無庫存）；無 ≥75% 確認買訊",
+    "已有 2 倉（RKLB+SOUN），第三倉只應給高質量確認位，唔係噴散抄底",
+    "JOBY 機械 BUY 79.4% 但低於 MA50 + 成交量不足 —— spray，跳過（BBAI/LUNR 今日未入機會 BUY）",
+    "開市缺口向下：RKLB 由昨收 ~67.82 回落至 64.17（約 −5.4%），仍遠高於 SL 57.91、未穿 TP → HOLD，唔追反彈加倉",
+    "SOUN @ 5.86 距止損僅約 1.7%（vs SL 5.76），仍未收市穿位；觀察模式唔加倉攤平",
+    "SPY -0.41% / QQQ -0.01% 偏弱整理；現金緩衝 ~73.3% 繼續保值"
   ],
   "style": "professional_filter_observation"
 }
