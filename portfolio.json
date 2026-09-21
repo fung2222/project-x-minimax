@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-09-18",
+  "updated": "2026-09-21",
   "account": {
     "capital_hkd": 10000,
     "capital_usd_approx": 1280,
@@ -11,38 +11,37 @@
     "started": "2026-07-07",
     "cash_usd": 932.65,
     "cash_hkd": 7274.67,
-    "equity_usd": 1271.66,
+    "equity_usd": 1290.87,
     "total_invested_usd": 345.35,
-    "total_pnl_usd": -6.34,
-    "total_pnl_pct": -1.84,
+    "total_pnl_usd": 12.87,
+    "total_pnl_pct": 3.73,
     "total_fees_usd": 3.09,
     "last_decision": {
-      "date": "2026-09-18",
+      "date": "2026-09-21",
       "style": "professional_filter_observation",
       "actions": [
-        "HOLD RKLB @ 64.17 (stop 57.91 / TP 69.25; gap-down from ~67.8, distSL 9.8%)",
-        "HOLD SOUN @ 5.86 (stop 5.76 / TP 6.89; distSL ~1.7%; no add near stop)",
+        "HOLD RKLB @ 68.99 (stop 57.91 / TP 69.25; high 70.01 touched TP intraday, last below TP → wait close confirm; distSL 16.1%)",
+        "HOLD SOUN @ 6.05 (stop 5.76 / TP 6.89; distSL 4.8%; recovered from NEAR_SL; no add)",
         "NO NEW BUYS"
       ],
       "skipped": [
-        "JOBY BUY spray/below-MA50/vol-weak (79.4%)",
-        "BBAI not in today's opportunity BUY list (still skip spray theme)",
-        "LUNR not in today's opportunity BUY list (still skip spray theme)",
-        "META/AMD SELL no inventory (overbought take-profit signals)",
-        "NVDA/TSLA/MSFT/GOOGL/PLTR/ARM HOLD (conf <75% or neutral)"
+        "核心 0 BUY（6 HOLD + AMD/META/ARM SELL 無庫存）；無 ≥75% 確認買訊",
+        "機會掃描今日 0 候選",
+        "AMD/META/ARM SELL 無庫存（超買止盈訊號）",
+        "NVDA/TSLA/MSFT/GOOGL/PLTR HOLD（信心度不足／中性）",
+        "強市日 FOMO 第三倉：無確認買訊 + RKLB 貼近 TP → 唔追"
       ],
-      "cash_pct": 73.3,
-      "deployed_pct": 26.7,
+      "cash_pct": 72.2,
+      "deployed_pct": 27.8,
       "notes": [
-        "核心 0 BUY（7 HOLD + AMD/META SELL 無庫存）；無 ≥75% 確認買訊",
-        "已有 2 倉（RKLB+SOUN），第三倉只應給高質量確認位，唔係噴散抄底",
-        "JOBY 機械 BUY 79.4% 但低於 MA50 + 成交量不足 —— spray，跳過（BBAI/LUNR 今日未入機會 BUY）",
-        "開市缺口向下：RKLB 由昨收 ~67.82 回落至 64.17（約 −5.4%），仍遠高於 SL 57.91、未穿 TP → HOLD，唔追反彈加倉",
-        "SOUN @ 5.86 距止損僅約 1.7%（vs SL 5.76），仍未收市穿位；觀察模式唔加倉攤平",
-        "SPY -0.41% / QQQ -0.01% 偏弱整理；現金緩衝 ~73.3% 繼續保值"
+        "VIX 14.65 正常；SPY +0.99% / QQQ +2.0% 風險偏好日",
+        "RKLB 盤中高見 70.01 已越過 TP 69.25，現價 68.99 回落至 TP 下方；紙上按「收市確認」規則 HOLD，唔臨場改成移動止盈",
+        "SOUN 由近止損區回穩至 6.05（距 SL ~4.8%），仍未穿位；觀察模式唔加倉攤平",
+        "核心 0 BUY、機會 0；已有 2 倉，第三倉只給高質量確認位",
+        "現金緩衝 ~72.2% 繼續保值；強市日最易 FOMO，紀律優先"
       ]
     },
-    "updated": "2026-09-18"
+    "updated": "2026-09-21"
   },
   "positions": [
     {
@@ -51,15 +50,15 @@
       "entry_price": 62.95,
       "entry_date": "2026-09-13",
       "trade_id": "T003",
-      "current_price": 64.17,
+      "current_price": 68.99,
       "cost_usd": 188.85,
-      "value_usd": 192.51,
-      "pnl_usd": 3.66,
-      "pnl_pct": 1.94,
+      "value_usd": 206.97,
+      "pnl_usd": 18.12,
+      "pnl_pct": 9.59,
       "stop_loss_price": 57.91,
       "take_profit_price": 69.25,
       "thesis": "quality core bounce, not full sleeve",
-      "last_updated": "2026-09-18T14:30:58.974366"
+      "last_updated": "2026-09-21T23:04:49.451994"
     },
     {
       "ticker": "SOUN",
@@ -67,15 +66,15 @@
       "entry_price": 6.26,
       "entry_date": "2026-09-13",
       "trade_id": "T004",
-      "current_price": 5.86,
+      "current_price": 6.05,
       "cost_usd": 156.5,
-      "value_usd": 146.5,
-      "pnl_usd": -10.0,
-      "pnl_pct": -6.39,
+      "value_usd": 151.25,
+      "pnl_usd": -5.25,
+      "pnl_pct": -3.35,
       "stop_loss_price": 5.76,
       "take_profit_price": 6.89,
       "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray",
-      "last_updated": "2026-09-18T14:30:58.974366"
+      "last_updated": "2026-09-21T23:04:49.451994"
     }
   ],
   "trade_log": [
@@ -259,5 +258,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-09-18T14:30:58.974366"
+  "last_tracker_update": "2026-09-21T23:04:49.451994"
 }

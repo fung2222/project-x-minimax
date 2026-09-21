@@ -30220,6 +30220,669 @@
         }
       ],
       "date": "2026-09-18"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 225.33,
+      "change_pct": 1.38,
+      "rsi": 54.8,
+      "macd": -5.7602,
+      "macd_histogram": -11.3581,
+      "macd_bullish": false,
+      "vol_ratio": 0.25,
+      "ma50": 219.03,
+      "atr": 5.83,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 55 中性"
+      ],
+      "signal_reasons": [
+        "RSI 55 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.236793",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Tech stocks today: Oura files IPO paperwork, Nvidia's Huang pushes back on AI doomsday talk",
+          "title_en": "Tech stocks today: Oura files IPO paperwork, Nvidia's Huang pushes back on AI doomsday talk",
+          "desc_zh": "英偉達 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "Jensen Huang pushes back on AI extinction fears",
+          "title_en": "Jensen Huang pushes back on AI extinction fears",
+          "desc_zh": "英偉達 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/21"
+        },
+        {
+          "title": "Nvidia, Meta Have $300 Billion AI Problem",
+          "title_en": "Nvidia, Meta Have $300 Billion AI Problem",
+          "desc_zh": "英偉達 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 375.92,
+      "change_pct": 3.2,
+      "rsi": 53.7,
+      "macd": -11.8281,
+      "macd_histogram": -11.1293,
+      "macd_bullish": false,
+      "vol_ratio": 0.43,
+      "ma50": 360.38,
+      "atr": 13.66,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.236965",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Did Elon Musk Just Drop a Big Hint About a Possible SpaceX-Tesla Merger?",
+          "title_en": "Did Elon Musk Just Drop a Big Hint About a Possible SpaceX-Tesla Merger?",
+          "desc_zh": "特斯拉 太空業務",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "Tesla Optimus sales revenue unlikely before 2029, Oppenheimer says",
+          "title_en": "Tesla Optimus sales revenue unlikely before 2029, Oppenheimer says",
+          "desc_zh": "特斯拉 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "3 Cash-Producing Stocks with Open Questions",
+          "title_en": "3 Cash-Producing Stocks with Open Questions",
+          "desc_zh": "特斯拉 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 69.0,
+      "change_pct": 6.86,
+      "rsi": 61.1,
+      "macd": -3.6539,
+      "macd_histogram": 4.0209,
+      "macd_bullish": true,
+      "vol_ratio": 0.7,
+      "ma50": 65.17,
+      "atr": 3.36,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 61 中性"
+      ],
+      "signal_reasons": [
+        "RSI 61 中性"
+      ],
+      "is_owned": true,
+      "timestamp": "2026-09-21T23:03:35.237074",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Cantor Bets Neutron and Iridium Reprice Rocket Lab Higher",
+          "title_en": "Cantor Bets Neutron and Iridium Reprice Rocket Lab Higher",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/21"
+        },
+        {
+          "title": "Can Rocket Lab's Optical Systems Boost Its Growth Opportunities?",
+          "title_en": "Can Rocket Lab's Optical Systems Boost Its Growth Opportunities?",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/21"
+        },
+        {
+          "title": "Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride",
+          "title_en": "Four Launches From 100: Rocket Lab Gets a Bullish New Call, With Iridium and Mynaric Along for the Ride",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Adv. Micro Devices",
+      "signal": "SELL",
+      "action": "嚴重超買，止盈",
+      "confidence": 76.8,
+      "price": 614.41,
+      "change_pct": 9.75,
+      "rsi": 78.4,
+      "macd": -86.8608,
+      "macd_histogram": -109.3701,
+      "macd_bullish": false,
+      "vol_ratio": 1.02,
+      "ma50": 496.64,
+      "atr": 25.47,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 78 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 78 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.237235",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
+          "title_en": "Tech stocks rise, Bitcoin rallies as Treasury yields ease: AlphaCheck",
+          "desc_zh": "AMD超微 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/21"
+        },
+        {
+          "title": "The AI Trade Leads Today's Stock Market Rally",
+          "title_en": "The AI Trade Leads Today's Stock Market Rally",
+          "desc_zh": "AMD超微 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 4,
+          "date": "09/21"
+        },
+        {
+          "title": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+          "title_en": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+          "desc_zh": "AMD超微 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 493.14,
+      "change_pct": -0.13,
+      "rsi": 41.5,
+      "macd": 2.5809,
+      "macd_histogram": -10.7553,
+      "macd_bullish": false,
+      "vol_ratio": 0.28,
+      "ma50": 497.3,
+      "atr": 9.78,
+      "regime": "NORMAL",
+      "above_ma50": false,
+      "reasons": [
+        "RSI 42 中性"
+      ],
+      "signal_reasons": [
+        "RSI 42 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.237324",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Microsoft AI CEO Sends Stark Warning on AI Rules",
+          "title_en": "Microsoft AI CEO Sends Stark Warning on AI Rules",
+          "desc_zh": "微軟 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/21"
+        },
+        {
+          "title": "NOW Rides on Strong Workflow Demand: Can It Outpace CRM & MSFT?",
+          "title_en": "NOW Rides on Strong Workflow Demand: Can It Outpace CRM & MSFT?",
+          "desc_zh": "微軟 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat",
+          "title_en": "Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat",
+          "desc_zh": "微軟 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "signal": "HOLD",
+      "action": "偏高，觀望",
+      "confidence": 60,
+      "price": 354.57,
+      "change_pct": 1.44,
+      "rsi": 62.8,
+      "macd": -9.657,
+      "macd_histogram": -5.5317,
+      "macd_bullish": false,
+      "vol_ratio": 0.39,
+      "ma50": 342.29,
+      "atr": 8.1,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 63 偏高"
+      ],
+      "signal_reasons": [
+        "RSI 63 偏高"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.237414",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat",
+          "title_en": "Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat",
+          "desc_zh": "谷歌 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/21"
+        },
+        {
+          "title": "Stock Market Today: Dow Rallies As Nvidia Nears Entry; Oil Dips On Iran Hopes (Live Coverage)",
+          "title_en": "Stock Market Today: Dow Rallies As Nvidia Nears Entry; Oil Dips On Iran Hopes (Live Coverage)",
+          "desc_zh": "谷歌 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "AMD, Intel, Novo, Meta, Strategy, Critical Metals, and More Stocks That Explain Today’s Market",
+          "title_en": "AMD, Intel, Novo, Meta, Strategy, Critical Metals, and More Stocks That Explain Today’s Market",
+          "desc_zh": "谷歌 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "signal": "SELL",
+      "action": "嚴重超買，止盈",
+      "confidence": 89.8,
+      "price": 706.88,
+      "change_pct": 6.18,
+      "rsi": 84.9,
+      "macd": -51.8477,
+      "macd_histogram": -123.6189,
+      "macd_bullish": false,
+      "vol_ratio": 0.8,
+      "ma50": 619.0,
+      "atr": 24.72,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 85 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 85 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.237512",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Trump and Xi dine with AI titans and Meta takes the stage: What to watch this week",
+          "title_en": "Trump and Xi dine with AI titans and Meta takes the stage: What to watch this week",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "Nvidia, Meta Have $300 Billion AI Problem",
+          "title_en": "Nvidia, Meta Have $300 Billion AI Problem",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "Meta Platform Stock Sends Signal After Outage",
+          "title_en": "Meta Platform Stock Sends Signal After Outage",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 181.84,
+      "change_pct": 2.36,
+      "rsi": 46.5,
+      "macd": -6.1825,
+      "macd_histogram": -0.9741,
+      "macd_bullish": false,
+      "vol_ratio": 0.27,
+      "ma50": 176.18,
+      "atr": 7.21,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 46 中性"
+      ],
+      "signal_reasons": [
+        "RSI 46 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.237592",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Beat the Market Like Zacks: PBF, Palantir, Adobe in Focus",
+          "title_en": "Beat the Market Like Zacks: PBF, Palantir, Adobe in Focus",
+          "desc_zh": "Palantir 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 4,
+          "date": "09/21"
+        },
+        {
+          "title": "Palantir CEO Alex Karp Says Only Washington Can Cap AI Liability: 'These Businesses Have to Be Nationalized'",
+          "title_en": "Palantir CEO Alex Karp Says Only Washington Can Cap AI Liability: 'These Businesses Have to Be Nationalized'",
+          "desc_zh": "Palantir AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "Michael Burry Doubles Down On Palantir Bear Case: ‘A Lot Of’ Money Still To Be Made Shorting PLTR",
+          "title_en": "Michael Burry Doubles Down On Palantir Bear Case: ‘A Lot Of’ Money Still To Be Made Shorting PLTR",
+          "desc_zh": "Palantir 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "signal": "SELL",
+      "action": "超買，考慮止盈",
+      "confidence": 69.9,
+      "price": 314.4,
+      "change_pct": 14.07,
+      "rsi": 72.9,
+      "macd": -50.7179,
+      "macd_histogram": -59.6633,
+      "macd_bullish": false,
+      "vol_ratio": 1.34,
+      "ma50": 252.37,
+      "atr": 16.98,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 73 超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 73 超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-21T23:03:35.237677",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+          "title_en": "Intel and Arm Stocks Are Jumping. Thank Meta’s Muse AI Agent.",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
+          "date": "09/21"
+        },
+        {
+          "title": "SoftBank Seeks $11 Billion in What Would Be a Record Junk Bond Sale",
+          "title_en": "SoftBank Seeks $11 Billion in What Would Be a Record Junk Bond Sale",
+          "desc_zh": "ARM AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/21"
+        },
+        {
+          "title": "2 Cryptocurrencies Worth Buying Over AI Stocks Right Now",
+          "title_en": "2 Cryptocurrencies Worth Buying Over AI Stocks Right Now",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/21"
+        }
+      ],
+      "date": "2026-09-21"
     }
   ],
   "performance": {
@@ -30233,7 +30896,7 @@
     "note": "從 2026-07-07 開始實時收集",
     "miss_rate_pct": 23.7
   },
-  "last_updated": "2026-09-18T14:29:18.095021",
+  "last_updated": "2026-09-21T23:03:35.256379",
   "vix_regime": "正常市場",
-  "vix_value": 15.45
+  "vix_value": 14.65
 }
