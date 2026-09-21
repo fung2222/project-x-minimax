@@ -9,72 +9,51 @@
     "description": "準備實盤／資金目標 HKD 10,000（富途）— paper 模擬對齊實盤資金；真錢落單仍由用戶執行",
     "phase": "PHASE_4_LIVE_PREP",
     "started": "2026-07-07",
-    "cash_usd": 932.65,
-    "cash_hkd": 7274.67,
-    "equity_usd": 1290.87,
-    "total_invested_usd": 345.35,
-    "total_pnl_usd": 12.87,
-    "total_pnl_pct": 3.73,
-    "total_fees_usd": 3.09,
+    "cash_usd": 1140.56,
+    "cash_hkd": 8896.37,
+    "equity_usd": 1292.31,
+    "total_invested_usd": 156.5,
+    "total_pnl_usd": -4.75,
+    "total_pnl_pct": -3.04,
+    "total_fees_usd": 4.13,
     "last_decision": {
       "date": "2026-09-21",
       "style": "professional_filter_observation",
       "actions": [
-        "HOLD RKLB @ 68.99 (stop 57.91 / TP 69.25; high 70.01 touched TP intraday, last below TP → wait close confirm; distSL 16.1%)",
-        "HOLD SOUN @ 6.05 (stop 5.76 / TP 6.89; distSL 4.8%; recovered from NEAR_SL; no add)",
+        "SELL/TAKE_PROFIT RKLB x3 @ 69.65 (TP 69.25; net +$19.06 / +10.09%; linked T003→T005)",
+        "HOLD SOUN @ 6.07 (stop 5.76 / TP 6.89; distSL ~5.1%; no add)",
         "NO NEW BUYS"
       ],
       "skipped": [
-        "核心 0 BUY（6 HOLD + AMD/META/ARM SELL 無庫存）；無 ≥75% 確認買訊",
-        "機會掃描今日 0 候選",
-        "AMD/META/ARM SELL 無庫存（超買止盈訊號）",
-        "NVDA/TSLA/MSFT/GOOGL/PLTR HOLD（信心度不足／中性）",
-        "強市日 FOMO 第三倉：無確認買訊 + RKLB 貼近 TP → 唔追"
+        "觀察模式 — paper only；唔追強市 FOMO",
+        "第三倉：RKLB 已平，仍只畀高質量確認位"
       ],
-      "cash_pct": 72.2,
-      "deployed_pct": 27.8,
+      "cash_pct": 88.3,
+      "deployed_pct": 11.7,
       "notes": [
-        "VIX 14.65 正常；SPY +0.99% / QQQ +2.0% 風險偏好日",
-        "RKLB 盤中高見 70.01 已越過 TP 69.25，現價 68.99 回落至 TP 下方；紙上按「收市確認」規則 HOLD，唔臨場改成移動止盈",
-        "SOUN 由近止損區回穩至 6.05（距 SL ~4.8%），仍未穿位；觀察模式唔加倉攤平",
-        "核心 0 BUY、機會 0；已有 2 倉，第三倉只給高質量確認位",
-        "現金緩衝 ~72.2% 繼續保值；強市日最易 FOMO，紀律優先"
+        "Paper TAKE_PROFIT RKLB x3 @ 69.65 vs TP 69.25 / entry 62.95 (+10.64% gross, fee $1.04)",
+        "SOUN 繼續持倉觀察；未穿止損",
+        "現金回籠 ~$207.91（已扣賣方費），現金緩衝 ~88.3%"
       ]
     },
     "updated": "2026-09-21"
   },
   "positions": [
     {
-      "ticker": "RKLB",
-      "shares": 3,
-      "entry_price": 62.95,
-      "entry_date": "2026-09-13",
-      "trade_id": "T003",
-      "current_price": 68.99,
-      "cost_usd": 188.85,
-      "value_usd": 206.97,
-      "pnl_usd": 18.12,
-      "pnl_pct": 9.59,
-      "stop_loss_price": 57.91,
-      "take_profit_price": 69.25,
-      "thesis": "quality core bounce, not full sleeve",
-      "last_updated": "2026-09-21T23:04:49.451994"
-    },
-    {
       "ticker": "SOUN",
       "shares": 25,
       "entry_price": 6.26,
       "entry_date": "2026-09-13",
       "trade_id": "T004",
-      "current_price": 6.05,
+      "current_price": 6.07,
       "cost_usd": 156.5,
-      "value_usd": 151.25,
-      "pnl_usd": -5.25,
-      "pnl_pct": -3.35,
+      "value_usd": 151.75,
+      "pnl_usd": -4.75,
+      "pnl_pct": -3.04,
       "stop_loss_price": 5.76,
       "take_profit_price": 6.89,
       "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray",
-      "last_updated": "2026-09-21T23:04:49.451994"
+      "last_updated": "2026-09-21T23:51:50.084210"
     }
   ],
   "trade_log": [
@@ -127,10 +106,13 @@
       "fee_usd": 1.0,
       "cost_hkd": 1473.03,
       "reason": "CORE: RSI超賣+MACD轉強+太空核心持倉；低於MA50故半倉起步，待站回MA50再考慮加倉。分析師潛在上行約74%。",
-      "status": "open",
-      "pnl_usd": null,
-      "pnl_pct": null,
-      "decision_note": "Professional filter 2026-09-13: rejected META(no short), NVDA/TSLA(HOLD/expensive), and spray-buying all opportunity 95% names (LUNR/JOBY/IONQ/BBAI/ASTS) due to below-MA50 + speculative correlation."
+      "status": "closed",
+      "pnl_usd": 19.06,
+      "pnl_pct": 10.09,
+      "decision_note": "Professional filter 2026-09-13: rejected META(no short), NVDA/TSLA(HOLD/expensive), and spray-buying all opportunity 95% names (LUNR/JOBY/IONQ/BBAI/ASTS) due to below-MA50 + speculative correlation.",
+      "closed_by": "T005",
+      "exit_date": "2026-09-21",
+      "exit_price": 69.65
     },
     {
       "id": "T004",
@@ -148,6 +130,30 @@
       "pnl_usd": null,
       "pnl_pct": null,
       "decision_note": "Professional filter 2026-09-13: rejected META(no short), NVDA/TSLA(HOLD/expensive), and spray-buying all opportunity 95% names (LUNR/JOBY/IONQ/BBAI/ASTS) due to below-MA50 + speculative correlation."
+    },
+    {
+      "id": "T005",
+      "date": "2026-09-21",
+      "timestamp": "2026-09-21T23:57:11.153149",
+      "ticker": "RKLB",
+      "action": "SELL",
+      "reason": "TAKE_PROFIT",
+      "shares": 3,
+      "entry_price": 62.95,
+      "exit_price": 69.65,
+      "entry_date": "2026-09-13",
+      "exit_date": "2026-09-21",
+      "open_trade_id": "T003",
+      "gross_proceeds_usd": 208.95,
+      "fee_usd": 1.04,
+      "proceeds_usd": 207.91,
+      "proceeds_hkd": 1621.7,
+      "gross_pnl_usd": 20.1,
+      "gross_pnl_pct": 10.64,
+      "net_pnl_usd": 19.06,
+      "net_pnl_pct": 10.09,
+      "status": "closed",
+      "decision_note": "Hourly check ~23:51 HKT 2026-09-21: RKLB @ 69.65 above TP 69.25 (+10.64% vs entry 62.95). Paper TAKE_PROFIT; SOUN stays open. Observation mode."
     }
   ],
   "watchlist": {
@@ -258,5 +264,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-09-21T23:04:49.451994"
+  "last_tracker_update": "2026-09-21T23:57:11.153149"
 }
