@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "account": {
     "capital_hkd": 10000,
     "capital_usd_approx": 1280,
@@ -11,32 +11,33 @@
     "started": "2026-07-07",
     "cash_usd": 1140.56,
     "cash_hkd": 8896.37,
-    "equity_usd": 1292.31,
+    "equity_usd": 1293.56,
     "total_invested_usd": 156.5,
-    "total_pnl_usd": -4.75,
-    "total_pnl_pct": -3.04,
+    "total_pnl_usd": -3.5,
+    "total_pnl_pct": -2.24,
     "total_fees_usd": 4.13,
     "last_decision": {
-      "date": "2026-09-21",
+      "date": "2026-09-22",
       "style": "professional_filter_observation",
       "actions": [
-        "SELL/TAKE_PROFIT RKLB x3 @ 69.65 (TP 69.25; net +$19.06 / +10.09%; linked T003→T005)",
-        "HOLD SOUN @ 6.07 (stop 5.76 / TP 6.89; distSL ~5.1%; no add)",
+        "HOLD SOUN @ 6.12 (stop 5.76 / TP 6.89; distSL ~5.9%; no add)",
+        "RKLB stays CLOSED (prior TAKE_PROFIT @ 69.65; now ~70.29 — no reopen without new thesis)",
         "NO NEW BUYS"
       ],
       "skipped": [
-        "觀察模式 — paper only；唔追強市 FOMO",
-        "第三倉：RKLB 已平，仍只畀高質量確認位"
+        "觀察模式 — paper only；唔追止盈後 FOMO",
+        "核心 0 BUY / 機會 0；第三倉只畀 ≥75% 高質量確認位",
+        "AMD/META/ARM/GOOGL 超買 SELL — 無庫存唔好對倒做空"
       ],
-      "cash_pct": 88.3,
-      "deployed_pct": 11.7,
+      "cash_pct": 88.2,
+      "deployed_pct": 11.8,
       "notes": [
-        "Paper TAKE_PROFIT RKLB x3 @ 69.65 vs TP 69.25 / entry 62.95 (+10.64% gross, fee $1.04)",
-        "SOUN 繼續持倉觀察；未穿止損",
-        "現金回籠 ~$207.91（已扣賣方費），現金緩衝 ~88.3%"
+        "SOUN MTM 6.12 (−2.24% vs entry 6.26); 未穿 SL/TP",
+        "RKLB 已於 2026-09-21 紙上止盈，今日再高至 ~70.29 唔追返",
+        "現金緩衝 ~88.2%；VIX 14.48 正常；無新開倉"
       ]
     },
-    "updated": "2026-09-21"
+    "updated": "2026-09-22"
   },
   "positions": [
     {
@@ -45,15 +46,15 @@
       "entry_price": 6.26,
       "entry_date": "2026-09-13",
       "trade_id": "T004",
-      "current_price": 6.07,
+      "current_price": 6.12,
       "cost_usd": 156.5,
-      "value_usd": 151.75,
-      "pnl_usd": -4.75,
-      "pnl_pct": -3.04,
+      "value_usd": 153.0,
+      "pnl_usd": -3.5,
+      "pnl_pct": -2.24,
       "stop_loss_price": 5.76,
       "take_profit_price": 6.89,
       "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray",
-      "last_updated": "2026-09-21T23:51:50.084210"
+      "last_updated": "2026-09-22T22:52:42.034838"
     }
   ],
   "trade_log": [
@@ -264,5 +265,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-09-21T23:57:11.153149"
+  "last_tracker_update": "2026-09-22T22:52:42.034838"
 }

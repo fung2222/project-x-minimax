@@ -1,43 +1,26 @@
 {
-  "hkt": "2026-09-21T23:51:48.040995+08:00",
-  "vix": 14.779999732971191,
+  "hkt": "2026-09-22T22:43:57.752682+08:00",
+  "vix": 14.4399995803833,
   "regime": "NORMAL",
   "positions": [
     {
-      "ticker": "RKLB",
-      "shares": 0,
-      "px": 69.65,
-      "pnl_pct": 10.64,
-      "sl": 57.91,
-      "tp": 69.25,
-      "dist_sl_pct": null,
-      "action": "CLOSED_TP",
-      "near_stop": false
-    },
-    {
       "ticker": "SOUN",
       "shares": 25,
-      "px": 6.07,
-      "pnl_pct": -3.04,
+      "px": 6.14,
+      "pnl_pct": -1.92,
       "sl": 5.76,
       "tp": 6.89,
-      "dist_sl_pct": 5.11,
+      "dist_sl_pct": 6.19,
       "action": "HOLD",
       "near_stop": false
     }
   ],
-  "equity_usd": 1292.31,
+  "equity_usd": 1294.06,
   "cash_usd": 1140.56,
-  "alerts": [
-    "TAKE_PROFIT RKLB @ 69.65 EXECUTED (paper)"
-  ],
-  "need_push": true,
+  "alerts": [],
+  "need_push": false,
   "first_today": false,
-  "push_reason": "alerts",
-  "pushed": true,
-  "push_err": null,
-  "note": "Paper TAKE_PROFIT executed: RKLB x3 @ 69.65 closed (T003→T005); SOUN remains open. Observation mode.",
-  "rklb_closed": true,
-  "rklb_close_px": 69.65,
-  "executed_at_hkt": "2026-09-21T23:57:16.557209+08:00"
+  "push_reason": "none",
+  "pushed": false,
+  "push_err": null
 }
