@@ -1,64 +1,65 @@
 {
-  "date": "2026-09-22",
+  "date": "2026-09-23",
   "mode": "OBSERVATION",
   "market": {
-    "vix": 14.48,
+    "vix": 14.69,
     "regime": "正常市場",
     "regime_emoji": "🟢",
-    "spy_price": 773.53,
-    "spy_change": 0.0,
-    "qqq_price": 745.15,
-    "qqq_change": 0.5
+    "spy_price": 769.47,
+    "spy_change": -0.52,
+    "qqq_price": 739.92,
+    "qqq_change": -0.21
   },
   "paper": {
     "SOUN": {
       "shares": 25,
       "entry": 6.26,
-      "px": 6.12,
-      "pnl_usd": -3.5,
-      "pnl_pct": -2.24,
+      "px": 6.05,
+      "pnl_usd": -5.25,
+      "pnl_pct": -3.35,
       "sl": 5.76,
       "tp": 6.89,
-      "dist_sl_pct": 5.9
+      "dist_sl_pct": 4.79
     },
     "RKLB": {
       "status": "CLOSED_TAKE_PROFIT",
       "exit_price": 69.65,
       "entry": 62.95,
       "net_pnl_usd": 19.06,
-      "mark_now": 70.29,
+      "mark_now": 71.58,
       "note": "do not reopen without new thesis"
     },
     "cash_usd": 1140.56,
-    "equity_usd": 1293.56,
-    "cash_pct": 88.2,
-    "deployed_pct": 11.8
+    "equity_usd": 1291.81,
+    "cash_pct": 88.3,
+    "deployed_pct": 11.7
   },
   "actions": [
-    "HOLD SOUN @ 6.12 (stop 5.76 / TP 6.89; distSL 5.9%; no add)",
-    "RKLB stays CLOSED (prior TAKE_PROFIT @ 69.65; mark ~70.29 — no reopen without new thesis)",
+    "HOLD SOUN @ 6.05 (stop 5.76 / TP 6.89; distSL 4.79%; no add)",
+    "RKLB stays CLOSED (prior TAKE_PROFIT @ 69.65; mark ~71.58 — no reopen without new thesis)",
     "NO NEW BUYS"
   ],
-  "teach": "止盈之後唔好 FOMO 追返：RKLB 紙上已喺 69.65 止盈（約 +10%），今日約 70.29 只再高少少。賺完之後最易後悔「賣早咗」，但追入等於把已鎖定利潤重新暴露風險；觀察模式要有新論述＋≥75% 確認先再開，唔係因為「再升咗一點」就買返。",
+  "teach": "開市急跌要分清「缺口」同「趨勢」：今日 SOUN 開市有 OPEN_MOVE 急跌警報（約 −2.3% vs 昨收），但未收市跌穿止損 5.76。急跌時最易抄底或攤平，觀察模式反而要忍住——等頭半小時波動收斂、睇有冇結構（企穩／放量反轉），唔係見到紅就接刀。同時注意 distSL 由昨約 5.9% 收窄到約 4.8%，風險其實喺升，即使未觸及止損都要提高警覺，現金緩衝繼續保值。",
   "scenarios": {
-    "base": "VIX~14.48 正常、SPY 平、QQQ 微升；SOUN ~6.12（距 SL ~5.9%）繼續 HOLD；現金 ~88.2%；核心 0 BUY／機會 0，唔開新倉、唔追 RKLB。",
-    "optimistic": "若 SOUN 拉開至 6.3+ 並站穩、距 SL 明顯擴大，可繼續持有觀察；若出現 ≥75% 確認＋站回 MA50／放量嘅高波動細價候選（非噴散克隆），先考慮第三倉；唔因 RKLB 再高而重開舊倉。",
-    "pessimistic": "若 SOUN 再逼近或收市跌穿 5.76 → 紙上止損離場、唔攤平；若 VIX 急升或大市轉弱 → 維持高現金、暫停新開倉；保住 ≥20% 現金緩衝，唔 FOMO 追超買大型股。"
+    "base": "VIX~14.69 正常、SPY/QQQ 微跌；SOUN ~6.05（距 SL ~4.79%）繼續 HOLD；現金 ~88.3%；核心 0 BUY／機會 0，唔開新倉、唔抄底、唔追 RKLB。",
+    "optimistic": "若 SOUN 企穩並拉開至 6.2+、距 SL 明顯擴大，可繼續持有觀察；若出現 ≥75% 確認＋站回 MA50／放量嘅高波動細價候選（非噴散克隆），先考慮第三倉；唔因開市急跌後反彈就 FOMO 加倉。",
+    "pessimistic": "若 SOUN 再逼近或收市跌穿 5.76 → 紙上止損離場、唔攤平；若開市缺口演變成趨勢性破位或 VIX 急升 → 維持高現金、暫停新開倉；保住 ≥20% 現金緩衝，唔接飛刀。"
   },
   "invalidation": [
     "SOUN 收市跌穿止損 5.76 → paper 止損離場",
     "SOUN 收市明顯穿過 TP 6.89 → 紙上止盈",
     "VIX > 30 進入防禦：暫停新開倉",
     "連續多日核心全無 ≥75% 確認買訊 → 維持觀察唔追噴散單",
+    "開市急跌後若結構未企穩（持續破低／放量下跌）→ 唔抄底加倉",
     "RKLB 冇新論述／確認位 → 唔因止盈後再升而重開"
   ],
   "why_not_buy": [
-    "VIX 14.48 正常；SPY +0.00% / QQQ +0.50% — 平淡偏風險偏好，但唔等於要即買",
-    "RKLB 已於 09-21 紙上止盈 @ 69.65；今日 ~70.29 唔 FOMO 追返（要新 thesis）",
-    "SOUN 現價 6.12（−2.24%），距 SL ~5.9%，未穿位；觀察模式唔加倉攤平",
-    "核心 0 BUY、機會 0；超買 SELL 多（AMD/META/ARM/GOOGL）— 無庫存唔對倒做空",
-    "現金緩衝 ~88.2% 繼續保值；第三倉只給高質量確認位",
-    "觀察模式：紀律優先於「現金太多好似錯過」嘅感覺"
+    "VIX 14.69 正常；SPY -0.52% / QQQ -0.21% — 微弱偏軟，唔等於要即買",
+    "今日開市 SOUN OPEN_MOVE 急跌；現價 6.05（-3.35%），距 SL ~4.79% — 觀察模式唔抄底、唔攤平",
+    "RKLB 已於 09-21 紙上止盈 @ 69.65；今日 ~71.58 唔 FOMO 追返（要新 thesis）",
+    "核心 0 BUY、機會 0；超買 SELL 多（AMD/META/ARM/RKLB）— 無庫存唔對倒做空",
+    "現金緩衝 ~88.3% 繼續保值；第三倉只給高質量確認位",
+    "觀察模式：急跌後紀律優先於「趁低吸納」嘅衝動"
   ],
   "signals_summary": {
     "total_stocks": 9,
@@ -71,55 +72,55 @@
       "ticker": "NVDA",
       "signal": "HOLD",
       "confidence": 55,
-      "price": 228.15,
-      "rsi": 61.1,
+      "price": 225.87,
+      "rsi": 58.7,
       "action": "觀望"
     },
     {
       "ticker": "TSLA",
       "signal": "HOLD",
       "confidence": 55,
-      "price": 377.23,
-      "rsi": 61.0,
+      "price": 379.82,
+      "rsi": 62.0,
       "action": "觀望"
     },
     {
       "ticker": "RKLB",
-      "signal": "HOLD",
-      "confidence": 60,
-      "price": 70.29,
-      "rsi": 66.9,
-      "action": "偏高，觀望"
+      "signal": "SELL",
+      "confidence": 65.7,
+      "price": 71.54,
+      "rsi": 68.7,
+      "action": "超買，考慮止盈"
     },
     {
       "ticker": "AMD",
       "signal": "SELL",
-      "confidence": 84.2,
-      "price": 616.62,
-      "rsi": 82.1,
+      "confidence": 81.0,
+      "price": 610.93,
+      "rsi": 80.5,
       "action": "嚴重超買，止盈"
     },
     {
       "ticker": "MSFT",
       "signal": "HOLD",
       "confidence": 55,
-      "price": 497.61,
-      "rsi": 48.1,
+      "price": 497.51,
+      "rsi": 48.0,
       "action": "觀望"
     },
     {
       "ticker": "GOOGL",
-      "signal": "SELL",
-      "confidence": 68.2,
-      "price": 361.4,
-      "rsi": 71.2,
-      "action": "超買，考慮止盈"
+      "signal": "HOLD",
+      "confidence": 55,
+      "price": 341.97,
+      "rsi": 55.2,
+      "action": "觀望"
     },
     {
       "ticker": "META",
       "signal": "SELL",
       "confidence": 94.4,
-      "price": 747.29,
+      "price": 747.59,
       "rsi": 87.2,
       "action": "嚴重超買，止盈"
     },
@@ -127,16 +128,16 @@
       "ticker": "PLTR",
       "signal": "HOLD",
       "confidence": 55,
-      "price": 182.51,
-      "rsi": 52.2,
+      "price": 189.25,
+      "rsi": 57.2,
       "action": "觀望"
     },
     {
       "ticker": "ARM",
       "signal": "SELL",
-      "confidence": 76.2,
-      "price": 326.76,
-      "rsi": 78.1,
+      "confidence": 76.6,
+      "price": 328.55,
+      "rsi": 78.3,
       "action": "嚴重超買，止盈"
     }
   ],
