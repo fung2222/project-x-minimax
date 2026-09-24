@@ -22,34 +22,34 @@
     "sector": "",
     "news": [
       {
-        "title": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs",
-        "title_en": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs",
-        "desc_zh": "英偉達 市場動態",
+        "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
+        "title_en": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
+        "desc_zh": "英偉達 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
         "date": "09/23"
       },
       {
-        "title": "The AI panic, tech concentration, and Nvidia windfalls",
-        "title_en": "The AI panic, tech concentration, and Nvidia windfalls",
-        "desc_zh": "英偉達 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -2,
+        "title": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
+        "title_en": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
+        "desc_zh": "英偉達 AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
         "date": "09/23"
       },
       {
-        "title": "Should investors play AI bottlenecks over social media stocks?",
-        "title_en": "Should investors play AI bottlenecks over social media stocks?",
-        "desc_zh": "英偉達 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -1,
-        "date": "09/22"
+        "title": "Better Passive Income Opportunity: 10-Year Treasury Notes Yielding 5% or These 3 S&P 500 Dividend Stocks? History Offers",
+        "title_en": "Better Passive Income Opportunity: 10-Year Treasury Notes Yielding 5% or These 3 S&P 500 Dividend Stocks? History Offers",
+        "desc_zh": "英偉達 市場動態",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:51.528023"
+    "timestamp": "2026-09-24T22:25:00.235139"
   },
   "TSLA": {
     "symbol": "TSLA",
@@ -74,34 +74,34 @@
     "sector": "",
     "news": [
       {
-        "title": "Is Tesla's evaluation based on pure faith or on hoping for the best?",
-        "title_en": "Is Tesla's evaluation based on pure faith or on hoping for the best?",
-        "desc_zh": "特斯拉 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/22"
+        "title": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
+        "title_en": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
+        "desc_zh": "特斯拉 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -2,
+        "date": "09/24"
       },
       {
-        "title": "Tesla, Waymo, and Zoox are driving a nightmarish year for these 2 stocks",
-        "title_en": "Tesla, Waymo, and Zoox are driving a nightmarish year for these 2 stocks",
-        "desc_zh": "特斯拉 AI／晶片板塊",
+        "title": "Bentley debuts its first electric car. Starting price: $250,000.",
+        "title_en": "Bentley debuts its first electric car. Starting price: $250,000.",
+        "desc_zh": "特斯拉 市場動態",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/22"
+        "date": "09/24"
       },
       {
-        "title": "Elon Musk Just Said \"Dario Is Right\" About Slowing AI Development. Here's What That Endorsement Could Mean for Tesla's a",
-        "title_en": "Elon Musk Just Said \"Dario Is Right\" About Slowing AI Development. Here's What That Endorsement Could Mean for Tesla's a",
-        "desc_zh": "特斯拉 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/23"
+        "title": "Tesla to open doors of its Nevada Semi truck factory",
+        "title_en": "Tesla to open doors of its Nevada Semi truck factory",
+        "desc_zh": "特斯拉 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 2,
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:52.402826"
+    "timestamp": "2026-09-24T22:25:00.987060"
   },
   "RKLB": {
     "symbol": "RKLB",
@@ -126,34 +126,34 @@
     "sector": "",
     "news": [
       {
-        "title": "RKLB vs. BKSY: Which Space Technology Stock Is the Better Buy?",
-        "title_en": "RKLB vs. BKSY: Which Space Technology Stock Is the Better Buy?",
-        "desc_zh": "Rocket Lab 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/23"
-      },
-      {
-        "title": "Rocket Lab Readies For Mission, Cathie Wood Buys $25 Million In Shares",
-        "title_en": "Rocket Lab Readies For Mission, Cathie Wood Buys $25 Million In Shares",
-        "desc_zh": "Rocket Lab 業績／財務相關",
+        "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
+        "title_en": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
+        "desc_zh": "Rocket Lab AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/23"
+        "date": "09/24"
       },
       {
-        "title": "Cathie Wood Drops Surprise $25 Million on Rocket Lab",
-        "title_en": "Cathie Wood Drops Surprise $25 Million on Rocket Lab",
+        "title": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
+        "title_en": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
         "desc_zh": "Rocket Lab 相關負面消息",
         "sentiment": "利淡",
         "sentiment_emoji": "🔴",
         "sentiment_score": -1,
-        "date": "09/23"
+        "date": "09/24"
+      },
+      {
+        "title": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
+        "title_en": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
+        "desc_zh": "Rocket Lab 相關利好消息",
+        "sentiment": "利好",
+        "sentiment_emoji": "🟢",
+        "sentiment_score": 1,
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:53.174258"
+    "timestamp": "2026-09-24T22:25:01.797042"
   },
   "AMD": {
     "symbol": "AMD",
@@ -178,34 +178,34 @@
     "sector": "",
     "news": [
       {
-        "title": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs",
-        "title_en": "Nasdaq rally hasn't stopped these tech stocks from flashing warning signs",
-        "desc_zh": "AMD超微 市場動態",
+        "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
+        "title_en": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
+        "desc_zh": "AMD超微 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
         "date": "09/23"
       },
       {
-        "title": "Should investors play AI bottlenecks over social media stocks?",
-        "title_en": "Should investors play AI bottlenecks over social media stocks?",
-        "desc_zh": "AMD超微 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -1,
-        "date": "09/22"
-      },
-      {
-        "title": "Intel’s Price Targets Reveal Just How Much Is Riding on Its Turnaround",
-        "title_en": "Intel’s Price Targets Reveal Just How Much Is Riding on Its Turnaround",
+        "title": "Micron's Rally Looks Overdone Until You Price The Memory Shortage",
+        "title_en": "Micron's Rally Looks Overdone Until You Price The Memory Shortage",
         "desc_zh": "AMD超微 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
-        "date": "09/23"
+        "date": "09/24"
+      },
+      {
+        "title": "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips",
+        "title_en": "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips",
+        "desc_zh": "AMD超微 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -2,
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:54.061746"
+    "timestamp": "2026-09-24T22:25:02.522110"
   },
   "MSFT": {
     "symbol": "MSFT",
@@ -230,34 +230,34 @@
     "sector": "",
     "news": [
       {
-        "title": "Anthropic vs. OpenAI: Competition heats up with release of new AI models",
-        "title_en": "Anthropic vs. OpenAI: Competition heats up with release of new AI models",
-        "desc_zh": "微軟 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
-        "date": "09/22"
-      },
-      {
-        "title": "Trump Logged 1,156 Trades in One Month and Sold Microsoft. The Reason Is a Tax Strategy You Can Copy.",
-        "title_en": "Trump Logged 1,156 Trades in One Month and Sold Microsoft. The Reason Is a Tax Strategy You Can Copy.",
+        "title": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
+        "title_en": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
         "desc_zh": "微軟 市場動態",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/23"
+        "date": "09/24"
       },
       {
-        "title": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
-        "title_en": "Microsoft upgraded, HubSpot initiated: Wall Street's top analyst calls",
-        "desc_zh": "微軟 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/23"
+        "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
+        "title_en": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
+        "desc_zh": "微軟 市場動態",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/24"
+      },
+      {
+        "title": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
+        "title_en": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
+        "desc_zh": "微軟 AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:54.858698"
+    "timestamp": "2026-09-24T22:25:03.293393"
   },
   "GOOGL": {
     "symbol": "GOOGL",
@@ -282,34 +282,34 @@
     "sector": "",
     "news": [
       {
-        "title": "Netflix has a big YouTube problem — and it's only getting worse",
-        "title_en": "Netflix has a big YouTube problem — and it's only getting worse",
-        "desc_zh": "谷歌 AI／晶片板塊",
-        "sentiment": "中性",
-        "sentiment_emoji": "⚪",
-        "sentiment_score": 0,
+        "title": "This is Humanity's Last Decision",
+        "title_en": "This is Humanity's Last Decision",
+        "desc_zh": "谷歌 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
         "date": "09/23"
       },
       {
-        "title": "The future of AI growth rests on Big Tech's cash flow tripling to $2 trillion: Chart of the Day",
-        "title_en": "The future of AI growth rests on Big Tech's cash flow tripling to $2 trillion: Chart of the Day",
+        "title": "Lowe's launches drone delivery pilot with DoorDash and Wing",
+        "title_en": "Lowe's launches drone delivery pilot with DoorDash and Wing",
         "desc_zh": "谷歌 AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/23"
+        "date": "09/24"
       },
       {
-        "title": "Meta's Muse AI teams up with Shopify, lifting its stock",
-        "title_en": "Meta's Muse AI teams up with Shopify, lifting its stock",
-        "desc_zh": "谷歌 AI／晶片板塊",
+        "title": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
+        "title_en": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
+        "desc_zh": "谷歌 市場動態",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/22"
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:55.593420"
+    "timestamp": "2026-09-24T22:25:04.212551"
   },
   "META": {
     "symbol": "META",
@@ -334,8 +334,17 @@
     "sector": "",
     "news": [
       {
-        "title": "Tech retreats as Treasury yields and oil climb: AlphaCheck",
-        "title_en": "Tech retreats as Treasury yields and oil climb: AlphaCheck",
+        "title": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
+        "title_en": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
+        "desc_zh": "Meta 市場動態",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/24"
+      },
+      {
+        "title": "How Meta's Muse was a total game changer for the AI narrative",
+        "title_en": "How Meta's Muse was a total game changer for the AI narrative",
         "desc_zh": "Meta 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
@@ -343,25 +352,16 @@
         "date": "09/23"
       },
       {
-        "title": "The AI panic, tech concentration, and Nvidia windfalls",
-        "title_en": "The AI panic, tech concentration, and Nvidia windfalls",
-        "desc_zh": "Meta 相關負面消息",
-        "sentiment": "利淡",
-        "sentiment_emoji": "🔴",
-        "sentiment_score": -2,
-        "date": "09/23"
-      },
-      {
-        "title": "Meta's Muse AI teams up with Shopify, lifting its stock",
-        "title_en": "Meta's Muse AI teams up with Shopify, lifting its stock",
+        "title": "Meta's Muse raises bigger question: Can consumers trust AI with our money?",
+        "title_en": "Meta's Muse raises bigger question: Can consumers trust AI with our money?",
         "desc_zh": "Meta AI／晶片板塊",
         "sentiment": "中性",
         "sentiment_emoji": "⚪",
         "sentiment_score": 0,
-        "date": "09/22"
+        "date": "09/23"
       }
     ],
-    "timestamp": "2026-09-23T22:34:56.340207"
+    "timestamp": "2026-09-24T22:25:05.344436"
   },
   "PLTR": {
     "symbol": "PLTR",
@@ -386,34 +386,34 @@
     "sector": "",
     "news": [
       {
-        "title": "Palantir Gains 2%, Nebius Pulls Back, Micron Barely Budges as Michael Burry Adds to Shorts in All Three",
-        "title_en": "Palantir Gains 2%, Nebius Pulls Back, Micron Barely Budges as Michael Burry Adds to Shorts in All Three",
+        "title": "Palantir Just Hit a One-Year High. Here's What's Driving It",
+        "title_en": "Palantir Just Hit a One-Year High. Here's What's Driving It",
         "desc_zh": "Palantir 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/23"
+        "sentiment_score": 2,
+        "date": "09/24"
       },
       {
-        "title": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
-        "title_en": "Not Palantir. Not Micron. The $325 Billion Nvidia Partner That Jim Cramer Just Called a \"Must Buy\" Stock",
+        "title": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
+        "title_en": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
         "desc_zh": "Palantir 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
-        "sentiment_score": 1,
-        "date": "09/23"
+        "sentiment_score": 2,
+        "date": "09/24"
       },
       {
-        "title": "What Is Really Driving Palantir's Growth?",
-        "title_en": "What Is Really Driving Palantir's Growth?",
+        "title": "Prediction: This Will Be Palantir's Stock Price by the End of 2028 as Commercial Sales Accelerate",
+        "title_en": "Prediction: This Will Be Palantir's Stock Price by the End of 2028 as Commercial Sales Accelerate",
         "desc_zh": "Palantir 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
         "sentiment_score": 1,
-        "date": "09/23"
+        "date": "09/24"
       }
     ],
-    "timestamp": "2026-09-23T22:34:57.295856"
+    "timestamp": "2026-09-24T22:25:06.264645"
   },
   "ARM": {
     "symbol": "ARM",
@@ -438,8 +438,17 @@
     "sector": "",
     "news": [
       {
-        "title": "Arm Just Jumped 36% Now Its Valuation Is Raising Eyebrows",
-        "title_en": "Arm Just Jumped 36% Now Its Valuation Is Raising Eyebrows",
+        "title": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
+        "title_en": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
+        "desc_zh": "ARM AI／晶片板塊",
+        "sentiment": "中性",
+        "sentiment_emoji": "⚪",
+        "sentiment_score": 0,
+        "date": "09/24"
+      },
+      {
+        "title": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+        "title_en": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
         "desc_zh": "ARM 相關利好消息",
         "sentiment": "利好",
         "sentiment_emoji": "🟢",
@@ -447,24 +456,15 @@
         "date": "09/23"
       },
       {
-        "title": "AeroVironment And 2 Top Automation Stocks To Watch",
-        "title_en": "AeroVironment And 2 Top Automation Stocks To Watch",
-        "desc_zh": "ARM 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 2,
+        "title": "SoftBank Is Raising $11 Billion for OpenAI. Its Arm Stake Backs a $25 Billion Loan Facility",
+        "title_en": "SoftBank Is Raising $11 Billion for OpenAI. Its Arm Stake Backs a $25 Billion Loan Facility",
+        "desc_zh": "ARM 相關負面消息",
+        "sentiment": "利淡",
+        "sentiment_emoji": "🔴",
+        "sentiment_score": -1,
         "date": "09/23"
-      },
-      {
-        "title": "3 Trending AI Stocks to Watch: ARM, AMD, and CRWV",
-        "title_en": "3 Trending AI Stocks to Watch: ARM, AMD, and CRWV",
-        "desc_zh": "ARM 相關利好消息",
-        "sentiment": "利好",
-        "sentiment_emoji": "🟢",
-        "sentiment_score": 2,
-        "date": "09/22"
       }
     ],
-    "timestamp": "2026-09-23T22:34:58.137347"
+    "timestamp": "2026-09-24T22:25:07.047951"
   }
 }

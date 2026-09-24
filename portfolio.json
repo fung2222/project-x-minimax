@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "created": "2025-07-05",
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "account": {
     "capital_hkd": 10000,
     "capital_usd_approx": 1280,
@@ -11,33 +11,33 @@
     "started": "2026-07-07",
     "cash_usd": 1140.56,
     "cash_hkd": 8896.37,
-    "equity_usd": 1291.81,
+    "equity_usd": 1289.81,
     "total_invested_usd": 156.5,
-    "total_pnl_usd": -5.25,
-    "total_pnl_pct": -3.35,
+    "total_pnl_usd": -7.25,
+    "total_pnl_pct": -4.63,
     "total_fees_usd": 4.13,
     "last_decision": {
-      "date": "2026-09-23",
+      "date": "2026-09-24",
       "style": "professional_filter_observation",
       "actions": [
-        "HOLD SOUN @ 6.05 (stop 5.76 / TP 6.89; distSL ~4.79%; no add)",
-        "RKLB stays CLOSED (prior TAKE_PROFIT @ 69.65; now ~71.58 — no reopen without new thesis)",
-        "NO NEW BUYS"
+        "HOLD SOUN @ 5.97 (stop 5.76 / TP 6.89; distSL 3.52%; no add)",
+        "RKLB stays CLOSED (prior TAKE_PROFIT @ 69.65; mark ~71.42 — no reopen without new thesis)",
+        "NO NEW BUYS (skip SOFI 85%: below MA50 + thin volume — not high-quality confirm)"
       ],
       "skipped": [
-        "觀察模式 — paper only；開市急跌後唔抄底／唔攤平",
-        "核心 0 BUY / 機會 0；第三倉只畀 ≥75% 高質量確認位",
-        "AMD/META/ARM/RKLB 超買 SELL — 無庫存唔好對倒做空"
+        "觀察模式 — paper only；全日窄 distSL 唔抄底／唔攤平／唔情緒斬倉",
+        "核心 0 BUY；機會 SOFI 85% 因低於 MA50＋量不足跳過；第三倉只畀 ≥75% 高質量確認位",
+        "AMD/META 超買 SELL、ARM 超買 — 無庫存唔好對倒做空"
       ],
-      "cash_pct": 88.3,
-      "deployed_pct": 11.7,
+      "cash_pct": 88.4,
+      "deployed_pct": 11.6,
       "notes": [
-        "SOUN MTM 6.05 (-3.35% vs entry 6.26); 開市急跌後仍未穿 SL/TP；distSL ~4.79%",
-        "RKLB 已於 2026-09-21 紙上止盈，今日再高至 ~71.58 唔追返",
-        "現金緩衝 ~88.3%；VIX 14.69 正常；無新開倉"
+        "SOUN MTM 5.97 (-4.63% vs entry 6.26); 開市 distSL~3.19% → 而家~3.52%；未穿 SL/TP",
+        "RKLB 已於 2026-09-21 紙上止盈，今日 mark ~71.42 唔追返",
+        "現金緩衝 ~88.4%；VIX 15.56 正常；無新開倉"
       ]
     },
-    "updated": "2026-09-23"
+    "updated": "2026-09-24"
   },
   "positions": [
     {
@@ -46,15 +46,15 @@
       "entry_price": 6.26,
       "entry_date": "2026-09-13",
       "trade_id": "T004",
-      "current_price": 6.05,
+      "current_price": 5.97,
       "cost_usd": 156.5,
-      "value_usd": 151.25,
-      "pnl_usd": -5.25,
-      "pnl_pct": -3.35,
+      "value_usd": 149.25,
+      "pnl_usd": -7.25,
+      "pnl_pct": -4.63,
       "stop_loss_price": 5.76,
       "take_profit_price": 6.89,
       "thesis": "tactical oversold satellite; reject other 95% clones to avoid spray",
-      "last_updated": "2026-09-23T22:35:43.519068"
+      "last_updated": "2026-09-24T22:26:39.004810"
     }
   ],
   "trade_log": [
@@ -265,5 +265,5 @@
       }
     ]
   },
-  "last_tracker_update": "2026-09-23T22:35:43.519068"
+  "last_tracker_update": "2026-09-24T22:25:33.164414"
 }

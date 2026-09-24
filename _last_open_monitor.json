@@ -1,33 +1,31 @@
 {
-  "hkt": "2026-09-23T22:13:41.223638+08:00",
-  "vix": 14.40999984741211,
+  "hkt": "2026-09-24T22:04:55.107985+08:00",
+  "vix": 15.760000228881836,
   "regime": "NORMAL",
   "title": "正常市場",
   "emoji": "🟢",
-  "teach": "開市急跌先分清缺口定趨勢：未穿止損就忍住唔抄底，等頭半小時波動收斂再決定。",
+  "teach": "開市唔使急：先睇 VIX 同大盤方向，持倉只跟預設止損／止盈，唔好喺頭半小時用感覺加倉攤平。",
   "price_watch": [
-    "SOUN 睇住 $5.76 止損、$6.89 止盈（而家 $6.03）"
+    "SOUN 睇住 $5.76 止損、$6.89 止盈（而家 $5.95）"
   ],
-  "alerts": [
-    "OPEN_MOVE SOUN 急跌 -2.3% vs prev close"
-  ],
+  "alerts": [],
   "positions": [
     {
       "ticker": "SOUN",
       "shares": 25,
-      "px": 6.03,
-      "pnl_pct": -3.67,
-      "chg_vs_prev": -2.27,
-      "prev_close": 6.17,
+      "px": 5.95,
+      "pnl_pct": -4.95,
+      "chg_vs_prev": -1.0,
+      "prev_close": 6.01,
       "sl": 5.76,
       "tp": 6.89,
-      "dist_sl_pct": 4.48,
+      "dist_sl_pct": 3.19,
       "action": "HOLD"
     }
   ],
   "action_stance": "HOLD both (observation; no ADD on open)",
-  "equity_usd": 1291.31,
+  "equity_usd": 1289.31,
   "telegram_ok": true,
   "followup_sent": false,
-  "telegram_result": "(True, 1213)"
+  "telegram_result": "(True, 1230)"
 }
