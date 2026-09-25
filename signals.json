@@ -32883,6 +32883,671 @@
         }
       ],
       "date": "2026-09-24"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA",
+      "signal": "HOLD",
+      "action": "中性偏低，觀望",
+      "confidence": 60,
+      "price": 225.03,
+      "change_pct": 0.2,
+      "rsi": 43.9,
+      "macd": -2.3004,
+      "macd_histogram": -9.0147,
+      "macd_bullish": false,
+      "vol_ratio": 0.13,
+      "ma50": 221.0,
+      "atr": 5.1,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 44 中性"
+      ],
+      "signal_reasons": [
+        "RSI 44 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589049",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Nvidia's valuation is falling, but it might not be a warning sign",
+          "title_en": "Nvidia's valuation is falling, but it might not be a warning sign",
+          "desc_zh": "英偉達 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -3,
+          "date": "09/24"
+        },
+        {
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "title_en": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "desc_zh": "英偉達 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla",
+      "signal": "HOLD",
+      "action": "偏高，觀望",
+      "confidence": 60,
+      "price": 371.98,
+      "change_pct": -1.58,
+      "rsi": 63.8,
+      "macd": -2.001,
+      "macd_histogram": -15.2423,
+      "macd_bullish": false,
+      "vol_ratio": 0.35,
+      "ma50": 363.67,
+      "atr": 11.06,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 64 偏高"
+      ],
+      "signal_reasons": [
+        "RSI 64 偏高"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589178",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Tesla Starts Semi Deliveries. Here's The Final Production Target — With No Timeline",
+          "title_en": "Tesla Starts Semi Deliveries. Here's The Final Production Target — With No Timeline",
+          "desc_zh": "特斯拉 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
+        },
+        {
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "特斯拉 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Tesla faces production challenges with Optimus robot hands, report says",
+          "title_en": "Tesla faces production challenges with Optimus robot hands, report says",
+          "desc_zh": "特斯拉 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "SELL",
+      "action": "超買，考慮止盈",
+      "confidence": 65.3,
+      "price": 74.96,
+      "change_pct": 1.83,
+      "rsi": 68.3,
+      "macd": -5.9268,
+      "macd_histogram": -4.4593,
+      "macd_bullish": false,
+      "vol_ratio": 0.21,
+      "ma50": 66.06,
+      "atr": 3.8,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 68 超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 68 超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589333",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Rocket Lab Crashed Back Toward Earth for 3 Months: This Analyst Says It’s About to Double",
+          "title_en": "Rocket Lab Crashed Back Toward Earth for 3 Months: This Analyst Says It’s About to Double",
+          "desc_zh": "Rocket Lab 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
+        },
+        {
+          "title": "Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX",
+          "title_en": "Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Cathie Wood buys $25 million in tumbling tech stock",
+          "title_en": "Cathie Wood buys $25 million in tumbling tech stock",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/24"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "AMD",
+      "name": "Adv. Micro Devices",
+      "signal": "SELL",
+      "action": "嚴重超買，止盈",
+      "confidence": 81.4,
+      "price": 634.85,
+      "change_pct": 0.89,
+      "rsi": 80.7,
+      "macd": -58.7198,
+      "macd_histogram": -102.6267,
+      "macd_bullish": false,
+      "vol_ratio": 0.22,
+      "ma50": 521.87,
+      "atr": 25.94,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 81 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 81 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589431",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "AMD超微 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "title_en": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "desc_zh": "AMD超微 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+          "title_en": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+          "desc_zh": "AMD超微 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 513.82,
+      "change_pct": 3.19,
+      "rsi": 58.7,
+      "macd": -13.4455,
+      "macd_histogram": -19.6418,
+      "macd_bullish": false,
+      "vol_ratio": 0.4,
+      "ma50": 499.63,
+      "atr": 10.81,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 59 中性"
+      ],
+      "signal_reasons": [
+        "RSI 59 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589514",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
+          "title_en": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
+          "desc_zh": "微軟 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        },
+        {
+          "title": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "title_en": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "desc_zh": "微軟 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
+        },
+        {
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "微軟 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet",
+      "signal": "HOLD",
+      "action": "觀望",
+      "confidence": 55,
+      "price": 343.3,
+      "change_pct": 0.27,
+      "rsi": 53.6,
+      "macd": 0.9013,
+      "macd_histogram": 4.7502,
+      "macd_bullish": true,
+      "vol_ratio": 0.14,
+      "ma50": 342.21,
+      "atr": 8.98,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 54 中性"
+      ],
+      "signal_reasons": [
+        "RSI 54 中性"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589597",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Meta's stock surges as it moves from AI laggard to leader",
+          "title_en": "Meta's stock surges as it moves from AI laggard to leader",
+          "desc_zh": "谷歌 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/24"
+        },
+        {
+          "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "title_en": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "desc_zh": "谷歌 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/24"
+        },
+        {
+          "title": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "title_en": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "desc_zh": "谷歌 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "META",
+      "name": "Meta Platforms",
+      "signal": "SELL",
+      "action": "嚴重超買，止盈",
+      "confidence": 76.2,
+      "price": 756.68,
+      "change_pct": -2.69,
+      "rsi": 78.1,
+      "macd": -49.7506,
+      "macd_histogram": -137.8197,
+      "macd_bullish": false,
+      "vol_ratio": 0.27,
+      "ma50": 649.16,
+      "atr": 29.24,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 78 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 78 嚴重超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589681",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "The era of AI wearables focused on listening is here",
+          "title_en": "The era of AI wearables focused on listening is here",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/24"
+        },
+        {
+          "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "title_en": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "desc_zh": "Meta 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/24"
+        },
+        {
+          "title": "The 8:30: The stories driving markets September 24",
+          "title_en": "The 8:30: The stories driving markets September 24",
+          "desc_zh": "Meta 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/24"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "PLTR",
+      "name": "Palantir",
+      "signal": "SELL",
+      "action": "超買，考慮止盈",
+      "confidence": 71.2,
+      "price": 192.27,
+      "change_pct": -0.17,
+      "rsi": 74.2,
+      "macd": -9.2484,
+      "macd_histogram": -12.5437,
+      "macd_bullish": false,
+      "vol_ratio": 0.12,
+      "ma50": 178.56,
+      "atr": 5.73,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 74 超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 74 超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589758",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+          "title_en": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+          "desc_zh": "Palantir 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        },
+        {
+          "title": "EXCLUSIVE: Palantir Is ‘Not Really an AI Company’ but an ‘Incredible Data Architecture Company,’ Defense AI CEO Says",
+          "title_en": "EXCLUSIVE: Palantir Is ‘Not Really an AI Company’ but an ‘Incredible Data Architecture Company,’ Defense AI CEO Says",
+          "desc_zh": "Palantir AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        },
+        {
+          "title": "Palantir’s Valuation Is Huge. So Is the Opportunity",
+          "title_en": "Palantir’s Valuation Is Huge. So Is the Opportunity",
+          "desc_zh": "Palantir 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "ARM",
+      "name": "Arm Holdings",
+      "signal": "HOLD",
+      "action": "偏高，觀望",
+      "confidence": 60,
+      "price": 320.49,
+      "change_pct": 4.62,
+      "rsi": 67.6,
+      "macd": -27.8055,
+      "macd_histogram": -49.5993,
+      "macd_bullish": false,
+      "vol_ratio": 0.42,
+      "ma50": 266.03,
+      "atr": 19.44,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 68 偏高"
+      ],
+      "signal_reasons": [
+        "RSI 68 偏高"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589828",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally",
+          "title_en": "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 3,
+          "date": "09/25"
+        },
+        {
+          "title": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Keeps Rate Fears High",
+          "title_en": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Keeps Rate Fears High",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/25"
+        },
+        {
+          "title": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+          "title_en": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 4,
+          "date": "09/24"
+        }
+      ],
+      "date": "2026-09-25"
     }
   ],
   "performance": {
@@ -32896,7 +33561,7 @@
     "note": "從 2026-07-07 開始實時收集",
     "miss_rate_pct": 23.7
   },
-  "last_updated": "2026-09-24T22:25:17.044494",
+  "last_updated": "2026-09-25T22:01:38.602675",
   "vix_regime": "正常市場",
-  "vix_value": 15.56
+  "vix_value": 15.24
 }

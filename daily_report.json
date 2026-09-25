@@ -1,19 +1,19 @@
 {
-  "date": "2026-09-24",
-  "timestamp": "2026-09-24T22:25:17.080257",
+  "date": "2026-09-25",
+  "timestamp": "2026-09-25T22:01:38.635703",
   "source": "Yahoo Finance (yfinance)",
   "market": {
-    "vix": 15.56,
+    "vix": 15.24,
     "regime": "正常市場",
     "regime_emoji": "🟢",
-    "spy_price": 765.84,
-    "spy_change": -0.26,
-    "qqq_price": 737.27,
-    "qqq_change": -0.53
+    "spy_price": 769.05,
+    "spy_change": 0.24,
+    "qqq_price": 743.92,
+    "qqq_change": 0.38
   },
   "guardrail": {
     "regime": "NORMAL",
-    "vix_value": 15.56,
+    "vix_value": 15.24,
     "emoji": "🟢",
     "title": "正常市場",
     "color": "#27AE60",
@@ -29,7 +29,7 @@
       "max_positions": 3,
       "min_confidence": 0.7
     },
-    "timestamp": "2026-09-24T22:24:36.319388"
+    "timestamp": "2026-09-25T22:00:57.236166"
   },
   "signals": [
     {
@@ -38,25 +38,25 @@
       "signal": "HOLD",
       "action": "中性偏低，觀望",
       "confidence": 60,
-      "price": 222.13,
-      "change_pct": -1.5,
-      "rsi": 43.4,
-      "macd": -0.3155,
-      "macd_histogram": -11.1443,
+      "price": 225.03,
+      "change_pct": 0.2,
+      "rsi": 43.9,
+      "macd": -2.3004,
+      "macd_histogram": -9.0147,
       "macd_bullish": false,
       "vol_ratio": 0.13,
-      "ma50": 220.16,
-      "atr": 5.38,
+      "ma50": 221.0,
+      "atr": 5.1,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 43 中性"
+        "RSI 44 中性"
       ],
       "signal_reasons": [
-        "RSI 43 中性"
+        "RSI 44 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.027925",
+      "timestamp": "2026-09-25T22:01:38.589049",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -76,60 +76,60 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "title_en": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
-        },
-        {
-          "title": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
-          "title_en": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
-        },
-        {
-          "title": "Better Passive Income Opportunity: 10-Year Treasury Notes Yielding 5% or These 3 S&P 500 Dividend Stocks? History Offers",
-          "title_en": "Better Passive Income Opportunity: 10-Year Treasury Notes Yielding 5% or These 3 S&P 500 Dividend Stocks? History Offers",
-          "desc_zh": "英偉達 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
+          "title": "Nvidia's valuation is falling, but it might not be a warning sign",
+          "title_en": "Nvidia's valuation is falling, but it might not be a warning sign",
+          "desc_zh": "英偉達 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -3,
           "date": "09/24"
+        },
+        {
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "title_en": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "desc_zh": "英偉達 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "TSLA",
       "name": "Tesla",
       "signal": "HOLD",
-      "action": "觀望",
-      "confidence": 55,
-      "price": 378.35,
-      "change_pct": -0.47,
-      "rsi": 51.2,
-      "macd": -8.6988,
-      "macd_histogram": -22.6149,
+      "action": "偏高，觀望",
+      "confidence": 60,
+      "price": 371.98,
+      "change_pct": -1.58,
+      "rsi": 63.8,
+      "macd": -2.001,
+      "macd_histogram": -15.2423,
       "macd_bullish": false,
-      "vol_ratio": 0.17,
-      "ma50": 362.69,
-      "atr": 11.37,
+      "vol_ratio": 0.35,
+      "ma50": 363.67,
+      "atr": 11.06,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 51 中性"
+        "RSI 64 偏高"
       ],
       "signal_reasons": [
-        "RSI 51 中性"
+        "RSI 64 偏高"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028050",
+      "timestamp": "2026-09-25T22:01:38.589178",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -149,123 +149,125 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
-          "title_en": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
+          "title": "Tesla Starts Semi Deliveries. Here's The Final Production Target — With No Timeline",
+          "title_en": "Tesla Starts Semi Deliveries. Here's The Final Production Target — With No Timeline",
           "desc_zh": "特斯拉 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
-          "sentiment_score": -2,
-          "date": "09/24"
+          "sentiment_score": -1,
+          "date": "09/25"
         },
         {
-          "title": "Bentley debuts its first electric car. Starting price: $250,000.",
-          "title_en": "Bentley debuts its first electric car. Starting price: $250,000.",
-          "desc_zh": "特斯拉 市場動態",
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "特斯拉 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Tesla faces production challenges with Optimus robot hands, report says",
+          "title_en": "Tesla faces production challenges with Optimus robot hands, report says",
+          "desc_zh": "特斯拉 AI／晶片板塊",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
-          "date": "09/24"
+          "date": "09/25"
+        }
+      ],
+      "date": "2026-09-25"
+    },
+    {
+      "ticker": "RKLB",
+      "name": "Rocket Lab",
+      "signal": "SELL",
+      "action": "超買，考慮止盈",
+      "confidence": 65.3,
+      "price": 74.96,
+      "change_pct": 1.83,
+      "rsi": 68.3,
+      "macd": -5.9268,
+      "macd_histogram": -4.4593,
+      "macd_bullish": false,
+      "vol_ratio": 0.21,
+      "ma50": 66.06,
+      "atr": 3.8,
+      "regime": "NORMAL",
+      "above_ma50": true,
+      "reasons": [
+        "RSI 68 超買",
+        "MACD 看跌確認"
+      ],
+      "signal_reasons": [
+        "RSI 68 超買",
+        "MACD 看跌確認"
+      ],
+      "is_owned": false,
+      "timestamp": "2026-09-25T22:01:38.589333",
+      "analyst_consensus": "未知",
+      "analyst_emoji": "⚪",
+      "analyst_rating_str": "⚪ 未知（0位分析師）",
+      "num_analysts": 0,
+      "target_mean": null,
+      "target_high": null,
+      "target_low": null,
+      "upside_pct": null,
+      "earnings_date": null,
+      "earnings_days": null,
+      "pe_ratio": null,
+      "forward_pe": null,
+      "profit_margin_pct": null,
+      "revenue_growth_pct": null,
+      "earnings_growth_pct": null,
+      "industry": "",
+      "sector": "",
+      "analyst_news": [
+        {
+          "title": "Rocket Lab Crashed Back Toward Earth for 3 Months: This Analyst Says It’s About to Double",
+          "title_en": "Rocket Lab Crashed Back Toward Earth for 3 Months: This Analyst Says It’s About to Double",
+          "desc_zh": "Rocket Lab 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
         },
         {
-          "title": "Tesla to open doors of its Nevada Semi truck factory",
-          "title_en": "Tesla to open doors of its Nevada Semi truck factory",
-          "desc_zh": "特斯拉 相關利好消息",
+          "title": "Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX",
+          "title_en": "Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Cathie Wood buys $25 million in tumbling tech stock",
+          "title_en": "Cathie Wood buys $25 million in tumbling tech stock",
+          "desc_zh": "Rocket Lab 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
           "sentiment_score": 2,
           "date": "09/24"
         }
       ],
-      "date": "2026-09-24"
-    },
-    {
-      "ticker": "RKLB",
-      "name": "Rocket Lab",
-      "signal": "HOLD",
-      "action": "偏高，觀望",
-      "confidence": 60,
-      "price": 71.34,
-      "change_pct": 1.46,
-      "rsi": 64.5,
-      "macd": -3.7039,
-      "macd_histogram": -0.4293,
-      "macd_bullish": false,
-      "vol_ratio": 0.27,
-      "ma50": 65.67,
-      "atr": 3.52,
-      "regime": "NORMAL",
-      "above_ma50": true,
-      "reasons": [
-        "RSI 64 偏高"
-      ],
-      "signal_reasons": [
-        "RSI 64 偏高"
-      ],
-      "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028157",
-      "analyst_consensus": "未知",
-      "analyst_emoji": "⚪",
-      "analyst_rating_str": "⚪ 未知（0位分析師）",
-      "num_analysts": 0,
-      "target_mean": null,
-      "target_high": null,
-      "target_low": null,
-      "upside_pct": null,
-      "earnings_date": null,
-      "earnings_days": null,
-      "pe_ratio": null,
-      "forward_pe": null,
-      "profit_margin_pct": null,
-      "revenue_growth_pct": null,
-      "earnings_growth_pct": null,
-      "industry": "",
-      "sector": "",
-      "analyst_news": [
-        {
-          "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
-          "title_en": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
-          "desc_zh": "Rocket Lab AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
-        },
-        {
-          "title": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
-          "title_en": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
-          "desc_zh": "Rocket Lab 相關負面消息",
-          "sentiment": "利淡",
-          "sentiment_emoji": "🔴",
-          "sentiment_score": -1,
-          "date": "09/24"
-        },
-        {
-          "title": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
-          "title_en": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
-          "desc_zh": "Rocket Lab 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/24"
-        }
-      ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "AMD",
       "name": "Adv. Micro Devices",
       "signal": "SELL",
       "action": "嚴重超買，止盈",
-      "confidence": 81.8,
-      "price": 615.66,
-      "change_pct": 0.17,
-      "rsi": 80.9,
-      "macd": -52.8668,
-      "macd_histogram": -109.6082,
+      "confidence": 81.4,
+      "price": 634.85,
+      "change_pct": 0.89,
+      "rsi": 80.7,
+      "macd": -58.7198,
+      "macd_histogram": -102.6267,
       "macd_bullish": false,
-      "vol_ratio": 0.38,
-      "ma50": 513.54,
-      "atr": 26.44,
+      "vol_ratio": 0.22,
+      "ma50": 521.87,
+      "atr": 25.94,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
@@ -277,7 +279,7 @@
         "MACD 看跌確認"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028304",
+      "timestamp": "2026-09-25T22:01:38.589431",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -297,67 +299,60 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "title_en": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "desc_zh": "AMD超微 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
-        },
-        {
-          "title": "Micron's Rally Looks Overdone Until You Price The Memory Shortage",
-          "title_en": "Micron's Rally Looks Overdone Until You Price The Memory Shortage",
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
           "desc_zh": "AMD超微 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
           "sentiment_score": 1,
-          "date": "09/24"
+          "date": "09/25"
         },
         {
-          "title": "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips",
-          "title_en": "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips",
-          "desc_zh": "AMD超微 相關負面消息",
-          "sentiment": "利淡",
-          "sentiment_emoji": "🔴",
-          "sentiment_score": -2,
-          "date": "09/24"
+          "title": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "title_en": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "desc_zh": "AMD超微 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+          "title_en": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+          "desc_zh": "AMD超微 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft",
       "signal": "HOLD",
-      "action": "信心度不足，觀望",
-      "confidence": 42.1,
-      "price": 494.07,
-      "change_pct": -1.3,
-      "rsi": 39.9,
-      "macd": 3.1561,
-      "macd_histogram": -6.8335,
+      "action": "觀望",
+      "confidence": 55,
+      "price": 513.82,
+      "change_pct": 3.19,
+      "rsi": 58.7,
+      "macd": -13.4455,
+      "macd_histogram": -19.6418,
       "macd_bullish": false,
-      "vol_ratio": 0.18,
-      "ma50": 498.31,
-      "atr": 10.2,
+      "vol_ratio": 0.4,
+      "ma50": 499.63,
+      "atr": 10.81,
       "regime": "NORMAL",
-      "above_ma50": false,
+      "above_ma50": true,
       "reasons": [
-        "RSI 40 偏低",
-        "⚠️ MACD 尚在看跌",
-        "⚠️ 成交量不足",
-        "⚠️ 價格低於 MA50",
-        "信心度 42% < 門檻 70%"
+        "RSI 59 中性"
       ],
       "signal_reasons": [
-        "RSI 40 偏低",
-        "⚠️ MACD 尚在看跌",
-        "⚠️ 成交量不足",
-        "⚠️ 價格低於 MA50"
+        "RSI 59 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028398",
+      "timestamp": "2026-09-25T22:01:38.589514",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -377,34 +372,34 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "title_en": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "desc_zh": "微軟 市場動態",
+          "title": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
+          "title_en": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
+          "desc_zh": "微軟 業績／財務相關",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
-          "date": "09/24"
+          "date": "09/25"
         },
         {
-          "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
-          "title_en": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
-          "desc_zh": "微軟 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
+          "title": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "title_en": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "desc_zh": "微軟 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
         },
         {
-          "title": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
-          "title_en": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
-          "desc_zh": "微軟 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "微軟 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "GOOGL",
@@ -412,25 +407,25 @@
       "signal": "HOLD",
       "action": "觀望",
       "confidence": 55,
-      "price": 339.43,
-      "change_pct": 0.48,
-      "rsi": 47.9,
-      "macd": 4.508,
-      "macd_histogram": 10.0059,
+      "price": 343.3,
+      "change_pct": 0.27,
+      "rsi": 53.6,
+      "macd": 0.9013,
+      "macd_histogram": 4.7502,
       "macd_bullish": true,
-      "vol_ratio": 0.22,
-      "ma50": 342.28,
-      "atr": 8.84,
+      "vol_ratio": 0.14,
+      "ma50": 342.21,
+      "atr": 8.98,
       "regime": "NORMAL",
-      "above_ma50": false,
+      "above_ma50": true,
       "reasons": [
-        "RSI 48 中性"
+        "RSI 54 中性"
       ],
       "signal_reasons": [
-        "RSI 48 中性"
+        "RSI 54 中性"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028485",
+      "timestamp": "2026-09-25T22:01:38.589597",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -450,62 +445,62 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "This is Humanity's Last Decision",
-          "title_en": "This is Humanity's Last Decision",
+          "title": "Meta's stock surges as it moves from AI laggard to leader",
+          "title_en": "Meta's stock surges as it moves from AI laggard to leader",
+          "desc_zh": "谷歌 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/24"
+        },
+        {
+          "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "title_en": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
           "desc_zh": "谷歌 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
           "sentiment_score": -1,
-          "date": "09/23"
-        },
-        {
-          "title": "Lowe's launches drone delivery pilot with DoorDash and Wing",
-          "title_en": "Lowe's launches drone delivery pilot with DoorDash and Wing",
-          "desc_zh": "谷歌 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
           "date": "09/24"
         },
         {
-          "title": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "title_en": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "desc_zh": "谷歌 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
+          "title": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "title_en": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "desc_zh": "谷歌 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "META",
       "name": "Meta Platforms",
       "signal": "SELL",
       "action": "嚴重超買，止盈",
-      "confidence": 89.8,
-      "price": 765.69,
-      "change_pct": 2.9,
-      "rsi": 84.9,
-      "macd": -69.9158,
-      "macd_histogram": -159.5001,
+      "confidence": 76.2,
+      "price": 756.68,
+      "change_pct": -2.69,
+      "rsi": 78.1,
+      "macd": -49.7506,
+      "macd_histogram": -137.8197,
       "macd_bullish": false,
-      "vol_ratio": 0.56,
-      "ma50": 640.03,
-      "atr": 27.4,
+      "vol_ratio": 0.27,
+      "ma50": 649.16,
+      "atr": 29.24,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 85 嚴重超買",
+        "RSI 78 嚴重超買",
         "MACD 看跌確認"
       ],
       "signal_reasons": [
-        "RSI 85 嚴重超買",
+        "RSI 78 嚴重超買",
         "MACD 看跌確認"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028573",
+      "timestamp": "2026-09-25T22:01:38.589681",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -525,60 +520,62 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
-          "title_en": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
+          "title": "The era of AI wearables focused on listening is here",
+          "title_en": "The era of AI wearables focused on listening is here",
+          "desc_zh": "Meta AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/24"
+        },
+        {
+          "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "title_en": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "desc_zh": "Meta 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/24"
+        },
+        {
+          "title": "The 8:30: The stories driving markets September 24",
+          "title_en": "The 8:30: The stories driving markets September 24",
           "desc_zh": "Meta 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
           "date": "09/24"
-        },
-        {
-          "title": "How Meta's Muse was a total game changer for the AI narrative",
-          "title_en": "How Meta's Muse was a total game changer for the AI narrative",
-          "desc_zh": "Meta 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/23"
-        },
-        {
-          "title": "Meta's Muse raises bigger question: Can consumers trust AI with our money?",
-          "title_en": "Meta's Muse raises bigger question: Can consumers trust AI with our money?",
-          "desc_zh": "Meta AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "PLTR",
       "name": "Palantir",
-      "signal": "HOLD",
-      "action": "觀望",
-      "confidence": 55,
-      "price": 191.71,
-      "change_pct": -0.04,
-      "rsi": 60.4,
-      "macd": -10.4258,
-      "macd_histogram": -9.8881,
+      "signal": "SELL",
+      "action": "超買，考慮止盈",
+      "confidence": 71.2,
+      "price": 192.27,
+      "change_pct": -0.17,
+      "rsi": 74.2,
+      "macd": -9.2484,
+      "macd_histogram": -12.5437,
       "macd_bullish": false,
-      "vol_ratio": 0.25,
-      "ma50": 177.81,
-      "atr": 5.97,
+      "vol_ratio": 0.12,
+      "ma50": 178.56,
+      "atr": 5.73,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 60 中性"
+        "RSI 74 超買",
+        "MACD 看跌確認"
       ],
       "signal_reasons": [
-        "RSI 60 中性"
+        "RSI 74 超買",
+        "MACD 看跌確認"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028652",
+      "timestamp": "2026-09-25T22:01:38.589758",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -598,62 +595,60 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "Palantir Just Hit a One-Year High. Here's What's Driving It",
-          "title_en": "Palantir Just Hit a One-Year High. Here's What's Driving It",
-          "desc_zh": "Palantir 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 2,
-          "date": "09/24"
+          "title": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+          "title_en": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+          "desc_zh": "Palantir 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         },
         {
-          "title": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
-          "title_en": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
-          "desc_zh": "Palantir 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 2,
-          "date": "09/24"
+          "title": "EXCLUSIVE: Palantir Is ‘Not Really an AI Company’ but an ‘Incredible Data Architecture Company,’ Defense AI CEO Says",
+          "title_en": "EXCLUSIVE: Palantir Is ‘Not Really an AI Company’ but an ‘Incredible Data Architecture Company,’ Defense AI CEO Says",
+          "desc_zh": "Palantir AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         },
         {
-          "title": "Prediction: This Will Be Palantir's Stock Price by the End of 2028 as Commercial Sales Accelerate",
-          "title_en": "Prediction: This Will Be Palantir's Stock Price by the End of 2028 as Commercial Sales Accelerate",
-          "desc_zh": "Palantir 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/24"
+          "title": "Palantir’s Valuation Is Huge. So Is the Opportunity",
+          "title_en": "Palantir’s Valuation Is Huge. So Is the Opportunity",
+          "desc_zh": "Palantir 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     },
     {
       "ticker": "ARM",
       "name": "Arm Holdings",
-      "signal": "SELL",
-      "action": "超買，考慮止盈",
-      "confidence": 70.5,
-      "price": 323.35,
-      "change_pct": -2.77,
-      "rsi": 73.5,
-      "macd": -33.1696,
-      "macd_histogram": -54.6444,
+      "signal": "HOLD",
+      "action": "偏高，觀望",
+      "confidence": 60,
+      "price": 320.49,
+      "change_pct": 4.62,
+      "rsi": 67.6,
+      "macd": -27.8055,
+      "macd_histogram": -49.5993,
       "macd_bullish": false,
-      "vol_ratio": 0.43,
-      "ma50": 263.22,
-      "atr": 18.17,
+      "vol_ratio": 0.42,
+      "ma50": 266.03,
+      "atr": 19.44,
       "regime": "NORMAL",
       "above_ma50": true,
       "reasons": [
-        "RSI 74 超買",
-        "MACD 看跌確認"
+        "RSI 68 偏高"
       ],
       "signal_reasons": [
-        "RSI 74 超買",
-        "MACD 看跌確認"
+        "RSI 68 偏高"
       ],
       "is_owned": false,
-      "timestamp": "2026-09-24T22:25:17.028733",
+      "timestamp": "2026-09-25T22:01:38.589828",
       "analyst_consensus": "未知",
       "analyst_emoji": "⚪",
       "analyst_rating_str": "⚪ 未知（0位分析師）",
@@ -673,388 +668,388 @@
       "sector": "",
       "analyst_news": [
         {
-          "title": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
-          "title_en": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
-          "desc_zh": "ARM AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
-        },
-        {
-          "title": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
-          "title_en": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+          "title": "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally",
+          "title_en": "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally",
           "desc_zh": "ARM 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/23"
+          "sentiment_score": 3,
+          "date": "09/25"
         },
         {
-          "title": "SoftBank Is Raising $11 Billion for OpenAI. Its Arm Stake Backs a $25 Billion Loan Facility",
-          "title_en": "SoftBank Is Raising $11 Billion for OpenAI. Its Arm Stake Backs a $25 Billion Loan Facility",
-          "desc_zh": "ARM 相關負面消息",
-          "sentiment": "利淡",
-          "sentiment_emoji": "🔴",
-          "sentiment_score": -1,
-          "date": "09/23"
+          "title": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Keeps Rate Fears High",
+          "title_en": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Keeps Rate Fears High",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/25"
+        },
+        {
+          "title": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+          "title_en": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 4,
+          "date": "09/24"
         }
       ],
-      "date": "2026-09-24"
+      "date": "2026-09-25"
     }
   ],
   "all_quotes": {
     "NVDA": {
       "symbol": "NVDA",
-      "price": 222.18,
-      "change": -3.33,
-      "change_pct": -1.48,
-      "high": 223.23,
-      "low": 221.09,
-      "open": 222.12,
-      "prev_close": 225.51,
-      "volume": 16325714,
+      "price": 225.09,
+      "change": 0.51,
+      "change_pct": 0.23,
+      "high": 226.94,
+      "low": 224.66,
+      "open": 225.15,
+      "prev_close": 224.58,
+      "volume": 14684620,
       "name": "NVDA",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:37.208551"
+      "timestamp": "2026-09-25T22:00:58.249181"
     },
     "TSLA": {
       "symbol": "TSLA",
-      "price": 378.09,
-      "change": -2.03,
-      "change_pct": -0.53,
-      "high": 379.94,
-      "low": 376.13,
-      "open": 377.35,
-      "prev_close": 380.12,
-      "volume": 6318151,
+      "price": 372.51,
+      "change": -5.43,
+      "change_pct": -1.44,
+      "high": 386.83,
+      "low": 369.78,
+      "open": 384.9,
+      "prev_close": 377.94,
+      "volume": 13046250,
       "name": "TSLA",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:38.007449"
+      "timestamp": "2026-09-25T22:00:59.154683"
     },
     "RKLB": {
       "symbol": "RKLB",
-      "price": 71.38,
-      "change": 1.07,
-      "change_pct": 1.53,
-      "high": 71.66,
-      "low": 68.92,
-      "open": 69.78,
-      "prev_close": 70.31,
-      "volume": 4957889,
+      "price": 74.82,
+      "change": 1.21,
+      "change_pct": 1.65,
+      "high": 75.3,
+      "low": 73.43,
+      "open": 74.1,
+      "prev_close": 73.61,
+      "volume": 4114899,
       "name": "RKLB",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:39.019587"
+      "timestamp": "2026-09-25T22:01:00.193526"
     },
     "AMD": {
       "symbol": "AMD",
-      "price": 616.05,
-      "change": 1.44,
-      "change_pct": 0.23,
-      "high": 624.84,
-      "low": 599.35,
-      "open": 600.76,
-      "prev_close": 614.61,
-      "volume": 7906109,
+      "price": 635.02,
+      "change": 5.76,
+      "change_pct": 0.91,
+      "high": 638.95,
+      "low": 630.47,
+      "open": 635.07,
+      "prev_close": 629.26,
+      "volume": 4508393,
       "name": "AMD",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:39.894050"
+      "timestamp": "2026-09-25T22:01:01.136047"
     },
     "MSFT": {
       "symbol": "MSFT",
-      "price": 494.07,
-      "change": -6.52,
-      "change_pct": -1.3,
-      "high": 495.68,
-      "low": 491.22,
-      "open": 495.39,
-      "prev_close": 500.59,
-      "volume": 3767244,
+      "price": 514.74,
+      "change": 16.81,
+      "change_pct": 3.38,
+      "high": 517.48,
+      "low": 497.3,
+      "open": 499.14,
+      "prev_close": 497.93,
+      "volume": 8119852,
       "name": "MSFT",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:40.783522"
+      "timestamp": "2026-09-25T22:01:02.144127"
     },
     "GOOGL": {
       "symbol": "GOOGL",
-      "price": 339.18,
-      "change": 1.36,
-      "change_pct": 0.4,
-      "high": 339.8,
-      "low": 336.02,
-      "open": 336.23,
-      "prev_close": 337.83,
-      "volume": 5678094,
+      "price": 343.57,
+      "change": 1.21,
+      "change_pct": 0.35,
+      "high": 347.03,
+      "low": 342.0,
+      "open": 342.41,
+      "prev_close": 342.36,
+      "volume": 3574550,
       "name": "GOOGL",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:41.698314"
+      "timestamp": "2026-09-25T22:01:03.096636"
     },
     "META": {
       "symbol": "META",
-      "price": 763.59,
-      "change": 19.49,
-      "change_pct": 2.62,
-      "high": 767.78,
-      "low": 743.01,
-      "open": 744.35,
-      "prev_close": 744.1,
-      "volume": 11828424,
+      "price": 755.89,
+      "change": -21.7,
+      "change_pct": -2.79,
+      "high": 769.57,
+      "low": 751.74,
+      "open": 768.84,
+      "prev_close": 777.59,
+      "volume": 5841417,
       "name": "META",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:42.550856"
+      "timestamp": "2026-09-25T22:01:04.037725"
     },
     "PLTR": {
       "symbol": "PLTR",
-      "price": 191.67,
-      "change": -0.12,
-      "change_pct": -0.06,
-      "high": 192.76,
-      "low": 188.24,
-      "open": 189.2,
-      "prev_close": 191.79,
-      "volume": 6798692,
+      "price": 192.38,
+      "change": -0.21,
+      "change_pct": -0.11,
+      "high": 194.21,
+      "low": 190.61,
+      "open": 192.86,
+      "prev_close": 192.59,
+      "volume": 3053332,
       "name": "PLTR",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:43.543945"
+      "timestamp": "2026-09-25T22:01:05.201422"
     },
     "ARM": {
       "symbol": "ARM",
-      "price": 322.98,
-      "change": -9.58,
-      "change_pct": -2.88,
-      "high": 326.0,
-      "low": 315.42,
-      "open": 319.23,
-      "prev_close": 332.56,
-      "volume": 2071004,
+      "price": 320.56,
+      "change": 14.22,
+      "change_pct": 4.64,
+      "high": 325.48,
+      "low": 316.11,
+      "open": 318.11,
+      "prev_close": 306.34,
+      "volume": 2109410,
       "name": "ARM",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:44.406443"
+      "timestamp": "2026-09-25T22:01:06.329537"
     },
     "SOUN": {
       "symbol": "SOUN",
-      "price": 5.97,
-      "change": -0.04,
-      "change_pct": -0.58,
-      "high": 6.03,
-      "low": 5.88,
-      "open": 5.99,
-      "prev_close": 6.01,
-      "volume": 3016037,
+      "price": 6.09,
+      "change": -0.01,
+      "change_pct": -0.08,
+      "high": 6.15,
+      "low": 6.09,
+      "open": 6.12,
+      "prev_close": 6.1,
+      "volume": 1538779,
       "name": "SOUN",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:46.840373"
+      "timestamp": "2026-09-25T22:01:07.139710"
     },
     "BBAI": {
       "symbol": "BBAI",
-      "price": 2.73,
-      "change": -0.11,
-      "change_pct": -3.7,
-      "high": 2.83,
-      "low": 2.72,
-      "open": 2.8,
-      "prev_close": 2.84,
-      "volume": 3767845,
+      "price": 2.83,
+      "change": 0.03,
+      "change_pct": 0.89,
+      "high": 2.85,
+      "low": 2.81,
+      "open": 2.84,
+      "prev_close": 2.8,
+      "volume": 1240608,
       "name": "BBAI",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:47.727503"
+      "timestamp": "2026-09-25T22:01:08.151112"
     },
     "IONQ": {
       "symbol": "IONQ",
-      "price": 42.49,
-      "change": -0.05,
-      "change_pct": -0.12,
-      "high": 43.43,
-      "low": 41.28,
-      "open": 41.57,
-      "prev_close": 42.54,
-      "volume": 11133499,
+      "price": 44.88,
+      "change": -0.1,
+      "change_pct": -0.21,
+      "high": 45.51,
+      "low": 44.18,
+      "open": 44.7,
+      "prev_close": 44.98,
+      "volume": 5332356,
       "name": "IONQ",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:48.593891"
+      "timestamp": "2026-09-25T22:01:09.196155"
     },
     "ASTS": {
       "symbol": "ASTS",
-      "price": 59.79,
-      "change": -0.19,
-      "change_pct": -0.32,
-      "high": 59.92,
-      "low": 58.32,
-      "open": 59.05,
-      "prev_close": 59.98,
-      "volume": 2101290,
+      "price": 62.14,
+      "change": 1.08,
+      "change_pct": 1.77,
+      "high": 62.37,
+      "low": 61.2,
+      "open": 62.11,
+      "prev_close": 61.06,
+      "volume": 951761,
       "name": "ASTS",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:49.433220"
+      "timestamp": "2026-09-25T22:01:10.178347"
     },
     "LUNR": {
       "symbol": "LUNR",
-      "price": 15.2,
-      "change": -0.04,
-      "change_pct": -0.24,
-      "high": 15.38,
-      "low": 14.86,
-      "open": 15.1,
-      "prev_close": 15.24,
-      "volume": 1436434,
+      "price": 16.13,
+      "change": 0.43,
+      "change_pct": 2.74,
+      "high": 16.19,
+      "low": 15.64,
+      "open": 15.76,
+      "prev_close": 15.7,
+      "volume": 1225082,
       "name": "LUNR",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:50.206418"
+      "timestamp": "2026-09-25T22:01:11.288937"
     },
     "SOFI": {
       "symbol": "SOFI",
-      "price": 16.35,
-      "change": -0.2,
-      "change_pct": -1.21,
-      "high": 16.56,
-      "low": 16.2,
-      "open": 16.49,
-      "prev_close": 16.55,
-      "volume": 10805924,
+      "price": 16.74,
+      "change": -0.06,
+      "change_pct": -0.36,
+      "high": 16.81,
+      "low": 16.64,
+      "open": 16.79,
+      "prev_close": 16.8,
+      "volume": 6198206,
       "name": "SOFI",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:51.051256"
+      "timestamp": "2026-09-25T22:01:12.354181"
     },
     "HOOD": {
       "symbol": "HOOD",
-      "price": 122.31,
-      "change": -0.39,
-      "change_pct": -0.32,
-      "high": 123.2,
-      "low": 119.09,
-      "open": 119.5,
-      "prev_close": 122.7,
-      "volume": 4665883,
+      "price": 119.36,
+      "change": -1.46,
+      "change_pct": -1.21,
+      "high": 121.9,
+      "low": 119.2,
+      "open": 121.31,
+      "prev_close": 120.82,
+      "volume": 2484671,
       "name": "HOOD",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:51.900498"
+      "timestamp": "2026-09-25T22:01:13.432697"
     },
     "RIVN": {
       "symbol": "RIVN",
-      "price": 15.19,
-      "change": 0.17,
-      "change_pct": 1.17,
-      "high": 15.39,
-      "low": 14.8,
-      "open": 14.91,
-      "prev_close": 15.02,
-      "volume": 6299117,
+      "price": 15.36,
+      "change": 0.07,
+      "change_pct": 0.46,
+      "high": 15.65,
+      "low": 15.29,
+      "open": 15.45,
+      "prev_close": 15.29,
+      "volume": 2808591,
       "name": "RIVN",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:52.780797"
+      "timestamp": "2026-09-25T22:01:14.526260"
     },
     "JOBY": {
       "symbol": "JOBY",
-      "price": 6.16,
-      "change": -0.09,
-      "change_pct": -1.52,
-      "high": 6.21,
-      "low": 6.1,
-      "open": 6.17,
-      "prev_close": 6.25,
-      "volume": 3565850,
+      "price": 6.28,
+      "change": -0.02,
+      "change_pct": -0.24,
+      "high": 6.39,
+      "low": 6.27,
+      "open": 6.35,
+      "prev_close": 6.3,
+      "volume": 2533444,
       "name": "JOBY",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:53.926911"
+      "timestamp": "2026-09-25T22:01:15.900494"
     },
     "SMCI": {
       "symbol": "SMCI",
-      "price": 40.31,
-      "change": -1.13,
-      "change_pct": -2.72,
-      "high": 41.2,
-      "low": 40.18,
-      "open": 40.44,
-      "prev_close": 41.44,
-      "volume": 6818582,
+      "price": 43.22,
+      "change": 1.71,
+      "change_pct": 4.11,
+      "high": 43.45,
+      "low": 41.9,
+      "open": 42.01,
+      "prev_close": 41.51,
+      "volume": 11038231,
       "name": "SMCI",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:54.980030"
+      "timestamp": "2026-09-25T22:01:16.896134"
     },
     "SPY": {
       "symbol": "SPY",
-      "price": 765.84,
-      "change": -1.97,
-      "change_pct": -0.26,
-      "high": 766.43,
-      "low": 763.62,
-      "open": 764.07,
-      "prev_close": 767.81,
-      "volume": 6273164,
+      "price": 769.05,
+      "change": 1.87,
+      "change_pct": 0.24,
+      "high": 770.31,
+      "low": 767.75,
+      "open": 768.78,
+      "prev_close": 767.18,
+      "volume": 4432822,
       "name": "SPY",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:55.733325"
+      "timestamp": "2026-09-25T22:01:17.789932"
     },
     "QQQ": {
       "symbol": "QQQ",
-      "price": 737.27,
-      "change": -3.95,
-      "change_pct": -0.53,
-      "high": 737.77,
-      "low": 734.63,
-      "open": 735.16,
-      "prev_close": 741.21,
-      "volume": 6608588,
+      "price": 743.92,
+      "change": 2.82,
+      "change_pct": 0.38,
+      "high": 745.42,
+      "low": 741.66,
+      "open": 742.84,
+      "prev_close": 741.1,
+      "volume": 4878479,
       "name": "QQQ",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:56.542120"
+      "timestamp": "2026-09-25T22:01:18.784801"
     },
     "^VIX": {
       "symbol": "^VIX",
-      "price": 15.57,
-      "change": 0.39,
-      "change_pct": 2.57,
-      "high": 16.57,
-      "low": 15.55,
-      "open": 15.83,
-      "prev_close": 15.18,
+      "price": 15.25,
+      "change": -0.42,
+      "change_pct": -2.68,
+      "high": 15.64,
+      "low": 15.02,
+      "open": 15.61,
+      "prev_close": 15.67,
       "volume": 0,
       "name": "^VIX",
       "market_cap": null,
       "pe_ratio": null,
       "source": "yfinance",
-      "timestamp": "2026-09-24T22:24:57.272406"
+      "timestamp": "2026-09-25T22:01:19.520730"
     }
   },
   "profiles": {
@@ -1081,34 +1076,34 @@
       "sector": "",
       "news": [
         {
-          "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "title_en": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
-        },
-        {
-          "title": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
-          "title_en": "AI magic sends markets higher, plus one-on-one with IBM vice chair",
-          "desc_zh": "英偉達 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
-        },
-        {
-          "title": "Better Passive Income Opportunity: 10-Year Treasury Notes Yielding 5% or These 3 S&P 500 Dividend Stocks? History Offers",
-          "title_en": "Better Passive Income Opportunity: 10-Year Treasury Notes Yielding 5% or These 3 S&P 500 Dividend Stocks? History Offers",
-          "desc_zh": "英偉達 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
+          "title": "Nvidia's valuation is falling, but it might not be a warning sign",
+          "title_en": "Nvidia's valuation is falling, but it might not be a warning sign",
+          "desc_zh": "英偉達 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -3,
           "date": "09/24"
+        },
+        {
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "英偉達 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "title_en": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "desc_zh": "英偉達 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "timestamp": "2026-09-24T22:25:00.235139"
+      "timestamp": "2026-09-25T22:01:22.525493"
     },
     "TSLA": {
       "symbol": "TSLA",
@@ -1133,34 +1128,34 @@
       "sector": "",
       "news": [
         {
-          "title": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
-          "title_en": "Tesla Semi Joins Parade Of New Model Showcases; Stock Falls",
+          "title": "Tesla Starts Semi Deliveries. Here's The Final Production Target — With No Timeline",
+          "title_en": "Tesla Starts Semi Deliveries. Here's The Final Production Target — With No Timeline",
           "desc_zh": "特斯拉 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
-          "sentiment_score": -2,
-          "date": "09/24"
+          "sentiment_score": -1,
+          "date": "09/25"
         },
         {
-          "title": "Bentley debuts its first electric car. Starting price: $250,000.",
-          "title_en": "Bentley debuts its first electric car. Starting price: $250,000.",
-          "desc_zh": "特斯拉 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
-        },
-        {
-          "title": "Tesla to open doors of its Nevada Semi truck factory",
-          "title_en": "Tesla to open doors of its Nevada Semi truck factory",
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
           "desc_zh": "特斯拉 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 2,
-          "date": "09/24"
+          "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Tesla faces production challenges with Optimus robot hands, report says",
+          "title_en": "Tesla faces production challenges with Optimus robot hands, report says",
+          "desc_zh": "特斯拉 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "timestamp": "2026-09-24T22:25:00.987060"
+      "timestamp": "2026-09-25T22:01:23.454296"
     },
     "RKLB": {
       "symbol": "RKLB",
@@ -1185,34 +1180,34 @@
       "sector": "",
       "news": [
         {
-          "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
-          "title_en": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows",
-          "desc_zh": "Rocket Lab AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
-        },
-        {
-          "title": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
-          "title_en": "Why Cathie Wood Is Trimming the World’s Biggest Tech Stock to Bet on a Space Company",
+          "title": "Rocket Lab Crashed Back Toward Earth for 3 Months: This Analyst Says It’s About to Double",
+          "title_en": "Rocket Lab Crashed Back Toward Earth for 3 Months: This Analyst Says It’s About to Double",
           "desc_zh": "Rocket Lab 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
           "sentiment_score": -1,
-          "date": "09/24"
+          "date": "09/25"
         },
         {
-          "title": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
-          "title_en": "Cathie Wood Just Made Another Big Bet on Rocket Lab",
+          "title": "Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX",
+          "title_en": "Stocktwits Space Race Weekly: Why RKLB, FLY, RDW And PL Are Outpacing SPCX",
           "desc_zh": "Rocket Lab 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
           "sentiment_score": 1,
+          "date": "09/25"
+        },
+        {
+          "title": "Cathie Wood buys $25 million in tumbling tech stock",
+          "title_en": "Cathie Wood buys $25 million in tumbling tech stock",
+          "desc_zh": "Rocket Lab 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
           "date": "09/24"
         }
       ],
-      "timestamp": "2026-09-24T22:25:01.797042"
+      "timestamp": "2026-09-25T22:01:24.284845"
     },
     "AMD": {
       "symbol": "AMD",
@@ -1237,34 +1232,34 @@
       "sector": "",
       "news": [
         {
-          "title": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "title_en": "How Qualcomm is targeting agentic AI with its 2 new smartphone chips",
-          "desc_zh": "AMD超微 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/23"
-        },
-        {
-          "title": "Micron's Rally Looks Overdone Until You Price The Memory Shortage",
-          "title_en": "Micron's Rally Looks Overdone Until You Price The Memory Shortage",
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
           "desc_zh": "AMD超微 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
           "sentiment_score": 1,
-          "date": "09/24"
+          "date": "09/25"
         },
         {
-          "title": "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips",
-          "title_en": "Intel Drops 3% as Profit Taking Follows 223% YTD Run; AMD Falls 3%, NVIDIA Slips",
-          "desc_zh": "AMD超微 相關負面消息",
-          "sentiment": "利淡",
-          "sentiment_emoji": "🔴",
-          "sentiment_score": -2,
-          "date": "09/24"
+          "title": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "title_en": "Over 30 CEOs scored an invite to the US-China state dinner — and these 4 got a spot at the head table",
+          "desc_zh": "AMD超微 AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
+        },
+        {
+          "title": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+          "title_en": "Exchange-Traded Funds, Equity Futures up Pre-Bell Friday as Treasury Yields Rise, Oil Prices Fall",
+          "desc_zh": "AMD超微 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "timestamp": "2026-09-24T22:25:02.522110"
+      "timestamp": "2026-09-25T22:01:25.123665"
     },
     "MSFT": {
       "symbol": "MSFT",
@@ -1289,34 +1284,34 @@
       "sector": "",
       "news": [
         {
-          "title": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "title_en": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "desc_zh": "微軟 市場動態",
+          "title": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
+          "title_en": "Goldman Sachs just gave AI stock fans a cold, hard reality check",
+          "desc_zh": "微軟 業績／財務相關",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
-          "date": "09/24"
+          "date": "09/25"
         },
         {
-          "title": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
-          "title_en": "Nvidia leads tech stocks lower as Treasury yields surge: AlphaCheck",
-          "desc_zh": "微軟 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
+          "title": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "title_en": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "desc_zh": "微軟 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
         },
         {
-          "title": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
-          "title_en": "Alphabet Or Meta: Whose AI Build Would You Rather Fund?",
-          "desc_zh": "微軟 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
+          "title": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "title_en": "Tech stocks gain after tech titan dinner with Trump and China's Xi Jinping: AlphaCheck",
+          "desc_zh": "微軟 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 1,
+          "date": "09/25"
         }
       ],
-      "timestamp": "2026-09-24T22:25:03.293393"
+      "timestamp": "2026-09-25T22:01:26.047704"
     },
     "GOOGL": {
       "symbol": "GOOGL",
@@ -1341,34 +1336,34 @@
       "sector": "",
       "news": [
         {
-          "title": "This is Humanity's Last Decision",
-          "title_en": "This is Humanity's Last Decision",
+          "title": "Meta's stock surges as it moves from AI laggard to leader",
+          "title_en": "Meta's stock surges as it moves from AI laggard to leader",
+          "desc_zh": "谷歌 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/24"
+        },
+        {
+          "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "title_en": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
           "desc_zh": "谷歌 相關負面消息",
           "sentiment": "利淡",
           "sentiment_emoji": "🔴",
           "sentiment_score": -1,
-          "date": "09/23"
-        },
-        {
-          "title": "Lowe's launches drone delivery pilot with DoorDash and Wing",
-          "title_en": "Lowe's launches drone delivery pilot with DoorDash and Wing",
-          "desc_zh": "谷歌 AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
           "date": "09/24"
         },
         {
-          "title": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "title_en": "Apple Price Prediction: Why Our Target Sits Above Wall Street’s",
-          "desc_zh": "谷歌 市場動態",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
+          "title": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "title_en": "Michael Burry Drops Stark Message For AI Stock Investors",
+          "desc_zh": "谷歌 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/25"
         }
       ],
-      "timestamp": "2026-09-24T22:25:04.212551"
+      "timestamp": "2026-09-25T22:01:27.036315"
     },
     "META": {
       "symbol": "META",
@@ -1393,34 +1388,34 @@
       "sector": "",
       "news": [
         {
-          "title": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
-          "title_en": "Here's what Wall Street thinks of Meta's new smartglass lineup and first Muse 'holdable'",
-          "desc_zh": "Meta 市場動態",
+          "title": "The era of AI wearables focused on listening is here",
+          "title_en": "The era of AI wearables focused on listening is here",
+          "desc_zh": "Meta AI／晶片板塊",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
           "date": "09/24"
         },
         {
-          "title": "How Meta's Muse was a total game changer for the AI narrative",
-          "title_en": "How Meta's Muse was a total game changer for the AI narrative",
-          "desc_zh": "Meta 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/23"
+          "title": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "title_en": "How Muse AI is expanding Meta's moat, & why you shouldn't bring iced coffee to job interviews",
+          "desc_zh": "Meta 相關負面消息",
+          "sentiment": "利淡",
+          "sentiment_emoji": "🔴",
+          "sentiment_score": -1,
+          "date": "09/24"
         },
         {
-          "title": "Meta's Muse raises bigger question: Can consumers trust AI with our money?",
-          "title_en": "Meta's Muse raises bigger question: Can consumers trust AI with our money?",
-          "desc_zh": "Meta AI／晶片板塊",
+          "title": "The 8:30: The stories driving markets September 24",
+          "title_en": "The 8:30: The stories driving markets September 24",
+          "desc_zh": "Meta 市場動態",
           "sentiment": "中性",
           "sentiment_emoji": "⚪",
           "sentiment_score": 0,
-          "date": "09/23"
+          "date": "09/24"
         }
       ],
-      "timestamp": "2026-09-24T22:25:05.344436"
+      "timestamp": "2026-09-25T22:01:27.934590"
     },
     "PLTR": {
       "symbol": "PLTR",
@@ -1445,34 +1440,34 @@
       "sector": "",
       "news": [
         {
-          "title": "Palantir Just Hit a One-Year High. Here's What's Driving It",
-          "title_en": "Palantir Just Hit a One-Year High. Here's What's Driving It",
-          "desc_zh": "Palantir 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 2,
-          "date": "09/24"
+          "title": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+          "title_en": "Anthropic Seeks Palantir-Style Control Ahead of IPO",
+          "desc_zh": "Palantir 市場動態",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         },
         {
-          "title": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
-          "title_en": "Prediction: This Will Be Palantir Technologies’ Stock Price by the End of 2028",
-          "desc_zh": "Palantir 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 2,
-          "date": "09/24"
+          "title": "EXCLUSIVE: Palantir Is ‘Not Really an AI Company’ but an ‘Incredible Data Architecture Company,’ Defense AI CEO Says",
+          "title_en": "EXCLUSIVE: Palantir Is ‘Not Really an AI Company’ but an ‘Incredible Data Architecture Company,’ Defense AI CEO Says",
+          "desc_zh": "Palantir AI／晶片板塊",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         },
         {
-          "title": "Prediction: This Will Be Palantir's Stock Price by the End of 2028 as Commercial Sales Accelerate",
-          "title_en": "Prediction: This Will Be Palantir's Stock Price by the End of 2028 as Commercial Sales Accelerate",
-          "desc_zh": "Palantir 相關利好消息",
-          "sentiment": "利好",
-          "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/24"
+          "title": "Palantir’s Valuation Is Huge. So Is the Opportunity",
+          "title_en": "Palantir’s Valuation Is Huge. So Is the Opportunity",
+          "desc_zh": "Palantir 業績／財務相關",
+          "sentiment": "中性",
+          "sentiment_emoji": "⚪",
+          "sentiment_score": 0,
+          "date": "09/25"
         }
       ],
-      "timestamp": "2026-09-24T22:25:06.264645"
+      "timestamp": "2026-09-25T22:01:28.673067"
     },
     "ARM": {
       "symbol": "ARM",
@@ -1497,61 +1492,61 @@
       "sector": "",
       "news": [
         {
-          "title": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
-          "title_en": "Prediction: Arm Is Our Top Pick With 83% Upside Driven by Data Center Royalty Boom",
-          "desc_zh": "ARM AI／晶片板塊",
-          "sentiment": "中性",
-          "sentiment_emoji": "⚪",
-          "sentiment_score": 0,
-          "date": "09/24"
-        },
-        {
-          "title": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
-          "title_en": "Arm vs. Taiwan Semiconductor Manufacturing: Which Chip Stock Is a Better Buy in 2026?",
+          "title": "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally",
+          "title_en": "Arm Climbs 5% as Buyers Return After Sharp Pullback; Qualcomm Nudges Higher, Intel Sits Out the Rally",
           "desc_zh": "ARM 相關利好消息",
           "sentiment": "利好",
           "sentiment_emoji": "🟢",
-          "sentiment_score": 1,
-          "date": "09/23"
+          "sentiment_score": 3,
+          "date": "09/25"
         },
         {
-          "title": "SoftBank Is Raising $11 Billion for OpenAI. Its Arm Stake Backs a $25 Billion Loan Facility",
-          "title_en": "SoftBank Is Raising $11 Billion for OpenAI. Its Arm Stake Backs a $25 Billion Loan Facility",
-          "desc_zh": "ARM 相關負面消息",
-          "sentiment": "利淡",
-          "sentiment_emoji": "🔴",
-          "sentiment_score": -1,
-          "date": "09/23"
+          "title": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Keeps Rate Fears High",
+          "title_en": "US Stock Market Today: S&P 500 Futures Slip As Hot Growth Keeps Rate Fears High",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 2,
+          "date": "09/25"
+        },
+        {
+          "title": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+          "title_en": "Arm Holdings (ARM) Stock Gains On AI CPU Demand Surge",
+          "desc_zh": "ARM 相關利好消息",
+          "sentiment": "利好",
+          "sentiment_emoji": "🟢",
+          "sentiment_score": 4,
+          "date": "09/24"
         }
       ],
-      "timestamp": "2026-09-24T22:25:07.047951"
+      "timestamp": "2026-09-25T22:01:29.552436"
     }
   },
   "summary": {
     "total_stocks": 9,
     "buy_signals": 0,
-    "hold_signals": 6,
-    "sell_signals": 3
+    "hold_signals": 5,
+    "sell_signals": 4
   },
   "top_picks": [],
   "opportunity_picks": [
     {
       "ticker": "SOFI",
       "name": "SoFi Technologies",
-      "price": 16.34,
+      "price": 16.73,
       "signal": "BUY",
-      "confidence": 85.4,
-      "change_pct": -1.27,
+      "confidence": 70.0,
+      "change_pct": -0.42,
       "reasons": [
-        "RSI 22 超賣",
+        "RSI 30 偏低",
         "MACD 看漲確認",
         "⚠️ 成交量不足",
         "⚠️ 價格低於 MA50"
       ],
       "upside_pct": null,
-      "rsi": 22.3,
-      "action": "超賣區域，強烈買入信號"
+      "rsi": 30.0,
+      "action": "偏低，買入機會"
     }
   ],
-  "quotes_ts": "2026-09-24T22:25:17.080276"
+  "quotes_ts": "2026-09-25T22:01:38.635722"
 }
